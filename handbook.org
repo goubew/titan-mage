@@ -1,0 +1,35 @@
+#+Title: Calypso TTRPG (Title Pending)
+
+* Introduction
+
+** World of Calypso 
+The world of Calypso began with the titans. The colossal beings used might and magic to shear the plains flat, heat the core of the planet, and gift the world with water and sun. Today their fosilized remains are strewn about the world in hidden groves. Nobody knows how they came to die, but it is suspected that they gave up their power willingly, to share their earthen canvas with the rest of life's creatures.
+
+Without the chaos of the titan's ongoing construction, the creatures of the world were allowed to grow and evolve. With enough time, the lands became overgrown with all manner of beast. Intelligence alone was not enough to live at the top of the food chain, so lowly humans were relegated to hiding and building what defences they could, praying that their independent settlements not fall victim to ruin.
+
+But the world is beginning to change once again. Humans are beginning to uncover the magic that the titans left behind. With this newfound power, they are striking out, exploring the world, and trading with other for the first time. It is in this setting that Calypso takes place. There is high demand for those who can defend against the wilds. The best adventurers of the world are renound and exalted, but not many of them are very wrinkled...
+
+** Tenants of Calypso
+*** Combat turns should feel impactful
+Imagine the following scenario:
+
+You find yourself in the midst of battle. Like most adventurers, your goal is to defeat your enemies spectaculary and show off your prowess in combat. As an experienced fighter, you have slain inumberable enemies. You ready your attack and miss. That is your action, so you end your turn. You already are expecting to perform the same action next turn.
+
+Turns like this drag down one of the core tenants of many TTRPGs, and incidentally, this core tenant is the one that the handbooks go into the most detail describing.
+
+Calipso aims to solve the boring turn problem with actions that are always impactful. Players should not end a turn without feeling like nothing was accomplished. 
+*** Classes are useful at all levels
+Every class should be fun to play and no party member should be eclipsed by another. 
+*** Encounters should be fun to prepare by being easy to reference
+Calypso aims for the following.
+- In person sessions should be able to be ran without electronic assistance.
+- GM preparation should not be limited by paper medium. Statistics for the creatures of Calypso are in a format that computers can read. No more page flipping is required.
+
+** What is needed to play
+
+* Combat
+
+* Player Classes
+
+** Battlecast
+** Imbuer
