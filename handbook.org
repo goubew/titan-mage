@@ -3,11 +3,11 @@
 * Introduction
 
 ** World of Calypso 
-The world of Calypso began with the titans. The colossal beings used might and magic to shear the plains flat, heat the core of the planet, and gift the world with water and sun. Today their fosilized remains are strewn about the world in hidden groves. Nobody knows how they came to die, but it is suspected that they gave up their power willingly, to share their earthen canvas with the rest of life's creatures.
+The world of Calypso began with the titans. The colossal beings used might and magic to shear the plains flat, heat the core of the planet, and gift the world with water and sun. Today, their fosilized remains are strewn about the world in hidden groves. Nobody knows how they came to die, but leged says that they gave up their power willingly, to share their earthen canvas with the rest of life's creatures.
 
 Without the chaos of the titan's ongoing construction, the creatures of the world were allowed to grow and evolve. With enough time, the lands became overgrown with all manner of beast. Intelligence alone was not enough to live at the top of the food chain, so lowly humans were relegated to hiding and building what defences they could, praying that their independent settlements not fall victim to ruin.
 
-But the world is beginning to change once again. Humans are beginning to uncover the magic that the titans left behind. With this newfound power, they are striking out, exploring the world, and trading with other for the first time. It is in this setting that Calypso takes place. There is high demand for those who can defend against the wilds. The best adventurers of the world are renound and exalted, but not many of them are very wrinkled...
+But the world is beginning to change once again. Humans are uncovering the magic that the titans left behind. With this newfound power, they are striking out, exploring the world, and trading with others for the first time. It is in this setting that Calypso takes place. There is high demand for those who can defend against the wilds. The best adventurers of the world are renound and exalted, but not many of them are very wrinkled...
 
 ** Tenants of Calypso
 *** Combat turns should feel impactful
@@ -20,16 +20,66 @@ Turns like this drag down one of the core tenants of many TTRPGs, and incidental
 Calipso aims to solve the boring turn problem with actions that are always impactful. Players should not end a turn without feeling like nothing was accomplished. 
 *** Classes are useful at all levels
 Every class should be fun to play and no party member should be eclipsed by another. 
-*** Encounters should be fun to prepare by being easy to reference
-Calypso aims for the following.
+*** Encounters should be fun to prepare by being easy to design
+Calypso strives for the following.
 - In person sessions should be able to be ran without electronic assistance.
-- GM preparation should not be limited by paper medium. Statistics for the creatures of Calypso are in a format that computers can read. No more page flipping is required.
+- GM preparation should not be limited by paper medium. Statistics for the creatures of Calypso are in a format that computers can read. No more page flipping or copying of information is required.
+*** All players are human
+The setting of Calypso takes place in the fledgling cradle of human civilization, and humans nature is varied enough to support nearly any character type. Because of this, players always start out as a human. That is not to say that other peoples do not occupy the lands of Calypso, but their existence and nature is known only the GM.
 
 ** What is needed to play
+
+Calpyso is meant to be played with two or more players. The sweetspot for 
+
 
 * Combat
 
 * Player Classes
 
-** Battlecast
-** Imbuer
+** Warrior
+
+Magic Systems: Runecast or Spirit Caller
+
+** Mercenary
+
+Magic Systems: Runecast or Elementalist
+
+** Assasin
+
+Magic Systems: Spirit Caller or Harvester
+
+** Scholar
+
+Magic Systems: Two of Runecast, Ancient Whisperer, or Elementalist
+
+** Witch Doctor
+
+Magic Systems: Two of Spirit Caller, Ancient Whisperer, or Harvester
+
+** Bereft
+
+Magic Systems: None
+
+* Systems of Magic
+
+** Runecast
+The Runecast are warriors that pursue the study of the ancient language of the titans. By etching these runic symbols into their weapons and armor, they are able to augment their combat ability.
+
+** Spirit Caller
+Spirit Callers hold a spiritual bond with the titans. In death, the titans retain the ability to influence the world through the desires of those who can call to them.
+
+** Ancient Whisperer
+The Ancient Whisperers have studied the spoken language of the titans. Through great mental exertion, they can recall the forgotten language of the titans shaping the world as the titans once did.
+
+** Elementalist
+Elementalists draw from the latent magic left behind the construction of the world.
+
+** Harvester
+
+Harvesters utilize the remains of titans to extract power from the carcases of monsters twisting them to their own purposes.
+
+* Weapon Classes
+
+** Simple weapons
+
+** Ranged
