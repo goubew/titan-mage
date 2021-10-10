@@ -1,8 +1,8 @@
-#+Title: Calypso TTRPG (Title Pending)
+#+Title: Calypso TTRPG
 
 * Introduction
 
-** World of Calypso 
+** World of Calypso
 The world of Calypso began with the titans. The colossal beings used might and magic to shear the plains flat, heat the core of the planet, and gift the world with water and sun. Today, their fosilized remains are strewn about the world in hidden groves. Nobody knows how they came to die, but leged says that they gave up their power willingly, to share their earthen canvas with the rest of life's creatures.
 
 Without the chaos of the titan's ongoing construction, the creatures of the world were allowed to grow and evolve. With enough time, the lands became overgrown with all manner of beast. Intelligence alone was not enough to live at the top of the food chain, so lowly humans were relegated to hiding and building what defences they could, praying that their independent settlements not fall victim to ruin.
@@ -17,9 +17,9 @@ You find yourself in the midst of battle. Like most adventurers, your goal is to
 
 Turns like this drag down one of the core tenants of many TTRPGs, and incidentally, this core tenant is the one that the handbooks go into the most detail describing.
 
-Calipso aims to solve the boring turn problem with actions that are always impactful. Players should not end a turn without feeling like nothing was accomplished. 
+Calipso aims to solve the boring turn problem with actions that are always impactful. Players should not end a turn without feeling like nothing was accomplished.
 *** Classes are useful at all levels
-Every class should be fun to play and no party member should be eclipsed by another. 
+Every class should be fun to play and no party member should be eclipsed by another.
 *** Encounters should be fun to prepare by being easy to design
 Calypso strives for the following.
 - In person sessions should be able to be ran without electronic assistance.
@@ -29,41 +29,61 @@ The setting of Calypso takes place in the fledgling cradle of human civilization
 
 ** What is needed to play
 
-Calpyso is meant to be played with two or more players. The sweetspot for 
-
+Calpyso is meant to be played with two or more players. The sweetspot is 5 players.
 
 * Combat
+
+* Character Stats
+
+Character stats are broken up into the following categories:
+
+** Power
+
+Power is used to express physical strength. Cleave, crush, and grapple your way through enemies.
+
+** Reflex
+
+Reflex measures your speed and reaction. Evade dangers and act before others. A high reflex shoots first.
+
+** Focus
+
+Focus allows you to concentrate and understand complex concepts. Perceive the dangers around you and outwit opponents.
+
+** Influence
+
+A high influence signifies a great presense in the world. Others are drawn to you automatically and find you alluring, charming, and interesting.
 
 * Player Classes
 
 ** Warrior
 
-Magic Systems: Runecast or Spirit Caller
+HP / Level: 10
+Magic Systems: Runecast, Spirit Caller, or Harvester
 
 ** Mercenary
-
-Magic Systems: Runecast or Elementalist
+HP / Level: 8
+Magic Systems: Runecast, Spirit Caller, or Harvester
 
 ** Assasin
-
-Magic Systems: Spirit Caller or Harvester
+HP / Level: 8
+Magic Systems: Runecast, Sprit Caller, or Harvester
 
 ** Scholar
-
-Magic Systems: Two of Runecast, Ancient Whisperer, or Elementalist
+HP / Level: 6
+Magic Systems: Any
 
 ** Witch Doctor
-
-Magic Systems: Two of Spirit Caller, Ancient Whisperer, or Harvester
+HP / Level: 6
+Magic Systems: Any
 
 ** Bereft
-
+HP / Level: 6
 Magic Systems: None
 
 * Systems of Magic
 
 ** Runecast
-The Runecast are warriors that pursue the study of the ancient language of the titans. By etching these runic symbols into their weapons and armor, they are able to augment their combat ability.
+The Runecast are warriors that pursue the study of the ancient written language of the titans. By etching these runic symbols into their weapons and armor, they are able to augment their combat ability.
 
 ** Spirit Caller
 Spirit Callers hold a spiritual bond with the titans. In death, the titans retain the ability to influence the world through the desires of those who can call to them.
@@ -75,11 +95,15 @@ The Ancient Whisperers have studied the spoken language of the titans. Through g
 Elementalists draw from the latent magic left behind the construction of the world.
 
 ** Harvester
-
 Harvesters utilize the remains of titans to extract power from the carcases of monsters twisting them to their own purposes.
+
+** Weird
+Some phenomenon are without explanation. Whatever was there to wind the clock of time for the first time, indifferent to the world that was set in motion, can sometimes leave its traces on the world's denizens. It's unknown why this happens, but the effect are striking.
 
 * Weapon Classes
 
 ** Simple weapons
 
-** Ranged
+** Advanced weapons
+
+** Ranged weapons
