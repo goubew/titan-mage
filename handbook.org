@@ -29,55 +29,85 @@ The setting of Calypso takes place in the fledgling cradle of human civilization
 
 ** What is needed to play
 
-Calpyso is meant to be played with two or more players. The sweet spot is 5 players.
+Calpyso is meant to be played with two or more players. The sweet spot is 3 to 5 players.
 
 * Combat
 
 * Character Stats
 
-Character stats are broken up into the following categories:
+Character stats range from 1 to 16. When stats are upgraded, the effects of stats are always retroactive. Stats are broken up into the following categories:
 
 ** Power
 
-Power is used to express physical strength. Cleave, crush, and grapple your way through enemies.
+/Power is used to express physical strength. Cleave, crush, and grapple your way through enemies./
+
+Effects:
+
+- Extra HP per level: Power / 4
+- Carrying capacity points: Equal to power
+- Extra damage on power based weapons: Power / 2
 
 ** Reflex
 
-Reflex measures your speed and reaction. Evade dangers and act before others. A high reflex shoots first.
+/Reflex measures your speed and reaction. Evade dangers and act before others. A high reflex shoots first./
+
+Effects:
+
+- Combat order: Higher reflex acts first
+- Ranged damage evasion: D20 roll <= level 
+- Extra damage on reflex based weapons: Reflex / 2
 
 ** Focus
 
-Focus allows you to concentrate and understand complex concepts. Perceive the dangers around you and outwit opponents.
+/Focus allows you to concentrate and understand complex concepts. Perceive the dangers around you and outwit opponents./
 
-** Influence
+Effects:
 
-A high influence signifies a great presence in the world. Others are drawn to you automatically and find you alluring, charming, and interesting.
+- Extra MP per level: Focus / 4
+- Skill points per level: Focus / 4 
+- Ability scaling: based on Focus
+
+** Presence
+
+/A high presense signifies awareness of the world around you. Anticipate the actions of others and make them pay for their predictability./
+
+Effects:
+
+- Critical strike chance: D20 roll <= Presence
+- Need to come up with something else
+- Ability scaling: based on Presence
 
 * Player Classes
 
 ** Warrior
 
-HP / Level: 10
+HP per Level: 10
+MP per Level: 6
 One minor magic system
 
 ** Mercenary
-HP / Level: 8
+HP per Level: 8
+MP per Level: 8
 One minor magic system
 
 ** Assassin
-HP / Level: 8
+HP per Level: 8
+HP per Level: 8
 One minor magic system
 
 ** Scholar
-HP / Level: 6
+HP per Level: 6
+HP per Level: 10
 One major magic system and one minor magic system
 
 ** Witch Doctor
-HP / Level: 6
+HP per Level: 6
+MP per Level: 10
 One major magic system and one minor magic system
 
 ** Bereft
-HP / Level: 6
+HP per Level: 6
+MP per Level: 0
 Magic Systems: Weird
 
 * Systems of Magic
