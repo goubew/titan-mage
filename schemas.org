@@ -1,0 +1,47 @@
+* Items
+- Cost
+- Description
+- isConsumed
+- Effect (Opt)
+* Spell
+- Magic system
+- Cost
+- Description
+- Effect
+- Requirements (Opt)
+* Armor
+- Cost
+- Defense gained
+- Class
+- Weight
+- Description
+- Rarity
+- Requirement (Opt)
+* Weapon/Armor
+- Cost
+- Attack dice
+- Scaling
+- Class
+- Weight
+- Description
+- Rarity
+- Requirement (Opt)
+* Opponent
+- Name
+- Description
+- Type
+- Level
+- Size
+- Stats
+  - Defense
+  - Power
+  - Reflex
+  - Focus
+  - Presence
+  - HP
+  - MP 
+  - movement speed
+- Equipment
+- Major actions
+- Minor actions
+  
