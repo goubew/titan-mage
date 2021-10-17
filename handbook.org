@@ -44,8 +44,6 @@ Character stats range from 1 to 16. When stats are upgraded, the effects of stat
 Effects:
 
 - Extra HP per level: Power / 4
-- Carrying capacity points: Equal to power
-- Extra damage on power based weapons: Power / 2
 
 ** Reflex
 
@@ -54,8 +52,6 @@ Effects:
 Effects:
 
 - Combat order: Higher reflex acts first
-- Ranged damage evasion: D20 roll <= level 
-- Extra damage on reflex based weapons: Reflex / 2
 
 ** Focus
 
@@ -64,8 +60,6 @@ Effects:
 Effects:
 
 - Extra MP per level: Focus / 4
-- Skill points per level: Focus / 4 
-- Ability scaling: based on Focus
 
 ** Presence
 
@@ -74,8 +68,6 @@ Effects:
 Effects:
 
 - Critical strike chance: D20 roll <= Presence
-- Need to come up with something else
-- Ability scaling: based on Presence
 
 * Player Classes
 
