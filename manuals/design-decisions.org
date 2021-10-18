@@ -1,0 +1,19 @@
+#+Title: Of Wilds and Wastes TTRPG - Design Decisions
+
+** Tenants of Of Wilds and Wastes
+*** Combat turns should feel impactful
+Imagine the following scenario:
+
+You find yourself in the midst of battle. Like most adventurers, your goal is to defeat your enemies spectacular and show off your prowess in combat. As an experienced fighter, you have slain innumerable enemies. You ready your attack and miss. That is your action, so you end your turn. You already are expecting to perform the same action next turn.
+
+Turns like this drag down one of the core tenants of many TTRPGs, and incidentally, this core tenant is the one that the handbooks go into the most detail describing.
+
+Of Wilds and Wastes aims to solve the boring turn problem with actions that are always impactful. Players should not end a turn without feeling like nothing was accomplished.
+*** Classes are useful at all levels
+Every class should be fun to play and no party member should be eclipsed by another.
+*** Encounters should be fun to prepare by being easy to design
+Of Wilds and Wastes strives for the following.
+- In person sessions should be able to be ran without electronic assistance.
+- GM preparation should not be limited by paper medium. Statistics for the creatures of Of Wilds and Wastes are in a format that computers can read. No more page flipping or copying of information is required.
+*** All players are human
+The setting of Of Wilds and Wastes takes place in the fledgling cradle of human civilization, and humans nature is varied enough to support nearly any character type. Because of this, players always start out as a human. That is not to say that other peoples do not occupy the lands of Of Wilds and Wastes, but their existence and nature is known only the GM.

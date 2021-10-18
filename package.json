@@ -1,0 +1,24 @@
+{
+  "name": "of-wilds-and-wastes",
+  "version": "1.0.0",
+  "description": "A hobbyist open source TTRPG",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goubew/calypso.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goubew/calypso/issues"
+  },
+  "homepage": "https://github.com/goubew/calypso#readme",
+  "devDependencies": {
+    "ajv": "^8.6.3",
+    "mocha": "^9.1.3",
+    "yaml": "^1.10.2"
+  }
+}

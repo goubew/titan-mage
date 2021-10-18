@@ -25,6 +25,7 @@
 - Weight
 - Description
 - Rarity
+- Range
 - Requirement (Opt)
 * Opponent
 - Name
@@ -44,4 +45,3 @@
 - Equipment
 - Major actions
 - Minor actions
-  
