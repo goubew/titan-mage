@@ -1,0 +1,9 @@
+---
+name: Chainmail
+description: Your run of the mill armor. A little rusted.
+class: medium
+defense: 1
+weight: 2
+rarity: common
+requirements: None
+...

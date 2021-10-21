@@ -4,7 +4,7 @@
   "description": "A hobbyist open source TTRPG",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha -b"
   },
   "repository": {
     "type": "git",
