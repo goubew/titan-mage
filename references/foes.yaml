@@ -1,0 +1,18 @@
+---
+- name: Squirrel
+  description: A typical tree rat. They would be ugly without their tail.
+  type: beast
+  level: 0
+  size: small
+  stats:
+    power: 0
+    reflex: 6
+    focus: 1
+    presence: 6
+    hpGain: 1
+    mpGain: 0
+    defense: 0
+    movement: 5
+  minorActions: []
+  majorActions: []
+...

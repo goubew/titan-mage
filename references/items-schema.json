@@ -1,0 +1,14 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": { "type": "string" },
+      "description": { "type": "string" },
+      "cost": { "type": "number", "minimum": 1 },
+      "whenConsumed": { "type": "string" }
+    },
+    "required": ["name", "description", "cost"],
+    "additionalProperties": false
+  }
+}

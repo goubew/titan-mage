@@ -6,8 +6,8 @@
       "name": { "type": "string" },
       "description": { "type": "string" },
       "class": { "type": "string" },
-      "defense": { "type": "number", "minimum": 1 },
-      "weight": { "type": "number", "minimum": 1 },
+      "defense": { "type": "number", "minimum": 0 },
+      "weight": { "type": "number", "minimum": 0 },
       "rarity": { "type": "string", "enum": ["common", "rare", "epic", "legendary"] },
       "requirements": { "type": "string" }
     },

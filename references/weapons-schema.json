@@ -1,0 +1,18 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": { "type": "string" },
+      "description": { "type": "string" },
+      "class": { "type": "string" },
+      "range": { "type": "number", "minimum": 1 },
+      "damage": { "type": "string" },
+      "weight": { "type": "number", "minimum": 0 },
+      "rarity": { "type": "string", "enum": ["common", "rare", "epic", "legendary"] },
+      "requirements": { "type": "string" }
+    },
+    "minProperties": 8,
+    "additionalProperties": false
+  }
+}

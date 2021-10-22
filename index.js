@@ -1,8 +1,7 @@
 const fs = require("fs");
 const yaml = require("yaml");
 
-//const resourceTypes = ["armor", "foes", "items", "spells", "weapons"]
-const referenceTypes = ["armor"]
+const referenceTypes = ["armor", "foes", "items", "spells", "weapons"]
 let references = {}
 
 // Parse the yaml files into json

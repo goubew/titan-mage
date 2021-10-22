@@ -1,0 +1,7 @@
+---
+- name: Solar Flare
+  description: A wall of fire emits in a circle around you.
+  effect: Enemies with one square of you take (d4-d4) + Focus/4 magic damage.
+  cost: 4
+  requirements: None
+...
