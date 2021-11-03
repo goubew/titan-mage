@@ -54,36 +54,55 @@ Effects:
 
 * Player Classes
 
-** Warrior
+** Tactician
 
-HP per Level: 10
+/"Victory requires no hope, it is assured."/
+
+HP per Level: 8
 MP per Level: 8
 One minor magic system
 
 ** Mercenary
+
+/"Imagine bringing a pen to battle."/
+
+Mercenaries are masters of combat and weaponry. Able to wield the rarest weapons and strongest armors. Of all the classes to take up adventuring, mercenaries know best what they are in for.
+
 HP per Level: 10
 MP per Level: 6
 One minor magic system
 
 ** Assassin
+
+/"How easy one slips into the long dark."/
+
 HP per Level: 8
 HP per Level: 8
 One minor magic system
 
+** Fatebound
+
+/"Meow."/
+
+
+HP per Level: 8
+MP per Level: 10
+One minor magic system
+
 ** Scholar
+
+/"To seek no knowledge is to squander life and live as does the commonest weed."/
+
 HP per Level: 6
 HP per Level: 10
 One major magic system and one minor magic system
 
-** Witch Doctor
-HP per Level: 8
-MP per Level: 10
-One major magic system and one minor magic system
-
 ** Bereft
+
+/"Passed by without so much as a glance."/
+
 HP per Level: 6
 MP per Level: 0
-Magic Systems: Weird
 
 * Systems of Magic
 
