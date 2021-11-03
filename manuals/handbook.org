@@ -58,6 +58,8 @@ Effects:
 
 /"Victory requires no hope, it is assured."/
 
+Tacticians are able to survey a battlefield with ease. They are able to command allies, increasing their battle effectiveness, and have insight into enemies traits. 
+
 HP per Level: 8
 MP per Level: 8
 One minor magic system
@@ -66,7 +68,7 @@ One minor magic system
 
 /"Imagine bringing a pen to battle."/
 
-Mercenaries are masters of combat and weaponry. Able to wield the rarest weapons and strongest armors. Of all the classes to take up adventuring, mercenaries know best what they are in for.
+Mercenaries are masters of combat and weaponry, able to wield the rarest weapons and strongest armors. Cleaving and rending is the way of the Mercenary.
 
 HP per Level: 10
 MP per Level: 6
@@ -76,22 +78,18 @@ One minor magic system
 
 /"How easy one slips into the long dark."/
 
+Assassins are skilled dealing damage through the use of well placed attacks and devious weapon modifications. Few can stand before an Assassin and live to tell the tale.
+
 HP per Level: 8
 HP per Level: 8
 One minor magic system
 
-** Fatebound
-
-/"Meow."/
-
-
-HP per Level: 8
-MP per Level: 10
-One minor magic system
 
 ** Scholar
 
 /"To seek no knowledge is to squander life and live as does the commonest weed."/
+
+Scholars are those who seek to understand the titan's influence on the world. The knowledge is only a mimicry, but even a fraction of that power is enough to demand respect.
 
 HP per Level: 6
 HP per Level: 10
@@ -101,12 +99,17 @@ One major magic system and one minor magic system
 
 /"Passed by without so much as a glance."/
 
+The Bereft are those without any advantage. Unlikely adventurers, but it is not for fate to say who are the greats.
+
 HP per Level: 6
 MP per Level: 0
 
 * Systems of Magic
 
 ** Minor Magics
+
+*** Soulbound
+To be Soulbound is to have your fate entwined with another. When enough titan blood is shared between two creatures, their consciousness becomes linked. When linked with a beast of nature, humans become all the more formidable.
 
 *** Runecast
 The Runecast are warriors that pursue the study of the ancient written language of the titans. By etching these runic symbols into their weapons and armor, they are able to augment their combat ability.
