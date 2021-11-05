@@ -16,11 +16,43 @@ Of Wilds and Wastes is meant to be played with two or more players. The sweet sp
 
 * Combat
 
+In combat, players and enemies take turns performing actions. A turn is broken up into one major action, one minor action, and as many as needed free actions. One is always free to use a minor action in place of a major action.
+
+** Default Major Actions
+
+*** Weapon Attack
+
+Characters make an attack against an enemy using an equipped weapon. An unarmed attack can be made for 1 damage if no weapons are equipped.
+
+*** Spell Cast
+
+Characters who are learned in a [[*Systems of Magic][school of magic]] that provides castable spells may do so as a major action.
+
+** Default Minor Actions
+
+*** Movement
+
+Characters move up to their [[*Movement Speed][movement speed]].
+
+*** Swapping Held Items
+
+Characters put away, replace, or take out items that can be used when held.
+
+*** Reloading
+
+Characters load ammunition into a ranged weapon, a bow for example.
+
+** Example Turns
+
 * Character Stats
 
 Character stats range from 1 to 16. When stats are upgraded, the effects of stats are always retroactive. Stats are broken up into the following categories:
 
-** Power
+** The Main Stats
+
+These stats are the primary stats in the game. Actions with an uncertain outcome are almost always modified by one of these.
+
+*** Power
 
 /Power is used to express physical strength. Cleave, crush, and grapple your way through enemies./
 
@@ -28,7 +60,7 @@ Effects:
 
 - Extra HP per level: Power / 4
 
-** Reflex
+*** Reflex
 
 /Reflex measures your speed and reaction. Evade dangers and act before others. A high reflex shoots first./
 
@@ -36,7 +68,7 @@ Effects:
 
 - Combat order: Higher reflex acts first
 
-** Focus
+*** Focus
 
 /Focus allows you to concentrate and understand complex concepts. Perceive the dangers around you and outwit opponents./
 
@@ -44,7 +76,7 @@ Effects:
 
 - Extra MP per level: Focus / 4
 
-** Presence
+*** Presence
 
 /A high presense signifies awareness of the world around you. Anticipate the actions of others and make them pay for their predictability./
 
@@ -52,13 +84,21 @@ Effects:
 
 - Critical strike chance: D20 roll <= Presence
 
+** Auxiliary Stats
+
+*** Health Points (HP)
+
+*** Magic Power (MP)
+
+*** Movement Speed
+
 * Player Classes
 
 ** Tactician
 
 /"Victory requires no hope, it is assured."/
 
-Tacticians are able to survey a battlefield with ease. They are able to command allies, increasing their battle effectiveness, and have insight into enemies traits. 
+Tacticians are able to survey a battlefield with ease. They are able to command allies, increasing their battle effectiveness, and have insight into enemies traits.
 
 HP per Level: 8
 MP per Level: 8
@@ -109,7 +149,7 @@ MP per Level: 0
 ** Minor Magics
 
 *** Soulbound
-To be Soulbound is to have your fate entwined with another. When enough titan blood is shared between two creatures, their consciousness becomes linked. When linked with a beast of nature, humans become all the more formidable.
+To be Soulbound is to have your fate entwined with another. When enough titan ancestry is shared between two creatures, their consciousness can becomes linked. When linked with a beast of nature, humans become all the more formidable.
 
 *** Runecast
 The Runecast are warriors that pursue the study of the ancient written language of the titans. By etching these runic symbols into their weapons and armor, they are able to augment their combat ability.
