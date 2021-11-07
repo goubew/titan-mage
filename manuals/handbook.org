@@ -135,6 +135,12 @@ HP per Level: 6
 HP per Level: 10
 One major magic system and one minor magic system
 
+** Beastheart
+
+/"Roar."/
+
+Beasthearts are those who have formed a strong bond with a beast of nature. Time spent in the wilds has formed a shared consciousness with the beathearts closest animal companion.
+
 ** Bereft
 
 /"Passed by without so much as a glance."/
@@ -147,9 +153,6 @@ MP per Level: 0
 * Systems of Magic
 
 ** Minor Magics
-
-*** Soulbound
-To be Soulbound is to have your fate entwined with another. When enough titan ancestry is shared between two creatures, their consciousness can becomes linked. When linked with a beast of nature, humans become all the more formidable.
 
 *** Runecast
 The Runecast are warriors that pursue the study of the ancient written language of the titans. By etching these runic symbols into their weapons and armor, they are able to augment their combat ability.
