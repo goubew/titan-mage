@@ -139,7 +139,7 @@ One major magic system and one minor magic system
 
 /"Roar."/
 
-Beasthearts are those who have formed a strong bond with a beast of nature. Time spent in the wilds has formed a shared consciousness with the beathearts closest animal companion.
+Beasthearts are those who have formed a strong bond with a beast of nature. Time spent in the wilds has formed a shared consciousness with the beastheart's closest animal companion.
 
 ** Bereft
 
@@ -163,17 +163,15 @@ Spirit Callers hold a spiritual bond with the titans. In death, the titans retai
 *** Harvester
 Harvesters utilize the remains of titans to extract power from the carcasses of monsters twisting them to their own purposes.
 
+*** Weird
+Some phenomenon are without explanation. Whatever was there to wind the clock of time for the first time, indifferent to the world that was set in motion, can sometimes leave its traces on the world's denizens. It's unknown why this happens, but the effect are striking.
+
 ** Major Magics
 
 *** Ancient Whisperer
 The Ancient Whisperers have studied the spoken language of the titans. Through great mental exertion, they can recall the forgotten language of the titans shaping the world as the titans once did.
 
 *** Elementalist
-Elementalists draw from the latent magic left behind the construction of the world.
-
-** Other Magics
-
-*** Weird
-Some phenomenon are without explanation. Whatever was there to wind the clock of time for the first time, indifferent to the world that was set in motion, can sometimes leave its traces on the world's denizens. It's unknown why this happens, but the effect are striking.
+Elementalists draw from the latent magic left behind from the construction of the world.
 
 * Equipment Classes
