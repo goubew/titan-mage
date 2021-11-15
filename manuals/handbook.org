@@ -26,7 +26,7 @@ Characters make an attack against an enemy using an equipped weapon. An unarmed 
 
 *** Spell Cast
 
-Characters who are learned in a [[*Systems of Magic][school of magic]] that provides castable spells may do so as a major action.
+Characters who are learned in a [[*Systems of Magic][school of magic]] that provides spells marked as a major action can cast them as such.
 
 ** Default Minor Actions
 
@@ -43,6 +43,26 @@ Characters put away, replace, or take out items that can be used when held.
 Characters load ammunition into a ranged weapon, a bow for example.
 
 ** Example Turns
+
+** Conditions
+
+*** Incapacitated
+
+Whan a player drops below 0 HP, they become incapacitated. They are unable to take major or minor actions or regain HP normally.
+
+Upon entering the state, they make a power [[* Ability Check][ability check]] (12). On a successful check, the character returns to 0 HP, and the effect ends at the end of the current fight. On a failed check, the character stays incapacitated until [[* Recovery][recovery]], and the character becomes afflicted by a [[* Grevious Wound][grevious wound]].
+
+The condition can also be ended by a spell or item that provides the revive affect, returning the character to 1 HP and ending the effect during battle.
+
+** Grevious Wound
+
+TODO
+
+* Towns
+
+** Recovery 
+
+** Spending Time
 
 * Character Stats
 
@@ -88,6 +108,8 @@ Effects:
 
 *** Health Points (HP)
 
+Health points are a mesaure of 
+
 *** Magic Power (MP)
 
 *** Movement Speed
@@ -102,7 +124,7 @@ Tacticians are able to survey a battlefield with ease. They are able to command 
 
 HP per Level: 8
 MP per Level: 8
-One minor magic system
+One standard magic system
 
 ** Mercenary
 
@@ -112,7 +134,7 @@ Mercenaries are masters of combat and weaponry, able to wield the rarest weapons
 
 HP per Level: 10
 MP per Level: 6
-One minor magic system
+One standard magic system
 
 ** Assassin
 
@@ -122,8 +144,7 @@ Assassins are skilled dealing damage through the use of well placed attacks and 
 
 HP per Level: 8
 HP per Level: 8
-One minor magic system
-
+One standard magic system
 
 ** Scholar
 
@@ -133,7 +154,7 @@ Scholars are those who seek to understand the titan's influence on the world. Th
 
 HP per Level: 6
 HP per Level: 10
-One major magic system and one minor magic system
+One advanced magic system
 
 ** Beastheart
 
@@ -152,7 +173,7 @@ MP per Level: 0
 
 * Systems of Magic
 
-** Minor Magics
+** Standard Magics
 
 *** Runecast
 The Runecast are warriors that pursue the study of the ancient written language of the titans. By etching these runic symbols into their weapons and armor, they are able to augment their combat ability.
@@ -166,7 +187,7 @@ Harvesters utilize the remains of titans to extract power from the carcasses of 
 *** Weird
 Some phenomenon are without explanation. Whatever was there to wind the clock of time for the first time, indifferent to the world that was set in motion, can sometimes leave its traces on the world's denizens. It's unknown why this happens, but the effect are striking.
 
-** Major Magics
+** Advanced Magics
 
 *** Ancient Whisperer
 The Ancient Whisperers have studied the spoken language of the titans. Through great mental exertion, they can recall the forgotten language of the titans shaping the world as the titans once did.
@@ -175,3 +196,6 @@ The Ancient Whisperers have studied the spoken language of the titans. Through g
 Elementalists draw from the latent magic left behind from the construction of the world.
 
 * Equipment Classes
+* Terminology
+** Ability Check
+** Master of Ceremonies (MC)
