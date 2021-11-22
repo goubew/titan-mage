@@ -13,6 +13,12 @@ But the world is beginning to change once again. Humans are uncovering the magic
 
 Of Wilds and Wastes is meant to be played with two or more players. The sweet spot is 3 to 5 players and another player be the master of ceremonies, abbreviated MC from here on out.
 
+Each player requires one full set of RPG dice: a four sided die (d4), a six sided die (d6), a ten sided die (d10), a twelve sided die (d12), a twenty sided die (d20), and a tens marked ten sided die (used with the d10 to make a d100).
+
+It is recomended to have two sets per player so that multidice rolls can occur at once.
+
+Any die with a zero side is used as the max value for the die. For example, the zero on a d10 has a value of 10.
+
 * Character Stats
 
 Character stats range from 1 to 16. When stats are upgraded, the effects of stats are always retroactive. Stats are broken up into the following categories:
@@ -57,15 +63,15 @@ Effects:
 
 *** Health Points (HP)
 
-Health points tracks the life of your character. The closer to 0, the closer your character is to [[*Death][death]]. Characters gain extra health at every level based on their [[*Player Classes][class]].
+Health points tracks the life of your character. The closer to 0, the closer your character is to [[* Death][death]]. Characters gain extra health at every level based on their [[* Player Classes][class]].
 
 *** Magic Power (MP)
 
-Magic power tracks the ammount of magic that a character can perform. Characters gain extra health at every level based on their [[*Player Classes][class]].
+Magic power tracks the ammount of magic that a character can perform. Characters gain extra health at every level based on their [[* Player Classes][class]].
 
 *** Movement Speed
 
-Movement speed is a measure how how fast your character is. In combat, your character is allowed to move up to their movement speed in squares every round.
+Movement speed is a measure how how fast your character is. In [[* Combat][combat]], your character is allowed to move up to their movement speed in squares every round.
 
 When moving diagonal, treat the first diagonal move as one square of movement, the second diagonal move as two squares of movement, then one, then two, etc.
 
@@ -87,13 +93,13 @@ Characters make an attack against an enemy using an equipped weapon. An unarmed 
 
 *** Spell Cast
 
-Characters who are learned in a [[*Systems of Magic][school of magic]] that provides spells marked as a major action can cast them as such.
+Characters who are learned in a [[* Systems of Magic][school of magic]] that provides spells marked as a major action can cast them as such.
 
 ** Default Minor Actions
 
 *** Movement
 
-Characters move up to their [[*Movement Speed][movement speed]].
+Characters move up to their [[* Movement Speed][movement speed]].
 
 *** Swapping Held Items
 
@@ -113,7 +119,7 @@ Upon entering the state, they make a power [[* Ability Check][ability check]] (1
 
 The condition can also be ended by a spell or item that provides the revive affect, returning the character to 1 HP and ending the effect, even during battle.
 
-Every time a character is attacked while incapacitated, they suffer another [[*Grevious Wound][grevious wound]]. Some foes may ignore downed combatants, but not all are so merciful.
+Every time a character is attacked while incapacitated, they suffer another [[* Grevious Wound][grevious wound]]. Some foes may ignore downed combatants, but not all are so merciful.
 
 *** Death
 
@@ -151,21 +157,19 @@ The character experiences [[* Death][death]].
 
 ** Recovering
 
-Recovering is the process of regaining HP and or MP.
+Recovering is the process of regaining HP and MP. Certain classes regain additional resources while recovering.
 
 *** Respite
 
-A respite the only recovery that can occur while out adventuring. TODO
+A respite is the only recovery that can occur while out adventuring. After a respite, each player rolls a d6 for every character level. The players choose whether to 
+
+A respite requires an uninterupted rest of at least 4 hours. Spending 8 or more hours resting does not increase the resources gained. A respite can only occur once a day.
 
 *** Full Recovery
 
-A full recovery restores all of a character's [[* Health Points (HP)][HP]] and [[*Magic Power (MP)][MP]], but can only occur in [[*Towns][town]].
+A full recovery restores all of a character's [[* Health Points (HP)][HP]] and [[* Magic Power (MP)][MP]], but can only occur in [[* Towns][town]].
 
 * Towns
-
-** Recovery
-
-Recovery
 
 ** Spending Time
 
@@ -233,8 +237,10 @@ MP per Level: 0
 *** Runecast
 The Runecast are warriors that pursue the study of the ancient written language of the titans. By etching these runic symbols into their weapons and armor, they are able to augment their combat ability.
 
+Carving runes into your weapons and armor reserves [[* Magic Power (MP)][mp]]. The passive effects of these runes are always present.
+
 *** Spirit Caller
-Spirit Callers hold a spiritual bond with the titans. In death, the titans retain the ability to influence the world through the desires of those who can call to them.
+Spirit Callers hold a spiritual bond with their ancestors. In death, the titans retain the ability to influence the world through the favor given by the spirits of the departed. Spirit Callers call upon their presecesors to vouch for them.
 
 *** Harvester
 Harvesters utilize the remains of titans to extract power from the carcasses of monsters twisting them to their own purposes.
@@ -249,5 +255,7 @@ The Ancient Whisperers have studied the spoken language of the titans. Through g
 
 *** Elementalist
 Elementalists draw from the latent magic left behind from the construction of the world.
+
+Elemental spells can be devastatingly powerful, but rely on the setup and maintenance of elemental catalysts. [[* Magic Power (MP)][mp]] is expended to harness these forces in large scale attacks.
 
 * Equipment Classes
