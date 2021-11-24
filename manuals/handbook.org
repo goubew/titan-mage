@@ -3,6 +3,7 @@
 * Introduction
 
 ** World of Wilds and Wastes
+
 The world of Of Wilds and Wastes began with the titans. The colossal beings used might and magic to shear the plains flat, heat the core of the planet, and gift the world with water and sun. Today, their fossilized remains are strewn about the world in hidden groves. Nobody knows how they came to die, but legend says that they gave up their power willingly, to share their earthen canvas with the rest of life's creatures.
 
 Without the chaos of the titan's ongoing construction, the creatures of the world were allowed to grow and evolve. With enough time, the lands became overgrown with all manner of beast. Intelligence alone was not enough to live at the top of the food chain, so lowly humans were relegated to hiding and building what defenses they could, praying that their independent settlements not fall victim to ruin.
@@ -114,14 +115,17 @@ Recovering is the process of regaining HP and MP. Certain classes regain additio
 
 *** Respite
 
-A respite is the only recovery that can occur while out adventuring. After a respite, each player rolls a d6 for every character level. The players choose whether to 
+A respite is the only recovery that can occur while out adventuring. A respite requires an uninterrupted rest of at least 4 hours. Spending 8 or more hours resting does not increase the resources gained, and a respite can only occur once a day.
 
-A respite requires an uninterrupted rest of at least 4 hours. Spending 8 or more hours resting does not increase the resources gained. A respite can only occur once a day.
+After a respite, each player rolls a d6 up to their character level number of times. The players choose whether to add the value on the die rolled to their [[*** Health Points (HP)][hp]] or [[*** Magic Power (MP)][mp]].
+
+Once character level number of respite dice have been rolled, no more can be rolled until a full recovery has occurred.
+
+Respite can be modified by certain [[* Player Classes][classes]] and [[* Systems of Magic][magic systems]].
 
 *** Full Recovery
 
-A full recovery restores all of a character's [[* Health Points (HP)][HP]] and [[* Magic Power (MP)][MP]], but can only occur in [[* Towns][town]].
-
+A full recovery restores all of a character's [[* Health Points (HP)][HP]] and [[* Magic Power (MP)][MP]], but can only occur in [[* Towns][town]] over the period of a week. A full recovery will reset the number of respite dice rolled back to zero.
 
 * Roleplaying
 
@@ -141,11 +145,15 @@ Dialog is also one of the best ways to show off your character!
 
 * Character Stats
 
-Character stats range from 1 to 16. When stats are upgraded, the effects of stats are always retroactive. Stats are broken up into the following categories:
+** Character Level
+
+The level of your character is a measure of how skilled they are at their craft. This skill is manifested in additinal stats, features, and magical ability.
 
 ** The Main Stats
 
-These stats are the primary stats in the game. Actions with an uncertain outcome are almost always modified by one of these.
+Main stats are the primary stats in the game. Actions with an uncertain outcome are almost always modified by one of these through [[** Ability Check][ability checks]].
+
+These stats range from 1 to 16. When stats are upgraded, the effects of stats are always retroactive. Stats are broken up into the following categories:
 
 *** Power
 
@@ -275,7 +283,7 @@ Recovering is the process of regaining HP and MP. Certain classes regain additio
 
 *** Respite
 
-A respite is the only recovery that can occur while out adventuring. After a respite, each player rolls a d6 for every character level. The players choose whether to 
+A respite is the only recovery that can occur while out adventuring. After a respite, each player rolls a d6 for every character level. The players choose whether to add the die roll to their [[* Health Points (HP)][HP]] or [[*** Magic Power (MP)][MP]].
 
 A respite requires an uninterrupted rest of at least 4 hours. Spending 8 or more hours resting does not increase the resources gained. A respite can only occur once a day.
 
@@ -349,25 +357,35 @@ MP per Level: 0
 ** Standard Magics
 
 *** Runecast
+
 The Runecast are warriors that pursue the study of the ancient written language of the titans. By etching these runic symbols into their weapons and armor, they are able to augment their combat ability.
 
-Carving runes into your weapons and armor reserves [[* Magic Power (MP)][mp]]. The passive effects of these runes are always present.
+Carving runes into your weapons and armor reserves [[* Magic Power (MP)][mp]]. The passive effects of these runes are always present. Runecast are only able to modify their own equipment.
+
+The number of runes that can be equipped at a time is shown in the following table.
 
 *** Spirit Caller
+
 Spirit Callers hold a spiritual bond with their ancestors. In death, the titans retain the ability to influence the world through the favor given by the spirits of the departed. Spirit Callers call upon their predecessors to vouch for them.
 
+Calling upon the favor of the titans expends [[*** Magic Power (MP)][mp]]. These effects can be activated a number of times per combat.
+
 *** Harvester
+
 Harvesters utilize the remains of titans to extract power from the carcasses of monsters twisting them to their own purposes.
 
 *** Weird
+
 Some phenomenon are without explanation. Whatever was there to wind the clock of time for the first time, indifferent to the world that was set in motion, can sometimes leave its traces on the world's denizens. It's unknown why this happens, but the effect are striking.
 
 ** Advanced Magics
 
 *** Ancient Whisperer
+
 The Ancient Whisperers have studied the spoken language of the titans. Through great mental exertion, they can recall the forgotten language of the titans shaping the world as the titans once did.
 
 *** Elementalist
+
 Elementalists draw from the latent magic left behind from the construction of the world.
 
 Elemental spells can be devastatingly powerful, but rely on the setup and maintenance of elemental catalysts. [[* Magic Power (MP)][mp]] is expended to harness these forces in large scale attacks.
