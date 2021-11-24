@@ -15,7 +15,7 @@ Of Wilds and Wastes is meant to be played with two or more players. The sweet sp
 
 Each player requires one full set of RPG dice: a four sided die (d4), a six sided die (d6), a ten sided die (d10), a twelve sided die (d12), a twenty sided die (d20), and a tens marked ten sided die (used with the d10 to make a d100).
 
-It is recomended to have two sets per player so that multidice rolls can occur at once.
+It is recommended to have two sets per player so that multi-dice rolls can occur at once.
 
 Any die with a zero side is used as the max value for the die. For example, the zero on a d10 has a value of 10.
 
@@ -66,7 +66,7 @@ Characters load ammunition into a ranged weapon, a bow for example.
 
 *** Incapacitated
 
-Whan a player drops below 0 HP, they become incapacitated. They are unable to take major or minor actions or regain HP normally.
+When a player drops below 0 HP, they become incapacitated. They are unable to take major or minor actions or regain HP normally.
 
 Upon entering the state, they make a power [[* Ability Check][ability check]] (12). On a successful check, the character returns to 0 HP, and the effect ends at the end of the current fight. On a failed check, the character stays incapacitated until [[* Recovery][recovery]], and the character becomes afflicted by a [[* Grevious Wound][grevious wound]].
 
@@ -80,9 +80,9 @@ Death is the end of your playable character. They have succumbed to their injuri
 
 This is a good chance to say some final words to inspire your comrades. It is customary to hold a ceremony for the fallen upon return to settlement.
 
-** Grevious Wound
+** Grievous Wound
 
-When a character sustains critical injury, they become afflicted by a grevious wound. Roll a d6 to determine your characters grevious wound. This wounds cannot be removed by normal healing. If the same grevious wound is rolled two times in a row, then the character suffers [[* Death][death]].
+When a character sustains critical injury, they become afflicted by a grievous wound. Roll a d6 to determine your characters grievous wound. This wounds cannot be removed by normal healing. If the same grievous wound is rolled two times in a row, then the character suffers [[* Death][death]].
 
 *** (1) Head Trauma
 
@@ -94,7 +94,7 @@ Damage to one arm becomes too severe to save. Your character is no longer able t
 
 *** (3) Severed Magical Connection
 
-Injuries the the body sever the connection a player has with their school of magic. Their [[* Magic Power (MP)][MP]] is halved.
+Injuries the body sever the connection a player has with their school of magic. Their [[* Magic Power (MP)][MP]] is halved.
 
 *** (4) Gnarly Scars
 
@@ -116,7 +116,7 @@ Recovering is the process of regaining HP and MP. Certain classes regain additio
 
 A respite is the only recovery that can occur while out adventuring. After a respite, each player rolls a d6 for every character level. The players choose whether to 
 
-A respite requires an uninterupted rest of at least 4 hours. Spending 8 or more hours resting does not increase the resources gained. A respite can only occur once a day.
+A respite requires an uninterrupted rest of at least 4 hours. Spending 8 or more hours resting does not increase the resources gained. A respite can only occur once a day.
 
 *** Full Recovery
 
@@ -173,7 +173,7 @@ Effects:
 
 *** Presence
 
-/A high presense signifies awareness of the world around you. Anticipate the actions of others and make them pay for their predictability./
+/A high presence signifies awareness of the world around you. Anticipate the actions of others and make them pay for their predictability./
 
 Effects:
 
@@ -187,11 +187,11 @@ Health points tracks the life of your character. The closer to 0, the closer you
 
 *** Magic Power (MP)
 
-Magic power tracks the ammount of magic that a character can perform. Characters gain extra health at every level based on their [[* Player Classes][class]].
+Magic power tracks the amount of magic that a character can perform. Characters gain extra health at every level based on their [[* Player Classes][class]].
 
 *** Movement Speed
 
-Movement speed is a measure how how fast your character is. In [[* Combat][combat]], your character is allowed to move up to their movement speed in squares every round.
+Movement speed is a measure how fast your character is. In [[* Combat][combat]], your character is allowed to move up to their movement speed in squares every round.
 
 When moving diagonal, treat the first diagonal move as one square of movement, the second diagonal move as two squares of movement, then one, then two, etc.
 
@@ -227,7 +227,7 @@ Characters load ammunition into a ranged weapon, a bow for example.
 
 *** Incapacitated
 
-Whan a player drops below 0 HP, they become incapacitated. They are unable to take major or minor actions or regain HP normally.
+When a player drops below 0 HP, they become incapacitated. They are unable to take major or minor actions or regain HP normally.
 
 Upon entering the state, they make a power [[* Ability Check][ability check]] (12). On a successful check, the character returns to 0 HP, and the effect ends at the end of the current fight. On a failed check, the character stays incapacitated until [[* Recovery][recovery]], and the character becomes afflicted by a [[* Grevious Wound][grevious wound]].
 
@@ -241,9 +241,9 @@ Death is the end of your playable character. They have succumbed to their injuri
 
 This is a good chance to say some final words to inspire your comrades. It is customary to hold a ceremony for the fallen upon return to settlement.
 
-** Grevious Wound
+** Grievous Wound
 
-When a character sustains critical injury, they become afflicted by a grevious wound. Roll a d6 to determine your characters grevious wound. This wounds cannot be removed by normal healing. If the same grevious wound is rolled two times in a row, then the character suffers [[* Death][death]].
+When a character sustains critical injury, they become afflicted by a grievous wound. Roll a d6 to determine your characters grievous wound. This wounds cannot be removed by normal healing. If the same grievous wound is rolled two times in a row, then the character suffers [[* Death][death]].
 
 *** (1) Head Trauma
 
@@ -277,7 +277,7 @@ Recovering is the process of regaining HP and MP. Certain classes regain additio
 
 A respite is the only recovery that can occur while out adventuring. After a respite, each player rolls a d6 for every character level. The players choose whether to 
 
-A respite requires an uninterupted rest of at least 4 hours. Spending 8 or more hours resting does not increase the resources gained. A respite can only occur once a day.
+A respite requires an uninterrupted rest of at least 4 hours. Spending 8 or more hours resting does not increase the resources gained. A respite can only occur once a day.
 
 *** Full Recovery
 
@@ -354,7 +354,7 @@ The Runecast are warriors that pursue the study of the ancient written language 
 Carving runes into your weapons and armor reserves [[* Magic Power (MP)][mp]]. The passive effects of these runes are always present.
 
 *** Spirit Caller
-Spirit Callers hold a spiritual bond with their ancestors. In death, the titans retain the ability to influence the world through the favor given by the spirits of the departed. Spirit Callers call upon their presecesors to vouch for them.
+Spirit Callers hold a spiritual bond with their ancestors. In death, the titans retain the ability to influence the world through the favor given by the spirits of the departed. Spirit Callers call upon their predecessors to vouch for them.
 
 *** Harvester
 Harvesters utilize the remains of titans to extract power from the carcasses of monsters twisting them to their own purposes.
