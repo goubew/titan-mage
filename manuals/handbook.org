@@ -11,13 +11,133 @@ But the world is beginning to change once again. Humans are uncovering the magic
 
 ** What is needed to play
 
-Of Wilds and Wastes is meant to be played with two or more players. The sweet spot is 3 to 5 players and another player be the master of ceremonies, abbreviated MC from here on out.
+Of Wilds and Wastes is meant to be played with two or more players. The sweet spot is 3 to 5 players and another player be the Game Master, abbreviated GM from here on out.
 
 Each player requires one full set of RPG dice: a four sided die (d4), a six sided die (d6), a ten sided die (d10), a twelve sided die (d12), a twenty sided die (d20), and a tens marked ten sided die (used with the d10 to make a d100).
 
 It is recomended to have two sets per player so that multidice rolls can occur at once.
 
 Any die with a zero side is used as the max value for the die. For example, the zero on a d10 has a value of 10.
+
+** Creating a Character
+
+Use the following checklist to create a new character.
+
+- Download a new character sheet
+- Decide on a [[* Player Classes][player class]]
+  - Fill in the class name
+  - Fill in the starting stats assigned to your class
+- Decide on a [[* Systems of Magic][magic system]] compatible with your player class
+  - Fill in the magic system name
+  - Fill in your starting spell choices
+- Decide on a starting skill
+  - Fill in your starting skill
+- Fill in your character name
+
+* Combat
+
+In combat, players and enemies take turns performing actions. A turn is broken up into one major action, one minor action, and as many as needed free actions. One is always free to use a minor action in place of a major action.
+
+** Default Major Actions
+
+*** Weapon Attack
+
+Characters make an attack against an enemy using an equipped weapon. An unarmed attack can be made for 1 damage if no weapons are equipped.
+
+*** Spell Cast
+
+Characters who are learned in a [[* Systems of Magic][school of magic]] that provides spells marked as a major action can cast them as such.
+
+** Default Minor Actions
+
+*** Movement
+
+Characters move up to their [[* Movement Speed][movement speed]].
+
+*** Swapping Held Items
+
+Characters put away, replace, or take out items that can be used when held.
+
+*** Reloading
+
+Characters load ammunition into a ranged weapon, a bow for example.
+
+** Conditions
+
+*** Incapacitated
+
+Whan a player drops below 0 HP, they become incapacitated. They are unable to take major or minor actions or regain HP normally.
+
+Upon entering the state, they make a power [[* Ability Check][ability check]] (12). On a successful check, the character returns to 0 HP, and the effect ends at the end of the current fight. On a failed check, the character stays incapacitated until [[* Recovery][recovery]], and the character becomes afflicted by a [[* Grevious Wound][grevious wound]].
+
+The condition can also be ended by a spell or item that provides the revive affect, returning the character to 1 HP and ending the effect, even during battle.
+
+Every time a character is attacked while incapacitated, they suffer another [[* Grevious Wound][grevious wound]]. Some foes may ignore downed combatants, but not all are so merciful.
+
+*** Death
+
+Death is the end of your playable character. They have succumbed to their injuries and pass on to the final rest.
+
+This is a good chance to say some final words to inspire your comrades. It is customary to hold a ceremony for the fallen upon return to settlement.
+
+** Grevious Wound
+
+When a character sustains critical injury, they become afflicted by a grevious wound. Roll a d6 to determine your characters grevious wound. This wounds cannot be removed by normal healing. If the same grevious wound is rolled two times in a row, then the character suffers [[* Death][death]].
+
+*** (1) Head Trauma
+
+The character is unable to remember people and motivations from their past. They must invent a new false backstory or find a new purpose.
+
+*** (2) Missing Arm
+
+Damage to one arm becomes too severe to save. Your character is no longer able to wield two handed equipment and can only wield one one handed equipment.
+
+*** (3) Severed Magical Connection
+
+Injuries the the body sever the connection a player has with their school of magic. Their [[* Magic Power (MP)][MP]] is halved.
+
+*** (4) Gnarly Scars
+
+The many wounds gained over time have accumulated and worn down the player. Their maximum [[* Health Points (HP)][HP]] is halved.
+
+*** (5) Unset Fracture
+
+Bone injuries have left the player with a worn gait. Their base [[* Movement Speed][movement speed]] is halved.
+
+*** (6) Death
+
+The character experiences [[* Death][death]].
+
+** Recovering
+
+Recovering is the process of regaining HP and MP. Certain classes regain additional resources while recovering.
+
+*** Respite
+
+A respite is the only recovery that can occur while out adventuring. After a respite, each player rolls a d6 for every character level. The players choose whether to 
+
+A respite requires an uninterupted rest of at least 4 hours. Spending 8 or more hours resting does not increase the resources gained. A respite can only occur once a day.
+
+*** Full Recovery
+
+A full recovery restores all of a character's [[* Health Points (HP)][HP]] and [[* Magic Power (MP)][MP]], but can only occur in [[* Towns][town]].
+
+
+* Roleplaying
+
+** Ability Check
+
+Ability checks are a way to use dice in combination with player stats to resolve an outcome.
+
+The DM will ask for an ability check of a player for a particular [[** The Main Stats][main stat]]. It's the players job to roll a d12 and add their stat to the roll. It will then be up to the DM to resolve outcome.
+
+** Dialog
+
+Speaking with Non-Player Characters (NPCs) is a common part of adventuring. Players may wish to elicit information from a knowledgeable town resident, haggle on the price of a rare artifact, or convince an animal that they are friendly.
+
+When players are expecting a result out of their conversation, it's the job of the DM to detect this and ask for an [[* Ability Check][ability check]]. Players have many ways to be convincing, and the strength of their argument can have a great affect on the difficulty of the ability check.
+
+Dialog is also one of the best ways to show off your character!
 
 * Character Stats
 
@@ -74,12 +194,6 @@ Magic power tracks the ammount of magic that a character can perform. Characters
 Movement speed is a measure how how fast your character is. In [[* Combat][combat]], your character is allowed to move up to their movement speed in squares every round.
 
 When moving diagonal, treat the first diagonal move as one square of movement, the second diagonal move as two squares of movement, then one, then two, etc.
-
-* Roleplaying
-
-** Ability Check
-
-** Dialog
 
 * Combat
 
