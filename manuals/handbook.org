@@ -79,7 +79,7 @@ Every time a character is attacked while incapacitated, they suffer another [[* 
 
 Death is the end of your playable character. They have succumbed to their injuries and pass on to the final rest.
 
-This is a good chance to say some final words to inspire your comrades. It is customary to hold a ceremony for the fallen upon return to settlement.
+This is a good chance to say some final words to your comrades.
 
 ** Grievous Wound
 
@@ -148,6 +148,26 @@ Dialog is also one of the best ways to show off your character!
 ** Character Level
 
 The level of your character is a measure of how skilled they are at their craft. This skill is manifested in additinal stats, features, and magical ability.
+
+Character levels start at 1 and goes up to 16. Use the following requirements chart to see what it takes to make it to level up.
+
+| Level | Location          | Downtime | Monetary Cost |
+|-------+-------------------+----------+---------------|
+|     2 | Adventure Hall    | 1 month  | 100 Shells    |
+|     3 | Adventure Hall    | 1 month  | 200 Shells    |
+|     4 | Adventure Hall    | 1 month  | 300 Shells    |
+|     5 | Adventure Hall    | 1 month  | 400 Shells    |
+|     6 | Master Study      | 4 months | 1000 Shells   |
+|     7 | Adventure Hall    | 2 months | 500 Shells    |
+|     8 | Adventure Hall    | 2 months | 600 Shells    |
+|     9 | Adventure Hall    | 2 months | 700 Shells    |
+|    10 | Adventure Hall    | 2 months | 800 Shells    |
+|    11 | Grandmaster Study | 6 months | 3000 Shells   |
+|    12 | Adventure Hall    | 3 months | 900 Shells    |
+|    13 | Adventure Hall    | 3 months | 1000 Shells   |
+|    14 | Adventure Hall    | 3 months | 1100 Shells   |
+|    15 | Adventure Hall    | 3 months | 1200 Shells   |
+|    16 | ?                 | ?        | ?             |
 
 ** The Main Stats
 
