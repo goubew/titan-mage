@@ -149,25 +149,30 @@ Dialog is also one of the best ways to show off your character!
 
 The level of your character is a measure of how skilled they are at their craft. This skill is manifested in additinal stats, features, and magical ability.
 
-Character levels start at 1 and goes up to 16. Use the following requirements chart to see what it takes to make it to level up.
+Character level starts at 1 and goes up to 16. In order to level up, characters need to spend time and money in [[* Towns][town]]. The monetary price to level up does not include living expenses. TODO
 
-| Level | Location          | Downtime | Monetary Cost |
-|-------+-------------------+----------+---------------|
-|     2 | Adventure Hall    | 1 month  | 100 Shells    |
-|     3 | Adventure Hall    | 1 month  | 200 Shells    |
-|     4 | Adventure Hall    | 1 month  | 300 Shells    |
-|     5 | Adventure Hall    | 1 month  | 400 Shells    |
-|     6 | Master Study      | 4 months | 1000 Shells   |
-|     7 | Adventure Hall    | 2 months | 500 Shells    |
-|     8 | Adventure Hall    | 2 months | 600 Shells    |
-|     9 | Adventure Hall    | 2 months | 700 Shells    |
-|    10 | Adventure Hall    | 2 months | 800 Shells    |
-|    11 | Grandmaster Study | 6 months | 3000 Shells   |
-|    12 | Adventure Hall    | 3 months | 900 Shells    |
-|    13 | Adventure Hall    | 3 months | 1000 Shells   |
-|    14 | Adventure Hall    | 3 months | 1100 Shells   |
-|    15 | Adventure Hall    | 3 months | 1200 Shells   |
-|    16 | ?                 | ?        | ?             |
+At the 6th level, a study under a master is required. Masters are not uncommon, but are not found in every town. At the 11th level, a study under a grandmaster is reqired. Although most grandmasters are well known in story and legend, not all of them can be easy to find. In order to attain the 16th level, one has to advance their field beyond it's current limits. Work with your DM to discuss your plan for this, as such things do not come with a universal price tag.
+
+Use the following requirements chart to see what it takes to make it to level up.
+
+| Level | Location          | Time     | Monetary Cost | Rank           |
+|-------+-------------------+----------+---------------+----------------|
+|     1 | N/A               | N/A      | N/A           | Apprentice     |
+|     2 | Adventure Hall    | 1 month  | 100 Shells    | Apprentice II  |
+|     3 | Adventure Hall    | 1 month  | 200 Shells    | Apprentice III |
+|     4 | Adventure Hall    | 1 month  | 300 Shells    | Apprentice IV  |
+|     5 | Adventure Hall    | 1 month  | 400 Shells    | Apprentice V   |
+|     6 | Master Study      | 6 months | 1000 Shells   | Journeyman     |
+|     7 | Adventure Hall    | 2 months | 500 Shells    | Journeyman II  |
+|     8 | Adventure Hall    | 2 months | 600 Shells    | Journeyman III |
+|     9 | Adventure Hall    | 2 months | 700 Shells    | Journeyman IV  |
+|    10 | Adventure Hall    | 2 months | 800 Shells    | Journeyman V   |
+|    11 | Grandmaster Study | 1 year   | 3000 Shells   | Master         |
+|    12 | Adventure Hall    | 3 months | 900 Shells    | Master II      |
+|    13 | Adventure Hall    | 3 months | 1000 Shells   | Master III     |
+|    14 | Adventure Hall    | 3 months | 1100 Shells   | Master IV      |
+|    15 | Adventure Hall    | 3 months | 1200 Shells   | Master V       |
+|    16 | ?                 | ?        | ?             | Grandmaster    |
 
 ** The Main Stats
 
@@ -225,7 +230,7 @@ When moving diagonal, treat the first diagonal move as one square of movement, t
 
 * Towns
 
-** Spending Time
+Adventuring is 
 
 * Player Classes
 
