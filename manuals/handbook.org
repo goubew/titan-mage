@@ -133,6 +133,18 @@ A full recovery restores all of a character's [[* Health Points (HP)][HP]] and [
 
 Skills are trades that can be learned while in [[* Towns][town]] in order to augment a characters abilities.
 
+*** Alchemy
+
+*** Bow Training
+
+*** Horseback Riding
+
+*** Lockpicking
+
+*** Shield Training
+
+*** Smithing
+
 ** Ability Check
 
 Ability checks are a way to use dice in combination with player stats to resolve an outcome.
@@ -151,13 +163,13 @@ Dialog is also one of the best ways to show off your character's personality!
 
 ** Character Level
 
-The level of your character is a measure of how skilled they are at their craft. This skill is manifested in additinal stats, features, and magical ability.
+The level of your character is a measure of how skilled they are at their craft. This skill is manifested in additional stats, features, and magical ability.
 
-Character level starts at 1 and goes up to 16. In order to level up, characters need to spend time and money in [[* Towns][town]]. The monetary price to level up does not include living expenses. TODO link living expenses when town filled out.
+Character level starts at 1 and goes up to 16. In order to level up, characters need to both gain experience out adventuring and spend time and money in [[* Towns][town]]. Your DM will let you know when you have gained enough experience to advance in level, but it is up to you to choose when to spend the time and money to learn the next level during [[** Town Actions][your town actions]].
 
-At the 6th level, a study under a master is required. Masters are not uncommon, but are not found in every town. At the 11th level, a study under a grandmaster is reqired. Although most grandmasters are well known in story and legend, not all of them can be easy to find. In order to attain the 16th level, one has to advance their field beyond it's current limits. Work with your DM to discuss your plan for this, as such things do not come with a universal price tag.
+At the 6th level, a study under a master is required. Masters are not uncommon, but are not found in every town. At the 11th level, a study under a grandmaster is required. Although most grandmasters are well known in story and legend, not all of them can be easy to find. In order to attain the 16th level, one has to advance their field beyond it's current limits. Work with your DM to discuss your plan for this, as such things do not come with a one size fits all price tag.
 
-Use the following requirements chart to see what it takes to make it to level up.
+Use the following requirements chart to see what it takes to make it to level up. The monetary price to level up does not include [[** Living Expenses][living expenses]].
 
 | Level | Location          | Time     | Monetary Cost | Rank           |
 |-------+-------------------+----------+---------------+----------------|
@@ -167,15 +179,15 @@ Use the following requirements chart to see what it takes to make it to level up
 |     4 | Adventure Hall    | 1 month  | 300 Shells    | Apprentice IV  |
 |     5 | Adventure Hall    | 1 month  | 400 Shells    | Apprentice V   |
 |     6 | Master Study      | 6 months | 1000 Shells   | Journeyman     |
-|     7 | Adventure Hall    | 2 months | 500 Shells    | Journeyman II  |
-|     8 | Adventure Hall    | 2 months | 600 Shells    | Journeyman III |
-|     9 | Adventure Hall    | 2 months | 700 Shells    | Journeyman IV  |
-|    10 | Adventure Hall    | 2 months | 800 Shells    | Journeyman V   |
+|     7 | Adventure Hall    | 2 months | 1200 Shells   | Journeyman II  |
+|     8 | Adventure Hall    | 2 months | 1400 Shells   | Journeyman III |
+|     9 | Adventure Hall    | 2 months | 1600 Shells   | Journeyman IV  |
+|    10 | Adventure Hall    | 2 months | 1800 Shells   | Journeyman V   |
 |    11 | Grandmaster Study | 1 year   | 3000 Shells   | Master         |
-|    12 | Adventure Hall    | 3 months | 900 Shells    | Master II      |
-|    13 | Adventure Hall    | 3 months | 1000 Shells   | Master III     |
-|    14 | Adventure Hall    | 3 months | 1100 Shells   | Master IV      |
-|    15 | Adventure Hall    | 3 months | 1200 Shells   | Master V       |
+|    12 | Adventure Hall    | 3 months | 3500 Shells   | Master II      |
+|    13 | Adventure Hall    | 3 months | 4000 Shells   | Master III     |
+|    14 | Adventure Hall    | 3 months | 4500 Shells   | Master IV      |
+|    15 | Adventure Hall    | 3 months | 5000 Shells   | Master V       |
 |    16 | ?                 | ?        | ?             | Grandmaster    |
 
 ** The Main Stats
@@ -234,7 +246,35 @@ When moving diagonal, treat the first diagonal move as one square of movement, t
 
 * Towns
 
-Adventuring is 
+Towns provide a safe haven between adventures, a place to rest weary bones, and prepare for what's next.
+
+** Living Expenses
+
+Every month of time spent in town incurs living expenses. The price of these expenses depends upon your desired station. It may be tempting to choose meager living expenses, but know that you station effects how others perceive you. The rarest [[** Artifacts][artifacts]] and most lucrative jobs often go to those of high station. The prices for living expenses are shown in the following table.
+
+| Station | Monthly Expenses |
+|---------+------------------|
+| Meager  | 50 Shells        |
+| Frugal  | 100 Shells       |
+| Average | 200 Shells       |
+| High    | 500 Shells       |
+| Royal   | 1000 Shells      |
+
+** Town Actions
+
+You may be returning to town just for the sake of a [[*** Full Recovery][full recovery]], but why not take advantage of what the town has to offer? Time spent in town is devoted to town actions. Town actions occur on the order of months, and each member of the party need not take the same town action at the same time.
+
+*** Mentorship
+
+*** Philanthropy
+
+*** Real Estate
+
+*** Research
+
+*** Shopping
+
+*** Skill Studying
 
 * Player Classes
 
@@ -246,6 +286,7 @@ Tacticians are able to survey a battlefield with ease. They are able to command 
 
 HP per Level: 8
 MP per Level: 8
+
 One standard magic system
 
 ** Mercenary
@@ -256,6 +297,7 @@ Mercenaries are masters of combat and weaponry, able to wield the rarest weapons
 
 HP per Level: 10
 MP per Level: 6
+
 One standard magic system
 
 ** Assassin
@@ -266,6 +308,7 @@ Assassins are skilled dealing damage through the use of well placed attacks and 
 
 HP per Level: 8
 MP per Level: 8
+
 One standard magic system
 
 ** Scholar
@@ -276,13 +319,8 @@ Scholars are those who seek to understand the titan's influence on the world. Th
 
 HP per Level: 6
 MP per Level: 10
+
 One advanced magic system
-
-** Beastheart
-
-/"Roar."/
-
-Beasthearts are those who have formed a strong bond with a beast of nature. Time spent in the wilds has formed a shared consciousness with the beastheart's closest animal companion.
 
 ** Bereft
 
@@ -293,9 +331,11 @@ The Bereft are those without any advantage. Unlikely adventurers, but it is not 
 HP per Level: 6
 MP per Level: 0
 
+No magic.
+
 * Systems of Magic
 
-The power of the titans left its mark on the world. The study of these marks led to the beginning of the practice of magic. Independendly, the studies led in different paths that lead to the groups of magic that are currently known.
+The power of the titans left its mark on the world. The study of these marks led to the beginning of the practice of magic. Independently, the studies led in different paths that lead to the groups of magic that are currently known.
 
 Each group requires a lifetime of practice and a focus to the craft. Even then, some advanced magics are only able to be learned by those who give their complete energy to the study. These are known as advanced magics, while the easier, but still rare, magics are called the standard magics.
 
@@ -357,7 +397,7 @@ These effects are limited by the number of favors available and can be activated
 
 Harvesters utilize the remains of the fallen, twisting them to their own purposes. They collect soul pieces from those that die during combat, which are manipulated to their end through the use of spells called extractions.
 
-The number of knwon extractions and maximum number of sould pieces that can be held at the same time are shown in the following table.
+The number of known extractions and maximum number of should pieces that can be held at the same time are shown in the following table.
 
 | Level | # Extractions Known | Max Soul Pieces |
 |-------+---------------------+-----------------|
@@ -377,6 +417,11 @@ The number of knwon extractions and maximum number of sould pieces that can be h
 |    14 |                  10 |              12 |
 |    15 |                  11 |              13 |
 |    16 |                  13 |              15 |
+
+*** Beastheart
+
+Beasthearts are those who have formed a magical bond with a beast companion. Time spent in the wilds has formed a shared consciousness with their 
+
 
 ** Advanced Magics
 
@@ -432,3 +477,11 @@ Elemental spells, called sourceries, can be devastatingly powerful, but rely on 
 |    16 |                       13 |                        5 |
 
 * Equipment
+
+** Adventuring Equipment
+
+** Artifacts
+
+** Currency
+
+TODO
