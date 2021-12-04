@@ -69,11 +69,11 @@ Characters load ammunition into a ranged weapon, a bow for example.
 
 When a player drops below 0 HP, they become incapacitated. They are unable to take major or minor actions or regain HP normally.
 
-Upon entering the state, they make a power [[* Ability Check][ability check]] (12). On a successful check, the character returns to 0 HP, and the effect ends at the end of the current fight. On a failed check, the character stays incapacitated until [[* Recovery][recovery]], and the character becomes afflicted by a [[* Grevious Wound][grevious wound]].
+Upon entering the state, they make a power [[* Ability Check][ability check]] (12). On a successful check, the character returns to 0 HP, and the effect ends at the end of the current fight. On a failed check, the character stays incapacitated until [[* Recovering][recovery]], and the character becomes afflicted by a [[* Grievous Wound][grievous wound]].
 
 The condition can also be ended by a spell or item that provides the revive affect, returning the character to 1 HP and ending the effect, even during battle.
 
-Every time a character is attacked while incapacitated, they suffer another [[* Grevious Wound][grevious wound]]. Some foes may ignore downed combatants, but not all are so merciful.
+Every time a character is attacked while incapacitated, they suffer another [[* Grievous Wound][grievous wound]]. Some foes may ignore downed combatants, but not all are so merciful.
 
 *** Death
 
@@ -117,7 +117,7 @@ Recovering is the process of regaining HP and MP. Certain classes regain additio
 
 A respite is the only recovery that can occur while out adventuring. A respite requires an uninterrupted rest of at least 4 hours. Spending 8 or more hours resting does not increase the resources gained, and a respite can only occur once a day.
 
-After a respite, each player rolls a d6 up to their character level number of times. The players choose whether to add the value on the die rolled to their [[*** Health Points (HP)][HP]] or [[*** Magic Power (MP)][MP]].
+After a respite, each player rolls a d6 up to their character level number of times. The players choose whether to add the value on the die rolled to their [[* Health Points (HP)][HP]] or [[* Magic Power (MP)][MP]].
 
 Once character level number of respite dice have been rolled, no more can be rolled until a full recovery has occurred.
 
@@ -149,7 +149,7 @@ Skills are trades that can be learned while in [[* Towns][town]] in order to aug
 
 Ability checks are a way to use dice in combination with player stats to resolve an outcome.
 
-The DM will ask for an ability check of a player for a particular [[** The Main Stats][main stat]]. It's the players job to roll a d12 and add their stat to the roll. It will then be up to the DM to resolve outcome.
+The DM will ask for an ability check of a player for a particular [[* The Main Stats][main stat]]. It's the players job to roll a d12 and add their stat to the roll. It will then be up to the DM to resolve outcome.
 
 ** Dialog
 
@@ -165,11 +165,11 @@ Dialog is also one of the best ways to show off your character's personality!
 
 The level of your character is a measure of how skilled they are at their craft. This skill is manifested in additional stats, features, and magical ability.
 
-Character level starts at 1 and goes up to 16. In order to level up, characters need to both gain experience out adventuring and spend time and money in [[* Towns][town]]. Your DM will let you know when you have gained enough experience to advance in level, but it is up to you to choose when to spend the time and money to learn the next level during [[** Town Actions][your town actions]].
+Character level starts at 1 and goes up to 16. In order to level up, characters need to both gain experience out adventuring and spend time and money in [[* Towns][town]]. Your DM will let you know when you have gained enough experience to advance in level, but it is up to you to choose when to spend the time and money to learn the next level during [[* Town Actions][your town actions]].
 
 At the 6th level, a study under a master is required. Masters are not uncommon, but are not found in every town. At the 11th level, a study under a grandmaster is required. Although most grandmasters are well known in story and legend, not all of them can be easy to find. In order to attain the 16th level, one has to advance their field beyond it's current limits. Work with your DM to discuss your plan for this, as such things do not come with a one size fits all price tag.
 
-Use the following requirements chart to see what it takes to make it to level up. The monetary price to level up does not include [[** Living Expenses][living expenses]].
+Use the following requirements chart to see what it takes to make it to level up. The monetary price to level up does not include [[* Living Expenses][living expenses]].
 
 | Level | Location          | Time     | Monetary Cost | Rank           |
 |-------+-------------------+----------+---------------+----------------|
@@ -192,7 +192,7 @@ Use the following requirements chart to see what it takes to make it to level up
 
 ** The Main Stats
 
-Main stats are the primary stats in the game. Actions with an uncertain outcome are almost always modified by one of these through [[** Ability Check][ability checks]].
+Main stats are the primary stats in the game. Actions with an uncertain outcome are almost always modified by one of these through [[* Ability Check][ability checks]].
 
 These stats range from 1 to 16. When stats are upgraded, the effects of stats are always retroactive. Stats are broken up into the following categories:
 
@@ -250,7 +250,7 @@ Towns provide a safe haven between adventures, a place to rest weary bones, and 
 
 ** Living Expenses
 
-Every month of time spent in town incurs living expenses. The price of these expenses depends upon your desired station. It may be tempting to choose meager living expenses, but know that you station effects how others perceive you. The rarest [[** Artifacts][artifacts]] and most lucrative jobs often go to those of high station. The prices for living expenses are shown in the following table.
+Every month of time spent in town incurs living expenses. The price of these expenses depends upon your desired station. It may be tempting to choose meager living expenses, but know that you station effects how others perceive you. The rarest [[* Artifacts][artifacts]] and most lucrative jobs often go to those of high station. The prices for living expenses are shown in the following table.
 
 | Station | Monthly Expenses |
 |---------+------------------|
@@ -262,9 +262,21 @@ Every month of time spent in town incurs living expenses. The price of these exp
 
 ** Town Actions
 
-You may be returning to town just for the sake of a [[*** Full Recovery][full recovery]], but why not take advantage of what the town has to offer? Time spent in town is devoted to town actions. Town actions occur on the order of months, and each member of the party need not take the same town action at the same time.
+You may be returning to town just for the sake of a [[* Full Recovery][full recovery]], but why not take advantage of what the town has to offer? Time spent in town is devoted to town actions. Town actions occur on the order of months, and each member of the party need not take the same town actions at the same time.
+
+*** Training
+
+Time spent training allows you to [[* Character Level][level up]]. See the level up table for the time ranges and costs.
 
 *** Mentorship
+
+As your character gains levels, the ability to become a mentor assisting an unplayed character in leveling up becomes available. Players are responsible for creating a full character sheet for their mentee. A mentee must remain at least 5 levels lower than the player character.
+
+Being a mentee takes time equal to the player character's . In exchange for your time and expertise, your character is rewarded with the price of [[* Character Level][level ups]] for the level the mentee gains. 
+
+Mentees are not able to gain levels back to back. Just like players, they need time to develop their new knowledge. This amount of time is at the DM's discretion.
+
+Mentees may wish to join your adventuring party at such unfortunate times that room becomes available...
 
 *** Philanthropy
 
