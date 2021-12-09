@@ -490,10 +490,28 @@ Elemental spells, called sourceries, can be devastatingly powerful, but rely on 
 
 * Equipment
 
+** Combat Equipment
+
+Combat equipment includes weapons, armor, helms, and shields. Only one set of armor and helm can be worn at a time. Two one-handed combat items or one two-handed combat items can be worn at a time.
+
+Switching held equipment, that is equipment that is not worn, can done with the [[*** Swapping Held Items][swapping held items]] minor action.
+
 ** Adventuring Equipment
+
+In addition to combat equipment, it is wise to stock up on adventuring equipment. These include ropes, light sources, bags, etc.
 
 ** Artifacts
 
+Artifacts are special items infused with magic. Artifacts can be of any type, but are always better than the base item. Artifacts may have requirements beyond the base item.
+
+Artifacts are valuable and coveted, so to have any is to paint a target on your back. Guard them carefully
+
 ** Currency
 
-TODO
+The currency in the game are shells and pearls.
+
+| Currency     | Value (in Shells) |
+|--------------+-------------------|
+| Shells       |                 1 |
+| White Pearls |               100 |
+| Black Pearls |             10000 |
