@@ -131,7 +131,7 @@ A full recovery restores all of a character's [[* Health Points (HP)][HP]] and [
 
 ** Skills
 
-Skills are trades that can be learned while in [[* Towns][town]] in order to augment a characters abilities.
+Skills are trades that can be learned while in [[* Towns][town]] in order to augment a characters abilities. Skills take 3 months of time to learn, and a have an upfront cost.
 
 *** Alchemy
 
@@ -260,13 +260,49 @@ Every month of time spent in town incurs living expenses. The price of these exp
 | High    | 500 Shells       |
 | Royal   | 1000 Shells      |
 
+** Town Features
+
+Towns support people from many walks of life. While in town you may wish to make use of services provided there. Not every town provides all of these services.
+
+*** Adventure Hall
+
+Adventure Halls are places where for hire adventurers can train and scout for work.
+
+*** Apothecary
+
+Apothecaries sell potions and droughts that may help you while you are away.
+
+*** Cobbler
+
+Cobblers sell and repair footwear.
+
+*** General Store
+
+General Stores sell simple craft and imported goods.
+
+*** Library
+
+Libraries are rare and are usually tied to schools of learning.
+
+*** Smith
+
+Smithies sell metal forged tools.
+
+*** Stable
+
+Stables house pack animals for a price. Some stables offer animals for sale.
+
+*** Tailor
+
+Tailors sell garments of various quality.
+
 ** Town Actions
 
 You may be returning to town just for the sake of a [[* Full Recovery][full recovery]], but why not take advantage of what the town has to offer? Time spent in town is devoted to town actions. Town actions occur on the order of months, and each member of the party need not take the same town actions at the same time.
 
 *** Training
 
-Time spent training allows you to [[* Character Level][level up]]. See the level up table for the time ranges and costs.
+Time spent training at an [[* Adventure Hall][adventure hall]] allows you to [[* Character Level][level up]]. See the level up table for the time ranges and costs.
 
 *** Mentorship
 
@@ -280,19 +316,23 @@ Mentees may wish to join your adventuring party at such unfortunate times that r
 
 *** Philanthropy
 
-*** Real Estate
+Many organizations rely on the generosity of rich adventurers. You may wish to spend time donating funds or volunteering for an organization that your character is aligned with.
 
 *** Research
 
+Time can be spent researching a topic in town. Asking around, checking scholarly records. Some research tasks can go easier with a little grease.
+
 *** Shopping
 
+Adventuring requires extreme preparation. Before embarking, it is wise to stock up on items to help you while away.
+
 *** Skill Studying
+
+Time in town can be spent learning a new [[* Skills][skill]]. See the list of skills for time and cost requirements.
 
 * Player Classes
 
 ** Tactician
-
-/"Victory requires no hope, it is assured."/
 
 Tacticians are able to survey a battlefield with ease. They are able to command allies, increasing their battle effectiveness, and have insight into enemies traits.
 
@@ -303,8 +343,6 @@ One standard magic system
 
 ** Mercenary
 
-/"Imagine bringing a pen to battle."/
-
 Mercenaries are masters of combat and weaponry, able to wield the rarest weapons and strongest armors. Cleaving and rending is the way of the Mercenary.
 
 HP per Level: 10
@@ -313,8 +351,6 @@ MP per Level: 6
 One standard magic system
 
 ** Assassin
-
-/"How easy one slips into the long dark."/
 
 Assassins are skilled dealing damage through the use of well placed attacks and devious weapon modifications. Few can stand before an Assassin and live to tell the tale.
 
@@ -325,8 +361,6 @@ One standard magic system
 
 ** Scholar
 
-/"To seek no knowledge is to squander life and live as does the commonest weed."/
-
 Scholars are those who seek to understand the titan's influence on the world. The knowledge is only a mimicry, but even a fraction of that power is enough to demand respect.
 
 HP per Level: 6
@@ -335,8 +369,6 @@ MP per Level: 10
 One advanced magic system
 
 ** Bereft
-
-/"Passed by without so much as a glance."/
 
 The Bereft are those without any advantage. Unlikely adventurers, but it is not for fate to say who are the greats.
 
@@ -357,7 +389,7 @@ Each group requires a lifetime of practice and a focus to the craft. Even then, 
 
 The Runecast are warriors that pursue the study of an ancient written language. By etching these runic symbols into their weapons and armor, they are able to bind the power of magic to physical objects, and augment their combat ability.
 
-Carving runes into your weapons and armor reserves [[* Magic Power (MP)][MP]]. The passive effects of these runes are always present. Runecast are only able to modify their own equipment.
+Carving runes into your weapons and armor reserves [[* Magic Power (MP)][MP]]. The passive effects of these runes are always present. Runecast are only able to modify their own equipment and can not add runes to [[* Artifacts][artifacts]].
 
 The number of runes that can be equipped at a time is shown in the following table.
 
@@ -494,7 +526,7 @@ Elemental spells, called sourceries, can be devastatingly powerful, but rely on 
 
 Combat equipment includes weapons, armor, helms, and shields. Only one set of armor and helm can be worn at a time. Two one-handed combat items or one two-handed combat items can be worn at a time.
 
-Switching held equipment, that is equipment that is not worn, can done with the [[*** Swapping Held Items][swapping held items]] minor action.
+Switching held equipment, that is equipment that is not worn, can done with the [[* Swapping Held Items][swapping held items]] minor action.
 
 ** Adventuring Equipment
 
@@ -513,5 +545,5 @@ The currency in the game are shells and pearls.
 | Currency     | Value (in Shells) |
 |--------------+-------------------|
 | Shells       |                 1 |
-| White Pearls |               100 |
-| Black Pearls |             10000 |
+| Pearls       |               100 |
+| Black Pearls |              1000 |
