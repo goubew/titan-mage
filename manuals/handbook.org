@@ -31,7 +31,7 @@ Use the following checklist to create a new character.
 - Decide on a [[* Systems of Magic][magic system]] compatible with your player class
   - Fill in the magic system name
   - Fill in your starting spell choices
-- Decide on a starting skill
+- Decide on a starting [[* Skills][skill]].
   - Fill in your starting skill
 - Fill in your character name
 
@@ -134,6 +134,8 @@ A full recovery restores all of a character's [[* Health Points (HP)][HP]] and [
 Skills are trades that can be learned while in [[* Towns][town]] in order to augment a characters abilities. Skills take 3 months of time to learn, and a have an upfront cost.
 
 *** Alchemy
+
+*** Appraisal
 
 *** Bow Training
 
@@ -272,6 +274,10 @@ Adventure Halls are places where for hire adventurers can train and scout for wo
 
 Apothecaries sell potions and droughts that may help you while you are away.
 
+*** Cartographer
+
+Cartographers are designers of maps. The more expensive ones are typically the more accurate.
+
 *** Cobbler
 
 Cobblers sell and repair footwear.
@@ -282,9 +288,13 @@ General Stores sell simple craft and imported goods.
 
 *** Library
 
-Libraries are rare and are usually tied to schools of learning.
+Libraries are rare and are usually tied to universities.
 
-*** Smith
+*** Market
+
+Markets are areas, typically outdoors, where foods and crafts are sold.
+
+*** Smithy
 
 Smithies sell metal forged tools.
 
@@ -299,6 +309,10 @@ Tailors sell garments of various quality.
 ** Town Actions
 
 You may be returning to town just for the sake of a [[* Full Recovery][full recovery]], but why not take advantage of what the town has to offer? Time spent in town is devoted to town actions. Town actions occur on the order of months, and each member of the party need not take the same town actions at the same time.
+
+*** Learning Skills
+
+Time in town can be spent learning a new [[* Skills][skill]]. See the list of skills for time and cost requirements.
 
 *** Training
 
@@ -326,9 +340,9 @@ Time can be spent researching a topic in town. Asking around, checking scholarly
 
 Adventuring requires extreme preparation. Before embarking, it is wise to stock up on items to help you while away.
 
-*** Skill Studying
+*** Working
 
-Time in town can be spent learning a new [[* Skills][skill]]. See the list of skills for time and cost requirements.
+Taking up temporary work allows you to live with frugal [[* Living Expenses][expenses]] without costing any gold. Performing skilled labor may pay for higher expenses and the DM's discretion.
 
 * Player Classes
 
@@ -339,7 +353,18 @@ Tacticians are able to survey a battlefield with ease. They are able to command 
 HP per Level: 8
 MP per Level: 8
 
-One standard magic system
+One standard magic system.
+
+At the first level, tacticians gain the *delayed action* class feature. This allows the player to take their minor action, major action, or both actions later in the turn order. The conditions for taking the turn and the action that is to be taken must be expressed at the normal turn order.
+
+At the third level, tacticians gain the
+At the fifth level, tacticians gain the
+At the seventh level, tacticians gain the
+At the ninth level, tacticians gain the
+At the eleventh level, tacticians gain the
+At the thirteenth level, tacticians gain the
+At the fifteenth level, tacticians gain the
+At the sixteenth level, tacticians gain the
 
 ** Mercenary
 
@@ -348,7 +373,17 @@ Mercenaries are masters of combat and weaponry, able to wield the rarest weapons
 HP per Level: 10
 MP per Level: 6
 
-One standard magic system
+One standard magic system.
+
+At the first level, mercenaries gain the
+At the third level, mercenaries gain the
+At the fifth level, mercenaries gain the
+At the seventh level, mercenaries gain the
+At the ninth level, mercenaries gain the
+At the eleventh level, mercenaries gain the
+At the thirteenth level, mercenaries gain the
+At the fifteenth level, mercenaries gain the
+At the sixteenth level, mercenaries gain the
 
 ** Assassin
 
@@ -357,7 +392,17 @@ Assassins are skilled dealing damage through the use of well placed attacks and 
 HP per Level: 8
 MP per Level: 8
 
-One standard magic system
+One standard magic system.
+
+At the first level, assassins gain the
+At the third level, assassins gain the
+At the fifth level, assassins gain the
+At the seventh level, assassins gain the
+At the ninth level, assassins gain the
+At the eleventh level, assassins gain the
+At the thirteenth level, assassins gain the
+At the fifteenth level, assassins gain the
+At the sixteenth level, assassins gain the
 
 ** Scholar
 
@@ -366,22 +411,32 @@ Scholars are those who seek to understand the titan's influence on the world. Th
 HP per Level: 6
 MP per Level: 10
 
-One advanced magic system
+One advanced magic system.
+
+At the first level, scholars gain the
+At the third level, scholars gain the
+At the fifth level, scholars gain the
+At the seventh level, scholars gain the
+At the ninth level, scholars gain the
+At the eleventh level, scholars gain the
+At the thirteenth level, scholars gain the
+At the fifteenth level, scholars gain the
+At the sixteenth level, scholars gain the
 
 ** Bereft
 
-The Bereft are those without any advantage. Unlikely adventurers, but it is not for fate to say who are the greats.
+The Bereft are those without any advantage in life. Unlikely adventurers, but it is not for fate to say who are the greats.
 
-HP per Level: 6
-MP per Level: 0
+HP per Level: 8
+MP per Level: 3
 
-No magic.
+No magic systems.
 
 * Systems of Magic
 
 The power of the titans left its mark on the world. The study of these marks led to the beginning of the practice of magic. Independently, the studies led in different paths that lead to the groups of magic that are currently known.
 
-Each group requires a lifetime of practice and a focus to the craft. Even then, some advanced magics are only able to be learned by those who give their complete energy to the study. These are known as advanced magics, while the easier, but still rare, magics are called the standard magics.
+Each group requires a lifetime of practice and a focus to the craft. Even then, some advanced magics are only able to be learned by those who give their complete energy to the study. These are known as advanced magics, while the easier magics are called the standard magics.
 
 ** Standard Magics
 
@@ -405,12 +460,12 @@ The number of runes that can be equipped at a time is shown in the following tab
 |     8 | 5          |
 |     9 | 5          |
 |    10 | 6          |
-|    11 | 7          |
+|    11 | 6          |
 |    12 | 7          |
-|    13 | 8          |
+|    13 | 7          |
 |    14 | 8          |
-|    15 | 9          |
-|    16 | 11         |
+|    15 | 8          |
+|    16 | 10         |
 
 *** Spirit Caller
 
@@ -425,17 +480,17 @@ These effects are limited by the number of favors available and can be activated
 |     3 |                  2 |                  2 |
 |     4 |                  2 |                  3 |
 |     5 |                  2 |                  3 |
-|     6 |                  3 |                  5 |
-|     7 |                  3 |                  5 |
-|     8 |                  3 |                  6 |
-|     9 |                  3 |                  6 |
-|    10 |                  3 |                  7 |
-|    11 |                  4 |                  9 |
-|    12 |                  4 |                  9 |
-|    13 |                  4 |                 10 |
-|    14 |                  4 |                 10 |
-|    15 |                  4 |                 11 |
-|    16 |                  5 |                 13 |
+|     6 |                  3 |                  4 |
+|     7 |                  3 |                  4 |
+|     8 |                  3 |                  5 |
+|     9 |                  3 |                  5 |
+|    10 |                  3 |                  6 |
+|    11 |                  4 |                  6 |
+|    12 |                  4 |                  7 |
+|    13 |                  4 |                  7 |
+|    14 |                  4 |                  8 |
+|    15 |                  4 |                  8 |
+|    16 |                  5 |                 10 |
 
 *** Harvester
 
@@ -450,22 +505,21 @@ The number of known extractions and maximum number of should pieces that can be 
 |     3 |                   2 |               4 |
 |     4 |                   3 |               5 |
 |     5 |                   3 |               5 |
-|     6 |                   5 |               7 |
-|     7 |                   5 |               7 |
-|     8 |                   6 |               8 |
-|     9 |                   6 |               8 |
-|    10 |                   7 |               9 |
-|    11 |                   9 |              11 |
-|    12 |                   9 |              11 |
-|    13 |                  10 |              12 |
-|    14 |                  10 |              12 |
-|    15 |                  11 |              13 |
-|    16 |                  13 |              15 |
+|     6 |                   4 |               6 |
+|     7 |                   4 |               6 |
+|     8 |                   5 |               7 |
+|     9 |                   5 |               7 |
+|    10 |                   6 |               8 |
+|    11 |                   6 |               8 |
+|    12 |                   7 |               9 |
+|    13 |                   7 |               9 |
+|    14 |                   8 |              10 |
+|    15 |                   8 |              10 |
+|    16 |                  10 |              12 |
 
-*** Beastheart
+*** Wildpact
 
-Beasthearts are those who have formed a magical bond with a beast companion. Time spent in the wilds has formed a shared consciousness with their 
-
+Wildpact are those who have formed a magical bond with a beast companion. Time spent in the wilds has formed a shared consciousness that allows the wildpact and beast to fight as one.
 
 ** Advanced Magics
 
@@ -505,28 +559,32 @@ Elemental spells, called sourceries, can be devastatingly powerful, but rely on 
 |-------+--------------------------+--------------------------|
 |     1 |                        1 |                        1 |
 |     2 |                        2 |                        2 |
-|     3 |                        2 |                        2 |
-|     4 |                        3 |                        2 |
-|     5 |                        3 |                        2 |
-|     6 |                        5 |                        3 |
-|     7 |                        5 |                        3 |
-|     8 |                        6 |                        3 |
-|     9 |                        6 |                        3 |
-|    10 |                        7 |                        3 |
-|    11 |                        9 |                        4 |
-|    12 |                        9 |                        4 |
-|    13 |                       10 |                        4 |
-|    14 |                       10 |                        4 |
-|    15 |                       11 |                        4 |
-|    16 |                       13 |                        5 |
+|     3 |                        3 |                        2 |
+|     4 |                        4 |                        2 |
+|     5 |                        5 |                        2 |
+|     6 |                        6 |                        3 |
+|     7 |                        7 |                        3 |
+|     8 |                        8 |                        3 |
+|     9 |                        9 |                        3 |
+|    10 |                       10 |                        3 |
+|    11 |                       11 |                        4 |
+|    12 |                       12 |                        4 |
+|    13 |                       13 |                        4 |
+|    14 |                       14 |                        4 |
+|    15 |                       15 |                        4 |
+|    16 |                       16 |                        5 |
 
 * Equipment
 
 ** Combat Equipment
 
-Combat equipment includes weapons, armor, helms, and shields. Only one set of armor and helm can be worn at a time. Two one-handed combat items or one two-handed combat items can be worn at a time.
+Combat equipment includes weapons, armor, helms, and shields.
 
-Switching held equipment, that is equipment that is not worn, can done with the [[* Swapping Held Items][swapping held items]] minor action.
+Armor and helms are considered worn equipment. Weapons and shields are considered held equipment.
+
+Only one set of armor and one helm can be worn at a time. Two one-handed combat items or one two-handed combat items can be worn at a time.
+
+Switching held equipment, can done with the [[* Swapping Held Items][swapping held items]] minor action.
 
 ** Adventuring Equipment
 
