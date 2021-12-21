@@ -47,7 +47,11 @@ Characters make an attack against an enemy using an equipped weapon. An unarmed 
 
 *** Spell Cast
 
-Characters who are learned in a [[* Systems of Magic][school of magic]] that provides spells marked as a major action can cast them as such.
+Characters who are learned in a [[* Systems of Magic][school of magic]] that provides spells marked as a major action can cast them.
+
+*** Guard
+
+Characters gain level / 2 [[* Defense][defense]] until the beginning of their next turn.
 
 ** Default Minor Actions
 
@@ -240,6 +244,10 @@ Health points tracks the life of your character. The closer to 0, the closer you
 
 Magic power tracks the amount of magic that a character can perform. Characters gain extra health at every level based on their [[* Player Classes][class]].
 
+*** Defense
+
+Defense provides flat damage reduction.
+
 *** Movement Speed
 
 Movement speed is a measure how fast your character is. In [[* Combat][combat]], your character is allowed to move up to their movement speed in squares every round.
@@ -355,13 +363,18 @@ MP per Level: 8
 
 One standard magic system.
 
-At the first level, tacticians gain the *delayed action* class feature. This allows the player to take their minor action, major action, or both actions later in the turn order. The conditions for taking the turn and the action that is to be taken must be expressed at the normal turn order.
+At the first level, tacticians gain the *delayed action* class feature. This allows the player to take their minor action, major action, or both actions later in the turn order. The conditions for taking the turn and the action that is to be taken must be expressed during your normal turn.
 
-At the third level, tacticians gain the
-At the fifth level, tacticians gain the
+At the third level, tacticians gain the *battle insight* minor action. This lets the tactician determine the remaining [[* Health Points (HP)][hp]] of a single enemy.
+
+At the fifth level, tacticians gain the *dual guard* major action. If an ally is within five feet of the tactician, both they and the tactician gain the effect of the guard.
+
 At the seventh level, tacticians gain the
+
 At the ninth level, tacticians gain the
-At the eleventh level, tacticians gain the
+
+At the eleventh level, tacticians gain the *shot calling* major action. This lets another character take a major action during your turn instead of you. You decide which major action, but they must agree.
+
 At the thirteenth level, tacticians gain the
 At the fifteenth level, tacticians gain the
 At the sixteenth level, tacticians gain the
