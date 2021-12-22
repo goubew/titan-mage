@@ -565,8 +565,9 @@ The number of known incantations are shown in the following table.
 
 Elementalists draw from the latent magic left behind from the construction of the world.
 
+Elemental spells, called sourceries, can be devastatingly powerful, but rely on the setup and maintenance of elemental catalysts. Elementalists learn major and minor sourceries that can be used as major and minor actions.
 
-Elemental spells, called sourceries, can be devastatingly powerful, but rely on the setup and maintenance of elemental catalysts. Elementalists learn major and minor sourceries that can be used as major and minor actions. TODO Add element section
+Elementalists work with the catalysts of heat, cold, earth, lightning, and dark.  Sourceries that create these catalysts are marked with a type and amount, e.g. creates heat 2. Spells that consume the catalysts are marked with type and cost, e.g. consumes heat 1. At the end of the elementalist's turn, the value of each catalyst type is reduced by 1 to a minimum of 0.
 
 | Level | # Major Sourceries Known | # Minor Sourceries Known |
 |-------+--------------------------+--------------------------|
