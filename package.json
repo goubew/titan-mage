@@ -2,9 +2,9 @@
   "name": "titan-mage",
   "version": "1.0.0",
   "description": "A hobbyist TTRPG",
-  "main": "index.js",
   "scripts": {
-    "test": "mocha -b"
+    "test": "mocha -b",
+    "build": "node index.js"
   },
   "repository": {
     "type": "git",

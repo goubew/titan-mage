@@ -7,6 +7,7 @@ let { references, referenceTypes, loadReferences } = require("../index.js");
 
 describe("References match the schemas", () => {
   it("Can convert the reference files from yaml to json", () => { loadReferences() });
+
   for (const reference of referenceTypes) {
     it(`${reference} matches its schema`, () => {
       const referenceData = references[reference];
