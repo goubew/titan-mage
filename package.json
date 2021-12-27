@@ -1,21 +1,21 @@
 {
-  "name": "of-wilds-and-wastes",
+  "name": "titan-mage",
   "version": "1.0.0",
-  "description": "A hobbyist open source TTRPG",
+  "description": "A hobbyist TTRPG",
   "main": "index.js",
   "scripts": {
     "test": "mocha -b"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goubew/calypso.git"
+    "url": "git+https://github.com/goubew/titan-mage.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goubew/calypso/issues"
+    "url": "https://github.com/goubew/titan-mage/issues"
   },
-  "homepage": "https://github.com/goubew/calypso#readme",
+  "homepage": "https://github.com/goubew/titan-mage#readme",
   "devDependencies": {
     "ajv": "^8.6.3",
     "mocha": "^9.1.3",
