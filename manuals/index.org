@@ -1,6 +1,8 @@
+#+OPTIONS: toc:nil
+
 * Welcome to Titan Mage
 
-Welcom to Titan Mage, a free hobbyist TTRPG!
+Welcome to Titan Mage, a free hobbyist TTRPG!
 
 ** For Players
 
