@@ -125,7 +125,7 @@ pre > code {
 
 /* Tables */
 table {
-  text-align: justify;
+  text-align: center;
   width: 100%;
   border-collapse: collapse; }
 
@@ -185,8 +185,14 @@ label, legend, fieldset {
   margin-bottom: .5rem;
   font-weight: 600; }
 
+/* Classes */
+
 button.to-top-button {
   position: fixed;
   right: 2em;
   bottom: 2em;
+}
+
+div.xtable {
+  overflow-x: scroll;
 }

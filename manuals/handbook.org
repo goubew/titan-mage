@@ -178,6 +178,7 @@ At the 6th level, a study under a master is required. Masters are not uncommon, 
 
 Use the following requirements chart to see what it takes to make it to level up. The monetary price to level up does not include [[* Living Expenses][living expenses]].
 
+#+begin_xtable
 | Level | Location          | Time     | Monetary Cost | Rank           |
 |-------+-------------------+----------+---------------+----------------|
 |     1 | N/A               | N/A      | N/A           | Apprentice     |
@@ -196,6 +197,7 @@ Use the following requirements chart to see what it takes to make it to level up
 |    14 | Adventure Hall    | 3 months | 4500 Shells   | Master IV      |
 |    15 | Adventure Hall    | 3 months | 5000 Shells   | Master V       |
 |    16 | ?                 | ?        | ?             | Grandmaster    |
+#+end_xtable
 
 ** The Main Stats
 
@@ -263,6 +265,7 @@ Towns provide a safe haven between adventures, a place to rest weary bones, and 
 
 Every month of time spent in town incurs living expenses. The price of these expenses depends upon your desired station. It may be tempting to choose meager living expenses, but know that you station effects how others perceive you. The rarest [[* Artifacts][artifacts]] and most lucrative jobs often go to those of high station. The prices for living expenses are shown in the following table.
 
+#+begin_xtable
 | Station | Monthly Expenses |
 |---------+------------------|
 | Meager  | 50 Shells        |
@@ -270,6 +273,7 @@ Every month of time spent in town incurs living expenses. The price of these exp
 | Average | 200 Shells       |
 | High    | 500 Shells       |
 | Royal   | 1000 Shells      |
+#+end_xtable
 
 ** Town Features
 
@@ -462,6 +466,7 @@ Carving runes into your weapons and armor reserves [[* Magic Power (MP)][MP]]. T
 
 The number of runes that can be equipped at a time is shown in the following table.
 
+#+begin_xtable
 | Level | # of Runes |
 |-------+------------|
 |     1 | 1          |
@@ -480,6 +485,7 @@ The number of runes that can be equipped at a time is shown in the following tab
 |    14 | 8          |
 |    15 | 8          |
 |    16 | 10         |
+#+end_xtable
 
 *** Spirit Caller
 
@@ -487,6 +493,7 @@ Spirit Callers hold a spiritual bond with their ancestors. In death, the spirits
 
 These effects are limited by the number of favors available and can be activated a number of times per combat shown in the following table.
 
+#+begin_xtable
 | Level | # Casts Per Combat | # Favors Available |
 |-------+--------------------+--------------------|
 |     1 |                  1 |                  1 |
@@ -505,6 +512,7 @@ These effects are limited by the number of favors available and can be activated
 |    14 |                  4 |                  8 |
 |    15 |                  4 |                  8 |
 |    16 |                  5 |                 10 |
+#+end_xtable
 
 *** Harvester
 
@@ -512,6 +520,7 @@ Harvesters utilize the remains of the fallen, twisting them to their own purpose
 
 The number of known extractions and maximum number of should pieces that can be held at the same time are shown in the following table.
 
+#+begin_xtable
 | Level | # Extractions Known | Max Soul Pieces |
 |-------+---------------------+-----------------|
 |     1 |                   1 |               3 |
@@ -530,6 +539,7 @@ The number of known extractions and maximum number of should pieces that can be 
 |    14 |                   8 |              10 |
 |    15 |                   8 |              10 |
 |    16 |                  10 |              12 |
+#+end_xtable
 
 *** Wildpact
 
@@ -543,6 +553,7 @@ The Ancient Whisperers have studied the lost spoken language of the titans. Thro
 
 The number of known incantations are shown in the following table.
 
+#+begin_xtable
 | Level | # Incantations Known |
 |-------+----------------------|
 |     1 |                    1 |
@@ -561,6 +572,7 @@ The number of known incantations are shown in the following table.
 |    14 |                   14 |
 |    15 |                   15 |
 |    16 |                   16 |
+#+end_xtable
 
 *** Elementalist
 
@@ -570,6 +582,7 @@ Elemental spells, called sourceries, can be devastatingly powerful, but rely on 
 
 Elementalists work with the catalysts of heat, cold, earth, lightning, and dark.  Sourceries that create these catalysts are marked with a type and amount, e.g. creates heat 2. Spells that consume the catalysts are marked with type and cost, e.g. consumes heat 1. At the end of the elementalist's turn, the value of each catalyst type is reduced by 1 to a minimum of 0.
 
+#+begin_xtable
 | Level | # Major Sourceries Known | # Minor Sourceries Known |
 |-------+--------------------------+--------------------------|
 |     1 |                        1 |                        1 |
@@ -588,6 +601,7 @@ Elementalists work with the catalysts of heat, cold, earth, lightning, and dark.
 |    14 |                       14 |                        4 |
 |    15 |                       15 |                        4 |
 |    16 |                       16 |                        5 |
+#+end_xtable
 
 * Equipment
 
@@ -615,8 +629,10 @@ Artifacts are valuable and coveted, so to have any is to paint a target on your 
 
 The currency in the game are shells and pearls.
 
+#+begin_xtable
 | Currency     | Value (in Shells) |
 |--------------+-------------------|
 | Shells       |                 1 |
 | Pearls       |               100 |
 | Black Pearls |              1000 |
+#+end_xtable
