@@ -1,8 +1,9 @@
-/* $color-text: #dedce5; */
 /* Sakura.css v1.3.1
  * ================
  * Minimal css theme.
  * Project: https://github.com/oxalorg/sakura/
+ *
+ * License: MIT
  */
 /* Body */
 html {
@@ -183,3 +184,9 @@ label, legend, fieldset {
   display: block;
   margin-bottom: .5rem;
   font-weight: 600; }
+
+button.to-top-button {
+  position: fixed;
+  right: 2em;
+  bottom: 2em;
+}

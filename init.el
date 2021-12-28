@@ -13,7 +13,10 @@
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
       org-html-postamble nil                  ;; Remove the emacs and org version from the end of files
-      org-html-head "<link rel=\"stylesheet\" href=\"./sakura-light-solarized.css\" type=\"text/css\">")
+      org-html-head (concat
+                     "<link rel=\"stylesheet\" href=\"./sakura-light-solarized.css\" type=\"text/css\">"
+                     "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\" integrity=\"sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\" crossorigin=\"anonymous\"></script>"
+                     "<script src=\"./setup.js\"></script>"))
 
 ;; Define the publishing project
 (setq org-publish-project-alist
