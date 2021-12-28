@@ -1,3 +1,4 @@
+#+Title: Titan Mage TTRPG
 #+OPTIONS: toc:nil
 
 * Welcome to Titan Mage

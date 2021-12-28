@@ -1,4 +1,5 @@
-#+Title: Titan Mage TTRPG
+#+Title: Titan Mage Player's Handbook
+#+OPTIONS: toc:t toc:2
 
 * Introduction
 
@@ -10,7 +11,7 @@ Without the chaos of the titan's ongoing construction, the creatures of the worl
 
 But the world is beginning to change once again. Humans are uncovering the magic that the titans left behind. With this newfound power, they are striking out, exploring the world, and trading with others for the first time. It is in this setting that Titan Mage takes place. There is high demand for those who can defend against the wilds. The best adventurers of the world are renowned and exalted, but not many of them are very wrinkled...
 
-** What is needed to play
+** What is Needed to Play
 
 Titan Mage is meant to be played with two or more players. The sweet spot is 3 to 5 players and another player be the Game Master, abbreviated GM from here on out.
 
@@ -373,7 +374,7 @@ At the seventh level, tacticians gain the
 
 At the ninth level, tacticians gain the
 
-At the eleventh level, tacticians gain the *shot calling* major action. This lets another character take a major action during your turn instead of you. You decide which major action, but they must agree.
+At the eleventh level, tacticians gain the *shot calling* major action. This lets another player character take a major action during your turn instead of you. You decide who and which major action, but the other player must agree with your choice.
 
 At the thirteenth level, tacticians gain the
 At the fifteenth level, tacticians gain the

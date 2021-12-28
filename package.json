@@ -4,7 +4,7 @@
   "description": "A hobbyist TTRPG",
   "scripts": {
     "test": "mocha -b",
-    "build": "node index.js"
+    "build": "node index.js && cp static/* build"
   },
   "repository": {
     "type": "git",

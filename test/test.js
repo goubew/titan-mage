@@ -3,19 +3,19 @@ const fs = require("fs");
 const Ajv = require("ajv");
 const ajv = new Ajv();
 
-let { references, referenceTypes, loadReferences } = require("../index.js");
+let { referencesJSON, referenceTypes, loadReferences } = require("../index.js");
 
 describe("References match the schemas", () => {
   it("Can convert the reference files from yaml to json", () => { loadReferences() });
 
   for (const reference of referenceTypes) {
     it(`${reference} matches its schema`, () => {
-      const referenceData = references[reference];
+      const referenceData = referencesJSON[reference];
       assert(referenceData, JSON.stringify(referenceData));
 
       const schema = JSON.parse(fs.readFileSync(`./references/${reference}-schema.json`, {encoding: "utf8"}));
       const validate = ajv.compile(schema);
-      const validateResult = validate(references[reference]);
+      const validateResult = validate(referencesJSON[reference]);
       assert(validateResult, JSON.stringify(validate.errors));
     });
   }
