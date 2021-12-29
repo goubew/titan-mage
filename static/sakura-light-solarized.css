@@ -200,3 +200,11 @@ div.xtable {
 .cw {
   text-align: center;
 }
+
+.reference p {
+  margin-bottom: 0em;
+}
+
+.inline-reference p {
+  margin-left: 1em;
+}

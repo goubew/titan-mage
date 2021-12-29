@@ -5,27 +5,51 @@
     "properties": {
       "name": { "type": "string" },
       "description": { "type": "string" },
-      "type": { "type": "string", "enum": ["beast", "intelligent"] },
-      "level": { "type": "number", "minimum": 0 },
       "size": { "type": "string", "enum": ["small", "medium", "large"] },
-      "stats": { "type": "object",
-                 "properties": {
-                   "power": { "type": "number", "minimum": 0 },
-                   "reflex": { "type": "number", "minimum": 0 },
-                   "focus": { "type": "number", "minimum": 0 },
-                   "presence": { "type": "number", "minimum": 0 },
-                   "hpGain": { "type": "number", "minimum": 0 },
-                   "mpGain": { "type": "number", "minimum": 0 },
-                   "defense": { "type": "number", "minimum": 0 },
-                   "movement": { "type": "number", "minimum": 0 }
-                 },
-                 "minProperties": 8,
-                 "additionalProperties": false
-               },
-      "minorActions": { "type": "array", "items": { "type": "string" } },
-      "majorActions": { "type": "array", "items": { "type": "string" } }
+      "majStats": { "type": "object",
+                     "properties": {
+                       "power": { "type": "number", "minimum": 0 },
+                       "reflex": { "type": "number", "minimum": 0 },
+                       "focus": { "type": "number", "minimum": 0 },
+                       "presence": { "type": "number", "minimum": 0 }
+                     },
+                    "minProperties": 4,
+                    "additionalProperties": false
+                  },
+      "auxStats": { "type": "object",
+                    "properties": {
+                      "hp": { "type": "number", "minimum": 0 },
+                      "mp": { "type": "number", "minimum": 0 },
+                      "defense": { "type": "number", "minimum": 0 },
+                      "movement": { "type": "number", "minimum": 0 }
+                    },
+                    "minProperties": 4,
+                    "additionalProperties": false
+                  },
+      "minorActions": { "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "name": { "type": "string" },
+                            "action": { "type": "string" }
+                          },
+                          "minProperties": 2,
+                          "additionalProperties": false
+                        }
+                      },
+      "majorActions": { "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "name": { "type": "string" },
+                            "action": { "type": "string" }
+                          },
+                          "minProperties": 2,
+                          "additionalProperties": false
+                        }
+                      }
     },
-    "minProperties": 8,
+    "minProperties": 7,
     "additionalProperties": false
   }
 }
