@@ -13,4 +13,7 @@ $(document).ready(function(){
   // Add indentation markers to headings
   $('h2').prepend(`<span style="color: ${headerPrefixColor}">#</span> `);
   $('h3').prepend(`<span style="color: ${headerPrefixColor}">##</span> `);
+  $('h4').prepend(`<span style="color: ${headerPrefixColor}">###</span> `);
+  $('h5').prepend(`<span style="color: ${headerPrefixColor}">####</span> `);
+  $('h6').prepend(`<span style="color: ${headerPrefixColor}">#####</span> `);
 });

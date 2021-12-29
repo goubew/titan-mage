@@ -88,29 +88,29 @@ This is a good chance to say some final words to your comrades.
 
 ** Grievous Wound
 
-When a character sustains critical injury, they become afflicted by a grievous wound. Roll a d6 to determine your characters grievous wound. This wounds cannot be removed by normal healing. If the same grievous wound is rolled two times in a row, then the character suffers [[* Death][death]].
+When a character sustains critical injury, they become afflicted by a grievous wound. Roll a d6 to determine your characters grievous wound. This wounds cannot be removed by normal healing. If any grievous wound, except for Lucky Save, is rolled two times, then the character suffers [[* Death][death]].
 
-*** (1) Head Trauma
+*(1) Lucky Save*
+
+Your character sees life flash before their eyes, but fortune favors the lucky. No negative effects are experienced.
+
+*(2) Head Trauma*
 
 The character is unable to remember people and motivations from their past. They must invent a new false backstory or find a new purpose.
 
-*** (2) Missing Arm
-
-Damage to one arm becomes too severe to save. Your character is no longer able to wield two handed equipment and can only wield one one handed equipment.
-
-*** (3) Severed Magical Connection
-
-Injuries the body sever the connection a player has with their school of magic. Their [[* Magic Power (MP)][MP]] is halved.
-
-*** (4) Gnarly Scars
+*(3) Gnarly Scars*
 
 The many wounds gained over time have accumulated and worn down the player. Their maximum [[* Health Points (HP)][HP]] is halved.
 
-*** (5) Unset Fracture
+*(4) Damaged Arm*
+
+Damage to one arm becomes too severe to save. Your character is no longer able to wield two handed equipment and can only wield one one handed equipment.
+
+*(5) Damaged Leg*
 
 Bone injuries have left the player with a worn gait. Their base [[* Movement Speed][movement speed]] is halved.
 
-*** (6) Death
+*(6) Death*
 
 The character experiences [[* Death][death]].
 
@@ -364,25 +364,28 @@ Taking up temporary work allows you to live with frugal [[* Living Expenses][exp
 Tacticians are able to survey a battlefield with ease. They are able to command allies, increasing their battle effectiveness, and have insight into enemies traits.
 
 HP per Level: 8
+
 MP per Level: 8
 
 One standard magic system.
 
 At the first level, tacticians gain the *delayed action* class feature. This allows the player to take their minor action, major action, or both actions later in the turn order. The conditions for taking the turn and the action that is to be taken must be expressed during your normal turn.
 
-At the third level, tacticians gain the *battle insight* minor action. This lets the tactician determine the remaining [[* Health Points (HP)][hp]] of a single enemy.
+At the third level, tacticians gain the *battle insight* minor action. This lets the tactician determine either the remaining [[* Health Points (HP)][HP]] of a single enemy, the current [[* Defense][defense]] of a single enemy, or the damage weaknesses of a single enemy.
 
-At the fifth level, tacticians gain the *dual guard* major action. If an ally is within five feet of the tactician, both they and the tactician gain the effect of the guard.
+At the fifth level, tacticians gain the *dual guard* major action. If an ally is within five feet of the tactician, both they and the tactician gain the effect of the guard. This can only affect one ally per turn, and that ally cannot benefit from a guard of their own on the same turn.
 
-At the seventh level, tacticians gain the
+At the seventh level, tacticians gain the *exploited habits* class feature. Attacks against armored opponents ignore [[* Presence][presence]] / 4 defense.
 
-At the ninth level, tacticians gain the
+At the ninth level, tacticians gain the *minor shot calling* minor action. This lets another player character take a minor action during your turn instead of you. You decide who and which minor action, but the other player must agree with your choice.
 
-At the eleventh level, tacticians gain the *shot calling* major action. This lets another player character take a major action during your turn instead of you. You decide who and which major action, but the other player must agree with your choice.
+At the eleventh level, tacticians gain the *major shot calling* major action. This lets another player character take a major action during your turn instead of you. You decide who and which major action, but the other player must agree with your choice.
 
 At the thirteenth level, tacticians gain the
+
 At the fifteenth level, tacticians gain the
-At the sixteenth level, tacticians gain the
+
+At the sixteenth level, tacticians gain the *battle commander* class feature. This lets another player character take both a major and minor action on your turn in addition to you. You decide who and which actions, but the other player must agree with your choice.
 
 ** Mercenary
 
@@ -619,11 +622,15 @@ Switching held equipment, can done with the [[* Swapping Held Items][swapping he
 
 In addition to combat equipment, it is wise to stock up on adventuring equipment. These include ropes, light sources, bags, etc.
 
+** Potions
+
+Potions can be bought at an [[* Apothecary][apothecary]]. Potions are described as simple or complicated.
+
 ** Artifacts
 
-Artifacts are special items infused with magic. Artifacts can be of any type, but are always better than the base item. Artifacts may have requirements beyond the base item.
+Artifacts are special items infused with great power. Artifacts can be of any item type, but are always better than the base item. Artifacts may have requirements beyond the base item.
 
-Artifacts are valuable and coveted, so to have any is to paint a target on your back. Guard them carefully
+Artifacts are valuable and coveted, so to have any is to paint a target on your back. Guard them carefully.
 
 ** Currency
 
