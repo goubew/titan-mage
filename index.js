@@ -4,7 +4,7 @@ const { execSync } = require("child_process");
 
 const buildDir="./build/"
 
-const referenceTypes = ["armor", "foes", "items", "spells", "weapons"]
+const referenceTypes = ["armor", "foes", "items", "potions", "spells", "weapons"]
 let referencesJSON = {}
 
 // Parse the source yaml files into objects

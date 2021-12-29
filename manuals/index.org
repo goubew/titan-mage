@@ -9,6 +9,14 @@ Welcome to Titan Mage, a free hobbyist TTRPG!
 
 [[./handbook.org][Player's Handbook]]
 
+[[./items.html][Items Reference]]
+
 ** For Game Masters
 
 [[./gm-guide.org][Game Master's Guide]]
+
+-----
+
+#+begin_cw
+Copyright \copy 2021, William Goubeaux
+#+end_cw

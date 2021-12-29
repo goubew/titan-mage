@@ -13,6 +13,11 @@
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
       org-html-postamble nil                  ;; Remove the emacs and org version from the end of files
+      org-html-home/up-format "
+<div id=\"org-div-home-and-up\">
+  <a href=\"./index.html\">HOME</a>
+</div>
+"
       org-html-head (concat
                      "<link rel=\"stylesheet\" href=\"./sakura-light-solarized.css\" type=\"text/css\">"
                      "<script src=\"https://code.jquery.com/jquery-3.6.0.min.js\" integrity=\"sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=\" crossorigin=\"anonymous\"></script>"
@@ -26,7 +31,7 @@
              :base-directory "./manuals"
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./build"
-             :headline-levels 9         ;; Don't turn headlines into lists
+             :headline-levels 6         ;; Don't turn headlines into lists
              :with-author nil           ;; Don't include author name
              :with-creator nil          ;; Don't include Emacs and Org versions in footer
              :with-toc nil              ;; Don't include a table of contents

@@ -194,5 +194,9 @@ button.to-top-button {
 }
 
 div.xtable {
-  overflow-x: scroll;
+  overflow-x: auto;
+}
+
+.cw {
+  text-align: center;
 }

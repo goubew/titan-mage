@@ -1,4 +1,5 @@
 #+Title: Titan Mage Player's Handbook
+#+HTML_LINK_HOME: dummy value
 #+OPTIONS: toc:t toc:2
 
 * Introduction
@@ -136,7 +137,7 @@ A full recovery restores all of a character's [[* Health Points (HP)][HP]] and [
 
 ** Skills
 
-Skills are trades that can be learned while in [[* Towns][town]] in order to augment a characters abilities. Skills take 3 months of time to learn, and a have an upfront cost.
+Skills are trades that can be learned while in [[* Towns][town]] in order to augment a character's abilities. Skills take 3 months of time to learn and have an upfront cost.
 
 *** Alchemy
 
@@ -459,9 +460,9 @@ The power of the titans left its mark on the world. The study of these marks led
 
 Each group requires a lifetime of practice and a focus to the craft. Even then, some advanced magics are only able to be learned by those who give their complete energy to the study. These are known as advanced magics, while the easier magics are called the standard magics.
 
-** Standard Magics
+** Runecast
 
-*** Runecast
+*Type*: Standard
 
 The Runecast are warriors that pursue the study of an ancient written language. By etching these runic symbols into their weapons and armor, they are able to bind the power of magic to physical objects, and augment their combat ability.
 
@@ -490,7 +491,9 @@ The number of runes that can be equipped at a time is shown in the following tab
 |    16 | 10         |
 #+end_xtable
 
-*** Spirit Caller
+** Spirit Caller
+
+*Type*: Standard
 
 Spirit Callers hold a spiritual bond with their ancestors. In death, the spirits of the departed are able to impart their favors upon the physical world.
 
@@ -517,7 +520,9 @@ These effects are limited by the number of favors available and can be activated
 |    16 |                  5 |                 10 |
 #+end_xtable
 
-*** Harvester
+** Harvester
+
+*Type*: Standard
 
 Harvesters utilize the remains of the fallen, twisting them to their own purposes. They collect soul pieces from those that die during combat, which are manipulated to their end through the use of spells called extractions.
 
@@ -544,13 +549,15 @@ The number of known extractions and maximum number of should pieces that can be 
 |    16 |                  10 |              12 |
 #+end_xtable
 
-*** Wildpact
+** Wildpact
+
+*Type*: Standard
 
 Wildpact are those who have formed a magical bond with a beast companion. Time spent in the wilds has formed a shared consciousness that allows the wildpact and beast to fight as one.
 
-** Advanced Magics
+** Ancient Whisperer
 
-*** Ancient Whisperer
+*Type*: Advanced
 
 The Ancient Whisperers have studied the lost spoken language of the titans. Through great mental exertion, they can recall incantations the forgotten language, shaping the world as the titans once did.
 
@@ -577,7 +584,9 @@ The number of known incantations are shown in the following table.
 |    16 |                   16 |
 #+end_xtable
 
-*** Elementalist
+** Elementalist
+
+*Type*: Advanced
 
 Elementalists draw from the latent magic left behind from the construction of the world.
 
@@ -608,6 +617,18 @@ Elementalists work with the catalysts of heat, cold, earth, lightning, and dark.
 
 * Equipment
 
+** Currency
+
+The currency in the game are shells and pearls.
+
+#+begin_xtable
+| Currency     | Value (in Shells) |
+|--------------+-------------------|
+| Shells       |                 1 |
+| Pearls       |               100 |
+| Black Pearls |              1000 |
+#+end_xtable
+
 ** Combat Equipment
 
 Combat equipment includes weapons, armor, helms, and shields.
@@ -632,14 +653,8 @@ Artifacts are special items infused with great power. Artifacts can be of any it
 
 Artifacts are valuable and coveted, so to have any is to paint a target on your back. Guard them carefully.
 
-** Currency
+-----
 
-The currency in the game are shells and pearls.
-
-#+begin_xtable
-| Currency     | Value (in Shells) |
-|--------------+-------------------|
-| Shells       |                 1 |
-| Pearls       |               100 |
-| Black Pearls |              1000 |
-#+end_xtable
+#+begin_cw
+Copyright \copy 2021, William Goubeaux
+#+end_cw

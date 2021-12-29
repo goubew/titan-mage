@@ -1,4 +1,11 @@
 #+Title: Titan Mage GM Guide
+#+HTML_LINK_HOME: dummy value
 #+OPTIONS: toc:t toc:2
 
 This guide describes the steps and methods to being a Game Master for the Titan Mage TTRPG. One of the best parts about being a Gamemaster is letting the world you create come to life, so while this document describes steps to be a GM, it is not a prescription.
+
+-----
+
+#+begin_cw
+Copyright \copy 2021, William Goubeaux
+#+end_cw

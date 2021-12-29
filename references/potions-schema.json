@@ -5,9 +5,10 @@
     "properties": {
       "name": { "type": "string" },
       "description": { "type": "string" },
-      "cost": { "type": "number", "minimum": 1 }
+      "cost": { "type": "number", "minimum": 1 },
+      "whenConsumed": { "type": "string" }
     },
-    "required": ["name", "description", "cost"],
+    "required": ["name", "description", "cost", "whenConsumed"],
     "additionalProperties": false
   }
 }

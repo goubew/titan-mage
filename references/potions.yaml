@@ -1,0 +1,6 @@
+---
+- name: Sungrass Potion
+  description: A potion of swirling green. Bitter to the taste.
+  cost: 50
+  whenConsumed: Regain d4 HP
+...
