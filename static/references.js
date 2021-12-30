@@ -1,12 +1,20 @@
-const referenceType = window.location.pathname.match(/\/(.*)\.html/)[1];
+const referenceType = window.location.pathname.match(/\/(.*)\.html(\?.*)?/)[1];
+const prettyMap = {
+  mp: "MP",
+  hp: "HP",
+  majStats: "Major Stats",
+  auxStats: "Auxiliary Stats",
+  minorActions: "Minor Actions",
+  majorActions: "Major Actions"
+}
 
 function capitalize(str) {
   return str.trim().replace(/^\w/, (c) => c.toUpperCase());
 }
 
 function makePretty(key) {
-  if (key == "mp" || key == "hp") {
-    return key.toUpperCase();
+  if (key in prettyMap) {
+    return prettyMap[key];
   }
   return capitalize(key);
 }
@@ -36,8 +44,22 @@ function objToHTML(obj, pmargin=0, hr=true) {
       objHTML += `<p style="margin-left: ${pmargin}em;"><b>${prettyKey}</b>:</p>`;
       objHTML += objToHTML(val, pmargin + 1, false);
     } else if (isArray(val)) {
-      objHTML += `<p style="margin-left: ${pmargin}em;"><b>${prettyKey}</b>:</p>`;
-      console.log("TODO: implement array output");
+      if (val.length == 0) {
+        objHTML += `<p style="margin-left: ${pmargin}em;"><b>${prettyKey}</b>: None</p>`;
+      } else {
+        objHTML += `<p style="margin-left: ${pmargin}em;"><b>${prettyKey}</b>:</p><ul style="margin-left: ${pmargin}em;">`;
+        console.log("TODO: implement array output");
+        val.forEach((arrVal) => {
+          if (isPrimitive(arrVal)) {
+            objHTML += `<li><p>${arrVal}</p></li>`;
+          } else {
+            objHTML += "<li>";
+            objHTML += objToHTML(arrVal, 0, false);
+            objHTML += "</li>";
+          }
+        });
+        objHTML += "</ul>";
+      }
     } else {
       console.log(`Could not convert ${val} to reference HTML`);
     }

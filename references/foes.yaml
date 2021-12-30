@@ -13,5 +13,5 @@
     defense: 0
     movement: 5
   minorActions: []
-  majorActions: []
+  majorActions: [{name: "Climb", action: "Squirrels can use their movement speed to climb up structures."}]
 ...
