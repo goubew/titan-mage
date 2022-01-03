@@ -71,6 +71,10 @@ Characters load ammunition into a ranged weapon, a bow for example.
 
 ** Conditions
 
+*** Fallen
+
+In the fallen condition, you are unable to make the [[* Weapon Attack][weapon attack]] major action or the [[* Movement][movement]] minor action. Standing back up takes a major action. While fallen, instead of the normal movement minor action, you can use a minor action to roll one square.
+
 *** Incapacitated
 
 When a player drops below 0 HP, they become incapacitated. They are unable to take major or minor actions or regain HP normally.
@@ -382,9 +386,9 @@ At the ninth level, tacticians gain the *minor shot calling* minor action. This 
 
 At the eleventh level, tacticians gain the *major shot calling* major action. This lets another player character take a major action during your turn instead of you. You decide who and which major action, but the other player must agree with your choice.
 
-At the thirteenth level, tacticians gain the
+At the thirteenth level, tacticians gain the *high ground advantage* class feature. Attacks against enemies at a lower elevation deal [[* Presence][presence]] / 4 extra damage.
 
-At the fifteenth level, tacticians gain the
+At the fifteenth level, tacticians gain the *battle instincts* class feature. This makes *battle insight* into a free action that can be used once per turn.
 
 At the sixteenth level, tacticians gain the *battle commander* class feature. This lets another player character take both a major and minor action on your turn in addition to you. You decide who and which actions, but the other player must agree with your choice.
 
@@ -397,15 +401,23 @@ MP per Level: 6
 
 One standard magic system.
 
-At the first level, mercenaries gain the
-At the third level, mercenaries gain the
-At the fifth level, mercenaries gain the
-At the seventh level, mercenaries gain the
-At the ninth level, mercenaries gain the
-At the eleventh level, mercenaries gain the
-At the thirteenth level, mercenaries gain the
-At the fifteenth level, mercenaries gain the
-At the sixteenth level, mercenaries gain the
+At the first level, mercenaries gain the *engage* minor action. This can be used when an enemy is within 1 square. Until the beginning of your next turn, if the enemy you target moves from their square, you may take a free attack action during their turn as soon as they move.
+
+At the third level, mercenaries gain the *relentless lock* class feature. This lets allies gain [[* Power][power]] / 4 (calculated from your power stat) extra damage when targeting enemies that you have engaged. If the enemy moves away from you, this bonus no longer applies.
+
+At the fifth level, mercenaries gain the *shove* major action. This puts a normal or smaller size enemy into the [[* Fallen][fallen]] state.
+
+At the seventh level, mercenaries gain the *en guarde* class feature. Once per [[* Full Recovery][full recovery]], the first time your [[* Health Points (HP)][HP]] is reduced to 0, it remains at 1.
+
+At the ninth level, mercenaries gain the *quick engage* class feature. This turns *engage* into a free action that can be used once per turn.
+
+At the eleventh level, mercenaries gain the *power strike* minor action. When combined with the [[* Weapon Attack][weapon attack]] major action, your subtracted dice rolls become additive.
+
+At the thirteenth level, mercenaries gain the *charge* minor action. This lets you move [[* Power][power]] / 4 extra squares during your move action, as long as your movement is a straight line. You can use *shove* as a free action if an enemy stands at the end of your charge.
+
+At the fifteenth level, mercenaries gain the *quick draw* class feature. This lets a mercenary [[* Swapping Held Items][switch weapons]] as a free action instead of a minor action.
+
+At the sixteenth level, mercenaries gain the *battle master* class feature. This lets you make two attacks when using the [[* Weapon Attack][weapon attack]] major action.
 
 ** Assassin
 
