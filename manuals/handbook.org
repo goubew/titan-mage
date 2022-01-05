@@ -428,15 +428,23 @@ MP per Level: 8
 
 One standard magic system.
 
-At the first level, assassins gain the
-At the third level, assassins gain the
-At the fifth level, assassins gain the
-At the seventh level, assassins gain the
-At the ninth level, assassins gain the
-At the eleventh level, assassins gain the
-At the thirteenth level, assassins gain the
-At the fifteenth level, assassins gain the
-At the sixteenth level, assassins gain the
+At the first level, assassins gain the *leg sweep* minor action. This action puts an enemy into the [[* Fallen][fallen]] state if their reflex is less than yours.
+
+At the third level, assassins gain the *down and out* class feature. This let assassins add 10 to crit rolls against enemies who are [[* Fallen][fallen]].
+
+At the fifth level, assassins gain the *back stab* class feature. This lets assassins add their weapon attack dice instead of subtracting them when attacking an opponent with no allies within one square.
+
+At the seventh level, assassins gain the *flourish strike* class feature. This let you take an extra minor action whenever you perform a critical weapon attack. This feature can only be used once per turn.
+
+At the ninth level, assassins gain the *armor exploit* class feature. Assassins add [[* Reflex][reflex]] / 4 defense pierce to their weapon attacks.
+
+At the eleventh level, assassins gain the *disarm* major action. An opponent within one square has a held weapon sent flying two squares away from you in any direction you choose.
+
+At the thirteenth level, assassins gain the *rapid strike* class feature. If you kill an opponent with a weapon strike, you make take an extra major action. THis feature can only be used once per turn.
+
+At the fifteenth level, assassins gain the *criticaler* class feature. When making a weapon attack, roll two crit dice. If both dice manage to crit, the multipliers are combined.
+
+At the sixteenth level, assassins gain the *criticalest* class feature. Critical strikes do 3x the damage instead of 2x.
 
 ** Scholar
 
