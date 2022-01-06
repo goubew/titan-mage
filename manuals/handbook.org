@@ -455,15 +455,23 @@ MP per Level: 10
 
 One advanced magic system.
 
-At the first level, scholars gain the
-At the third level, scholars gain the
-At the fifth level, scholars gain the
-At the seventh level, scholars gain the
-At the ninth level, scholars gain the
-At the eleventh level, scholars gain the
-At the thirteenth level, scholars gain the
-At the fifteenth level, scholars gain the
-At the sixteenth level, scholars gain the
+At the first level, scholars gain the *rest enjoyer* class feature. This allows the scholar to gain [[* Focus][focus]] / 4 extra HP or MP during a [[* Respite][respite]].
+
+At the third level, scholars gain the *spell insight* minor action. This lets you identify the next spell that an enemy will cast.
+
+At the fifth level, scholars gain the *mage drain* major action. This let you drain [[* Focus][focus]] / 2 [[* Magic Power (MP)][MP]] from an enemy spellcaster gaining that amount.
+
+At the seventh level, scholars gain the *spell imprint* minor action. If you cast a spell last turn, it can be cast again as a minor action.
+
+At the ninth level, scholars gain the *magic guard* minor action. Gain [[* Focus][focus]] / 4 defense until the start of your next turn. This defense applies to magic damage as well as physical damage.
+
+At the eleventh level, scholars gain the *improved magic guard* class feature. The defense gained from magic guard become active all of the time. As a minor action, you can give another player the same guard defense value until the start of your next turn.
+
+At the thirteenth level, scholars gain the *pre-emptive magic* major action. This lets you cast the spell learned from spell imprint for zero mana this turn.
+
+At the fifteenth level, scholars gain the *recycle* class feature. Gain [[* Focus][focus]] / 4 mana every time your spell damages an enemy during your turn.
+
+At the sixteenth level, scholars gain the *spell chain* class feature. If a sorcerer kills an enemy with a spell, they may cast a different spell in the same major action.
 
 ** Bereft
 
@@ -472,7 +480,7 @@ The Bereft are those without any advantage in life. Unlikely adventurers, but it
 HP per Level: 8
 MP per Level: 3
 
-No magic systems.
+No magic systems. No class features. Mad respect.
 
 * Systems of Magic
 
