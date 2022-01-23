@@ -150,15 +150,15 @@ Effects:
 
 *** Health Points (HP)
 
-Health points tracks the life of your character. The closer to 0, the closer your character is to [[* Death][death]]. Characters gain extra health at every level based on their [[* Player Classes][class]].
+Health points tracks the life of your character. At 0 HP, your character becomes [[* Incapacitated][incapacitated]]. Characters gain extra health at every level based on their [[* Player Classes][class]].
 
 *** Magic Power (MP)
 
-Magic power tracks the amount of magic that a character can perform. Characters gain extra health at every level based on their [[* Player Classes][class]].
+Magic power tracks the amount of magic that a character can perform. Characters gain extra magic power at every level based on their [[* Player Classes][class]].
 
 *** Defense
 
-Defense provides flat damage reduction. Certain abilities are able to ignore defense entirely and are marked as "ignores defense".
+Defense provides flat damage reduction. Certain abilities are able to ignore defense entirely and are marked as /armor piercing/.
 
 *** Movement Speed
 
