@@ -29,13 +29,142 @@ Use the following checklist to create a new character.
 - Download a new character sheet
 - Decide on a [[* Player Classes][player class]]
   - Fill in the class name
-  - Fill in the starting stats assigned to your class
+- Assign [[* The Main Stats][main stats]]
+  - Fill in the main stats in any order with the numbers 4, 2, 2, 0
 - Decide on a [[* Systems of Magic][magic system]] compatible with your player class
   - Fill in the magic system name
   - Fill in your starting spell choices
 - Decide on a starting [[* Skills][skill]].
   - Fill in your starting skill
 - Fill in your character name
+
+** Conventions
+
+This section lists some conventions used in this game.
+
+- *Rounding*: Any time rounding is required in the game, always round up.
+- *Dice Markings*: Damage values are usually marked with die to roll, d6, d10, etc. If multiple dice of the same type are to be rolled, the dice value will be prefixed with a number. For example 4d6 means to roll 4 d6 dice and add the value of all the rolls together. Some dice rolls are marked with a tilde and parentheses ~(2d4). For these rolls, roll 2 dice and subtract the larger value from the smaller. This may use dice of different size, e.g. ~(d4,d6). Always subtract the larger rolled value, regardless of which die has more sides.
+
+* Character Stats
+
+** Character Level
+
+The level of your character is a measure of how skilled they are at their craft. This skill is manifested in additional stats, features, and magical ability.
+
+Character level starts at 1 and goes up to 16. In order to level up, characters need to both gain experience out adventuring and spend time and money in [[* Towns][town]]. Your DM will let you know when you have gained enough experience to advance in level, but it is up to you to choose when to spend the time and money to learn the next level during [[* Town Actions][your town actions]].
+
+At the 6th level, a study under a master is required. Masters are not uncommon, but are not found in every town. At the 11th level, a study under a grandmaster is required. Although most grandmasters are well known in story and legend, not all of them can be easy to find. In order to attain the 16th level, one has to advance their field beyond it's current limits. Work with your DM to discuss your plan for this, as such things do not come with a one size fits all price tag.
+
+Use the following requirements chart to see what it takes to make it to level up. The monetary price to level up does not include [[* Living Expenses][living expenses]].
+
+#+begin_xtable
+| Level | Location          | Time     | Monetary Cost | Rank           |
+|-------+-------------------+----------+---------------+----------------|
+|     1 | N/A               | N/A      | N/A           | Apprentice     |
+|     2 | Adventure Hall    | 1 month  | 100 Shells    | Apprentice II  |
+|     3 | Adventure Hall    | 1 month  | 200 Shells    | Apprentice III |
+|     4 | Adventure Hall    | 1 month  | 300 Shells    | Apprentice IV  |
+|     5 | Adventure Hall    | 1 month  | 400 Shells    | Apprentice V   |
+|     6 | Master Study      | 6 months | 1000 Shells   | Journeyman     |
+|     7 | Adventure Hall    | 2 months | 1200 Shells   | Journeyman II  |
+|     8 | Adventure Hall    | 2 months | 1400 Shells   | Journeyman III |
+|     9 | Adventure Hall    | 2 months | 1600 Shells   | Journeyman IV  |
+|    10 | Adventure Hall    | 2 months | 1800 Shells   | Journeyman V   |
+|    11 | Grandmaster Study | 1 year   | 3000 Shells   | Master         |
+|    12 | Adventure Hall    | 3 months | 3500 Shells   | Master II      |
+|    13 | Adventure Hall    | 3 months | 4000 Shells   | Master III     |
+|    14 | Adventure Hall    | 3 months | 4500 Shells   | Master IV      |
+|    15 | Adventure Hall    | 3 months | 5000 Shells   | Master V       |
+|    16 | ?                 | ?        | ?             | Grandmaster    |
+#+end_xtable
+
+** The Main Stats
+
+Main stats are the primary stats in the game. Actions with an uncertain outcome are almost always modified by one of these through [[* Ability Check][ability checks]].
+
+These stats range from 1 to 21. When stats are upgraded, the effects of stats are always retroactive.
+
+Stats are often to modify the damage of attacks or spells as either + stat, + stat/2, or + stat/4. Use the following table to reference these values.
+
+| Stat | Stat/2 | Stat/4 |
+|------+--------+--------|
+|    0 |      0 |      0 |
+|    1 |      1 |      1 |
+|    2 |      1 |      1 |
+|    3 |      2 |      1 |
+|    4 |      2 |      1 |
+|    5 |      3 |      2 |
+|    6 |      3 |      2 |
+|    7 |      4 |      2 |
+|    8 |      4 |      2 |
+|    9 |      5 |      3 |
+|   10 |      5 |      3 |
+|   11 |      6 |      3 |
+|   12 |      6 |      3 |
+|   13 |      7 |      4 |
+|   14 |      7 |      4 |
+|   15 |      8 |      4 |
+|   16 |      8 |      4 |
+|   17 |      9 |      5 |
+|   18 |      9 |      5 |
+|   19 |      9 |      5 |
+|   20 |      9 |      5 |
+|   21 |     10 |      6 |
+
+Stats are broken up into the following categories:
+
+*** Power
+
+/Power is used to express physical strength. Cleave, crush, and grapple your way through enemies./
+
+Effects:
+
+- Extra HP per level: Power / 4
+
+*** Reflex
+
+/Reflex measures your speed and reaction. Evade dangers and act before others. A high reflex shoots first./
+
+Effects:
+
+- Combat order: Higher reflex acts first
+- [[* Guard][Guard]] major action: Increases defense gained
+
+*** Focus
+
+/Focus allows you to concentrate and understand complex concepts. Perceive the dangers around you and outwit opponents./
+
+Effects:
+
+- Extra MP per level: Focus / 4
+
+*** Presence
+
+/A high presence signifies awareness of the world around you. Anticipate the actions of others and make them pay for their predictability./
+
+Effects:
+
+- Critical strike chance: D20 roll <= Presence
+
+** Auxiliary Stats
+
+*** Health Points (HP)
+
+Health points tracks the life of your character. The closer to 0, the closer your character is to [[* Death][death]]. Characters gain extra health at every level based on their [[* Player Classes][class]].
+
+*** Magic Power (MP)
+
+Magic power tracks the amount of magic that a character can perform. Characters gain extra health at every level based on their [[* Player Classes][class]].
+
+*** Defense
+
+Defense provides flat damage reduction. Certain abilities are able to ignore defense entirely and are marked as "ignores defense".
+
+*** Movement Speed
+
+Movement speed is a measure how fast your character is. In [[* Combat][combat]], your character is allowed to move up to their movement speed in squares every round.
+
+When moving diagonal, treat the first diagonal move as one square of movement, the second diagonal move as two squares of movement, then one, then two, etc.
 
 * Combat
 
@@ -53,7 +182,7 @@ Characters who are learned in a [[* Systems of Magic][school of magic]] that pro
 
 *** Guard
 
-Characters gain [[* Reflex][reflex]] / 2 [[* Defense][defense]] until the beginning of their next turn.
+Characters gain [[* Reflex][reflex]]/2 [[* Defense][defense]] until the beginning of their next turn.
 
 ** Default Minor Actions
 
@@ -145,15 +274,13 @@ Skills are trades that can be learned while in [[* Towns][town]] in order to aug
 
 *** Alchemy
 
-*** Appraisal
+The alchemy skill allows you to identify potions on your own. In addition, you can craft a simple potion during a [[* Respite][respite]].
 
-*** Bow Training
+*** Appraisal
 
 *** Horseback Riding
 
 *** Lockpicking
-
-*** Shield Training
 
 *** Smithing
 
@@ -170,98 +297,6 @@ Speaking with Non-Player Characters (NPCs) is a common part of adventuring. Play
 When players are expecting a result out of their conversation, it's the job of the DM to recognize this and ask for an [[* Ability Check][ability check]]. Players have many ways to be convincing, and the strength of their argument can have a great affect on the difficulty of the ability check.
 
 Dialog is also one of the best ways to show off your character's personality!
-
-* Character Stats
-
-** Character Level
-
-The level of your character is a measure of how skilled they are at their craft. This skill is manifested in additional stats, features, and magical ability.
-
-Character level starts at 1 and goes up to 16. In order to level up, characters need to both gain experience out adventuring and spend time and money in [[* Towns][town]]. Your DM will let you know when you have gained enough experience to advance in level, but it is up to you to choose when to spend the time and money to learn the next level during [[* Town Actions][your town actions]].
-
-At the 6th level, a study under a master is required. Masters are not uncommon, but are not found in every town. At the 11th level, a study under a grandmaster is required. Although most grandmasters are well known in story and legend, not all of them can be easy to find. In order to attain the 16th level, one has to advance their field beyond it's current limits. Work with your DM to discuss your plan for this, as such things do not come with a one size fits all price tag.
-
-Use the following requirements chart to see what it takes to make it to level up. The monetary price to level up does not include [[* Living Expenses][living expenses]].
-
-#+begin_xtable
-| Level | Location          | Time     | Monetary Cost | Rank           |
-|-------+-------------------+----------+---------------+----------------|
-|     1 | N/A               | N/A      | N/A           | Apprentice     |
-|     2 | Adventure Hall    | 1 month  | 100 Shells    | Apprentice II  |
-|     3 | Adventure Hall    | 1 month  | 200 Shells    | Apprentice III |
-|     4 | Adventure Hall    | 1 month  | 300 Shells    | Apprentice IV  |
-|     5 | Adventure Hall    | 1 month  | 400 Shells    | Apprentice V   |
-|     6 | Master Study      | 6 months | 1000 Shells   | Journeyman     |
-|     7 | Adventure Hall    | 2 months | 1200 Shells   | Journeyman II  |
-|     8 | Adventure Hall    | 2 months | 1400 Shells   | Journeyman III |
-|     9 | Adventure Hall    | 2 months | 1600 Shells   | Journeyman IV  |
-|    10 | Adventure Hall    | 2 months | 1800 Shells   | Journeyman V   |
-|    11 | Grandmaster Study | 1 year   | 3000 Shells   | Master         |
-|    12 | Adventure Hall    | 3 months | 3500 Shells   | Master II      |
-|    13 | Adventure Hall    | 3 months | 4000 Shells   | Master III     |
-|    14 | Adventure Hall    | 3 months | 4500 Shells   | Master IV      |
-|    15 | Adventure Hall    | 3 months | 5000 Shells   | Master V       |
-|    16 | ?                 | ?        | ?             | Grandmaster    |
-#+end_xtable
-
-** The Main Stats
-
-Main stats are the primary stats in the game. Actions with an uncertain outcome are almost always modified by one of these through [[* Ability Check][ability checks]].
-
-These stats range from 1 to 16. When stats are upgraded, the effects of stats are always retroactive. Stats are broken up into the following categories:
-
-*** Power
-
-/Power is used to express physical strength. Cleave, crush, and grapple your way through enemies./
-
-Effects:
-
-- Extra HP per level: Power / 4
-
-*** Reflex
-
-/Reflex measures your speed and reaction. Evade dangers and act before others. A high reflex shoots first./
-
-Effects:
-
-- Combat order: Higher reflex acts first
-- Guard major action: Increases defense gained
-
-*** Focus
-
-/Focus allows you to concentrate and understand complex concepts. Perceive the dangers around you and outwit opponents./
-
-Effects:
-
-- Extra MP per level: Focus / 4
-
-*** Presence
-
-/A high presence signifies awareness of the world around you. Anticipate the actions of others and make them pay for their predictability./
-
-Effects:
-
-- Critical strike chance: D20 roll <= Presence
-
-** Auxiliary Stats
-
-*** Health Points (HP)
-
-Health points tracks the life of your character. The closer to 0, the closer your character is to [[* Death][death]]. Characters gain extra health at every level based on their [[* Player Classes][class]].
-
-*** Magic Power (MP)
-
-Magic power tracks the amount of magic that a character can perform. Characters gain extra health at every level based on their [[* Player Classes][class]].
-
-*** Defense
-
-Defense provides flat damage reduction. Certain abilities are able to ignore defense entirely and are marked as "ignores defense".
-
-*** Movement Speed
-
-Movement speed is a measure how fast your character is. In [[* Combat][combat]], your character is allowed to move up to their movement speed in squares every round.
-
-When moving diagonal, treat the first diagonal move as one square of movement, the second diagonal move as two squares of movement, then one, then two, etc.
 
 * Towns
 
@@ -341,7 +376,7 @@ Time spent training at an [[* Adventure Hall][adventure hall]] allows you to [[*
 
 As your character gains levels, the ability to become a mentor assisting an unplayed character in leveling up becomes available. Players are responsible for creating a full character sheet for their mentee. A mentee must remain at least 5 levels lower than the player character.
 
-Being a mentee takes time equal to the player character's . In exchange for your time and expertise, your character is rewarded with the price of [[* Character Level][level ups]] for the level the mentee gains. 
+Being a mentee takes time equal to the player character's . In exchange for your time and expertise, your character is rewarded with the price of [[* Character Level][level ups]] for the level the mentee gains.
 
 Mentees are not able to gain levels back to back. Just like players, they need time to develop their new knowledge. This amount of time is at the DM's discretion.
 
@@ -381,13 +416,13 @@ At the third level, tacticians gain the *battle insight* minor action. This lets
 
 At the fifth level, tacticians gain the *dual guard* major action. If an ally is within five feet of the tactician, both they and the tactician gain the effect of the guard. This can only affect one ally per turn, and that ally cannot benefit from a guard of their own on the same turn.
 
-At the seventh level, tacticians gain the *exploited habits* class feature. Attacks against armored opponents ignore [[* Presence][presence]] / 4 defense.
+At the seventh level, tacticians gain the *unguard* minor action. This removes the extra [[* Defense][defense]] that an enemy gains when using the [[* Guard][guard]] action.
 
-At the ninth level, tacticians gain the *minor shot calling* minor action. This lets another player character take a minor action during your turn instead of you. You decide who and which minor action, but the other player must agree with your choice. They cannot take the same minor action the next time they take their turn.
+At the ninth level, tacticians gain the *minor shot calling* minor action. This lets another player character take a minor action during your turn instead of you. You decide who, and they decide which action to take. They cannot take the same minor action the next time they take their turn.
 
-At the eleventh level, tacticians gain the *major shot calling* major action. This lets another player character take a major action during your turn instead of you. You decide who and which major action, but the other player must agree with your choice. They cannot take the same major action the next time they take their turn.
+At the eleventh level, tacticians gain the *major shot calling* major action. This lets another player character take a major action during your turn instead of you. You decide who and they decide which major action. They cannot take the same action the next time they take their turn.
 
-At the thirteenth level, tacticians gain the *high ground advantage* class feature. Attacks against enemies at a lower elevation deal [[* Presence][presence]] / 4 extra damage.
+At the thirteenth level, tacticians gain the *tactical insight* class feature. Whenever battle insight is used, also learn what major and minor actions an enemy is going to use on their turn.
 
 At the fifteenth level, tacticians gain the *battle instincts* class feature. This makes *battle insight* into a free action that can be used once per turn.
 
@@ -404,17 +439,17 @@ One standard magic system.
 
 At the first level, mercenaries gain the *engage* minor action. This can be used when an enemy is within 1 square. Until the beginning of your next turn, if the enemy you target moves from their square, you may take a free attack action during their turn as soon as they move. This effect lasts until you or the enemy moves at least one square.
 
-At the third level, mercenaries gain the *relentless lock* class feature. This lets you and allies gain [[* Power][power]] / 4 (calculated from your power stat) extra damage when targeting enemies that you have engaged. If the enemy moves away from you, this bonus no longer applies.
+At the third level, mercenaries gain the *distracted strike* class feature. This lets allies add 10 to crit roles when targeting enemies that you have engaged. If the enemy moves away from you, this bonus no longer applies.
 
 At the fifth level, mercenaries gain the *shove* major action. This puts a normal or smaller size enemy into the [[* Fallen][fallen]] state.
 
-At the seventh level, mercenaries gain the *en guarde* class feature. [[* Power][power]] / 4 times per [[* Full Recovery][full recovery]], when your [[* Health Points (HP)][HP]] is reduced to 0, it remains at 1 instead.
+At the seventh level, mercenaries gain the *en guarde* class feature. Once per [[* Respite][respite]] when your [[* Health Points (HP)][HP]] is reduced to 0, it remains at 1 instead.
 
 At the ninth level, mercenaries gain the *quick engage* class feature. This turns *engage* into a free action that can be used once per turn.
 
 At the eleventh level, mercenaries gain the *power strike* minor action. When combined with the [[* Weapon Attack][weapon attack]] major action, your subtracted dice rolls become additive.
 
-At the thirteenth level, mercenaries gain the *charge* minor action. This lets you move [[* Power][power]] / 4 extra squares during your move action, as long as your movement is a straight line. You can use *shove* as a free action if an enemy stands at the end of your charge.
+At the thirteenth level, mercenaries gain the *charge* class feature. When taking the [[* Movement][movement]] minor action, as long as your movement is a straight line. You can use *shove* as a free action if an enemy stands at the end of your charge.
 
 At the fifteenth level, mercenaries gain the *quick draw* class feature. This lets a mercenary [[* Swapping Held Items][switch weapons]] as a free action instead of a minor action.
 
@@ -429,17 +464,17 @@ MP per Level: 8
 
 One standard magic system.
 
-At the third level, assassins gain the *sneaky strike* class feature. This let assassins add [[* Reflex][reflex]] / 2 to crit rolls against enemies when an ally is within 1 square of the enemy.
+At the third level, assassins gain the *sneaky strike* minor action. When targeting an enemy with a [[* Weapon Attack][weapon attack]] this turn, if an ally is within 1 square of the enemy you are targeting, you may reroll one of your weapon damage die when attacking that enemy.
 
 At the third level, assassins gain the *disarm* major action. An opponent within one square has a held weapon sent flying two squares away from you in any direction you choose. Picking it back up requires a [[* Swapping Held Items][weapon swap]] minor action.
 
-At the fifth level, assassins gain the *back stab* class feature. This lets assassins add [[* Reflex][reflex]] / 4 damage to attacks against enemies who have no allies within one square.
+At the fifth level, assassins gain the *back stab* minor action. When an ally is withing 1 square of the enemy you are targeting with a melee attack and that enemy has no allies within 1 square, ignore any [[* Defense][defense]] provided by armor.
 
 At the seventh level, assassins gain the *flourish strike* class feature. This lets you take an extra minor action whenever you perform a critical weapon attack. This feature can only be used once per turn. The minor action must be different than your other minor action.
 
-At the ninth level, assassins gain the *armor exploit* class feature. Assassins add [[* Reflex][reflex]] / 4 defense pierce to their weapon attacks.
+At the ninth level, assassins gain the *traveling combatant* class feature. Whenever you are the target of an attack or spell, you make move 1 square after the attack or spell resolves.
 
-At the eleventh level, assassins gain the *rapid strike* class feature. If you kill an opponent with a weapon strike, you make take an extra major action. This feature can only be used once per turn.
+At the eleventh level, assassins gain the *rapid strike* class feature. If you kill an opponent with a weapon strike, you may take an extra major action. This feature can only be used once per turn.
 
 At the thirteenth level, assassins gain the *weapon catch* class feature. This lets you keep the weapon thrown with disarm instead of sending it flying.
 
@@ -456,21 +491,21 @@ MP per Level: 10
 
 One advanced magic system.
 
-At the first level, scholars gain the *rest enjoyer* class feature. This allows the scholar to gain [[* Focus][focus]] / 4 extra HP or MP during a [[* Respite][respite]].
+At the first level, scholars gain the *rest enjoyer* class feature. This allows the scholar use one respite dice without counting towards the level limit every [[* Respite][respite]].
 
-At the third level, scholars gain the *spell insight* minor action. This lets you identify the next spell that an enemy will cast.
+At the third level, scholars gain the *spell insight* minor action. This lets you identify any spells that an enemy has prepared.
 
 At the fifth level, scholars gain the *mage drain* major action. This let you drain [[* Focus][focus]] / 2 [[* Magic Power (MP)][MP]] from an enemy spellcaster gaining that amount.
 
-At the seventh level, scholars gain the *spell imprint* minor action. If you cast a spell last turn, it can be cast again as a minor action.
+At the seventh level, scholars gain the *spell imprint* minor action. If you cast a spell last turn, it can be cast again as a minor action, but you cannot use the [[* Spell Cast][spell cast]] major action this turn.
 
 At the ninth level, scholars gain the *arcane wisdom* class feature. This lets you discover the effects of an artifact during a [[* Full Recovery][full recovery]].
 
-At the eleventh level, scholars gain the *recycle* class feature. Gain [[* Focus][focus]] / 2 [[* Magic Power (MP)][MP]] every time your spell damages an enemy during your turn.
+At the eleventh level, scholars gain the *MP recycle* class feature. Gain d6 [[* Magic Power (MP)][MP]] every turn that you do not cast a spell.
 
-At the thirteenth level, scholars gain the *pre-emptive magic* major action. This lets you cast the spell learned from spell insight for zero mana this turn.
+At the thirteenth level, scholars gain the *spell disable* major action. Declare a spell that was learned from spell insight. The enemy who knew that spell is unable to cast it for the rest of the day. Only one spell per enemy can be affected by spell disable at a time.
 
-At the fifteenth level, scholars gain the *magic osmosis* class feature. This lets you select another target to gain the [[* Magic Power (MP)][MP]] gathered from the recycle class feature. 
+At the fifteenth level, scholars gain the *magic osmosis* class feature. This lets you select another target to gain the [[* Magic Power (MP)][MP]] gathered from the recycle class feature.
 
 At the sixteenth level, scholars gain the *spell chain* class feature. If a sorcerer kills an enemy with a spell, they may cast a different spell in the same major action. This can be used as long as [[* Magic Power (MP)][MP]] is available.
 
