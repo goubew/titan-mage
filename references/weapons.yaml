@@ -1,10 +1,112 @@
 ---
+
+#
+# Melee Weapons
+#
+
 - name: Stick
   description: It's brown and sticky
-  class: standard
+  class: hammer
   range: 1
-  damage: (d4-d4)
-  weight: 0
+  damage: "1"
+  handed: one
   rarity: common
   requirements: None
+
+- name: Dagger
+  description: This simple short blade can be easily concealed.
+  class: sword
+  range: 1
+  damage: ~(2d4) + reflex/4
+  handed: one
+  rarity: common
+  requirements: None
+
+- name: Short Sword
+  description: This sword is easily used by one hand or carried on the hip.
+  class: sword
+  range: 1
+  damage: d4
+  handed: one
+  rarity: common
+  requirements: None
+
+- name: Long Sword
+  description: This sword is the longest traditional sword capable if being used with one hand.
+  class: sword
+  range: 1
+  damage: d6
+  handed: one
+  rarity: common
+  requirements: 4 Strength
+
+- name: Rapier
+  description: This narrow sword is meant to pierce opponents.
+  class: sword
+  range: 1
+  damage: ~(2d4) + reflex/4 [armor pierce 2]
+  handed: one
+  rarity: rare
+  requirements: 4 Reflex
+
+- name: Greatsword
+  description: This large blade worn on the back deals as much damage with physical force as finess
+  class: sword
+  range: 1
+  damage: ~(2d12) + strength/4
+  handed: two
+  rarity: rare
+  requirements: 10 Strength
+
+- name: Katana
+  description: This long slightly curved blade is only sharpened on one edge.
+  class: sword
+  range: 1
+  damage: ~(d4,d6) + reflex/2
+  handed: two
+  rarity: rare
+  requirements: 10 reflex/2
+
+- name: Club
+  description: A large piece of hardwood meant for pummeling.
+  class: hammer
+  range: 1
+  damage: ~(2d4) + strength/4
+  handed: one
+  rarity: common
+  requirements: 4 Strength
+
+- name: Mace
+  description: A well formed bludgeoning object with a bulbous head.
+  class: hammer
+  range: 1
+  damage: ~(2d4) + strength/4 [armor pierce 2]
+  handed: one
+  rarity: rare
+  requirements: 8 Strength
+
+- name: War Hammer
+  description: A hefty two handed hammer meant to crush.
+  class: hammer
+  range: 1
+  damage: ~(2d8) + strength/4 [armor pierce 4]
+  handed: two
+  rarity: rare
+  requirements: 12 Strength
+
+#
+# Ranged Weapons
+#
+
+# Ideas
+# Hammers
+#  club, mace, morningstar, war hammer
+# Axes
+#  hand axe, battle axe, war axe
+# Trident
+# Spear
+# Scyth
+# Halberd
+# Staff
+# Brass knuckles
 ...

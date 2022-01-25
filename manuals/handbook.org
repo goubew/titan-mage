@@ -34,8 +34,6 @@ Use the following checklist to create a new character.
 - Decide on a [[* Systems of Magic][magic system]] compatible with your player class
   - Fill in the magic system name
   - Fill in your starting spell choices
-- Decide on a starting [[* Skills][skill]].
-  - Fill in your starting skill
 - Fill in your character name
 
 ** Conventions
@@ -270,19 +268,37 @@ A full recovery restores all of a character's [[* Health Points (HP)][HP]] and [
 
 ** Skills
 
-Skills are trades that can be learned while in [[* Towns][town]] in order to augment a character's abilities. Skills take 3 months of time to learn and have an upfront cost.
+Skills are trades that can be learned while in [[* Towns][town]] in order to augment a character's abilities. Skills take three months of time to learn and have an upfront cost. A character can learn a maximum of three skills.
 
 *** Alchemy
 
 The alchemy skill allows you to identify potions on your own. In addition, you can craft a simple potion during a [[* Respite][respite]].
 
+Alchemy requires 1,000 shells to learn.
+
 *** Appraisal
+
+Appraisal lets you to better determine the value of rare items like gems, idols, and the like.
+
+Appraisal requires 500 shells to learn.
 
 *** Horseback Riding
 
+Horseback riding allows you to ride trained horses.
+
+Appraisal requires 300 shells to learn.
+
 *** Lockpicking
 
+Lockpicking allow you to attempt to pick locks.
+
+Appraisal requires 2,000 shells to learn.
+
 *** Smithing
+
+The smithing skill helps you to determine the value of weapons that you come across. In addition, you can craft common weapons while in [[* Town Actions][town]].
+
+Appraisal requires 1,000 shells to learn.
 
 ** Ability Check
 
@@ -327,6 +343,10 @@ Adventure Halls are places where for hire adventurers can train and scout for wo
 *** Apothecary
 
 Apothecaries sell potions and droughts that may help you while you are away.
+
+*** Bank
+
+It's not very practical to carry around all the money and equipment that you have accumulated. Banks offer you a way to secure possessions.
 
 *** Cartographer
 

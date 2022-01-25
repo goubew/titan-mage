@@ -8,7 +8,7 @@
       "class": { "type": "string" },
       "range": { "type": "number", "minimum": 1 },
       "damage": { "type": "string" },
-      "weight": { "type": "number", "minimum": 0 },
+      "handed": { "type": "string", "enum": ["one", "two"]},
       "rarity": { "type": "string", "enum": ["common", "rare", "epic", "legendary"] },
       "requirements": { "type": "string" }
     },
