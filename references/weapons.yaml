@@ -4,29 +4,29 @@
 # Melee Weapons
 #
 
-- name: Stick
-  description: It's brown and sticky
-  class: hammer
+- name: Brass Knuckles
+  description: These metal implements cover your fists and make you unarmed attacks even stronger.
+  class: unarmed
   range: 1
-  damage: "1"
-  handed: one
+  damage: ~(d4,d4)
+  handed: two
   rarity: common
-  requirements: None
+  requirements: 3 Reflex
 
 - name: Dagger
-  description: This simple short blade can be easily concealed.
+  description: This simple short blade can be easily concealed. Can be thrown.
   class: sword
   range: 1
   damage: ~(2d4) + reflex/4
   handed: one
   rarity: common
-  requirements: None
+  requirements: 3 Reflex
 
 - name: Short Sword
   description: This sword is easily used by one hand or carried on the hip.
   class: sword
   range: 1
-  damage: d4
+  damage: ~(d4,d4)
   handed: one
   rarity: common
   requirements: None
@@ -35,7 +35,7 @@
   description: This sword is the longest traditional sword capable if being used with one hand.
   class: sword
   range: 1
-  damage: d6
+  damage: ~(d4,d6)
   handed: one
   rarity: common
   requirements: 4 Strength
@@ -50,7 +50,7 @@
   requirements: 4 Reflex
 
 - name: Greatsword
-  description: This large blade worn on the back deals as much damage with physical force as finess
+  description: This large blade worn on the back deals as much damage with physical force as with the sharp edge.
   class: sword
   range: 1
   damage: ~(2d12) + strength/4
@@ -65,13 +65,13 @@
   damage: ~(d4,d6) + reflex/2
   handed: two
   rarity: rare
-  requirements: 10 reflex/2
+  requirements: 10 Reflex
 
 - name: Club
   description: A large piece of hardwood meant for pummeling.
   class: hammer
   range: 1
-  damage: ~(2d4) + strength/4
+  damage: ~(2d4) + strength/4 [armor pierce 1]
   handed: one
   rarity: common
   requirements: 4 Strength
@@ -94,19 +94,52 @@
   rarity: rare
   requirements: 12 Strength
 
+- name: Hand Axe
+  description: A simple one headed axe. Can be thrown.
+  class: axe
+  range: 1
+  damage: ~(2d4) + strength/4
+  handed: one
+  rarity: common
+  requirements: None
+
+- name: Battle Axe
+  description: A large axe with dual heads.
+  class: axe
+  range: 1
+  damage: ~(d4,d8) + strength/4
+  handed: one
+  rarity: rare
+  requirements: 12 Strength
+
+- name: Halberd
+  description: A long handled weapon with an axe like blade and a spike.
+  class: axe
+  range: 1
+  damage: ~(d4,d4) + strength/4 + reflex/4
+  handed: two
+  rarity: rare
+  requirements: 8 Strength, 8 Reflex
+
 #
 # Ranged Weapons
 #
 
-# Ideas
-# Hammers
-#  club, mace, morningstar, war hammer
-# Axes
-#  hand axe, battle axe, war axe
-# Trident
-# Spear
-# Scyth
-# Halberd
-# Staff
-# Brass knuckles
+- name: Shortbow
+  description: This simple bow
+  class: bow
+  range: 6
+  damage: ~(2d8) + presence/4
+  handed: two
+  rarity: common
+  requirements: 4 Reflex, Arrows
+
+- name: Longbow
+  description: This large bow nearly reaches to the ground while standing.
+  class: bow
+  range: 12
+  damage: ~(2d10) + presence/4
+  handed: two
+  rarity: rare
+  requirements: 6 Strength, 4 Reflex, Arrows
 ...
