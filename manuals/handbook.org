@@ -38,9 +38,9 @@ Use the following checklist to create a new character.
 
 ** Conventions
 
-This section lists some conventions used in this game.
+This section lists some conventions used in Titan Mage.
 
-- *Rounding*: Any time rounding is required in the game, always round up.
+- *Rounding*: Any time rounding is required, always round up.
 - *Dice Markings*: Damage values are usually marked with die to roll, d6, d10, etc. If multiple dice of the same type are to be rolled, the dice value will be prefixed with a number. For example 4d6 means to roll 4 d6 dice and add the value of all the rolls together. Some dice rolls are marked with a tilde and parentheses ~(2d4). For these rolls, roll 2 dice and subtract the larger value from the smaller. This may use dice of different size, e.g. ~(d4,d6). Always subtract the larger rolled value, regardless of which die has more sides.
 
 * Character Stats
@@ -78,7 +78,7 @@ Use the following requirements chart to see what it takes to make it to level up
 
 ** The Main Stats
 
-Main stats are the primary stats in the game. Actions with an uncertain outcome are almost always modified by one of these through [[* Ability Check][ability checks]].
+Main stats directly measure character prowess. They influence other stats and are used for determining outcomes in [[* Ability Check][ability checks]].
 
 These stats range from 1 to 21. When stats are upgraded, the effects of stats are always retroactive.
 
@@ -109,7 +109,7 @@ Stats are often to modify the damage of attacks or spells as either + stat, + st
 |   20 |      9 |      5 |
 |   21 |     10 |      6 |
 
-Stats are broken up into the following categories:
+There are four main stats.
 
 *** Power
 
@@ -117,7 +117,7 @@ Stats are broken up into the following categories:
 
 Effects:
 
-- Extra HP per level: Power / 4
+- Extra [[* Health Points (HP)][HP]] per level: Power / 4
 
 *** Reflex
 
@@ -126,7 +126,7 @@ Effects:
 Effects:
 
 - Combat order: Higher reflex acts first
-- [[* Guard][Guard]] major action: Increases defense gained
+- Modified defense threshold: [[* Defense Threshold][Defense threshold]] reduced by Reflex / 4
 
 *** Focus
 
@@ -156,7 +156,17 @@ Magic power tracks the amount of magic that a character can perform. Characters 
 
 *** Defense
 
-Defense provides flat damage reduction. Certain abilities are able to ignore defense entirely and are marked as /armor piercing/.
+Defense provides flat physical damage reduction. Defense is provided primarily by your [[* Combat Equipment][armor]]. Certain abilities are able to reduce an opponents defense and are marked as /armor piercing/.
+
+*** Defense Threshold
+
+The reduction in damage provided by [[* Defense][defense]] only goes into effect after a certain ammount of damage is taken. This ammount is the damage threshold. Damage threshold is set by your [[* Combat Equipment][armor]] and is reduced by [[* Reflex][reflex]] and by equipping shields.
+
+As an example, say you have 3 defense and 5 damage threshold. If you take 7 damage, your defense kicks in after 5 damage, leaving 2 damage that is affected by defense. 3 is greater than two, so both points of damage are reduced and you take 5 damage.
+
+*** Magic Resistance
+
+Magic resistance provides flat magic damage reduction. Magic threshold is rare, and is not provided by any normal armors. There is no magic resistance threshold, the reduction is always applied.
 
 *** Movement Speed
 
@@ -167,6 +177,10 @@ When moving diagonal, treat the first diagonal move as one square of movement, t
 * Combat
 
 In combat, players and enemies take turns performing actions. A turn is broken up into one major action, one minor action, and as many as needed free actions. One is always free to use a minor action in place of a major action.
+
+** Turn Order
+
+Turn order is decided by the [[* Reflex][reflex]] stat. A higher stat means you go first. Ties are decided by the players.
 
 ** Default Major Actions
 
@@ -182,7 +196,7 @@ Characters who are learned in a [[* Systems of Magic][school of magic]] that pro
 
 *** Guard
 
-Characters gain [[* Reflex][reflex]]/2 [[* Defense][defense]] until the beginning of their next turn.
+Characters have their [[* Defense Threshold][defense threshold]] set to 0 until the beginning of their next turn.
 
 ** Default Minor Actions
 
@@ -202,7 +216,9 @@ Characters with two one handed weapons can attack with the off hand as a minor a
 
 Characters load ammunition into a ranged weapon, a bow for example.
 
-** Ability Saves
+** Damage Types
+
+Damage dealt by weapons is counted as physical damage and can be reduced by the [[* Defense][defense]] stat. Damage dealt by spells is counted as magical damage and can be reduced by the [[* Magic Resistance][magic resistance]] stat.
 
 ** Conditions
 
@@ -284,6 +300,12 @@ The alchemy skill allows you to identify potions on your own. In addition, you c
 
 Alchemy requires 1,000 shells to learn.
 
+*** Arcane Studies
+
+Arcane studies allows you to detect [[* Artifacts][artifacts]] and to decipher their effects. Without this, you will have to pay a hopefully trusted expert.
+
+Arcane studies requires 1,000 shells to learn.
+
 *** Appraisal
 
 Appraisal lets you to better determine the value of rare items like gems, idols, and the like.
@@ -294,19 +316,19 @@ Appraisal requires 500 shells to learn.
 
 Horseback riding allows you to ride trained horses.
 
-Appraisal requires 300 shells to learn.
+Horseback riding requires 300 shells to learn.
 
 *** Lockpicking
 
 Lockpicking allow you to attempt to pick locks.
 
-Appraisal requires 2,000 shells to learn.
+Lockpicking requires 2,000 shells to learn.
 
 *** Smithing
 
 The smithing skill helps you to determine the value of weapons that you come across. In addition, you can craft common weapons while in [[* Town Actions][town]].
 
-Appraisal requires 1,000 shells to learn.
+Smithing requires 1,000 shells to learn.
 
 ** Ability Check
 
@@ -421,6 +443,10 @@ Time can be spent researching a topic in town. Asking around, checking scholarly
 *** Shopping
 
 Adventuring requires extreme preparation. Before embarking, it is wise to stock up on items to help you while away.
+
+*** Spellwork
+
+By practicing you magic craft, a spell from your spell list can be swapped out.
 
 *** Working
 
@@ -563,24 +589,24 @@ Carving runes into your weapons and armor reserves [[* Magic Power (MP)][MP]]. T
 The number of runes that can be equipped at a time is shown in the following table.
 
 #+begin_xtable
-| Level | # of Runes |
-|-------+------------|
-|     1 | 1          |
-|     2 | 2          |
-|     3 | 2          |
-|     4 | 3          |
-|     5 | 3          |
-|     6 | 4          |
-|     7 | 4          |
-|     8 | 5          |
-|     9 | 5          |
-|    10 | 6          |
-|    11 | 6          |
-|    12 | 7          |
-|    13 | 7          |
-|    14 | 8          |
-|    15 | 8          |
-|    16 | 10         |
+| Level | Max # of Runes |
+|-------+----------------|
+|     1 |              1 |
+|     2 |              1 |
+|     3 |              1 |
+|     4 |              2 |
+|     5 |              2 |
+|     6 |              2 |
+|     7 |              3 |
+|     8 |              3 |
+|     9 |              3 |
+|    10 |              4 |
+|    11 |              4 |
+|    12 |              4 |
+|    13 |              5 |
+|    14 |              5 |
+|    15 |              5 |
+|    16 |              6 |
 #+end_xtable
 
 ** Spirit Caller
@@ -589,27 +615,27 @@ The number of runes that can be equipped at a time is shown in the following tab
 
 Spirit Callers hold a spiritual bond with their ancestors. In death, the spirits of the departed are able to impart their favors upon the physical world.
 
-These effects are limited by the number of favors available and can be activated a number of times per combat shown in the following table.
+These effects are limited by the number of favors available and can be activated a number of times since the last [[* Full Recovery][full recovery]] as shown in the following table.
 
 #+begin_xtable
-| Level | # Casts Per Combat | # Favors Available |
-|-------+--------------------+--------------------|
-|     1 |                  1 |                  1 |
-|     2 |                  2 |                  2 |
-|     3 |                  2 |                  2 |
-|     4 |                  2 |                  3 |
-|     5 |                  2 |                  3 |
-|     6 |                  3 |                  4 |
-|     7 |                  3 |                  4 |
-|     8 |                  3 |                  5 |
-|     9 |                  3 |                  5 |
-|    10 |                  3 |                  6 |
-|    11 |                  4 |                  6 |
-|    12 |                  4 |                  7 |
-|    13 |                  4 |                  7 |
-|    14 |                  4 |                  8 |
-|    15 |                  4 |                  8 |
-|    16 |                  5 |                 10 |
+| Level | # Casts Per Recovery | # Favors Available |
+|-------+----------------------+--------------------|
+|     1 |                    1 |                  1 |
+|     2 |                    2 |                  2 |
+|     3 |                    2 |                  2 |
+|     4 |                    2 |                  3 |
+|     5 |                    2 |                  3 |
+|     6 |                    3 |                  4 |
+|     7 |                    3 |                  4 |
+|     8 |                    3 |                  5 |
+|     9 |                    3 |                  5 |
+|    10 |                    3 |                  6 |
+|    11 |                    4 |                  6 |
+|    12 |                    4 |                  7 |
+|    13 |                    4 |                  7 |
+|    14 |                    4 |                  8 |
+|    15 |                    4 |                  8 |
+|    16 |                    5 |                 10 |
 #+end_xtable
 
 ** Harvester
@@ -723,11 +749,15 @@ The currency in the game are shells and pearls.
 
 ** Combat Equipment
 
-Combat equipment includes weapons, armor, helms, and shields.
+Combat equipment includes weapons, armor, and shields.
 
-Armor and helms are considered worn equipment. Weapons and shields are considered held equipment.
+Armor is considered worn equipment. Weapons and shields are considered held equipment.
 
-Only one set of armor and one helm can be worn at a time. Two one-handed combat items or one two-handed combat items can be worn at a time.
+Armor provides you with you base [[* Defense][defense]] and [[* Defense Threshold][defense threshold]] stats.
+
+Only one set of armor can be worn at a time. Two one-handed combat items or one two-handed combat items can be worn at a time.
+
+Characters can carry with them one set of armor and four hands worth of held items.
 
 Switching held equipment, can done with the [[* Swapping Held Items][swapping held items]] minor action.
 
@@ -735,9 +765,15 @@ Switching held equipment, can done with the [[* Swapping Held Items][swapping he
 
 In addition to combat equipment, it is wise to stock up on adventuring equipment. These include ropes, light sources, bags, etc.
 
+There is no hard limit on carrying adventuring equipment, but the items you take with you must reasonably fit in a backpack or on a pack mule.
+
 ** Potions
 
-Potions can be bought at an [[* Apothecary][apothecary]]. Potions are described as simple or complicated.
+Potions can be bought at an [[* Apothecary][apothecary]].
+
+Potions provide such important utilities like healing and staving off negative effects, if you care about that sort of thing.
+
+Up to 10 potions can be carried at a time.
 
 ** Artifacts
 
