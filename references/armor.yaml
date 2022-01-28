@@ -1,9 +1,41 @@
 ---
-- name: Chainmail
-  description: Your run of the mill armor. A little rusted.
-  class: medium
-  defense: 1
-  weight: 2
+- name: Padded Leather Armor
+  description: A thick leather armor provides protection in high risk areas.
+  defense: 2
+  defenseThreshold: 5
+  movementSpeedPenalty: 0
   rarity: common
   requirements: None
+
+- name: Chainmail
+  description: A metal armor made from interlocking metal rings over a padded garment.
+  defense: 3
+  defenseThreshold: 3
+  movementSpeedPenalty: 1
+  rarity: common
+  requirements: 4 Strength
+
+- name: Half Plate
+  description: Metal plated armor that covers the torso and arms.
+  defense: 5
+  defenseThreshold: 6
+  movementSpeedPenalty: 1
+  rarity: rare
+  requirements: 6 Strength
+
+- name: Full Plate
+  description: Metal plated armor that covers the entire body.
+  defense: 10
+  defenseThreshold: 10
+  movementSpeedPenalty: 2
+  rarity: rare
+  requirements: 12 Strength
+
+- name: Dragon Scale Armor
+  description: A light armor made from woven dragon scales. The scales can be hardened on command for those who know how.
+  defense: 4
+  defenseThreshold: 6
+  movementSpeedPenalty: 0
+  rarity: epic
+  requirements: 6 focus
 ...
