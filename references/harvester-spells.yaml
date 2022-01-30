@@ -1,0 +1,8 @@
+---
+- name: dummy
+  description: dummy
+  cost: 1
+  action: minor
+  effect: dummy
+  requirements: dummy
+...

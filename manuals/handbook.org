@@ -300,12 +300,6 @@ The alchemy skill allows you to identify potions on your own. In addition, you c
 
 Alchemy requires 1,000 shells to learn.
 
-*** Arcane Studies
-
-Arcane studies allows you to detect [[* Artifacts][artifacts]] and to decipher their effects. Without this, you will have to pay a hopefully trusted expert.
-
-Arcane studies requires 1,000 shells to learn.
-
 *** Appraisal
 
 Appraisal lets you to better determine the value of rare items like gems, idols, and the like.
@@ -462,7 +456,7 @@ HP per Level: 8
 
 MP per Level: 8
 
-One standard magic system.
+One magic system.
 
 At the first level, tacticians gain the *delayed action* class feature. This allows the player to take their minor action, major action, or both actions later in the turn order. The conditions for taking the turn and the action that is to be taken must be expressed during your normal turn.
 
@@ -489,7 +483,7 @@ Mercenaries are masters of combat and weaponry, able to wield the rarest weapons
 HP per Level: 10
 MP per Level: 6
 
-One standard magic system.
+One magic system.
 
 At the first level, mercenaries gain the *engage* minor action. This can be used when an enemy is within 1 square. Until the beginning of your next turn, if the enemy you target moves from their square, you may take a free attack action during their turn as soon as they move. This effect lasts until you or the enemy moves at least one square.
 
@@ -516,7 +510,7 @@ Assassins are skilled dealing damage through the use of well placed attacks and 
 HP per Level: 8
 MP per Level: 8
 
-One standard magic system.
+One magic system.
 
 At the third level, assassins gain the *sneaky strike* minor action. When targeting an enemy with a [[* Weapon Attack][weapon attack]] this turn, if an ally is within 1 square of the enemy you are targeting, you may reroll one of your weapon damage die when attacking that enemy.
 
@@ -543,25 +537,25 @@ Scholars are those who seek to understand the titan's influence on the world. Th
 HP per Level: 6
 MP per Level: 10
 
-One advanced magic system.
+One magic system, including the [[* Ancient Whisperer][ancient whisperer]] magic system.
 
 At the first level, scholars gain the *rest enjoyer* class feature. This allows the scholar use one respite dice without counting towards the level limit every [[* Respite][respite]].
 
 At the third level, scholars gain the *spell insight* minor action. This lets you identify any spells that an enemy has prepared.
 
-At the fifth level, scholars gain the *mage drain* major action. This let you drain [[* Focus][focus]] / 2 [[* Magic Power (MP)][MP]] from an enemy spellcaster gaining that amount.
+At the fifth level, scholars gain the *mage drain* major action. Declare an enemy. Until the beginning of your next turn, regain the [[* Magic Power (MP)][MP]] value of any spells that cast.
 
 At the seventh level, scholars gain the *spell imprint* minor action. If you cast a spell last turn, it can be cast again as a minor action, but you cannot use the [[* Spell Cast][spell cast]] major action this turn.
 
-At the ninth level, scholars gain the *arcane wisdom* class feature. This lets you discover the effects of an artifact during a [[* Full Recovery][full recovery]].
+At the ninth level, scholars gain the *arcane wisdom* class feature. This lets you discover the effects of an artifact as a [[* Town Actions][town action]].
 
-At the eleventh level, scholars gain the *MP recycle* class feature. Gain d6 [[* Magic Power (MP)][MP]] every turn that you do not cast a spell.
+At the eleventh level, scholars gain the *MP recycle* class feature. Gain d4 [[* Magic Power (MP)][MP]] at the end of every turn that you do not cast a spell.
 
 At the thirteenth level, scholars gain the *spell disable* major action. Declare a spell that was learned from spell insight. The enemy who knew that spell is unable to cast it for the rest of the day. Only one spell per enemy can be affected by spell disable at a time.
 
 At the fifteenth level, scholars gain the *magic osmosis* class feature. This lets you select another target to gain the [[* Magic Power (MP)][MP]] gathered from the recycle class feature.
 
-At the sixteenth level, scholars gain the *spell chain* class feature. If a sorcerer kills an enemy with a spell, they may cast a different spell in the same major action. This can be used as long as [[* Magic Power (MP)][MP]] is available.
+At the sixteenth level, scholars gain the *spell chain* class feature. This turns the [[* Spell Cast][spell cast]] action into a minor action, and this action can be used as a minor action and major action in the same turn.
 
 ** Bereft
 
@@ -578,9 +572,92 @@ The power of the titans left its mark on the world. The study of these marks led
 
 Each group requires a lifetime of practice and a focus to the craft. Even then, some advanced magics are only able to be learned by those who give their complete energy to the study. These are known as advanced magics, while the easier magics are called the standard magics.
 
-** Runecast
+** Ancient Whisperer
 
-*Type*: Standard
+The ancient whisperer magic system can only be learned by the [[* Scholar][scholar]] class.
+
+The Ancient Whisperers have studied the lost spoken language of the titans. Through great mental exertion, they can recall incantations the forgotten language, shaping the world as the titans once did.
+
+The number of known incantations are shown in the following table.
+
+#+begin_xtable
+| Level | # Incantations Known |
+|-------+----------------------|
+|     1 |                    1 |
+|     2 |                    2 |
+|     3 |                    3 |
+|     4 |                    4 |
+|     5 |                    5 |
+|     6 |                    6 |
+|     7 |                    7 |
+|     8 |                    8 |
+|     9 |                    9 |
+|    10 |                   10 |
+|    11 |                   11 |
+|    12 |                   12 |
+|    13 |                   13 |
+|    14 |                   14 |
+|    15 |                   15 |
+|    16 |                   16 |
+#+end_xtable
+
+** Elementalist
+
+Elementalists draw from the latent magic left behind from the construction of the world.
+
+Elemental spells, called sourceries, can be devastatingly powerful, but rely on the setup and maintenance of elemental catalysts. Elementalists learn major and minor sourceries that can be used as major and minor actions.
+
+Elementalists work with the catalysts of heat, cold, earth, lightning, and dark.  Sourceries that create these catalysts are marked with a type and amount, e.g. creates heat 2. Spells that consume the catalysts are marked with type and cost, e.g. consumes heat 1. At the end of the elementalist's turn, the value of each catalyst type is reduced by 1 to a minimum of 0.
+
+#+begin_xtable
+| Level | # Major Sourceries Known | # Minor Sourceries Known |
+|-------+--------------------------+--------------------------|
+|     1 |                        1 |                        1 |
+|     2 |                        2 |                        2 |
+|     3 |                        3 |                        2 |
+|     4 |                        4 |                        2 |
+|     5 |                        5 |                        2 |
+|     6 |                        6 |                        3 |
+|     7 |                        7 |                        3 |
+|     8 |                        8 |                        3 |
+|     9 |                        9 |                        3 |
+|    10 |                       10 |                        3 |
+|    11 |                       11 |                        4 |
+|    12 |                       12 |                        4 |
+|    13 |                       13 |                        4 |
+|    14 |                       14 |                        4 |
+|    15 |                       15 |                        4 |
+|    16 |                       16 |                        5 |
+#+end_xtable
+
+** Harvester
+
+Harvesters utilize the remains of the fallen, twisting them to their own purposes. They collect soul pieces from those that die during combat, which are manipulated to their end through the use of spells called extractions.
+
+The number of known extractions and maximum number of should pieces that can be held at the same time are shown in the following table.
+
+#+begin_xtable
+| Level | # Extractions Known | Max Soul Pieces |
+|-------+---------------------+-----------------|
+|     1 |                   1 |               3 |
+|     2 |                   2 |               4 |
+|     3 |                   2 |               4 |
+|     4 |                   3 |               5 |
+|     5 |                   3 |               5 |
+|     6 |                   4 |               6 |
+|     7 |                   4 |               6 |
+|     8 |                   5 |               7 |
+|     9 |                   5 |               7 |
+|    10 |                   6 |               8 |
+|    11 |                   6 |               8 |
+|    12 |                   7 |               9 |
+|    13 |                   7 |               9 |
+|    14 |                   8 |              10 |
+|    15 |                   8 |              10 |
+|    16 |                  10 |              12 |
+#+end_xtable
+
+** Runecast
 
 The Runecast are warriors that pursue the study of an ancient written language. By etching these runic symbols into their weapons and armor, they are able to bind the power of magic to physical objects, and augment their combat ability.
 
@@ -611,8 +688,6 @@ The number of runes that can be equipped at a time is shown in the following tab
 
 ** Spirit Caller
 
-*Type*: Standard
-
 Spirit Callers hold a spiritual bond with their ancestors. In death, the spirits of the departed are able to impart their favors upon the physical world.
 
 These effects are limited by the number of favors available and can be activated a number of times since the last [[* Full Recovery][full recovery]] as shown in the following table.
@@ -636,101 +711,6 @@ These effects are limited by the number of favors available and can be activated
 |    14 |                    4 |                  8 |
 |    15 |                    4 |                  8 |
 |    16 |                    5 |                 10 |
-#+end_xtable
-
-** Harvester
-
-*Type*: Standard
-
-Harvesters utilize the remains of the fallen, twisting them to their own purposes. They collect soul pieces from those that die during combat, which are manipulated to their end through the use of spells called extractions.
-
-The number of known extractions and maximum number of should pieces that can be held at the same time are shown in the following table.
-
-#+begin_xtable
-| Level | # Extractions Known | Max Soul Pieces |
-|-------+---------------------+-----------------|
-|     1 |                   1 |               3 |
-|     2 |                   2 |               4 |
-|     3 |                   2 |               4 |
-|     4 |                   3 |               5 |
-|     5 |                   3 |               5 |
-|     6 |                   4 |               6 |
-|     7 |                   4 |               6 |
-|     8 |                   5 |               7 |
-|     9 |                   5 |               7 |
-|    10 |                   6 |               8 |
-|    11 |                   6 |               8 |
-|    12 |                   7 |               9 |
-|    13 |                   7 |               9 |
-|    14 |                   8 |              10 |
-|    15 |                   8 |              10 |
-|    16 |                  10 |              12 |
-#+end_xtable
-
-** Wildpact
-
-*Type*: Standard
-
-Wildpact are those who have formed a magical bond with a beast companion. Time spent in the wilds has formed a shared consciousness that allows the wildpact and beast to fight as one.
-
-** Ancient Whisperer
-
-*Type*: Advanced
-
-The Ancient Whisperers have studied the lost spoken language of the titans. Through great mental exertion, they can recall incantations the forgotten language, shaping the world as the titans once did.
-
-The number of known incantations are shown in the following table.
-
-#+begin_xtable
-| Level | # Incantations Known |
-|-------+----------------------|
-|     1 |                    1 |
-|     2 |                    2 |
-|     3 |                    3 |
-|     4 |                    4 |
-|     5 |                    5 |
-|     6 |                    6 |
-|     7 |                    7 |
-|     8 |                    8 |
-|     9 |                    9 |
-|    10 |                   10 |
-|    11 |                   11 |
-|    12 |                   12 |
-|    13 |                   13 |
-|    14 |                   14 |
-|    15 |                   15 |
-|    16 |                   16 |
-#+end_xtable
-
-** Elementalist
-
-*Type*: Advanced
-
-Elementalists draw from the latent magic left behind from the construction of the world.
-
-Elemental spells, called sourceries, can be devastatingly powerful, but rely on the setup and maintenance of elemental catalysts. Elementalists learn major and minor sourceries that can be used as major and minor actions.
-
-Elementalists work with the catalysts of heat, cold, earth, lightning, and dark.  Sourceries that create these catalysts are marked with a type and amount, e.g. creates heat 2. Spells that consume the catalysts are marked with type and cost, e.g. consumes heat 1. At the end of the elementalist's turn, the value of each catalyst type is reduced by 1 to a minimum of 0.
-
-#+begin_xtable
-| Level | # Major Sourceries Known | # Minor Sourceries Known |
-|-------+--------------------------+--------------------------|
-|     1 |                        1 |                        1 |
-|     2 |                        2 |                        2 |
-|     3 |                        3 |                        2 |
-|     4 |                        4 |                        2 |
-|     5 |                        5 |                        2 |
-|     6 |                        6 |                        3 |
-|     7 |                        7 |                        3 |
-|     8 |                        8 |                        3 |
-|     9 |                        9 |                        3 |
-|    10 |                       10 |                        3 |
-|    11 |                       11 |                        4 |
-|    12 |                       12 |                        4 |
-|    13 |                       13 |                        4 |
-|    14 |                       14 |                        4 |
-|    15 |                       15 |                        4 |
-|    16 |                       16 |                        5 |
 #+end_xtable
 
 * Equipment

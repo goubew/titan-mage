@@ -15,7 +15,7 @@
 
 - name: Buckler
   description: A small metal shield meant to be maneuverable.
-  defenseThresholdReduction: 1
+  defenseThresholdReduction: 2
   movementSpeedPenalty: 0
   rarity: common
   requirements: 6 Presence
@@ -32,12 +32,12 @@
   defenseThresholdReduction: 5
   movementSpeedPenalty: 2
   rarity: common
-  requirements: 4 Presence, 10 Strength
+  requirements: 4 Presence, 8 Strength
 
 - name: Shield of the Woods
   description: A shield carved from the dwellers of the deep wood. It works mysteriously for some and not at all for others.
   defenseThresholdReduction: 1
   movementSpeedPenalty: -1
   rarity: epic
-  requirements: 8 focus, 10 Presence
+  requirements: 4 Focus, 6 Presence
 ...

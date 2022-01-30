@@ -1,11 +1,11 @@
 #+Title: Titan Mage TTRPG
 #+OPTIONS: toc:nil
 
-* Welcome to Titan Mage
+Welcome to Titan Mage, a free hobbyist fantasy TTRPG!
 
-Welcome to Titan Mage, a free hobbyist TTRPG!
+The game is still under construction and is subject to heavy changes.
 
-** For Players
+* For Players
 
 [[./handbook.org][Player's Handbook]]
 
@@ -21,7 +21,19 @@ Welcome to Titan Mage, a free hobbyist TTRPG!
 
 [[./weapons.html][Weapons Reference]]
 
-** For Game Masters
+** Spells
+
+[[./ancient-whisperer-spells.html][Ancient Whisperer Reference]]
+
+[[./elementalist-spells.html][Elementalist Reference]]
+
+[[./harvester-spells.html][Harvester Reference]]
+
+[[./runecast-spells.html][Runecast Reference]]
+
+[[./spirit-caller-spells.html][Spirit Caller Reference]]
+
+* For Game Masters
 
 [[./gm-guide.org][Game Master's Guide]]
 
