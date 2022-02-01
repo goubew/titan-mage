@@ -1,8 +1,50 @@
 ---
+- name: Channel heat
+  description: The rooom around you become distorted with heat.
+  cost: 3 MP
+  action: minor
+  effect: Creates 3 heat catalyst.
+  requirements: None
+
+- name: Channel cold
+  description: The rooom around you become distorted with heat.
+  cost: 3 MP
+  action: minor
+  effect: Creates 3 cold catalyst.
+  requirements: None
+
+- name: Channel light
+  description: The rooom glows with a radiant energy
+  cost: 3 MP
+  action: minor
+  effect: Creates 3 light catalyst.
+  requirements: None
+
+- name: Channel dark
+  description: The rooom around you become dims.
+  cost: 3 MP
+  action: minor
+  effect: Creates 3 dark catalyst.
+  requirements: None
+
+- name: Channel earth
+  description: The earth beneath you rumbles and loosens.
+  cost: 3 MP
+  action: minor
+  effect: Creates 3 earth catalyst.
+  requirements: None
+
+- name: Channel suspension
+  description: Create 
+  cost: 3 MP
+  action: minor
+  effect: Add 2 to every channeled catalyst.
+  requirements: None
+
 - name: Solar Flare
   description: A wall of fire emits in a circle around you.
-  cost: 4
+  cost: 4 MP, 1 Heat catalyst
   action: major
   effect: Enemies with one square of you take ~(2d4) + Focus/4 magic damage.
-  requirements: Heat catalyst
+  requirements: None
 ...

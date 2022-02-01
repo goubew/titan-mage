@@ -222,6 +222,10 @@ Damage dealt by weapons is counted as physical damage and can be reduced by the 
 
 ** Conditions
 
+*** Exhausted
+
+Character who are exhausted cannot take major actions and their [[* Movement Speed][movement speed]] is reduced by half.
+
 *** Fallen
 
 In the fallen condition, you are unable to make the [[* Weapon Attack][weapon attack]] major action or the [[* Movement][movement]] minor action. Standing back up takes a major action. While fallen, instead of the normal movement minor action, you can use a minor action to roll one square.
