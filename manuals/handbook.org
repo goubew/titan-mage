@@ -34,6 +34,7 @@ Use the following checklist to create a new character.
 - Decide on a [[* Systems of Magic][magic system]] compatible with your player class
   - Fill in the magic system name
   - Fill in your starting spell choices
+- Formulate a [[* Backstory][backstory]]
 - Fill in your character name
 
 ** Conventions
@@ -341,6 +342,12 @@ Speaking with Non-Player Characters (NPCs) is a common part of adventuring. Play
 When players are expecting a result out of their conversation, it's the job of the DM to recognize this and ask for an [[* Ability Check][ability check]]. Players have many ways to be convincing, and the strength of their argument can have a great affect on the difficulty of the ability check.
 
 Dialog is also one of the best ways to show off your character's personality!
+
+** Backstory
+
+Your character's backstory describes why they have just become an adventurer. It can be as short as, "I vow to buy back my family's farm from the evil baron", or as long as you enjoy writing it.
+
+An important point to keep in mind is that your character is just starting out. Every character is capable of great deeds, but you get to discover them through playing the game, not crafting a backstory. Discovering who your character is by playing is one of the pleasures of TTRPGs.
 
 * Towns
 
