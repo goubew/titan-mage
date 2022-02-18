@@ -30,7 +30,7 @@ Use the following checklist to create a new character.
 - Decide on a [[* Player Classes][player class]]
   - Fill in the class name
 - Assign [[* The Main Stats][main stats]]
-  - Fill in the main stats in any order with the numbers 4, 2, 2, 0
+  - Fill in the main stats in any order with the numbers 1, 1, 0, 0
 - Decide on a [[* Systems of Magic][magic system]] compatible with your player class
   - Fill in the magic system name
   - Fill in your starting spell choices
@@ -77,6 +77,12 @@ Use the following requirements chart to see what it takes to make it to level up
 |    16 | ?                 | ?        | ?             | Grandmaster    |
 #+end_xtable
 
+Whenever you level up, perform the following actions:
+
+- Add five to your [[* Health Points (HP)][HP]] and [[* Magic Power (MP)][MP]]
+- Increase two different [[* The Main Stats][main stats]] by one point
+- Recalculate [[* Auxiliary Stats][aux stats]] as needed
+
 ** The Main Stats
 
 Main stats directly measure character prowess. They influence other stats and are used for determining outcomes in [[* Ability Check][ability checks]].
@@ -116,34 +122,50 @@ There are four main stats.
 
 /Power is used to express physical strength. Cleave, crush, and grapple your way through enemies./
 
-Effects:
+Direct Effects:
 
 - Extra [[* Health Points (HP)][HP]] per level: Power / 4
+
+Other Effects:
+
+- Extra damage with traditional weapons
 
 *** Reflex
 
 /Reflex measures your speed and reaction. Evade dangers and act before others. A high reflex shoots first./
 
-Effects:
+Direct Effects:
 
 - Combat order: Higher reflex acts first
 - Modified defense threshold: [[* Defense Threshold][Defense threshold]] reduced by Reflex / 4
+
+Other Effects:
+
+- Extra damage with specialized weapons
 
 *** Focus
 
 /Focus allows you to concentrate and understand complex concepts. Perceive the dangers around you and outwit opponents./
 
-Effects:
+Direct Effects:
 
 - Extra MP per level: Focus / 4
+
+Other Effects:
+
+- Able to learn more powerful spells
 
 *** Presence
 
 /A high presence signifies awareness of the world around you. Anticipate the actions of others and make them pay for their predictability./
 
-Effects:
+Direct Effects:
 
-- Critical strike chance: D20 roll <= Presence
+- [[* Damage Types][Physical damage]] critical strike chance: D20 roll <= Presence
+
+Other Effects:
+
+- Extra spell effects
 
 ** Auxiliary Stats
 
@@ -167,7 +189,7 @@ As an example, say you have 3 defense and 5 damage threshold. If you take 7 dama
 
 *** Magic Resistance
 
-Magic resistance provides flat magic damage reduction. Magic threshold is rare, and is not provided by any normal armors. There is no magic resistance threshold, the reduction is always applied.
+Magic resistance provides flat magic damage reduction. Magic resistance is rare, and is not provided by any normal armors. There is no magic resistance threshold, the reduction is always applied.
 
 *** Movement Speed
 
@@ -189,7 +211,7 @@ Turn order is decided by the [[* Reflex][reflex]] stat. A higher stat means you 
 
 Characters make an attack against an enemy using an equipped weapon. An unarmed attack can be made for 1 damage if no weapons are equipped.
 
-Whenever a weapon attack is made, roll a d20. If your roll [[* Presence][presence]] stat is equal or higher than the roll, double the damage of the attack.
+Whenever a weapon attack that inflicts [[* Damage Types][physical damage]] is made, roll a d20. If your roll [[* Presence][presence]] stat is equal or higher than the roll, double the damage of the attack.
 
 *** Spell Cast
 
@@ -219,7 +241,9 @@ Characters load ammunition into a ranged weapon, a bow for example.
 
 ** Damage Types
 
-Damage dealt by weapons is counted as physical damage and can be reduced by the [[* Defense][defense]] stat. Damage dealt by spells is counted as magical damage and can be reduced by the [[* Magic Resistance][magic resistance]] stat.
+Damage dealt by weapons is counted as physical damage and can be reduced by the [[* Defense][defense]] stat (after [[* Defense Threshold][defense threshold]] is calculated in). When making a physical damage attack, make sure to roll a d20 to check for [[* Presence][crits]].
+
+Damage dealt by spells is counted as magical damage and can be reduced by the [[* Magic Resistance][magic resistance]] stat. Attacks made with magical damage can not crit.
 
 ** Conditions
 
@@ -463,11 +487,9 @@ Taking up temporary work allows you to live with frugal [[* Living Expenses][exp
 
 Tacticians are able to survey a battlefield with ease. They are able to command allies, increasing their battle effectiveness, and have insight into enemies traits.
 
-HP per Level: 8
+Starting [[* Health Points (HP)][HP]]: 10
 
-MP per Level: 8
-
-One magic system.
+Starting [[* Magic Power (MP)][MP]]: 10
 
 At the first level, tacticians gain the *delayed action* class feature. This allows the player to take their minor action, major action, or both actions later in the turn order. The conditions for taking the turn and the action that is to be taken must be expressed during your normal turn.
 
@@ -491,10 +513,9 @@ At the sixteenth level, tacticians gain the *battle commander* class feature. Th
 
 Mercenaries are masters of combat and weaponry, able to wield the rarest weapons and strongest armors. Cleaving and rending is the way of the Mercenary.
 
-HP per Level: 10
-MP per Level: 6
+Starting [[* Health Points (HP)][HP]]: 20
 
-One magic system.
+Starting [[* Magic Power (MP)][MP]]: 5
 
 At the first level, mercenaries gain the *engage* minor action. This can be used when an enemy is within 1 square. Until the beginning of your next turn, if the enemy you target moves from their square, you may take a free attack action during their turn as soon as they move. This effect lasts until you or the enemy moves at least one square.
 
@@ -518,10 +539,9 @@ At the sixteenth level, mercenaries gain the *battle master* class feature. This
 
 Assassins are skilled dealing damage through the use of well placed attacks and devious weapon modifications. Few can stand before an Assassin and live to tell the tale.
 
-HP per Level: 8
-MP per Level: 8
+Starting [[* Health Points (HP)][HP]]: 15
 
-One magic system.
+Starting [[* Magic Power (MP)][MP]]: 10
 
 At the third level, assassins gain the *sneaky strike* minor action. When targeting an enemy with a [[* Weapon Attack][weapon attack]] this turn, if an ally is within 1 square of the enemy you are targeting, you may reroll one of your weapon damage die when attacking that enemy.
 
@@ -545,8 +565,9 @@ At the sixteenth level, assassins gain the *criticalest* class feature. Critical
 
 Scholars are those who seek to understand the titan's influence on the world. The knowledge is only a mimicry, but even a fraction of that power is enough to demand respect.
 
-HP per Level: 6
-MP per Level: 10
+Starting [[* Health Points (HP)][HP]]: 10
+
+Starting [[* Magic Power (MP)][MP]]: 15
 
 One magic system, including the [[* Ancient Whisperer][ancient whisperer]] magic system.
 
@@ -625,20 +646,20 @@ Elementalists work with the catalysts of heat, cold, earth, lightning, and dark.
 |-------+--------------------------+--------------------------|
 |     1 |                        1 |                        1 |
 |     2 |                        2 |                        2 |
-|     3 |                        3 |                        2 |
-|     4 |                        4 |                        2 |
-|     5 |                        5 |                        2 |
-|     6 |                        6 |                        3 |
-|     7 |                        7 |                        3 |
-|     8 |                        8 |                        3 |
-|     9 |                        9 |                        3 |
-|    10 |                       10 |                        3 |
-|    11 |                       11 |                        4 |
-|    12 |                       12 |                        4 |
-|    13 |                       13 |                        4 |
-|    14 |                       14 |                        4 |
-|    15 |                       15 |                        4 |
-|    16 |                       16 |                        5 |
+|     3 |                        2 |                        2 |
+|     4 |                        3 |                        2 |
+|     5 |                        3 |                        2 |
+|     6 |                        4 |                        3 |
+|     7 |                        4 |                        3 |
+|     8 |                        5 |                        3 |
+|     9 |                        5 |                        3 |
+|    10 |                        6 |                        3 |
+|    11 |                        6 |                        4 |
+|    12 |                        7 |                        4 |
+|    13 |                        7 |                        4 |
+|    14 |                        8 |                        4 |
+|    15 |                        8 |                        4 |
+|    16 |                       10 |                        5 |
 #+end_xtable
 
 ** Harvester
