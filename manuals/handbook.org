@@ -796,5 +796,5 @@ Artifacts are valuable and coveted, so to have any is to paint a target on your 
 -----
 
 #+begin_cw
-Copyright \copy 2021, William Goubeaux
+Game on
 #+end_cw

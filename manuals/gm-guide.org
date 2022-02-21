@@ -7,5 +7,5 @@ This guide describes the steps and methods to being a Game Master for the Titan 
 -----
 
 #+begin_cw
-Copyright \copy 2021, William Goubeaux
+Game on
 #+end_cw

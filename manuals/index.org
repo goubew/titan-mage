@@ -17,21 +17,15 @@ The game is still under construction and is subject to heavy changes.
 
 [[./shields.html][Shields Reference]]
 
-[[./spells.html][Spells Reference]]
-
 [[./weapons.html][Weapons Reference]]
 
 ** Spells
 
-[[./ancient-whisperer-spells.html][Ancient Whisperer Reference]]
-
-[[./elementalist-spells.html][Elementalist Reference]]
-
-[[./harvester-spells.html][Harvester Reference]]
-
-[[./runecast-spells.html][Runecast Reference]]
-
-[[./spirit-caller-spells.html][Spirit Caller Reference]]
+- [[./ancient-whisperer-spells.html][Ancient Whisperer Reference]]
+- [[./elementalist-spells.html][Elementalist Reference]]
+- [[./harvester-spells.html][Harvester Reference]]
+- [[./runecast-spells.html][Runecast Reference]]
+- [[./spirit-caller-spells.html][Spirit Caller Reference]]
 
 * For Game Masters
 
@@ -42,5 +36,5 @@ The game is still under construction and is subject to heavy changes.
 -----
 
 #+begin_cw
-Copyright \copy 2021, William Goubeaux
+Game on
 #+end_cw
