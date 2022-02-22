@@ -2,7 +2,56 @@
 #+HTML_LINK_HOME: dummy value
 #+OPTIONS: toc:t toc:2
 
-This guide describes the steps and methods to being a Game Master for the Titan Mage TTRPG. One of the best parts about being a Gamemaster is letting the world you create come to life, so while this document describes steps to be a GM, it is not a prescription.
+This guide describes the steps and methods to being a Game Master for the Titan Mage TTRPG. One of the best parts about being a Gamemaster is letting the world you create come to life, so while this document describes steps to be a GM, it is more of a description than a prescription.
+
+* Session Zero
+
+* Preparing a Session
+
+* Creating Spells
+
+Spellmaking is not an exact science, but there are some guidelines. In general, spells should not cost more than 40 MP.
+
+For damage dealing spells, a spell should cost MP equal to average amount of damage it deals. If the spell hits two to three targets, its cost should be doubled. If it hits more than that, its cost should be tripled. The cost should be adjusted based on how difficult it is to hit. The following table lists recommended level requirements for damage dealing spells.
+
+| Character Rank    | Total Average Damage |
+|-------------------+----------------------|
+| Apprentice (1-5)  |                 0-10 |
+| Journeyman (6-10) |                10-20 |
+| Master (11-15)    |                20-30 |
+| Grandmaster (16)  |                30-40 |
+
+For utility spells costs, use the following table.
+
+| Utility Benefit  | MP Cost |
+|------------------+---------|
+| Situational      |       5 |
+| Good             |      10 |
+| Great            |      20 |
+| Earth Shattering |      40 |
+
+* Tables
+
+Player character stats (without items)
+
+| Level | Min HP/MP | Max HP/MP | Max Stat | Max Stat / 2 | Max Stat / 4 |
+|-------+-----------+-----------+----------+--------------+--------------|
+|     1 |        10 |        21 |        1 |            1 |            1 |
+|     2 |        15 |        27 |        2 |            1 |            1 |
+|     3 |        20 |        33 |        3 |            2 |            1 |
+|     4 |        25 |        39 |        4 |            2 |            1 |
+|     5 |        30 |        50 |        5 |            3 |            2 |
+|     6 |        35 |        57 |        6 |            3 |            2 |
+|     7 |        40 |        64 |        7 |            4 |            2 |
+|     8 |        45 |        71 |        8 |            4 |            2 |
+|     9 |        50 |        87 |        9 |            5 |            3 |
+|    10 |        55 |        95 |       10 |            5 |            3 |
+|    11 |        60 |       103 |       11 |            6 |            3 |
+|    12 |        65 |       111 |       12 |            6 |            3 |
+|    13 |        70 |       132 |       13 |            7 |            4 |
+|    14 |        75 |       141 |       14 |            7 |            4 |
+|    15 |        80 |       150 |       15 |            8 |            4 |
+|    16 |        85 |       159 |       16 |            8 |            4 |
 
 -----
 
