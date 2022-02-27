@@ -84,7 +84,7 @@
   requirements: None
 
 - name: Arc Lightning
-  description: 
+  description: A flash of lightning strikes between two points.
   cost: 8 MP, 2 lightning catalysts
   action: major
   effect: Choose two metalic points each within 5 squares of you. All characters between those points take 2d4 + presence/4 magic damage. Channel a lightning catalyst for every hit enemy.
