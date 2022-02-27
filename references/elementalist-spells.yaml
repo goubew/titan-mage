@@ -35,37 +35,58 @@
   requirements: None
 
 - name: Channel suspension
-  description: Create
-  cost: 3 MP
+  description: Focus inward to extend the duration of all channeled catalysts.
+  cost: 4 MP
   action: minor
-  effect: Add 2 to every channeled catalyst.
+  effect: Add 3 to every currently channeled catalyst.
   requirements: None
 
 - name: Earthen Armor
-  description: Pieces of stone mold around a target.
-  cost: "? MP, 1 Earth catalyst"
+  description: Pieces of stone mold around a target protecting it from physical harm.
+  cost: 2 MP per turn, 1 Earth catalyst per turn
+  action: minor
+  effect: A target of your choosing gains presence/2 defense.
+  requirements: None
+
+- name: Elemental Orb
+  description: An orb infused with magic is launched at an enemy.
+  cost: 5 MP, any number of one catalyst type
   action: major
-  effect: A target of your choosing is encased
+  effect: A target within presence/4 squares takes d4 magic damage for each catalyst consumed.
+  requirements: None
+
+- name: Darker Dungeon
+  description: It's the dungeon, but darker.
+  cost: 5 MP, 1 Dark catalyst
+  action: minor
+  effect: A creature within one square and you are blinded until the beginning of your next turn.
   requirements: None
 
 - name: Fire Spin
   description: A ring of fire emits in a circle around you.
-  cost: "? MP, 1 Heat catalyst"
+  cost: 5 MP, 2 Heat catalyst
   action: major
   effect: Anybody with one square of you take d4 magic damage. Channel a heat catalyst for every hit enemy.
   requirements: None
 
 - name: The Boulder
   description: A large boulder is hurled at an enemy - dddddd.
-  cost: "? MP, 3 Earth catalyst"
+  cost: 10 MP, 3 Earth catalyst
   action: major
-  effect: ~(d8) + Focus/4 physical damage. This spell can crit.
+  effect: 2d10 + presence/4 physical damage. This spell can crit.
   requirements: None
 
 - name: Solar Flare
   description: A ray of radiant energy blasts down from the sky.
-  cost: "? MP, 2 Heat catalyst, 2 Light catalyst"
+  cost: 20 MP, 4 Heat catalyst
   action: major
-  effect: Choose a 2x2 square within 7 squares of you that has sunlight shining on it. Anybody standing within takes 3d6 magic damage.
+  effect: Choose a square within presence/4 squares of you that has sunlight shining on it. Anybody standing within takes 6d6 magic damage.
+  requirements: 4 Focus
+
+- name: The Long Dark
+  description: An enemy is delivered to their maker.
+  cost: 80 MP, 5 dark catalyst, 5 cold catalyst, 5 earth catalyst
+  action: major
+  effect: An enemy within presence/4 squares of you takes their max HP as magic damage.
   requirements: 4 Focus
 ...

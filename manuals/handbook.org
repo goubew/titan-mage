@@ -247,9 +247,13 @@ Damage dealt by spells is counted as magical damage and can be reduced by the [[
 
 ** Conditions
 
+*** Blinded
+
+A blinded character can only make attacks against the last enemy that took their turn. Creatures with other heightened senses may not be affected by blindness.
+
 *** Exhausted
 
-Character who are exhausted cannot take major actions and their [[* Movement Speed][movement speed]] is reduced by half.
+Characters who are exhausted cannot take major actions and their [[* Movement Speed][movement speed]] is reduced by half.
 
 *** Fallen
 
