@@ -251,6 +251,10 @@ Damage dealt by spells is counted as magical damage and can be reduced by the [[
 
 A blinded character can only make attacks against the last enemy that took their turn. Creatures with other heightened senses may not be affected by blindness.
 
+*** Chilled
+
+When chilled, you may only take a [[* Default Major Actions][major action]] on your turn.
+
 *** Exhausted
 
 Characters who are exhausted cannot take major actions and their [[* Movement Speed][movement speed]] is reduced by half.
@@ -268,6 +272,10 @@ Upon entering the state, they make a power [[* Ability Check][ability check]] (1
 The condition can also be ended by a spell or item that provides the revive affect, returning the character to 1 HP and ending the effect, even during battle.
 
 Every time a character is attacked while incapacitated, they suffer another [[* Grievous Wound][grievous wound]]. Some foes may ignore downed combatants, but not all are so merciful.
+
+*** Paralyzed
+
+A paralyzed character is unable to take any action. Their [[* Defense Threshold][defense threshold]] is doubled while paralyzed.
 
 *** Death
 
