@@ -7,7 +7,7 @@
   requirements: None
 
 - name: Channel cold
-  description: The rooom around you become distorted with heat.
+  description: The rooom around you drains warmth.
   cost: 3 MP
   action: minor
   effect: Creates 3 cold catalyst.
@@ -21,7 +21,7 @@
   requirements: None
 
 - name: Channel dark
-  description: The rooom around you become dims.
+  description: The rooom around you becomes dim.
   cost: 3 MP
   action: minor
   effect: Creates 3 dark catalyst.
@@ -50,7 +50,7 @@
 
 - name: Elemental Orb
   description: An orb infused with magic is launched at an enemy.
-  cost: 5 MP, any number of one catalyst type
+  cost: 5 MP, > 0 of one catalyst type
   action: major
   effect: A target within number of catalysts consumed squares takes d4 magic damage for each catalyst consumed.
   requirements: None
@@ -59,7 +59,7 @@
   description: A localized magnetic field is created pulling enemies together.
   cost: 5 MP, 1 lightning catalysts.
   action: major
-  effect: Two targets within 5 squares of you that are made of or are wearing metal armor are pulled together in a way of your choosing. They cannot move this spot until the beginning of your next turn.
+  effect: Two targets within 5 squares of you that are made of metal or wearing metal armor are pulled together. The lighter object is pulled toward the heavier one. They cannot move this spot until the beginning of your next turn.
   requirements: None
 
 - name: Darker Dungeon
@@ -67,6 +67,20 @@
   cost: 5 MP, 1 dark catalyst
   action: minor
   effect: A creature within one square and you are blinded until the beginning of your next turn.
+  requirements: None
+
+- name: Heat Pump
+  description: Steal heat from the surroundings and focus it onto an enemy.
+  cost: 5 MP, 1 heat catalyst
+  action: minor
+  effect: A target within 5 squares takes d4 + presence/4 magic damage. Channel 1 cold catalyst.
+  requirements: None
+
+- name: Reverse Heat Pump
+  description: Steal heat from an enemy and spread it to the surroundings.
+  cost: 5 MP, 1 cold catalyst
+  action: minor
+  effect: A target within 5 squares becomes chilled for one turn. Channel 1 heat catalyst.
   requirements: None
 
 - name: Instapillar
@@ -90,11 +104,18 @@
   effect: Choose two metalic points each within 5 squares of you. All characters between those points take 2d4 + presence/4 magic damage. Channel a lightning catalyst for every hit enemy.
   requirements: None
 
+- name: Icicle Spears
+  description: Launch shards of sharpened ice at foes.
+  cost: 8 MP, > 0 cold catalysts
+  action: major
+  effect: For each ice catalyst consumed, launch a spear at any foe within 5 squares. Each spear does d8 + presence/4 physical damage. This spell can crit.
+  requirements: None
+
 - name: The Boulder
   description: A large boulder is hurled at an enemy - dddddd.
   cost: 10 MP, 3 earth catalysts
   action: major
-  effect: An enemy with in 5 squares takes 2d10 + presence/4 physical damage. This spell can crit.
+  effect: An enemy with in 5 squares takes 2d12 + presence/4 physical damage. This spell ignores armor. This spell can crit.
   requirements: None
 
 - name: Solar Flare
