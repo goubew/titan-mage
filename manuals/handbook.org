@@ -150,6 +150,7 @@ Other Effects:
 Direct Effects:
 
 - Extra MP per level: Focus / 4
+- Extra [[* Systems of Magic][learned spells]]: Focus / 4
 
 Other Effects:
 
@@ -165,7 +166,7 @@ Direct Effects:
 
 Other Effects:
 
-- Extra spell effects
+- Extra spell damage
 
 ** Auxiliary Stats
 
