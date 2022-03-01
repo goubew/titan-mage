@@ -7,31 +7,23 @@ The game is still under construction and is subject to heavy changes.
 
 * For Players
 
-[[./handbook.org][Player's Handbook]]
-
-[[./armor.html][Armor Reference]]
-
-[[./items.html][Items Reference]]
-
-[[./potions.html][Potions Reference]]
-
-[[./shields.html][Shields Reference]]
-
-[[./weapons.html][Weapons Reference]]
-
-** Spells
-
-- [[./ancient-whisperer-spells.html][Ancient Whisperer Reference]]
-- [[./elementalist-spells.html][Elementalist Reference]]
-- [[./harvester-spells.html][Harvester Reference]]
-- [[./runecast-spells.html][Runecast Reference]]
-- [[./spirit-caller-spells.html][Spirit Caller Reference]]
+- [[./handbook.org][Player's Handbook]]
+- [[./armor.html][Armor Reference]]
+- [[./items.html][Items Reference]]
+- [[./potions.html][Potions Reference]]
+- [[./shields.html][Shields Reference]]
+- [[./weapons.html][Weapons Reference]]
+- Spells
+  - [[./ancient-whisperer-spells.html][Ancient Whisperer Reference]]
+  - [[./elementalist-spells.html][Elementalist Reference]]
+  - [[./harvester-spells.html][Harvester Reference]]
+  - [[./runecast-spells.html][Runecast Reference]]
+  - [[./spirit-caller-spells.html][Spirit Caller Reference]]
 
 * For Game Masters
 
-[[./gm-guide.org][Game Master's Guide]]
-
-[[./foes.html][Foes Reference]]
+- [[./gm-guide.org][Game Master's Guide]]
+- [[./foes.html][Foes Reference]]
 
 -----
 
