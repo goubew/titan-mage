@@ -5,4 +5,11 @@
   action: minor
   effect: dummy
   requirements: dummy
+
+- name: Skeleton Key
+  description: dummy
+  cost: 1
+  action: minor
+  effect: dummy
+  requirements: dummy
 ...

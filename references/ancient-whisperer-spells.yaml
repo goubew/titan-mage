@@ -1,5 +1,61 @@
 ---
-- name: dummy
+- name: Levitate
+  description: dummy
+  cost: 1
+  action: minor
+  effect: dummy
+  requirements: dummy
+
+- name: Invisible
+  description: dummy
+  cost: 1
+  action: minor
+  effect: dummy
+  requirements: dummy
+
+- name: Orb of Light
+  description: dummy
+  cost: 1
+  action: minor
+  effect: dummy
+  requirements: dummy
+
+- name: Crystal Weapon
+  description: dummy
+  cost: 1
+  action: minor
+  effect: dummy
+  requirements: dummy
+
+- name: Spirit Weapon
+  description: dummy
+  cost: 1
+  action: minor
+  effect: dummy
+  requirements: dummy
+
+- name: Vanishing Arrows
+  description: dummy
+  cost: 1
+  action: minor
+  effect: dummy
+  requirements: dummy
+ 
+- name: Cone of Silence
+  description: dummy
+  cost: 1
+  action: minor
+  effect: dummy
+  requirements: dummy
+
+- name: Tongues
+  description: dummy
+  cost: 1
+  action: minor
+  effect: dummy
+  requirements: dummy
+
+- name: Pocket
   description: dummy
   cost: 1
   action: minor
