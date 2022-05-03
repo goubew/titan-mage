@@ -8,10 +8,10 @@
   description: These metal implements cover your fists and make you unarmed attacks even stronger.
   class: unarmed
   range: 1
-  damage: ~(d4,d4)
+  damage: ~(2d4)
   handed: two
   rarity: common
-  requirements: 3 Reflex
+  requirements: 1 Reflex
 
 - name: Dagger
   description: This simple short blade can be easily concealed. Can be thrown.
@@ -20,13 +20,13 @@
   damage: ~(2d4) + reflex/4
   handed: one
   rarity: common
-  requirements: 3 Reflex
+  requirements: 1 Reflex
 
 - name: Short Sword
   description: This sword is easily used by one hand or carried on the hip.
   class: sword
   range: 1
-  damage: ~(d4,d4)
+  damage: ~(2d4)
   handed: one
   rarity: common
   requirements: None
@@ -38,7 +38,7 @@
   damage: ~(d4,d6)
   handed: one
   rarity: common
-  requirements: 4 Strength
+  requirements: 1 Strength
 
 - name: Rapier
   description: This narrow sword is meant to pierce opponents.
@@ -47,7 +47,7 @@
   damage: ~(2d4) + reflex/4 [armor pierce 2]
   handed: one
   rarity: rare
-  requirements: 4 Reflex
+  requirements: 1 Reflex
 
 - name: Greatsword
   description: This large blade worn on the back deals as much damage with physical force as with the sharp edge.
@@ -56,7 +56,7 @@
   damage: ~(2d12) + strength/4
   handed: two
   rarity: rare
-  requirements: 10 Strength
+  requirements: 4 Strength
 
 - name: Katana
   description: This long slightly curved blade is only sharpened on one edge.
@@ -65,7 +65,7 @@
   damage: ~(d4,d6) + reflex/2
   handed: two
   rarity: rare
-  requirements: 10 Reflex
+  requirements: 4 Reflex
 
 - name: Club
   description: A large piece of hardwood meant for pummeling.
@@ -74,7 +74,7 @@
   damage: ~(2d4) + strength/4 [armor pierce 1]
   handed: one
   rarity: common
-  requirements: 4 Strength
+  requirements: 1 Strength
 
 - name: Mace
   description: A well formed bludgeoning object with a bulbous head.
@@ -83,7 +83,7 @@
   damage: ~(2d4) + strength/4 [armor pierce 2]
   handed: one
   rarity: rare
-  requirements: 8 Strength
+  requirements: 2 Strength
 
 - name: War Hammer
   description: A hefty two handed hammer meant to crush.
@@ -92,7 +92,7 @@
   damage: ~(2d8) + strength/4 [armor pierce 4]
   handed: two
   rarity: rare
-  requirements: 12 Strength
+  requirements: 4 Strength
 
 - name: Hand Axe
   description: A simple one headed axe. Can be thrown.
@@ -110,35 +110,35 @@
   damage: ~(d4,d8) + strength/4
   handed: one
   rarity: rare
-  requirements: 12 Strength
+  requirements: 4 Strength
 
 - name: Halberd
   description: A long handled weapon with an axe like blade and a spike.
   class: axe
   range: 1
-  damage: ~(d4,d4) + strength/4 + reflex/4
+  damage: ~(2d4) + strength/4 + reflex/4
   handed: two
   rarity: rare
-  requirements: 8 Strength, 8 Reflex
+  requirements: 2 Strength, 2 Reflex
 
 #
 # Ranged Weapons
 #
 
 - name: Shortbow
-  description: This simple bow
+  description: This simple bow is easy to pull.
   class: bow
   range: 6
-  damage: ~(2d6) + presence/4
+  damage: ~(2d6) + reflex/4
   handed: two
   rarity: common
-  requirements: 4 Reflex, Arrows
+  requirements: 1 Reflex, Arrows
 
 - name: Longbow
   description: This large bow nearly reaches to the ground while standing.
   class: bow
   range: 12
-  damage: ~(d8,d10) + presence/4
+  damage: ~(d8,d10) + reflex/4
   handed: two
   rarity: rare
   requirements: 6 Strength, 4 Reflex, Arrows

@@ -1,64 +1,64 @@
 ---
 - name: Levitate
-  description: dummy
-  cost: 1
-  action: minor
-  effect: dummy
-  requirements: dummy
+  description: A character raises upward slightly and feels a floor made of nothing.
+  cost: 5
+  action: major
+  effect: A character of your choice within 6 squares is lifted one square vertically. They maintain this hight until the end of your next turn. They are able to use their movement while in the air. The spell can be recast as a minor action.
+  requirements: None
 
 - name: Invisible
-  description: dummy
-  cost: 1
-  action: minor
-  effect: dummy
-  requirements: dummy
+  description: A character vanishes from sight.
+  cost: 20
+  action: major
+  effect: A character of your choice within 6 squares becomes invisible to the eye untl the end of your next turn. The spell can be recast as a minor action for half the cost. Enemies will not be able to attack unless your position is known or you reveal yourself through other actions.
+  requirements: None
 
 - name: Orb of Light
-  description: dummy
-  cost: 1
-  action: minor
-  effect: dummy
-  requirements: dummy
+  description: Bright light emits from a point in all directions
+  cost: 5
+  action: major
+  effect: Bright light is emitted from the square you are standing on 8 squares in all directions. When you cast the spell, choose whether the light follows you, or remains in the square. The light remains until the end of your next turn. The spell can be recast as a minor action for no cost.
+  requirements: None
 
 - name: Crystal Weapon
-  description: dummy
-  cost: 1
-  action: minor
-  effect: dummy
-  requirements: dummy
+  description: Crystals creep along the edge of a weapon.
+  cost: 10
+  action: major
+  effect: Choose a weapon that you are touching. Until you cast another spell as a major action, attacks with the weapon deal focus/4 additional damage. Every attack costs you focus/4 MP.
+  requirements: None
 
 - name: Spirit Weapon
-  description: dummy
-  cost: 1
-  action: minor
-  effect: dummy
-  requirements: dummy
+  description: Summon a blade out of thin air.
+  cost: 10
+  action: major
+  effect: Equip a one handed spirit blade into a free hand of yours. The blade can be used to make a ~2d4 
+  requirements: None
 
-- name: Vanishing Arrows
-  description: dummy
-  cost: 1
-  action: minor
-  effect: dummy
-  requirements: dummy
+- name: Instant Arrows
+  description: Arrows instantly notch themselves from your quiver.
+  cost: 5
+  action: major
+  effect: Take a normal attack action to use a ranged weapon. Ammunition is instantly reloaded.
+  requirements: None
  
 - name: Cone of Silence
-  description: dummy
-  cost: 1
+  description: Create an area where sound can't escape
+  cost: 5
   action: minor
-  effect: dummy
-  requirements: dummy
+  effect: Designate a 2x2 square within 6 squares of you. No sound generated inside can escape, but other sounds are allowed in.
+  requirements: None
 
 - name: Tongues
-  description: dummy
-  cost: 1
-  action: minor
-  effect: dummy
-  requirements: dummy
+  description: Understand any language.
+  cost: 10
+  action: major
+  effect: Choose a character within 6 squares of you who is speaking a language that you do not understand. Until they and you become more than six squares apart, you can understand the language that they speak.
+  requirements: None
 
 - name: Pocket
-  description: dummy
-  cost: 1
-  action: minor
-  effect: dummy
-  requirements: dummy
+  description: Hold items in an impossibly large pocket. 
+  cost: 10
+  action: major
+  effect: Choose a pocket on your person. The contents of the pocket are replaced with a void that can store up to one ton of material. Items placed inside the pocket do not weigh down the clothing. The opening to the pocket does not stretch, so anything you put inside must fit. The spell ends at will returning the pocket to its original state. To retrieve items from the pocket, the same physical pocket needs to be opened with the pocket spell.
+  requirements: None
 ...

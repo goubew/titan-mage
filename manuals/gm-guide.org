@@ -12,7 +12,7 @@ This guide describes the steps and methods to being a Game Master for the Titan 
 
 Spellmaking is not an exact science, but there are some guidelines. In general, spells should not cost more than 40 MP.
 
-For damage dealing spells, a spell should cost MP equal to average amount of damage it deals. If the spell hits two to three targets, its cost should be doubled. If it hits more than that, its cost should be tripled. The cost should be adjusted based on how difficult it is to hit. The following table lists recommended level requirements for damage dealing spells.
+For damage dealing spells, a spell should cost MP equal to the average amount of damage it deals. If the spell hits two to three targets, its cost should be doubled. If it hits more than that, its cost should be tripled. The cost should be adjusted based on how difficult it is to hit. The following table lists recommended level requirements for damage dealing spells.
 
 | Character Rank    | Total Average Damage |
 |-------------------+----------------------|
@@ -28,7 +28,8 @@ For utility spells costs, use the following table.
 | Situational      |       5 |
 | Good             |      10 |
 | Great            |      20 |
-| Earth Shattering |      40 |
+| Amazing          |      40 |
+| Earth Shattering |      80 |
 
 * Tables
 

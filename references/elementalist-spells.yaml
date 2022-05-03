@@ -123,19 +123,19 @@
   cost: 20 MP, 4 heat catalysts
   action: major
   effect: Choose a target within 5 squares of you that has sunlight shining on it. The target takes 6d6 + presence/2 magic damage.
-  requirements: 4 focus
+  requirements: 2 focus
 
 - name: Lightning Strike
   description: Lightning streaks down from the sky
   cost: 20 MP, 4 lightning catalysts
   action: major
   effect: Choose a target within 5 squares of you that is open to the sky. The target takes d12 damage and is paralyzed until the beginning of your next turn.
-  requirements: 4 focus
+  requirements: 2 focus
 
 - name: The Long Dark
   description: An enemy is delivered to their maker.
   cost: 80 MP, 5 dark catalysts, 5 cold catalysts, 5 earth catalysts
   action: major
   effect: An enemy within 2 squares of you takes their max HP as magic damage.
-  requirements: 12 focus
+  requirements: 4 focus
 ...
