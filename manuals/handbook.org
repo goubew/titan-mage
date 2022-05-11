@@ -802,7 +802,9 @@ Up to 10 potions can be carried at a time.
 
 ** Artifacts
 
-Artifacts are special items infused with great power. Artifacts can be of any item type, but are always better than the base item. Artifacts may have requirements beyond the base item.
+Artifacts are special items infused with great power. Artifacts can be of any item type, but are always better than base items. Artifacts may have requirements beyond the base item.
+
+Artifacts are described by their rarit: rare, epic, or legendary.
 
 Artifacts are valuable and coveted, so to have any is to paint a target on your back. Guard them carefully.
 

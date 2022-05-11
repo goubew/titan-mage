@@ -1,15 +1,36 @@
 ---
-- name: dummy
+- name: Dummy
   description: dummy
-  cost: 1
+  cost: 1 MP, 1 soul pieces
   action: minor
+  effect: dummy
+  requirements: None
+
+- name: Brew
+  description: A potion poured into two containers flows enough to fill both.
+  cost: 10 MP, 2 soul pieces - common; 20 MP, 4 sould pieces - rare; 40 MP, 6 soul pieces - epic; 80 MP, 10 sould pieces - legendary
+  action: minor
+  effect: The number of a potion that you have is doubled. The cost scales based on the rarity of the potion.
+  requirements: None
+
+- name: Skeleton Key
+  description: Shape a peculiar looking key from the bones of the fallen.
+  cost: 10 MP, 2 soul pieces
+  action: major
+  effect: Create a key that is capable of opening a single lock. Using the spell to create another key causes the first to break.
+  requirements: None
+
+- name: Reanimate
+  description: A body returns devoid of conciousness or free will.
+  cost: 20+ MP
+  action: major
   effect: dummy
   requirements: dummy
 
-- name: Skeleton Key
-  description: dummy
-  cost: 1
-  action: minor
+- name: Borrowed life
+  description: A character is pinned to the world of the living.
+  cost: 40 MP
+  action: major
   effect: dummy
-  requirements: dummy
+  requirements: 4 Focus
 ...
