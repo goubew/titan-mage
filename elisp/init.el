@@ -7,6 +7,12 @@
 
 ;; Load the publishing system
 (require 'ox-publish)
+(require 'ox)
+
+(load-file "elisp/unpackaged.el")
+
+;; Replace the org-export-get-reference function
+(advice-add #'org-export-get-reference :override #'unpackaged/org-export-get-reference)
 
 ;; Customize the HTML output
 (setq org-html-validation-link nil            ;; Don't show validation link
@@ -28,7 +34,7 @@
       (list
        (list "titan-mage"
              :recursive t
-             :base-directory "./manuals"
+             :base-directory "./org-files"
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./build"
              :headline-levels 6         ;; Don't turn headlines into lists

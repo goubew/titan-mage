@@ -32,7 +32,7 @@ if (require.main === module) {
   // Translate the org files to html
   console.log("-------------- [ Emacs Publishing ] --------------");
   try {
-    execSync("emacs -Q --script init.el");
+    execSync("emacs -Q --script elisp/init.el");
   } catch (e) {
     console.log("ERROR: Emacs publishing failed.");
     process.exit(1);
