@@ -5,4 +5,11 @@
   action: minor
   effect: dummy
   requirements: dummy
+
+- name: Destiny Draw
+  description: Challenge a foe to a fated fight in another dimension. It\'s time to duel!
+  cost: 20
+  action: major
+  effect: Choose a character within 6 squares. You and that character are transported into a blank dimension. Everything you and they carry is brought with you, but nothing else from the original dimension can affect this one. You both remain in this dimension until one of you is incapacitated or you use a minor action to end the spell early.
+  requirements: None
 ...
