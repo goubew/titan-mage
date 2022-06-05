@@ -6,10 +6,39 @@
   effect: dummy
   requirements: None
 
-- name: Brew
-  description: A potion poured into two containers flows enough to fill both.
-  cost: 10 MP, 2 soul pieces - common; 20 MP, 4 sould pieces - rare; 40 MP, 6 soul pieces - epic; 80 MP, 10 sould pieces - legendary
+- name: Ahoy Matey
+  description: None can resist the call.
+  cost: 5 MP, 1 soul pieces
   action: minor
+  effect: Choose a character that you can see. As long as they can speak, they are forced to say "Ahoy matey!" as loud as they can.
+  requirements: None
+
+- name: Borrowed Vigor
+  description: No need to waste good energy.
+  cost: 5 MP, 1 soul pieces
+  action: minor
+  effect: Take a move minor action, but move up to presense/4 additional squares.
+  requirements: None
+
+- name: Cold Blooded
+  description: It\'s like the trick you teach your dog, but more convincing.
+  cost: 5 MP, 1 soul pieces
+  action: minor
+  effect: Upon casting the spell, you take on the appearance of death. Your body becomes cold stiff. While in this state, you keep your senses, but are unable to move. You can end the effect at any time.
+  requirements: None
+
+- name: Shadow Hand
+  description: 
+  cost: 10 MP, 2 soul pieces
+  action: minor
+  effect: A shadow near you acts a portal for a moment. Reach your hand through and it comes out of another shadow that you can see within vision. You are able to pull anything that the hand grabs back through the shadow if you have the strength for it and it too fits in the shadow.
+  requirements: None
+
+- name: Brew
+  
+description: A potion poured into two containers flows enough to fill both.
+  cost: 10 MP, 2 soul pieces - common; 20 MP, 4 soul pieces - rare; 40 MP, 6 soul pieces - epic; 80 MP, 10 soul pieces - legendary
+  action: major
   effect: Duplicate one of your held potions. The cost scales based on the rarity of the potion.
   requirements: None
 
@@ -24,9 +53,16 @@
   description: A body returns devoid of conciousness or free will.
   cost: 20 MP, 1+ soul pieces
   action: major
-  effect: Choose a character within 5 squares that has suffered death. That character is animated with health points equal to 10 * the number of soul pieces used to cast the spell. The character takes a turn at the end of your turn. It is only able to the the move minor action and the attack major action. It uses the attack stats of any weapon it is carrying.
-  requirements: dummy
+  effect: Choose a character within 5 squares that has suffered death. That character is animated with health points equal to 10 * the number of soul pieces used to cast the spell. The character takes a turn at the end of your turn. It is only able to the the move minor action and the attack major action. It uses the attack stats of any weapon it is carrying and the armor stats of any armor it is wearing.
+  requirements: None
 
+- name: Destiny Bind
+  description: Choose two characters within 6 squares of you. For presense/4 turns, any damage dealt to one character is automatically dealt to the other.
+  cost: 40 MP, 6 soul pieces
+  action: major
+  effect: dummy
+  requirements: None
+  
 - name: Borrowed life
   description: A character is pinned to the world of the living.
   cost: 40 MP, 6 soul pieces

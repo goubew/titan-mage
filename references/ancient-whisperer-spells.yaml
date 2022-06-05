@@ -6,6 +6,13 @@
   effect: A character of your choice within 6 squares is lifted one square vertically. They maintain this hight until the end of your next turn. They are able to use their movement while in the air. The spell can be recast as a minor action.
   requirements: None
 
+- name: Speed Read
+  description: Your english teacher would be proud.
+  cost: 5
+  action: major
+  effect: For thirty minutes, you are able to read text that you already understand as fast as the eyes can move across the page.
+  requirements: None
+
 - name: Invisible
   description: A character vanishes from sight.
   cost: 20
