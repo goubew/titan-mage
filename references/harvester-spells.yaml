@@ -28,15 +28,14 @@
   requirements: None
 
 - name: Shadow Hand
-  description: 
+  description: Bend space by manipulating shadow.
   cost: 10 MP, 2 soul pieces
   action: minor
   effect: A shadow near you acts a portal for a moment. Reach your hand through and it comes out of another shadow that you can see within vision. You are able to pull anything that the hand grabs back through the shadow if you have the strength for it and it too fits in the shadow.
   requirements: None
 
 - name: Brew
-  
-description: A potion poured into two containers flows enough to fill both.
+  description: A potion poured into two containers flows enough to fill both.
   cost: 10 MP, 2 soul pieces - common; 20 MP, 4 soul pieces - rare; 40 MP, 6 soul pieces - epic; 80 MP, 10 soul pieces - legendary
   action: major
   effect: Duplicate one of your held potions. The cost scales based on the rarity of the potion.
@@ -62,7 +61,7 @@ description: A potion poured into two containers flows enough to fill both.
   action: major
   effect: dummy
   requirements: None
-  
+
 - name: Borrowed life
   description: A character is pinned to the world of the living.
   cost: 40 MP, 6 soul pieces
