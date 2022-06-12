@@ -8,16 +8,16 @@
 
 - name: Ahoy Matey
   description: None can resist the call.
-  cost: 5 MP, 1 soul pieces
+  cost: 5/10 MP, 1 soul pieces
   action: minor
-  effect: Choose a character that you can see. As long as they can speak, they are forced to say "Ahoy matey!" as loud as they can.
+  effect: Choose a character that you can see. As long as they can speak, they are forced to say "Ahoy matey!" as loud as they can. For 5 MP more, you can make them say a different phrase that\'s three words or less
   requirements: None
 
 - name: Borrowed Vigor
   description: No need to waste good energy.
   cost: 5 MP, 1 soul pieces
   action: minor
-  effect: Take a move minor action, but move up to presense/4 additional squares.
+  effect: Take a move minor action, but move up to presence/4 additional squares.
   requirements: None
 
 - name: Cold Blooded
@@ -56,7 +56,7 @@
   requirements: None
 
 - name: Destiny Bind
-  description: Choose two characters within 6 squares of you. For presense/4 turns, any damage dealt to one character is automatically dealt to the other.
+  description: Choose two characters within 6 squares of you. For presence/4 turns, any damage dealt to one character is automatically dealt to the other.
   cost: 40 MP, 6 soul pieces
   action: major
   effect: dummy

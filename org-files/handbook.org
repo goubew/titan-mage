@@ -706,7 +706,7 @@ The number of known extractions and maximum number of should pieces that can be 
 
 The Runecast are warriors that pursue the study of an ancient written language. By etching these runic symbols into their weapons and armor, they are able to bind the power of magic to physical objects, and augment their combat ability.
 
-Carving runes into your weapons and armor reserves [[* Magic Power (MP)][MP]]. The passive effects of these runes are always present. Runecast are only able to modify their own equipment and can not add runes to [[* Artifacts][artifacts]].
+Runes carved into your weapons and armor can be activated with a minor action. Whenever the effect of the rune is used [[* Magic Power (MP)][MP]] is lost. The passive effects of these runes are always present once activated. Runecast are only able to modify their own equipment and can not add runes to [[* Artifacts][artifacts]].
 
 The number of runes that can be equipped at a time is shown in the following table.
 
@@ -737,25 +737,27 @@ Spirit Callers hold a spiritual bond with their ancestors. In death, the spirits
 
 These effects are limited by the number of favors available and can be activated a number of times since the last [[* Full Recovery][full recovery]] as shown in the following table.
 
+When used in combat, a spirit callers spells last until the end of combat. When used outside of combat, they last for [[* Presence][presence]]/4 hours or until the end of the next combat, whichever comes first.
+
 #+begin_xtable
 | Level | # Casts Per Recovery | # Favors Available |
 |-------+----------------------+--------------------|
-|     1 |                    1 |                  1 |
-|     2 |                    2 |                  2 |
-|     3 |                    2 |                  2 |
-|     4 |                    2 |                  3 |
-|     5 |                    2 |                  3 |
-|     6 |                    3 |                  4 |
-|     7 |                    3 |                  4 |
-|     8 |                    3 |                  5 |
-|     9 |                    3 |                  5 |
-|    10 |                    3 |                  6 |
-|    11 |                    4 |                  6 |
-|    12 |                    4 |                  7 |
-|    13 |                    4 |                  7 |
-|    14 |                    4 |                  8 |
-|    15 |                    4 |                  8 |
-|    16 |                    5 |                 10 |
+|     1 |                    2 |                  1 |
+|     2 |                    4 |                  2 |
+|     3 |                    4 |                  2 |
+|     4 |                    4 |                  3 |
+|     5 |                    4 |                  3 |
+|     6 |                    6 |                  4 |
+|     7 |                    6 |                  4 |
+|     8 |                    6 |                  5 |
+|     9 |                    6 |                  5 |
+|    10 |                    6 |                  6 |
+|    11 |                    8 |                  6 |
+|    12 |                    8 |                  7 |
+|    13 |                    8 |                  7 |
+|    14 |                    8 |                  8 |
+|    15 |                    8 |                  8 |
+|    16 |                   10 |                 10 |
 #+end_xtable
 
 * Equipment

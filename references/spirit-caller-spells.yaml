@@ -6,9 +6,23 @@
   effect: dummy
   requirements: dummy
 
-- name: Destiny Draw
-  description: Challenge a foe to a fated fight in another dimension. It\'s time to duel!
+- name: Armor of the Veil
+  description: Your armor becomes cloaked is a misty veil incribed with the banner of your family.
+  cost: 10
+  action: major
+  effect: Gain magic defense equal to your 1 + presence/4.
+  requirements: dummy
+
+- name: Ancestral Weapon
+  description: Draw from a scabbard a sacred weapon from long past, a relic that has returned to aid you.
   cost: 20
+  action: major
+  effect: The weapon deals d4 (presence < 10) or d8 (presence >= 10) extra damage every hit. The weapon also glows with sunlight providing vision in dark areas.
+  requirements: dummy
+
+- name: Duelist Dimension
+  description: Challenge a foe to a fated fight in another dimension. It\'s time to duel!
+  cost: 40
   action: major
   effect: Choose a character within 6 squares. You and that character are transported into a blank dimension. Everything you and they carry is brought with you, but nothing else from the original dimension can affect this one. You both remain in this dimension until one of you is incapacitated or you use a minor action to end the spell early.
   requirements: None
