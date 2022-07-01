@@ -256,6 +256,10 @@ A blinded character can only make attacks against the last enemy that took their
 
 When chilled, you may only take a [[* Default Major Actions][major action]] on your turn.
 
+*** Grappled
+
+Grappled targets are unable to take the [[* Movement][movement]] minor action.
+
 *** Exhausted
 
 Characters who are exhausted cannot take major actions and their [[* Movement Speed][movement speed]] is reduced by half.

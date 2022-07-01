@@ -1,11 +1,4 @@
 ---
-- name: Dummy
-  description: dummy
-  cost: 1 MP, 1 soul pieces
-  action: minor
-  effect: dummy
-  requirements: None
-
 - name: Ahoy Matey
   description: None can resist the call.
   cost: 5/10 MP, 1 soul pieces
@@ -47,6 +40,14 @@
   action: major
   effect: Create a key that is capable of opening a single lock. Using the spell to create another key causes the first to break.
   requirements: None
+
+- name: Shadow Step
+  description: Meld into the shadows to reappear in another.
+  cost: 20 MP, 3 soul pieces
+  action: minor
+  effect: Teleport to another shadow within 10 squares.
+  requirements: None
+
 
 - name: Reanimate
   description: A body returns devoid of conciousness or free will.
