@@ -50,7 +50,7 @@ This section lists some conventions used in Titan Mage.
 
 The level of your character is a measure of how skilled they are at their craft. This skill is manifested in additional stats, features, and magical ability.
 
-Character level starts at 1 and goes up to 16. In order to level up, characters need to both gain experience out adventuring and spend time and money in [[* Towns][town]]. Your DM will let you know when you have gained enough experience to advance in level, but it is up to you to choose when to spend the time and money to learn the next level during [[* Town Actions][your town actions]].
+Character level starts at 1 and goes up to 16. In order to level up, characters need to both gain experience out adventuring and spend time and money in [[* Towns][town]]. It is up to you to choose when to spend the time and money to learn the next level during [[* Town Actions][your town actions]].
 
 At the 6th level, a study under a master is required. Masters are not uncommon, but are not found in every town. At the 11th level, a study under a grandmaster is required. Although most grandmasters are well known in story and legend, not all of them can be easy to find. In order to attain the 16th level, one has to advance their field beyond it's current limits. Work with your DM to discuss your plan for this, as such things do not come with a one size fits all price tag.
 
@@ -184,9 +184,9 @@ Defense provides flat physical damage reduction. Defense is provided primarily b
 
 *** Defense Threshold
 
-The reduction in damage provided by [[* Defense][defense]] only goes into effect after a certain ammount of damage is taken. This ammount is the damage threshold. Damage threshold is set by your [[* Combat Equipment][armor]] and is reduced by [[* Reflex][reflex]] and by equipping shields.
+The reduction in damage provided by [[* Defense][defense]] only goes into effect after a certain ammount of damage is taken. This amount is the damage threshold. Damage threshold is set by your [[* Combat Equipment][armor]] and is reduced by [[* Reflex][reflex]] and by equipping shields.
 
-As an example, say you have 3 defense and 5 damage threshold. If you take 7 damage, your defense kicks in after 5 damage, leaving 2 damage that is affected by defense. 3 is greater than two, so both points of damage are reduced and you take 5 damage.
+As an example, say you have 3 defense and 5 defense threshold. If you take 7 damage, you take the first 5 points of damage directly, leaving 2 damage that can be affected by defense. 3 defense is greater than 2 damage, so both points of damage are negated and you only take 5 damage.
 
 *** Magic Resistance
 
@@ -194,17 +194,25 @@ Magic resistance provides flat magic damage reduction. Magic resistance is rare,
 
 *** Movement Speed
 
-Movement speed is a measure how fast your character is. In [[* Combat][combat]], your character is allowed to move up to their movement speed in squares every round.
+Movement speed is a measure how fast your character is. In [[* Combat][combat]], your character is allowed to move up to their movement speed in tiles every round.
 
-When moving diagonal, treat the first diagonal move as one square of movement, the second diagonal move as two squares of movement, then one, then two, etc.
+When moving diagonal, treat the first diagonal move as one tile of movement, the second diagonal move as two tiles of movement, then one, then two, etc.
 
 * Combat
 
-In combat, players and enemies take turns performing actions. A turn is broken up into one major action, one minor action, and as many as needed free actions. One is always free to use a minor action in place of a major action.
+In combat, players and enemies take turns performing actions.
 
-** Turn Order
+** Action Types
 
-Turn order is decided by the [[* Reflex][reflex]] stat. A higher stat means you go first. Ties are decided by the players.
+A turn is broken up into one powerful major action, one utility minor action, and as many as needed free actions.
+
+Major actions are the powerful actions used primarily to deal damage. If desired, a minor action in place of a major action giving you two minor actions in a single turn.
+
+Minor actions are mostly used to reposition or support using a major action.
+One is always free to use a minor action in place of a major action.
+
+Free actions are quick light actions such as shouting a command or turning a lock.
+
 
 ** Default Major Actions
 
@@ -221,6 +229,10 @@ Characters who are learned in a [[* Systems of Magic][school of magic]] that pro
 *** Guard
 
 Characters have their [[* Defense Threshold][defense threshold]] set to 0 until the beginning of their next turn.
+
+*** Second Minor Action
+
+Use a second minor action in place of a major action.
 
 ** Default Minor Actions
 
@@ -239,6 +251,11 @@ Characters with two one handed weapons can attack with the off hand as a minor a
 *** Reloading
 
 Characters load ammunition into a ranged weapon, a bow for example.
+
+** Turn Order
+
+Turn order is decided by the [[* Reflex][reflex]] stat. A higher stat means you go first. Ties are decided by the players.
+
 
 ** Damage Types
 
@@ -266,7 +283,7 @@ Characters who are exhausted cannot take major actions and their [[* Movement Sp
 
 *** Fallen
 
-In the fallen condition, you are unable to make the [[* Weapon Attack][weapon attack]] major action or the [[* Movement][movement]] minor action. Standing back up takes a major action. While fallen, instead of the normal movement minor action, you can use a minor action to roll one square.
+In the fallen condition, you are unable to make the [[* Weapon Attack][weapon attack]] major action or the [[* Movement][movement]] minor action. Standing back up takes a major action. While fallen, instead of the normal movement minor action, you can use a minor action to roll one tile.
 
 *** Incapacitated
 
@@ -534,7 +551,7 @@ Starting [[* Health Points (HP)][HP]]: 20
 
 Starting [[* Magic Power (MP)][MP]]: 5
 
-At the first level, mercenaries gain the *engage* minor action. This can be used when an enemy is within 1 square. Until the beginning of your next turn, if the enemy you target moves from their square, you may take a free attack action during their turn as soon as they move. This effect lasts until you or the enemy moves at least one square.
+At the first level, mercenaries gain the *engage* minor action. This can be used when an enemy is within 1 tile. Until the beginning of your next turn, if the enemy you target moves from their tile, you may take a free attack action during their turn as soon as they move. This effect lasts until you or the enemy moves at least one tile.
 
 At the third level, mercenaries gain the *distracted strike* class feature. This lets allies add 10 to crit roles when targeting enemies that you have engaged. If the enemy moves away from you, this bonus no longer applies.
 
@@ -560,15 +577,15 @@ Starting [[* Health Points (HP)][HP]]: 15
 
 Starting [[* Magic Power (MP)][MP]]: 10
 
-At the third level, assassins gain the *sneaky strike* minor action. When targeting an enemy with a [[* Weapon Attack][weapon attack]] this turn, if an ally is within 1 square of the enemy you are targeting, you may reroll one of your weapon damage die when attacking that enemy.
+At the third level, assassins gain the *sneaky strike* minor action. When targeting an enemy with a [[* Weapon Attack][weapon attack]] this turn, if an ally is within 1 tile of the enemy you are targeting, you may reroll one of your weapon damage die when attacking that enemy.
 
-At the third level, assassins gain the *disarm* major action. An opponent within one square has a held weapon sent flying two squares away from you in any direction you choose. Picking it back up requires a [[* Swapping Held Items][weapon swap]] minor action.
+At the third level, assassins gain the *disarm* major action. An opponent within one tile has a held weapon sent flying two tiles away from you in any direction you choose. Picking it back up requires a [[* Swapping Held Items][weapon swap]] minor action.
 
-At the fifth level, assassins gain the *back stab* minor action. When an ally is withing 1 square of the enemy you are targeting with a melee attack and that enemy has no allies within 1 square, ignore any [[* Defense][defense]] provided by armor.
+At the fifth level, assassins gain the *back stab* minor action. When an ally is withing 1 tile of the enemy you are targeting with a melee attack and that enemy has no allies within 1 tile, ignore any [[* Defense][defense]] provided by armor.
 
 At the seventh level, assassins gain the *flourish strike* class feature. This lets you take an extra minor action whenever you perform a critical weapon attack. This feature can only be used once per turn. The minor action must be different than your other minor action.
 
-At the ninth level, assassins gain the *traveling combatant* class feature. Whenever you are the target of an attack or spell, you make move 1 square after the attack or spell resolves.
+At the ninth level, assassins gain the *traveling combatant* class feature. Whenever you are the target of an attack or spell, you make move 1 tile after the attack or spell resolves.
 
 At the eleventh level, assassins gain the *rapid strike* class feature. If you kill an opponent with a weapon strike, you may take an extra major action. This feature can only be used once per turn.
 

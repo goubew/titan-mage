@@ -52,90 +52,90 @@
   description: An orb infused with magic is launched at an enemy.
   cost: 5 MP, > 0 of one catalyst type
   action: major
-  effect: A target within number of catalysts consumed squares takes d4 magic damage for each catalyst consumed.
+  effect: A target within number of catalysts consumed tiles takes d4 magic damage for each catalyst consumed.
   requirements: None
 
 - name: Magnetism
   description: A localized magnetic field is created pulling enemies together.
   cost: 5 MP, 1 lightning catalysts.
   action: major
-  effect: Two targets within 5 squares of you that are made of metal or wearing metal armor are pulled together. The lighter object is pulled toward the heavier one. They cannot move this spot until the beginning of your next turn.
+  effect: Two targets within 5 tiles of you that are made of metal or wearing metal armor are pulled together. The lighter object is pulled toward the heavier one. They cannot move this spot until the beginning of your next turn.
   requirements: None
 
 - name: Darker Dungeon
   description: It's the dungeon, but darker.
   cost: 5 MP, 1 dark catalyst
   action: minor
-  effect: A creature within one square and you are blinded until the beginning of your next turn.
+  effect: A creature within one tile and you are blinded until the beginning of your next turn.
   requirements: None
 
 - name: Heat Pump
   description: Steal heat from the surroundings and focus it onto an enemy.
   cost: 5 MP, 1 heat catalyst
   action: minor
-  effect: A target within 5 squares takes d4 + presence/4 magic damage. Channel 1 cold catalyst.
+  effect: A target within 5 tiles takes d4 + presence/4 magic damage. Channel 1 cold catalyst.
   requirements: None
 
 - name: Reverse Heat Pump
   description: Steal heat from an enemy and spread it to the surroundings.
   cost: 5 MP, 1 cold catalyst
   action: minor
-  effect: A target within 5 squares becomes chilled for one turn. Channel 1 heat catalyst.
+  effect: A target within 5 tiles becomes chilled for one turn. Channel 1 heat catalyst.
   requirements: None
 
 - name: Instapillar
   description: A column of earth rises up creating a barrier.
   cost: 5 MP, 1 earth catalyst
   action: minor
-  effect: A one square pillar withing 5 squares of you rises up providing protection. Anybody on the pillar is raised into the air.
+  effect: A one tile pillar within 5 tiles of you rises up providing protection. Anybody on the pillar is raised into the air.
   requirements: None
 
 - name: Fire Spin
   description: A ring of fire emits in a circle around you.
   cost: 5 MP, 2 heat catalysts
   action: major
-  effect: Anybody with one square of you take d4 magic damage. Channel a heat catalyst for every hit enemy.
+  effect: Anybody with one tile of you take d4 magic damage. Channel a heat catalyst for every hit enemy.
   requirements: None
 
 - name: Arc Lightning
   description: A flash of lightning strikes between two points.
   cost: 8 MP, 2 lightning catalysts
   action: major
-  effect: Choose two metalic points each within 5 squares of you. All characters between those points take 2d4 + presence/4 magic damage. Channel a lightning catalyst for every hit enemy.
+  effect: Choose two metalic points each within 5 tiles of you. All characters between those points take 2d4 + presence/4 magic damage. Channel a lightning catalyst for every hit enemy.
   requirements: None
 
 - name: Icicle Spears
   description: Launch shards of sharpened ice at foes.
   cost: 8 MP, > 0 cold catalysts
   action: major
-  effect: For each ice catalyst consumed, launch a spear at any foe within 5 squares. Each spear does d8 + presence/4 physical damage. This spell can crit.
+  effect: For each ice catalyst consumed, launch a spear at any foe within 5 tiles. Each spear does d8 + presence/4 physical damage. This spell can crit.
   requirements: None
 
 - name: The Boulder
   description: A large boulder is hurled at an enemy - dddddd.
   cost: 10 MP, 3 earth catalysts
   action: major
-  effect: An enemy with in 5 squares takes 2d12 + presence/4 physical damage. This spell ignores armor. This spell can crit.
+  effect: An enemy with in 5 tiles takes 2d12 + presence/4 physical damage. This spell ignores armor. This spell can crit.
   requirements: None
 
 - name: Solar Flare
   description: A ray of radiant energy blasts down from the sky.
   cost: 20 MP, 4 heat catalysts
   action: major
-  effect: Choose a target within 5 squares of you that has sunlight shining on it. The target takes 6d6 + presence/2 magic damage.
+  effect: Choose a target within 5 tiles of you that has sunlight shining on it. The target takes 6d6 + presence/2 magic damage.
   requirements: 2 focus
 
 - name: Lightning Strike
   description: Lightning streaks down from the sky
   cost: 20 MP, 4 lightning catalysts
   action: major
-  effect: Choose a target within 5 squares of you that is open to the sky. The target takes d12 damage and is paralyzed until the beginning of your next turn.
+  effect: Choose a target within 5 tiles of you that is open to the sky. The target takes d12 damage and is paralyzed until the beginning of your next turn.
   requirements: 2 focus
 
 - name: The Long Dark
   description: An enemy is delivered to their maker.
   cost: 80 MP, 5 dark catalysts, 5 cold catalysts, 5 earth catalysts
   action: major
-  effect: An enemy within 2 squares of you takes their max HP as magic damage.
+  effect: An enemy within 2 tiles of you takes their max HP as magic damage.
   requirements: 4 focus
 ...

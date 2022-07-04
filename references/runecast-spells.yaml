@@ -1,7 +1,37 @@
 ---
-- name: dummy
-  description: dummy
-  cost: 1
-  effect: dummy
-  requirements: dummy
+- name: Jump Rune
+  description: Jump as if carrying a light load.
+  cost: 5
+  effect: Move, jump, climb, and swim as if you were not wearing any armor. Any armor penalties to movement are negated.
+  requirements: None
+
+- name: Defense Rune
+  description: Your armor hardens around you.
+  cost: 5
+  effect: Gain one defense.
+  requirements: None
+
+- name: Magic Defense Rune
+  description: You feel a static force pulling against you.
+  cost: 5
+  effect: Gain one magic resistance.
+  requirements: None
+
+- name: Defense Threshold Rune
+  description: Your muscles tighten more quickly in response to danger.
+  cost: 5
+  effect: Gain two defense threshold reduction.
+  requirements: None
+
+- name: Movement Speed Rune
+  description: Your feet slide along the ground giving extra mobility.
+  cost: 5
+  effect: Increase your movement speed by one.
+  requirements: None
+
+- name: Attack Rune
+  description: A force guides your hand while striking.
+  cost: 5
+  effect: Add one damage to attacks.
+  requirements: None
 ...

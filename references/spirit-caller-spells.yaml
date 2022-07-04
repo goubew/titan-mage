@@ -1,5 +1,5 @@
 ---
-- name: Spectral rope
+- name: Spectral Rope
   description: Form a spectral rope that is able to grow longer as needed.
   cost: 5
   action: minor
@@ -17,7 +17,7 @@
   description: Thick roots emerge around your grasping onto enemies surrounding you.
   cost: 10
   action: minor
-  effect: Up to 1 + presense/4 characters of your choice within one square of you are grappled until the end of your next turn.
+  effect: Up to 1 + presense/4 characters of your choice within one tile of you are grappled until the end of your next turn.
   requirements: None
 
 - name: Armor of the Veil
@@ -59,6 +59,6 @@
   description: Challenge a foe to a fated fight in another dimension. It's time to duel!
   cost: 40
   action: major
-  effect: Choose a character within 6 squares. You and that character are transported into a blank dimension. Everything you and they carry is brought with you, but nothing else from the original dimension can affect this one. You both remain in this dimension until one of you is incapacitated or you use a minor action to end the spell early.
+  effect: Choose a character within 6 tiles. You and that character are transported into a blank dimension. Everything you and they carry is brought with you, but nothing else from the original dimension can affect this one. You both remain in this dimension until one of you is incapacitated or you use a minor action to end the spell early.
   requirements: None
 ...
