@@ -1,4 +1,154 @@
 ---
+- name: Arrow
+  description: A feather arrow that can be used with bows or crossbows.
+  cost: 5
+- name: Axe
+  description: A simple one sided axe. Can be used to chop down wood, doors, your neighbor's doors, or your neighbor.
+  cost: 200
+- name: Backpack
+  description: A portable container. Yeah!
+  cost: 50
+- name: Barrel
+  description: A container to hold large amounts of liquid.
+  cost: 100
+- name: Bear Trap
+  description: A trap with metal teeth. It's activated by a pressure plate in the center.
+  cost: 50
+- name: Bedroll
+  description: Material to keep you warm at night.
+  cost: 10
+- name: Bell
+  description: Can be used to call your butler, if you had one.
+  cost: 20
+- name: Bottle
+  description: Many uses, but you should probably wash it out between uses.
+  cost: 10
+- name: Candle
+  description: Provides a small amount of light for a few hours.
+  cost: 30
+- name: Candle (Decorative)
+  description: These candles make a house into a home, or a cathedral into a fancy cathedral.
+  cost: 100
+- name: Candle (Scented)
+  description: Like a normal candle, but can be used to set the mood.
+  cost: 100
+- name: Cast Iron Pan
+  description: Good for frying.
+  cost: 50
+- name: Clothes (Common)
+  description: Your everyday wear for the common man.
+  cost: 50
+- name: Clothes (Aristocratic)
+  description: A refined look for those flush with shells.
+  cost: 300
+- name: Clothes (Thief)
+  description: Dark garbs that can cover the face.
+  cost: 200
+- name: Clothes (Regal)
+  description: Clothes fit for a queen.
+  cost: 1000
+- name: Clothes (Jester)
+  description: For those who seek attention on a budget.
+  cost: 200
+- name: Clothes (Uniform)
+  description: Custom clothes that are made for specific groups of people. May be cheaper if you are acquiring them legitimately.
+  cost: 300
+- name: Chain
+  description: Metal links. Sturdier than rope. Sold by the foot.
+  cost: 5
+- name: Chest
+  description: A lockable container.
+  cost: 200
+- name: Donkey
+  description: A pack animal smaller than a horse. Not to be confused with Don Quixote.
+  cost: 700
+- name: Fishing Rod
+  description: Good for people who like fish.
+  cost: 50
+- name: Flask
+  description: A protected container to hold drink.
+  cost: 10
+- name: Grappling Hook
+  description: A hook with four barbed ends. Can be tied to rope and thrown.
+  cost: 100
+- name: Hammock
+  description: For the adventurer chasing that perfect hang.
+  cost: 100
+- name: Hourglass
+  description: A device used to measure the passing of time. Also sold in the minuteglass format.
+  cost: 300
+- name: Medical Kit
+  description: Can be used to revive someone who is incapacitated. Consumed after use.
+  cost: 100
+- name: Horse
+  description: A versatile pack animal.
+  cost: 1000
+- name: Lamp
+  description: A device that stores a protected flame. Consumes oil.
+  cost: 100
+- name: Lock
+  description: Prevent others from opening your stuff.
+  cost: 100
+- name: Manacles
+  description: Handcuffs with a long chain. Can also be used to set the mood.
+  cost: 50
+- name: Mirror
+  description: A small handheld mirror. Useful for checking if you are a vampire. 
+  cost: 50
+- name: Oil
+  description: Used to light lanterns or for other creative purposes.
+  cost: 10
+- name: Oxen
+  description: A large hearty pack animal.
+  cost: 1000
+- name: Pickaxe
+  description: A tool used to pry out object.
+  cost: 200
+- name: Pouch
+  description: Think of it like a smaller sack.
+  cost: 10
+- name: Prybar
+  description: A metal bar that can be used to provide leverage.
+  cost: 100
+- name: Ration
+  description: Food that keeps is useful during long descents.
+  cost: 20
+- name: Sack
+  description: Holds items like potatoes, apples, or your neighbor.
+  cost: 10
+- name: Soap
+  description: A lye based product that helps dissolve dirt.
+  cost: 30
+- name: Soap (mouse shaped)
+  description: Get squeaky clean.
+  cost: 30
+- name: Sharpening Stone
+  description: A stone used to hone the edge of metal blades.
+  cost: 100
+- name: Shovel
+  description: Can take things out of the earth or put things into it.
+  cost: 200
+- name: Signet Ring
+  description: A personalized ring that be used to stamp letters.
+  cost: 400
+- name: Scroll and Ink
+  description: For writing things down.
+  cost: 100
+- name: Ten Foot Pole
+  description: For things that you wouldn't touch with a 9 foot pole.
+  cost: 10
+- name: Torch
+  description: Provides light for up to an hour.
+  cost: 20
+- name: Waterbag
+  description: A soft bag that be used to store water.
+  cost: 20
+- name: Whistle (Human)
+  description: A whistle that anybody can hear.
+  cost: 50
+- name: Whistle (Animal)
+  description: Animals with ultrasonic hearing will notice this, but humans won't.
+  cost: 50
 - name: Woven Rope
   description: A sturdy woven rope. Priced per foot.
   cost: 1

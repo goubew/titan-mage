@@ -60,20 +60,20 @@ Use the following requirements chart to see what it takes to make it to level up
 | Level | Location          | Time     | Monetary Cost | Rank           |
 |-------+-------------------+----------+---------------+----------------|
 |     1 | N/A               | N/A      | N/A           | Apprentice     |
-|     2 | Adventure Hall    | 1 month  | 100 Shells    | Apprentice II  |
-|     3 | Adventure Hall    | 1 month  | 200 Shells    | Apprentice III |
-|     4 | Adventure Hall    | 1 month  | 300 Shells    | Apprentice IV  |
-|     5 | Adventure Hall    | 1 month  | 400 Shells    | Apprentice V   |
+|     2 | Adventure Hall    | 1 month  | 300 Shells    | Apprentice II  |
+|     3 | Adventure Hall    | 1 month  | 400 Shells    | Apprentice III |
+|     4 | Adventure Hall    | 1 month  | 500 Shells    | Apprentice IV  |
+|     5 | Adventure Hall    | 1 month  | 600 Shells    | Apprentice V   |
 |     6 | Master Study      | 6 months | 1000 Shells   | Journeyman     |
 |     7 | Adventure Hall    | 2 months | 1200 Shells   | Journeyman II  |
 |     8 | Adventure Hall    | 2 months | 1400 Shells   | Journeyman III |
 |     9 | Adventure Hall    | 2 months | 1600 Shells   | Journeyman IV  |
 |    10 | Adventure Hall    | 2 months | 1800 Shells   | Journeyman V   |
-|    11 | Grandmaster Study | 1 year   | 3000 Shells   | Master         |
-|    12 | Adventure Hall    | 3 months | 3500 Shells   | Master II      |
-|    13 | Adventure Hall    | 3 months | 4000 Shells   | Master III     |
-|    14 | Adventure Hall    | 3 months | 4500 Shells   | Master IV      |
-|    15 | Adventure Hall    | 3 months | 5000 Shells   | Master V       |
+|    11 | Grandmaster Study | 1 year   | 5000 Shells   | Master         |
+|    12 | Adventure Hall    | 3 months | 5500 Shells | Master II      |
+|    13 | Adventure Hall    | 3 months | 6000 Shells   | Master III     |
+|    14 | Adventure Hall    | 3 months | 6500 Shells   | Master IV      |
+|    15 | Adventure Hall    | 3 months | 7000 Shells   | Master V       |
 |    16 | ?                 | ?        | ?             | Grandmaster    |
 #+end_xtable
 
@@ -418,11 +418,11 @@ Every month of time spent in town incurs living expenses. The price of these exp
 #+begin_xtable
 | Station | Monthly Expenses |
 |---------+------------------|
-| Meager  | 50 Shells        |
-| Frugal  | 100 Shells       |
-| Average | 200 Shells       |
-| High    | 500 Shells       |
-| Royal   | 1000 Shells      |
+| Meager  | 10 Shells        |
+| Frugal  | 25 Shells        |
+| Average | 50 Shells        |
+| High    | 100 Shells       |
+| Royal   | 200 Shells       |
 #+end_xtable
 
 ** Town Features
