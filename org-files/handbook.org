@@ -145,7 +145,7 @@ Other Effects:
 
 *** Focus
 
-/Focus allows you to concentrate and understand complex concepts. Perceive the dangers around you and outwit opponents./
+/Focus allows you to concentrate and understand complex concepts. Outwit opponents through careful planning./
 
 Direct Effects:
 
@@ -184,7 +184,9 @@ Defense provides flat physical damage reduction. Defense is provided primarily b
 
 *** Defense Threshold
 
-The reduction in damage provided by [[* Defense][defense]] only goes into effect after a certain ammount of damage is taken. This amount is the damage threshold. Damage threshold is set by your [[* Combat Equipment][armor]] and is reduced by [[* Reflex][reflex]] and by equipping shields.
+The reduction in damage provided by [[* Defense][defense]] only goes into effect after a certain ammount of damage is taken. This amount is the damage threshold.
+
+Damage threshold is set to five by default, but can be affected by [[* Combat Equipment][armor]], the [[* Reflex][reflex]] stat, and by utilizing shields. Defense threshold can not be lowered below one. Thus, every physical attack will inflict at least one damage.
 
 As an example, say you have 3 defense and 5 defense threshold. If you take 7 damage, you take the first 5 points of damage directly, leaving 2 damage that can be affected by defense. 3 defense is greater than 2 damage, so both points of damage are negated and you only take 5 damage.
 
@@ -224,11 +226,11 @@ Whenever a weapon attack that inflicts [[* Damage Types][physical damage]] is ma
 
 *** Spell Cast
 
-Characters who are learned in a [[* Systems of Magic][school of magic]] that provides spells marked as a major action can cast them.
+Characters who are learned in a [[* Systems of Magic][school of magic]] can cast any spell that has been learned.
 
 *** Guard
 
-Characters have their [[* Defense Threshold][defense threshold]] set to 0 until the beginning of their next turn.
+Characters have their [[* Defense Threshold][defense threshold]] set to one until the beginning of their next turn. In addition, if a [[* Combat Equipment][shield]] is equiped, gain the extra [[* Defense][defense]] provided by the shield's stats, as if the [[* Block][block]] minor action was used.
 
 *** Second Minor Action
 
@@ -240,6 +242,10 @@ Use a second minor action in place of a major action.
 
 Characters move up to their [[* Movement Speed][movement speed]].
 
+*** Minor Spell Cast
+
+Learned spells marked as minor actions can be cast during the minor action of a turn.
+
 *** Swapping Held Items
 
 Characters put away, replace, or take out items that can be used when held.
@@ -247,6 +253,11 @@ Characters put away, replace, or take out items that can be used when held.
 *** Offhand Weapon Attack
 
 Characters with two one handed weapons can attack with the off hand as a minor action. Offhand weapon damage ignores any scaling from [[* Character Stats][stats]] and only deals damage from the dice rolls. In addition offhand attacks cannot crit.
+
+
+*** Block
+
+Characters with a [[* Combat Equipment][shield]] equipped can use this minor action to gain the [[* Defense][defense]] bonus and [[* Defense Threshold][defense threshold]] modifier of their shield.
 
 *** Reloading
 
@@ -801,7 +812,7 @@ Combat equipment includes weapons, armor, and shields.
 
 Armor is considered worn equipment. Weapons and shields are considered held equipment.
 
-Armor provides you with you base [[* Defense][defense]] and [[* Defense Threshold][defense threshold]] stats.
+Armor provides you with you [[* Defense][defense]] and may modify the default [[* Defense Threshold][defense threshold]].
 
 Only one set of armor can be worn at a time. Two one-handed combat items or one two-handed combat items can be worn at a time.
 

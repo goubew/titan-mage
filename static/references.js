@@ -4,19 +4,20 @@ const prettyMap = {
   hp: "HP",
   majStats: "Major Stats",
   auxStats: "Auxiliary Stats",
-  minorActions: "Minor Actions",
-  majorActions: "Major Actions"
 }
 
-function capitalize(str) {
-  return str.trim().replace(/^\w/, (c) => c.toUpperCase());
+function uncamelcase(str) {
+  // Put spaces in front of capitals
+  str = str.replace(/([A-Z])/g, ' $1').trim()
+  // Capitalize the first letter
+  return str.replace(/^\w/, (c) => c.toUpperCase());
 }
 
 function makePretty(key) {
   if (key in prettyMap) {
     return prettyMap[key];
   }
-  return capitalize(key);
+  return uncamelcase(key);
 }
 
 function isArray(obj) {

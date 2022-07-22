@@ -2,8 +2,8 @@
 - name: Arrow
   description: A feather arrow that can be used with bows or crossbows.
   cost: 5
-- name: Axe
-  description: A simple one sided axe. Can be used to chop down wood, doors, your neighbor's doors, or your neighbor.
+- name: Ax
+  description: A simple one sided ax. Can be used to chop down wood, doors, your neighbor's doors, or your neighbor.
   cost: 200
 - name: Backpack
   description: A portable container. Yeah!
@@ -101,7 +101,7 @@
 - name: Oxen
   description: A large hearty pack animal.
   cost: 1000
-- name: Pickaxe
+- name: Pickax
   description: A tool used to pry out object.
   cost: 200
 - name: Pouch
@@ -111,7 +111,7 @@
   description: A metal bar that can be used to provide leverage.
   cost: 100
 - name: Ration
-  description: Food that keeps is useful during long descents.
+  description: Food that keeps well during long descents.
   cost: 20
 - name: Sack
   description: Holds items like potatoes, apples, or your neighbor.
@@ -124,7 +124,7 @@
   cost: 30
 - name: Sharpening Stone
   description: A stone used to hone the edge of metal blades.
-  cost: 100
+  cost: 50
 - name: Shovel
   description: Can take things out of the earth or put things into it.
   cost: 200
@@ -141,7 +141,7 @@
   description: Provides light for up to an hour.
   cost: 20
 - name: Waterbag
-  description: A soft bag that be used to store water.
+  description: A soft bag that be used to store drinking water.
   cost: 20
 - name: Whistle (Human)
   description: A whistle that anybody can hear.

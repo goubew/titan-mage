@@ -2,40 +2,48 @@
 - name: Padded Leather Armor
   description: A thick leather armor provides protection in high risk areas.
   defense: 2
-  defenseThreshold: 5
+  defenseThreshold: 3
+  movementSpeedPenalty: 0
+  rarity: common
+  requirements: None
+
+- name: Padded Leather Armor
+  description: A thick leather armor with reinforced areas meant to deflect blows.
+  defense: 3
+  defenseThreshold: 4
   movementSpeedPenalty: 0
   rarity: common
   requirements: None
 
 - name: Chainmail
-  description: A metal armor made from interlocking metal rings over a padded garment.
-  defense: 3
-  defenseThreshold: 3
-  movementSpeedPenalty: 1
+  description: A metal armor made from interlocking metal rings over a leather garment.
+  defense: 4
+  defenseThreshold: 5
+  movementSpeedPenalty: 0
   rarity: common
-  requirements: 4 Strength
+  requirements: None
 
 - name: Half Plate
   description: Metal plated armor that covers the torso and arms.
   defense: 5
-  defenseThreshold: 6
+  defenseThreshold: 5
   movementSpeedPenalty: 1
   rarity: rare
-  requirements: 6 Strength
+  requirements: None
 
 - name: Full Plate
   description: Metal plated armor that covers the entire body.
-  defense: 10
-  defenseThreshold: 10
+  defense: 5
+  defenseThreshold: 2
   movementSpeedPenalty: 2
   rarity: rare
-  requirements: 12 Strength
+  requirements: 4 Power
 
 - name: Dragon Scale Armor
   description: A light armor made from woven dragon scales. The scales can be hardened on command for those who know how.
   defense: 4
-  defenseThreshold: 6
+  defenseThreshold: 3
   movementSpeedPenalty: 0
   rarity: epic
-  requirements: 6 focus
+  requirements: 4 focus
 ...

@@ -1,43 +1,49 @@
 ---
 - name: Heater Shield
   description: A small leather shield that tapers at the bottom.
-  defenseThresholdReduction: 1
+  defense: 1
+  defenseThresholdModifier: 1
   movementSpeedPenalty: 0
   rarity: common
   requirements: None
 
 - name: Wooden Round Shield
-  description: Around wooden shield, painted with a sigil.
-  defenseThresholdReduction: 2
-  movementSpeedPenalty: 1
+  description: A round wooden shield, painted with a signet.
+  defense: 2
+  defenseThresholdModifier: 0
+  movementSpeedPenalty: 0
   rarity: common
-  requirements: 2 Presence
+  requirements: None
 
 - name: Buckler
   description: A small metal shield meant to be maneuverable.
-  defenseThresholdReduction: 2
+  defense: 1
+  defenseThresholdModifier: 0
   movementSpeedPenalty: 0
   rarity: common
-  requirements: 6 Presence
+  requirements: None
 
 - name: Knight's shield
-  description: A medium sized metal shield
-  defenseThresholdReduction: 3
-  movementSpeedPenalty: 1
+  description: A medium sized metal shield.
+  defense: 2
+  defenseThresholdModifier: 1
+  movementSpeedPenalty: 0
   rarity: common
-  requirements: 6 Presence
+  requirements: None
 
 - name: Tower Shield
   description: A large shield that covers almost the whole body. This shield cannot be unequipped.
-  defenseThresholdReduction: 5
-  movementSpeedPenalty: 2
+  defense: 3
+  defenseThresholdModifier: 2
+  movementSpeedPenalty: 1
   rarity: common
-  requirements: 4 Presence, 8 Strength
+  requirements: 4 Power
 
 - name: Shield of the Woods
   description: A shield carved from the dwellers of the deep wood. It works mysteriously for some and not at all for others.
-  defenseThresholdReduction: 1
+  defense: 1
+  defenseThresholdModifier: 0
   movementSpeedPenalty: -1
   rarity: epic
-  requirements: 4 Focus, 6 Presence
+  requirements: None
 ...

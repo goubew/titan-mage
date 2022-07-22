@@ -38,7 +38,7 @@
   damage: ~(d4,d6)
   handed: one
   rarity: common
-  requirements: 1 Strength
+  requirements: 1 Power
 
 - name: Rapier
   description: This narrow sword is meant to pierce opponents.
@@ -53,10 +53,10 @@
   description: This large blade worn on the back deals as much damage with physical force as with the sharp edge.
   class: sword
   range: 1
-  damage: ~(2d12) + strength/4
+  damage: ~(2d12) + power/4
   handed: two
   rarity: rare
-  requirements: 4 Strength
+  requirements: 4 Power
 
 - name: Katana
   description: This long slightly curved blade is only sharpened on one edge.
@@ -71,34 +71,34 @@
   description: A large piece of hardwood meant for pummeling.
   class: hammer
   range: 1
-  damage: ~(2d4) + strength/4 [armor pierce 1]
+  damage: ~(2d4) + power/4 [armor pierce 1]
   handed: one
   rarity: common
-  requirements: 1 Strength
+  requirements: 1 Power
 
 - name: Mace
   description: A well formed bludgeoning object with a bulbous head.
   class: hammer
   range: 1
-  damage: ~(2d4) + strength/4 [armor pierce 2]
+  damage: ~(2d4) + power/4 [armor pierce 2]
   handed: one
   rarity: rare
-  requirements: 2 Strength
+  requirements: 2 Power
 
 - name: War Hammer
   description: A hefty two handed hammer meant to crush.
   class: hammer
   range: 1
-  damage: ~(2d8) + strength/4 [armor pierce 4]
+  damage: ~(2d8) + power/4 [armor pierce 4]
   handed: two
   rarity: rare
-  requirements: 4 Strength
+  requirements: 4 Power
 
 - name: Hand Axe
   description: A simple one headed axe. Can be thrown.
   class: axe
   range: 1
-  damage: ~(2d4) + strength/4
+  damage: ~(2d4) + power/4
   handed: one
   rarity: common
   requirements: None
@@ -107,19 +107,19 @@
   description: A large axe with dual heads.
   class: axe
   range: 1
-  damage: ~(d4,d8) + strength/4
+  damage: ~(d4,d8) + power/4
   handed: one
   rarity: rare
-  requirements: 4 Strength
+  requirements: 4 Power
 
 - name: Halberd
   description: A long handled weapon with an axe like blade and a spike.
   class: axe
   range: 1
-  damage: ~(2d4) + strength/4 + reflex/4
+  damage: ~(2d4) + power/4 + reflex/4
   handed: two
   rarity: rare
-  requirements: 2 Strength, 2 Reflex
+  requirements: 2 Power, 2 Reflex
 
 #
 # Ranged Weapons
@@ -141,5 +141,5 @@
   damage: ~(d8,d10) + reflex/4
   handed: two
   rarity: rare
-  requirements: 6 Strength, 4 Reflex, Arrows
+  requirements: 6 Power, 4 Reflex, Arrows
 ...
