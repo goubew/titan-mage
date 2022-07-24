@@ -1,9 +1,23 @@
 ---
+- name: Soul Siphon
+  description: Focus inwardly to absorb more power than usual.
+  cost: 5 MP, 1 soul pieces
+  action: minor
+  effect: If an enemy dies before the beginning of your next turn, gain 3 soul pieces instead of 1.
+  requirements: None
+
 - name: Ahoy Matey
   description: None can resist the call.
   cost: 5/10 MP, 1 soul pieces
   action: minor
-  effect: Choose a character that you can see. As long as they can speak, they are forced to say "Ahoy matey!" as loud as they can. For 5 MP more, you can make them say a different phrase that\'s three words or less
+  effect: Choose a character that you can see. As long as they can speak, they are forced to say "Ahoy matey!" as loud as they can. For 5 MP more, you can make them say a different phrase that's three words or less
+  requirements: None
+
+- name: Shadow Knife
+  description: Form a dark dagger out of a shadow.
+  cost: 5 MP, 1 soul pieces
+  action: major
+  effect: Throw the dagger at an enemy within 5 tiles. The dagger deals 2d4 + presense/4 magic damage.
   requirements: None
 
 - name: Borrowed Vigor
@@ -14,7 +28,7 @@
   requirements: None
 
 - name: Cold Blooded
-  description: It\'s like the trick you teach your dog, but more convincing.
+  description: It's like the trick you teach your dog, but more convincing.
   cost: 5 MP, 1 soul pieces
   action: minor
   effect: Upon casting the spell, you take on the appearance of death. Your body becomes cold stiff. While in this state, you keep your senses, but are unable to move. You can end the effect at any time.
@@ -29,9 +43,16 @@
 
 - name: Brew
   description: A potion poured into two containers flows enough to fill both.
-  cost: 10 MP, 2 soul pieces - common; 20 MP, 4 soul pieces - rare; 40 MP, 6 soul pieces - epic; 80 MP, 10 soul pieces - legendary
+  cost: common - 10 MP, 2 soul pieces; rare - 20 MP, 4 soul pieces; epic - 40 MP, 6 soul pieces; legendary - unable to duplicate
   action: major
-  effect: Duplicate one of your held potions. The cost scales based on the rarity of the potion.
+  effect: Duplicate one of your held potions. The cost scales based on the rarity of the potion. Duplicated potions appear more shadowy than the original and can only be used by yourself.
+  requirements: None
+
+- name: Hatred Guard
+  description: Reflect back an opponent's strength.
+  cost: 10 MP, 1 soul pieces
+  action: major
+  effect: Treat this action as a guard or block action. Until the beginning of your next turn, the next time you are dealt damage, inflict the same amount of damage back but always dealt as magic damage.
   requirements: None
 
 - name: Skeleton Key
@@ -47,7 +68,6 @@
   action: minor
   effect: Teleport to another shadow within 10 tiles.
   requirements: None
-
 
 - name: Reanimate
   description: A body returns devoid of conciousness or free will.

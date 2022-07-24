@@ -6,9 +6,10 @@
       "name": { "type": "string" },
       "description": { "type": "string" },
       "cost": { "type": "number", "minimum": 1 },
-      "whenConsumed": { "type": "string" }
+      "whenConsumed": { "type": "string" },
+      "rarity": { "type": "string", "enum": ["common", "rare", "epic", "legendary"] }
     },
-    "required": ["name", "description", "cost", "whenConsumed"],
+    "required": ["name", "description", "cost", "whenConsumed", "rarity"],
     "additionalProperties": false
   }
 }

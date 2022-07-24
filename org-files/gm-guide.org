@@ -8,6 +8,8 @@ This guide describes the steps and methods to being a Game Master for the Titan 
 
 * Preparing a Session
 
+* Running the Game
+
 * Creating Spells
 
 Spellmaking is not an exact science, but there are some guidelines. In general, spells should not cost more than 40 MP.

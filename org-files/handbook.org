@@ -70,7 +70,7 @@ Use the following requirements chart to see what it takes to make it to level up
 |     9 | Adventure Hall    | 2 months | 1600 Shells   | Journeyman IV  |
 |    10 | Adventure Hall    | 2 months | 1800 Shells   | Journeyman V   |
 |    11 | Grandmaster Study | 1 year   | 5000 Shells   | Master         |
-|    12 | Adventure Hall    | 3 months | 5500 Shells | Master II      |
+|    12 | Adventure Hall    | 3 months | 5500 Shells   | Master II      |
 |    13 | Adventure Hall    | 3 months | 6000 Shells   | Master III     |
 |    14 | Adventure Hall    | 3 months | 6500 Shells   | Master IV      |
 |    15 | Adventure Hall    | 3 months | 7000 Shells   | Master V       |
@@ -402,7 +402,7 @@ Smithing requires 1,000 shells to learn.
 
 Ability checks are a way to use dice in combination with player stats to resolve an outcome.
 
-The DM will ask for an ability check of a player for a particular [[* The Main Stats][main stat]]. It's the players job to roll a d12 and add their stat to the roll. It will then be up to the DM to resolve outcome.
+The DM will ask for an ability check of a player for a particular [[* The Main Stats][main stat]]. It's the player's job to roll a d12 and add their stat to the roll. It will then be up to the DM to resolve outcome.
 
 ** Dialog
 
@@ -592,7 +592,7 @@ At the third level, assassins gain the *sneaky strike* minor action. When target
 
 At the third level, assassins gain the *disarm* major action. An opponent within one tile has a held weapon sent flying two tiles away from you in any direction you choose. Picking it back up requires a [[* Swapping Held Items][weapon swap]] minor action.
 
-At the fifth level, assassins gain the *back stab* minor action. When an ally is withing 1 tile of the enemy you are targeting with a melee attack and that enemy has no allies within 1 tile, ignore any [[* Defense][defense]] provided by armor.
+At the fifth level, assassins gain the *sole bad guy* minor action. When an ally is withing 1 tile of the enemy you are targeting with a melee attack and that enemy has no allies within 1 tile, ignore any [[* Defense][defense]] provided by armor.
 
 At the seventh level, assassins gain the *flourish strike* class feature. This lets you take an extra minor action whenever you perform a critical weapon attack. This feature can only be used once per turn. The minor action must be different than your other minor action.
 

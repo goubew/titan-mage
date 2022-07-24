@@ -1,44 +1,44 @@
 ---
-- name: Channel heat
+- name: Channel Heat
   description: The rooom around you become distorted with heat.
   cost: 3 MP
   action: minor
   effect: Creates 3 heat catalyst.
   requirements: None
 
-- name: Channel cold
+- name: Channel Cold
   description: The rooom around you drains warmth.
   cost: 3 MP
   action: minor
   effect: Creates 3 cold catalyst.
   requirements: None
 
-- name: Channel lightning
+- name: Channel Lightning
   description: Metal around the room begins to spark.
   cost: 3 MP
   action: minor
   effect: Creates 3 light catalyst.
   requirements: None
 
-- name: Channel dark
+- name: Channel Dark
   description: The rooom around you becomes dim.
   cost: 3 MP
   action: minor
   effect: Creates 3 dark catalyst.
   requirements: None
 
-- name: Channel earth
+- name: Channel Earth
   description: The earth beneath you rumbles and loosens.
   cost: 3 MP
   action: minor
   effect: Creates 3 earth catalyst.
   requirements: None
 
-- name: Channel suspension
+- name: Channel Suspension
   description: Focus inward to extend the duration of all channeled catalysts.
   cost: 4 MP
   action: minor
-  effect: Add 3 to every currently channeled catalyst.
+  effect: Add 2 to every currently channeled catalyst.
   requirements: None
 
 - name: Earthen Armor
@@ -59,7 +59,7 @@
   description: A localized magnetic field is created pulling enemies together.
   cost: 5 MP, 1 lightning catalysts.
   action: major
-  effect: Two targets within 5 tiles of you that are made of metal or wearing metal armor are pulled together. The lighter object is pulled toward the heavier one. They cannot move this spot until the beginning of your next turn.
+  effect: Two targets within 5 tiles of you that are made of metal or wearing metal armor are pulled together. The lighter object is pulled toward the heavier one. They cannot move from this spot until the beginning of your next turn.
   requirements: None
 
 - name: Darker Dungeon
@@ -136,6 +136,6 @@
   description: An enemy is delivered to their maker.
   cost: 80 MP, 5 dark catalysts, 5 cold catalysts, 5 earth catalysts
   action: major
-  effect: An enemy within 2 tiles of you takes their max HP as magic damage.
+  effect: An enemy within 2 tiles of you takes 6d20 damage.
   requirements: 4 focus
 ...

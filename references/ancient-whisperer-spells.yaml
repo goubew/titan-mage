@@ -1,9 +1,30 @@
 ---
+- name: Cone of Silence
+  description: Create an area where sound can't escape
+  cost: 5
+  action: minor
+  effect: Designate a 2x2 tile within 6 tiles of you. No sound generated inside can escape, but other sounds are allowed in.
+  requirements: None
+
+- name: Instant Arrows
+  description: Arrows instantly notch themselves from your quiver.
+  cost: 5
+  action: major
+  effect: Take a normal attack action to use a ranged weapon. Ammunition is instantly reloaded.
+  requirements: None
+ 
 - name: Levitate
   description: A character raises upward slightly and feels a floor made of nothing.
   cost: 5
   action: major
   effect: A character of your choice within 6 tiles is lifted one tile vertically. They maintain this hight until the end of your next turn. They are able to use their movement while in the air. The spell can be recast as a minor action.
+  requirements: None
+
+- name: Orb of Light
+  description: Bright light emits from a point in all directions
+  cost: 5
+  action: major
+  effect: Bright light is emitted from the tile you are standing on 8 tiles in all directions. When you cast the spell, choose whether the light follows you, or remains in the tile. The light remains until the end of your next turn. The spell can be recast as a minor action for no cost.
   requirements: None
 
 - name: Speed Read
@@ -13,18 +34,11 @@
   effect: For thirty minutes, you are able to read text that you already understand as fast as the eyes can move across the page.
   requirements: None
 
-- name: Invisible
-  description: A character vanishes from sight.
-  cost: 20
+- name: Light Spears
+  description: Form slivers of light that fly out attacking multiple enemies.
+  cost: 8
   action: major
-  effect: A character of your choice within 6 tiles becomes invisible to the eye untl the end of your next turn. The spell can be recast as a minor action for half the cost. Enemies will not be able to attack unless your position is known or you reveal yourself through other actions.
-  requirements: None
-
-- name: Orb of Light
-  description: Bright light emits from a point in all directions
-  cost: 5
-  action: major
-  effect: Bright light is emitted from the tile you are standing on 8 tiles in all directions. When you cast the spell, choose whether the light follows you, or remains in the tile. The light remains until the end of your next turn. The spell can be recast as a minor action for no cost.
+  effect: Makes three against any enemy within 6 tiles. Each attack does d8 magic damage
   requirements: None
 
 - name: Crystal Weapon
@@ -41,20 +55,6 @@
   effect: Equip a one handed spirit blade into a free hand of yours. The blade can be used to make a ~2d4 + presence/2 physical damage attack using the attack action.
   requirements: None
 
-- name: Instant Arrows
-  description: Arrows instantly notch themselves from your quiver.
-  cost: 5
-  action: major
-  effect: Take a normal attack action to use a ranged weapon. Ammunition is instantly reloaded.
-  requirements: None
- 
-- name: Cone of Silence
-  description: Create an area where sound can't escape
-  cost: 5
-  action: minor
-  effect: Designate a 2x2 tile within 6 tiles of you. No sound generated inside can escape, but other sounds are allowed in.
-  requirements: None
-
 - name: Tongues
   description: Understand any language.
   cost: 10
@@ -69,10 +69,17 @@
   effect: Choose a pocket on your person. The contents of the pocket are replaced with a void that can store up to one ton of material. Items placed inside the pocket do not weigh down the clothing. The opening to the pocket does not stretch, so anything you put inside must fit. The spell ends at will returning the pocket to its original state. To retrieve items from the pocket, the same physical pocket needs to be opened with the pocket spell.
   requirements: None
 
+- name: Invisible
+  description: A character vanishes from sight.
+  cost: 20
+  action: major
+  effect: A character of your choice within 6 tiles becomes invisible to the eye untl the end of your next turn. The spell can be recast as a minor action for half the cost. Enemies will not be able to attack unless your position is known or you reveal yourself through other actions.
+  requirements: None
+
 - name: Half Magic
   description: It works 50% of the time every time.
   cost: 80
   action: minor
-  effect: Choose a character within 5 tiles. Set its health points to half of their maximum value.
+  effect: Choose a character within 6 tiles. Roll a d4. On an even roll, set that character's health points to half of their maximum value.
   requirements: None
 ...

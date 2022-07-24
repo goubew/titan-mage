@@ -1,6 +1,62 @@
 ---
-- name: Sungrass Potion
-  description: A potion of swirling green. Bitter to the taste.
+- name: Bug Juice
+  description: Comes in many neon colors. Sickly sweet.
   cost: 50
-  whenConsumed: Regain d4 HP
+  whenConsumed: Lets you take a movement minor action as a free action for this turn and the next.
+  rarity: common
+- name: Sungrass Potion
+  description: Swirling green. Bitter to the taste.
+  cost: 50
+  whenConsumed: Regain 2d4 HP
+  rarity: common
+- name: Pearldiver Potion
+  description: Murky Green. Bubbles when uncorked.
+  cost: 50
+  whenConsumed: breath water instead of air for an hour.
+  rarity: common
+- name: Star Potion
+  description: A milky white with shiny particulates.
+  cost: 50
+  whenConsumed: Gain d4 MP at the start of your turn for three turns.
+  rarity: common
+- name: Rose Stem Potion
+  description: A pale red potion. Floral.
+  cost: 100
+  whenConsumed: For the next five turns, when attacked, the attacker takes ~(2d4) damage.
+  rarity: rare
+- name: Blessed Water
+  description: A clear pure water.
+  cost: 100
+  whenConsumed: Cures lesser curses and ailments.
+  rarity: rare
+- name: Clover Potion
+  description: A solid green. Tastes of herbs.
+  cost: 100
+  whenConsumed: Add d4 to your next ability check.
+  rarity: rare
+- name: Sunpepper Potion
+  description: Swirling green and red. spicy to the taste.
+  cost: 100
+  whenConsumed: Regain 2d6 hp
+  rarity: rare
+- name: Caustic Rust Potion
+  description: A light orange. Smoke appears when uncorked.
+  cost: 300
+  whenConsumed: Not meant to be consumed, but when poured on a metal object, it will rust and disintegrate. It is harmless to organic matter.
+  rarity: epic
+- name: Eau De Frog
+  description: A deep green. Fully opaque.
+  cost: 300
+  whenConsumed: Breath in both water and air for an hour.
+  rarity: epic
+- name: Sunflower Potion
+  description: Swirling green and yellow. sweet to the taste.
+  cost: 300
+  whenConsumed: Regain 4d6 hp
+  rarity: epic
+- name: Liquid Sun Potion
+  description: Solid yellow that shines outside the bottle. Tasteless but warm.
+  cost: 1000
+  whenConsumed: Regain 8d6 HP
+  rarity: legendary
 ...
