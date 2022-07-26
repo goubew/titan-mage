@@ -31,8 +31,9 @@ Use the following checklist to create a new character.
 - Add one point to any two of the main stats [[* The Main Stats][main stats]].
 - Decide on a [[* Systems of Magic][magic system]] compatible with your player class.
   - Fill in your starting spell choices.
-- Give youself a short sword or hammer
+- Give youself a short sword or staff weapon.
 - Fill in your [[* Auxiliary Stats][aux stats]] based on your class and main stats
+  - Use the defaults of five [[* Defense Threshold][defense threshold]], zero [[* Defense][defense]], zero [[* Magic Resistance][magic resistance]], and five [[* Movement Speed][movement speed]]. Max [[* Health Points (HP)][HP]] and max [[* Magic Power (MP)][MP]] start at 15, but may be higher based on the chosen [[* The Main Stats][main stats]].
 - Formulate a [[* Motivation][motivation]].
 - Fill in your character name.
 - (optional) Fill in a character description.
@@ -55,7 +56,7 @@ Character level starts at 1 and goes up to 16. In order to level up, characters 
 
 At the 6th level, a study under a master is required. Masters are not uncommon, but are not found in every town. At the 11th level, a study under a grandmaster is required. Although most grandmasters are well known in story and legend, not all of them can be easy to find. In order to attain the 16th level, one has to advance their field beyond it's current limits. Work with your DM to discuss your plan for this, as such things do not come with a one size fits all price tag.
 
-Use the following requirements chart to see what it takes to make it to level up. The monetary price to level up does not include [[* Living Expenses][living expenses]].
+Use the following requirements chart to see what it takes to make it to level up. While spending the time to level up, [[* Living Expenses][living expenses]] do not need to be paid, but if others in the party are not leveling up at the same time, they will need to pay them.
 
 #+begin_xtable
 | Level | Location          | Time     | Monetary Cost | Rank           |
@@ -123,39 +124,20 @@ There are four main stats.
 
 /Power is used to express physical strength. Cleave, crush, and grapple your way through enemies./
 
-Direct Effects:
+Effects:
 
-- Extra [[* Health Points (HP)][HP]] per level: Power / 4
-
-Other Effects:
-
-- Extra damage with traditional weapons
+- Extra [[* Health Points (HP)][HP]]: Gain Power / 4 extra HP per level
+- Traditional weapon effectivness: Extra damage with traditional weapons
 
 *** Reflex
 
 /Reflex measures your speed and reaction. Evade dangers and act before others. A high reflex shoots first./
 
-Direct Effects:
+Effects:
 
 - Combat order: Higher reflex acts first
-- Modified defense threshold: [[* Defense Threshold][Defense threshold]] reduced by Reflex / 4
-
-Other Effects:
-
-- Extra damage with specialized weapons
-
-*** Focus
-
-/Focus allows you to concentrate and understand complex concepts. Outwit opponents through careful planning./
-
-Direct Effects:
-
-- Extra MP per level: Focus / 4
-- Extra [[* Systems of Magic][learned spells]]: Focus / 4
-
-Other Effects:
-
-- Able to learn more powerful spells
+- Modified defense threshold: [[* Defense Threshold][Defense threshold]] reduced by Reflex / 4 when wearing light armor
+- Special weapon effectviness: Extra damage with specialized weapons
 
 *** Presence
 
@@ -163,21 +145,31 @@ Other Effects:
 
 Direct Effects:
 
-- [[* Damage Types][Physical damage]] critical strike chance: D20 roll <= Presence
+- Crit chance: [[* Damage Types][Physical damage]] critical strike chance: D20 roll <= Presence
+- Enhanced Spells: Extra spell damage
 
-Other Effects:
+*** Focus
 
-- Extra spell damage
+/Focus allows you to concentrate and understand complex concepts. Outwit opponents through careful planning./
+
+Effects:
+
+- Extra MP: Gain Focus / 4 MP per level
+- Extra [[* Systems of Magic][learned spells]]: Learn Focus / 4 additional spells
 
 ** Auxiliary Stats
 
 *** Health Points (HP)
 
-Health points tracks the life of your character. At 0 HP, your character becomes [[* Incapacitated][incapacitated]]. Characters gain extra health at every level based on their [[* Player Classes][class]].
+Health points tracks the life of your character. At 0 HP, your character becomes [[* Incapacitated][incapacitated]].
+
+Character start with 15 HP and gain five extra HP at every level.
 
 *** Magic Power (MP)
 
 Magic power tracks the amount of magic that a character can perform. Characters gain extra magic power at every level based on their [[* Player Classes][class]].
+
+Character start with 15 MP and gain five extra MP at every level.
 
 *** Defense
 
@@ -187,9 +179,9 @@ Defense provides flat physical damage reduction. Defense is provided primarily b
 
 The reduction in damage provided by [[* Defense][defense]] only goes into effect after a certain ammount of damage is taken. This amount is the damage threshold.
 
-Damage threshold is set to five by default, but can be affected by [[* Combat Equipment][armor]], the [[* Reflex][reflex]] stat, and by utilizing shields. Defense threshold can not be lowered below one. Thus, every physical attack will inflict at least one damage.
+Damage threshold is set to five by default, but can be affected by [[* Combat Equipment][armor]], the [[* Reflex][reflex]] stat, by utilizing shields, and specific effects. Defense threshold can not be lowered below one. Thus, every physical attack with at least one point of damage will inflict at least one damage.
 
-As an example, say you have 3 defense and 5 defense threshold. If you take 7 damage, you take the first 5 points of damage directly, leaving 2 damage that can be affected by defense. 3 defense is greater than 2 damage, so both points of damage are negated and you only take 5 damage.
+As an example, say you have 3 defense and 5 defense threshold. If you take 7 damage, you take the first 5 points of damage directly, leaving 2 damage that can be affected by defense. 3 defense is greater than 2 damage, so both points of damage are negated and your HP is reduced by 5.
 
 *** Magic Resistance
 
@@ -198,6 +190,8 @@ Magic resistance provides flat magic damage reduction. Magic resistance is rare,
 *** Movement Speed
 
 Movement speed is a measure how fast your character is. In [[* Combat][combat]], your character is allowed to move up to their movement speed in tiles every round.
+
+A character's movement speed is set to 5 by default. It can be reduced by certain armors and items.
 
 When moving diagonal, treat the first diagonal move as one tile of movement, the second diagonal move as two tiles of movement, then one, then two, etc.
 
@@ -299,11 +293,13 @@ In the fallen condition, you are unable to make the [[* Weapon Attack][weapon at
 
 *** Incapacitated
 
-When a player drops below 0 HP, they become incapacitated. They are unable to take major or minor actions or regain HP normally.
+When a player drops below 0 [[* Health Points (HP)][HP]], they become incapacitated. They are unable to take major or minor actions or regain HP normally.
 
-Upon entering the state, they make a power [[* Ability Check][ability check]] (12). On a successful check, the character returns to 0 HP, and the effect ends at the end of the current fight. On a failed check, the character stays incapacitated until [[* Recovering][recovery]], and the character becomes afflicted by a [[* Grievous Wound][grievous wound]].
+Upon entering the state, the character becomes afflicted by a [[* Grievous Wound][grievous wound]] and must roll to find out which.
 
-The condition can also be ended by a spell or item that provides the revive affect, returning the character to 1 HP and ending the effect, even during battle.
+The player reamins incapacitated until the end of the current fight, after which they will return to 0 HP and can be be healed normally with potion, [[* Respite][respite]], or other HP restoring effects.
+
+The condition can also be ended in the middle of combat by a spell or item that provides the revive affect, returning the character to 1 HP and ending the incapacitated state.
 
 Every time a character is attacked while incapacitated, they suffer another [[* Grievous Wound][grievous wound]]. Some foes may ignore downed combatants, but not all are so merciful.
 
@@ -327,7 +323,7 @@ Your character sees life flash before their eyes, but fortune favors the lucky. 
 
 *(2) Head Trauma*
 
-The character is unable to remember people and motivations from their past. They must invent a new false backstory or find a new purpose.
+The character is unable to remember details about their past. They must invent a new [[* Motivation][motivation]].
 
 *(3) Gnarly Scars*
 
@@ -339,7 +335,7 @@ Damage to one arm becomes too severe to save. Your character is no longer able t
 
 *(5) Damaged Leg*
 
-Bone injuries have left the player with a worn gait. Their base [[* Movement Speed][movement speed]] is halved.
+Bone injuries have left the player with a worn gait. Their base [[* Movement Speed][movement speed]] is reduced by two.
 
 *(6) Death*
 
@@ -533,10 +529,6 @@ Taking up temporary work allows you to live with frugal [[* Living Expenses][exp
 
 Tacticians are able to survey a battlefield with ease. They are able to command allies, increasing their battle effectiveness, and have insight into enemies traits.
 
-Starting [[* Health Points (HP)][HP]]: 15
-
-Starting [[* Magic Power (MP)][MP]]: 10
-
 At the first level, tacticians gain the *delayed action* class feature. This allows the player to take their minor action, major action, or both actions later in the turn order. The conditions for taking the turn and the action that is to be taken must be expressed during your normal turn.
 
 At the third level, tacticians gain the *battle insight* minor action. This lets the tactician determine either the remaining [[* Health Points (HP)][HP]] of a single enemy, the current [[* Defense][defense]] of a single enemy, or the damage weaknesses of a single enemy.
@@ -558,10 +550,6 @@ At the sixteenth level, tacticians gain the *battle commander* class feature. Th
 ** Mercenary
 
 Mercenaries are masters of combat and weaponry, able to wield the rarest weapons and strongest armors. Cleaving and rending is the way of the Mercenary.
-
-Starting [[* Health Points (HP)][HP]]: 20
-
-Starting [[* Magic Power (MP)][MP]]: 5
 
 At the first level, mercenaries gain the *engage* minor action. This can be used when an enemy is within 1 tile. Until the beginning of your next turn, if the enemy you target moves from their tile, you may take a free attack action during their turn as soon as they move. This effect lasts until you or the enemy moves at least one tile.
 
@@ -585,10 +573,6 @@ At the sixteenth level, mercenaries gain the *battle master* class feature. This
 
 Assassins are skilled dealing damage through the use of well placed attacks and devious weapon modifications. Few can stand before an Assassin and live to tell the tale.
 
-Starting [[* Health Points (HP)][HP]]: 15
-
-Starting [[* Magic Power (MP)][MP]]: 10
-
 At the third level, assassins gain the *feint strike* minor action. When targeting an enemy with a [[* Weapon Attack][weapon attack]] this turn, if an ally is within 1 tile of the enemy you are targeting, you may reroll one of your weapon damage die when attacking that enemy.
 
 At the third level, assassins gain the *disarm* major action. An opponent within one tile has a held weapon sent flying two tiles away from you in any direction you choose. Picking it back up requires a [[* Swapping Held Items][weapon swap]] minor action.
@@ -610,10 +594,6 @@ At the sixteenth level, assassins gain the *criticalest* class feature. Critical
 ** Scholar
 
 Scholars are those who seek to understand the titan's influence on the world. The knowledge is only a mimicry, but even a fraction of that power is enough to demand respect.
-
-Starting [[* Health Points (HP)][HP]]: 10
-
-Starting [[* Magic Power (MP)][MP]]: 15
 
 One magic system, including the [[* Ancient Whisperer][ancient whisperer]] magic system.
 
@@ -638,9 +618,6 @@ At the sixteenth level, scholars gain the *spell chain* class feature. This allo
 ** Bereft
 
 The Bereft are those without any advantage in life. Unlikely adventurers, but it is not for fate to say who are the greats.
-
-HP per Level: 8
-MP per Level: 3
 
 No magic systems. No class features. Mad respect.
 
@@ -811,15 +788,11 @@ The currency in the game are shells and pearls.
 
 Combat equipment includes weapons, armor, and shields.
 
-Armor is considered worn equipment. Weapons and shields are considered held equipment.
+Armor is considered worn equipment and comes in light and heavy varieties. Armor provides you with you [[* Defense][defense]] and sets a new base [[* Defense Threshold][defense threshold]]. Only one set of armor can be worn at a time.
 
-Armor provides you with you [[* Defense][defense]] and may modify the default [[* Defense Threshold][defense threshold]].
-
-Only one set of armor can be worn at a time. Two one-handed combat items or one two-handed combat items can be worn at a time.
+Weapons and shields are considered held equipment. Two one-handed held items or one two-handed held item can be equiped at a time. Switching held equipment, can done with the [[* Swapping Held Items][swapping held items]] minor action.
 
 Characters can carry with them one set of armor and four hands worth of held items.
-
-Switching held equipment, can done with the [[* Swapping Held Items][swapping held items]] minor action.
 
 ** Adventuring Equipment
 
