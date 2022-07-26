@@ -26,16 +26,17 @@ Any die with a zero side is used as the max value for the die. For example, the 
 
 Use the following checklist to create a new character.
 
-- Download a new character sheet
-- Decide on a [[* Player Classes][player class]]
-  - Fill in the class name
-- Assign [[* The Main Stats][main stats]]
-  - Fill in the main stats in any order with the numbers 1, 1, 0, 0
-- Decide on a [[* Systems of Magic][magic system]] compatible with your player class
-  - Fill in the magic system name
-  - Fill in your starting spell choices
-- Formulate a [[* Backstory][backstory]]
-- Fill in your character name
+- Download a new [[./titan-mage-character-sheet.pdf][character sheet]] and optionally a [[./titan-mage-point-tracker.pdf][point tracking sheet]]
+- Decide on a [[* Player Classes][player class]].
+- Add one point to any two of the main stats [[* The Main Stats][main stats]].
+- Decide on a [[* Systems of Magic][magic system]] compatible with your player class.
+  - Fill in your starting spell choices.
+- Give youself a short sword or hammer
+- Fill in your [[* Auxiliary Stats][aux stats]] based on your class and main stats
+- Formulate a [[* Motivation][motivation]].
+- Fill in your character name.
+- (optional) Fill in a character description.
+  - The motivation is enough to start a game. A description can always be added to later.
 
 ** Conventions
 
@@ -412,9 +413,9 @@ When players are expecting a result out of their conversation, it's the job of t
 
 Dialog is also one of the best ways to show off your character's personality!
 
-** Backstory
+** Motivation
 
-Your character's backstory describes why they have just become an adventurer. It can be as short as, "I vow to buy back my family's farm from the evil baron", or as long as you enjoy writing it.
+Your character's motivation describes why they have just become an adventurer. It can be as short as, "I vow to buy back my family's farm from the evil baron", or as long as you enjoy writing it.
 
 An important point to keep in mind is that your character is just starting out. Every character is capable of great deeds, but you get to discover them through playing the game, not crafting a backstory. Discovering who your character is by playing is one of the pleasures of TTRPGs.
 
@@ -532,7 +533,7 @@ Taking up temporary work allows you to live with frugal [[* Living Expenses][exp
 
 Tacticians are able to survey a battlefield with ease. They are able to command allies, increasing their battle effectiveness, and have insight into enemies traits.
 
-Starting [[* Health Points (HP)][HP]]: 10
+Starting [[* Health Points (HP)][HP]]: 15
 
 Starting [[* Magic Power (MP)][MP]]: 10
 
@@ -588,7 +589,7 @@ Starting [[* Health Points (HP)][HP]]: 15
 
 Starting [[* Magic Power (MP)][MP]]: 10
 
-At the third level, assassins gain the *sneaky strike* minor action. When targeting an enemy with a [[* Weapon Attack][weapon attack]] this turn, if an ally is within 1 tile of the enemy you are targeting, you may reroll one of your weapon damage die when attacking that enemy.
+At the third level, assassins gain the *feint strike* minor action. When targeting an enemy with a [[* Weapon Attack][weapon attack]] this turn, if an ally is within 1 tile of the enemy you are targeting, you may reroll one of your weapon damage die when attacking that enemy.
 
 At the third level, assassins gain the *disarm* major action. An opponent within one tile has a held weapon sent flying two tiles away from you in any direction you choose. Picking it back up requires a [[* Swapping Held Items][weapon swap]] minor action.
 
@@ -616,23 +617,23 @@ Starting [[* Magic Power (MP)][MP]]: 15
 
 One magic system, including the [[* Ancient Whisperer][ancient whisperer]] magic system.
 
-At the first level, scholars gain the *rest enjoyer* class feature. This allows the scholar use one respite dice without counting towards the level limit every [[* Respite][respite]].
+At the first level, scholars gain the *rest enjoyer* class feature. This allows the scholar use gain both [[* Health Points (HP)][HP]] and [[* Magic Power (MP)][MP]] while spending [[* Respite][respite]] dice.
 
-At the third level, scholars gain the *spell insight* minor action. This lets you identify any spells that an enemy has prepared.
+At the third level, scholars gain the *enchant* major action. This makes the next [[* Weapon Attack][weapon attack]] you do deal magic damage instead of physical damage.
 
-At the fifth level, scholars gain the *mage drain* major action. Declare an enemy. Until the beginning of your next turn, regain the [[* Magic Power (MP)][MP]] value of any spells that cast.
+At the fifth level, scholars gain the *spell imprint* minor action. If you cast a major action spell last turn, it can be cast again as a minor action. If you cast a minor action spell last turn, it can be cast again for half the mana cost. The spell imprint minor action can not be used two turns in a row.
 
-At the seventh level, scholars gain the *spell imprint* minor action. If you cast a spell last turn, it can be cast again as a minor action, but you cannot use the [[* Spell Cast][spell cast]] major action this turn.
+At the seventh level, scholars gain the *spirited defense* class feature. Whenever magic damage it taken, gain [[* Magic Resistance][magic resistance]] equal to half the damage taken. This resistance goes away after the next time you take damage (physical or magical).
 
-At the ninth level, scholars gain the *arcane wisdom* class feature. This lets you discover the effects of an artifact as a [[* Town Actions][town action]].
+At the ninth level, scholars gain the *arcane wisdom* class feature. This lets you discover the effects of an artifact during a [[* Respite][respite]].
 
 At the eleventh level, scholars gain the *MP recycle* class feature. Gain d4 [[* Magic Power (MP)][MP]] at the end of every turn that you do not cast a spell.
 
-At the thirteenth level, scholars gain the *spell disable* major action. Declare a spell that was learned from spell insight. The enemy who knew that spell is unable to cast it for the rest of the day. Only one spell per enemy can be affected by spell disable at a time.
+At the thirteenth level, scholars gain the *greater enchant* minor action. This lets you perform the enchant action as a minor action.
 
-At the fifteenth level, scholars gain the *magic osmosis* class feature. This lets you select another target to gain the [[* Magic Power (MP)][MP]] gathered from the recycle class feature.
+At the fifteenth level, scholars gain the *magic osmosis* class feature. This lets another character of your choosing gain the [[* Magic Power (MP)][MP]] gathered from the recycle class feature in addition to you.
 
-At the sixteenth level, scholars gain the *spell chain* class feature. This turns the [[* Spell Cast][spell cast]] action into a minor action, and this action can be used as a minor action and major action in the same turn.
+At the sixteenth level, scholars gain the *spell chain* class feature. This allow you to cast a any major action spell as minor action or any two minor action spells as a major action.
 
 ** Bereft
 

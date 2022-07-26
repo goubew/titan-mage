@@ -22,6 +22,15 @@
   rarity: common
   requirements: 1 Reflex
 
+- name: Staff
+  description: This well made staff is as good for beating as it is for walking.
+  class: hammer
+  range: 1
+  damage: ~(2d4) [armor pierce 1]
+  handed: two
+  rarity: common
+  requirements: None
+
 - name: Short Sword
   description: This sword is easily used by one hand or carried on the hip.
   class: sword
