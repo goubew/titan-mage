@@ -10,8 +10,9 @@
   range: 1
   damage: ~(2d4)
   handed: two
+  cost: 100
   rarity: common
-  requirements: 1 Reflex
+  requirements: None
 
 - name: Dagger
   description: This simple short blade can be easily concealed. Can be thrown.
@@ -19,8 +20,9 @@
   range: 1
   damage: ~(2d4) + reflex/4
   handed: one
+  cost: 100
   rarity: common
-  requirements: 1 Reflex
+  requirements: None
 
 - name: Staff
   description: This well made staff is as good for beating as it is for walking.
@@ -28,6 +30,7 @@
   range: 1
   damage: ~(2d4) [armor pierce 1]
   handed: two
+  cost: 100
   rarity: common
   requirements: None
 
@@ -37,6 +40,7 @@
   range: 1
   damage: ~(2d4)
   handed: one
+  cost: 100
   rarity: common
   requirements: None
 
@@ -46,8 +50,9 @@
   range: 1
   damage: ~(d4,d6)
   handed: one
+  cost: 200
   rarity: common
-  requirements: 1 Power
+  requirements: None
 
 - name: Rapier
   description: This narrow sword is meant to pierce opponents.
@@ -55,8 +60,9 @@
   range: 1
   damage: ~(2d4) + reflex/4 [armor pierce 2]
   handed: one
+  cost: 300
   rarity: rare
-  requirements: 1 Reflex
+  requirements: 2 Reflex
 
 - name: Greatsword
   description: This large blade worn on the back deals as much damage with physical force as with the sharp edge.
@@ -64,6 +70,7 @@
   range: 1
   damage: ~(2d12) + power/4
   handed: two
+  cost: 500
   rarity: rare
   requirements: 4 Power
 
@@ -73,6 +80,7 @@
   range: 1
   damage: ~(d4,d6) + reflex/2
   handed: two
+  cost: 500
   rarity: rare
   requirements: 4 Reflex
 
@@ -82,6 +90,7 @@
   range: 1
   damage: ~(2d4) + power/4 [armor pierce 1]
   handed: one
+  cost: 300
   rarity: common
   requirements: 1 Power
 
@@ -91,6 +100,7 @@
   range: 1
   damage: ~(2d4) + power/4 [armor pierce 2]
   handed: one
+  cost: 400
   rarity: rare
   requirements: 2 Power
 
@@ -100,6 +110,7 @@
   range: 1
   damage: ~(2d8) + power/4 [armor pierce 4]
   handed: two
+  cost: 500
   rarity: rare
   requirements: 4 Power
 
@@ -109,6 +120,7 @@
   range: 1
   damage: ~(2d4) + power/4
   handed: one
+  cost: 300
   rarity: common
   requirements: None
 
@@ -118,6 +130,7 @@
   range: 1
   damage: ~(d4,d8) + power/4
   handed: one
+  cost: 400
   rarity: rare
   requirements: 4 Power
 
@@ -125,8 +138,9 @@
   description: A long handled weapon with an axe like blade and a spike.
   class: axe
   range: 1
-  damage: ~(2d4) + power/4 + reflex/4
+  damage: ~(d6,d8) + power/4 + reflex/4
   handed: two
+  cost: 600
   rarity: rare
   requirements: 2 Power, 2 Reflex
 
@@ -140,8 +154,9 @@
   range: 6
   damage: ~(2d6) + reflex/4
   handed: two
+  cost: 200
   rarity: common
-  requirements: 1 Reflex, Arrows
+  requirements: None
 
 - name: Longbow
   description: This large bow nearly reaches to the ground while standing.
@@ -149,6 +164,7 @@
   range: 12
   damage: ~(d8,d10) + reflex/4
   handed: two
+  cost: 400
   rarity: rare
-  requirements: 6 Power, 4 Reflex, Arrows
+  requirements: 1 reflex, 1 power
 ...

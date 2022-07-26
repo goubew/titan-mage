@@ -2,8 +2,8 @@
 - name: Arrow
   description: A feather arrow that can be used with bows or crossbows.
   cost: 5
-- name: Ax
-  description: A simple one sided ax. Can be used to chop down wood, doors, your neighbor's doors, or your neighbor.
+- name: Axe
+  description: A simple one sided axe. Can be used to chop down wood, doors, your neighbor's doors, or your neighbor.
   cost: 200
 - name: Backpack
   description: A portable container. Yeah!

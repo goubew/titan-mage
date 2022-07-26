@@ -5,6 +5,7 @@
   defenseThreshold: 4
   movementSpeedPenalty: 0
   weight: light
+  cost: 200
   rarity: common
   requirements: None
 
@@ -14,6 +15,7 @@
   defenseThreshold: 4
   movementSpeedPenalty: 0
   weight: light
+  cost: 400
   rarity: common
   requirements: None
 
@@ -23,6 +25,7 @@
   defenseThreshold: 4
   movementSpeedPenalty: 0
   weight: light
+  cost: 500
   rarity: common
   requirements: None
 
@@ -32,6 +35,7 @@
   defenseThreshold: 4
   movementSpeedPenalty: 1
   weight: heavy
+  cost: 750
   rarity: common
   requirements: None
 
@@ -41,6 +45,7 @@
   defenseThreshold: 3
   movementSpeedPenalty: 2
   weight: heavy
+  cost: 1000
   rarity: rare
   requirements: 4 Power
 
@@ -50,6 +55,7 @@
   defenseThreshold: 4
   movementSpeedPenalty: 0
   weight: light
+  cost: 10000
   rarity: epic
   requirements: 4 focus
 ...

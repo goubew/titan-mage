@@ -9,6 +9,7 @@
       "range": { "type": "number", "minimum": 1 },
       "damage": { "type": "string" },
       "handed": { "type": "string", "enum": ["one", "two"]},
+      "cost": { "type": "number", "minimum": 0 },
       "rarity": { "type": "string", "enum": ["common", "rare", "epic", "legendary"] },
       "requirements": { "type": "string" }
     },

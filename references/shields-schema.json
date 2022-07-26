@@ -8,10 +8,11 @@
       "defense": { "type": "number", "minimum": 0 },
       "defenseThresholdModifier": { "type": "number" },
       "movementSpeedPenalty": { "type": "number", "minimum": -1 },
+      "cost": { "type": "number", "minimum": 0 },
       "rarity": { "type": "string", "enum": ["common", "rare", "epic", "legendary"] },
       "requirements": { "type": "string" }
     },
-    "minProperties": 7,
+    "minProperties": 8,
     "additionalProperties": false
   }
 }
