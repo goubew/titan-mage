@@ -572,7 +572,7 @@ At the eleventh level, mercenaries gain the *power strike* minor action. When co
 
 At the thirteenth level, mercenaries gain the *charge* class feature. When taking the [[* Movement][movement]] minor action, as long as your movement is a straight line. You can use *shove* as a free action if an enemy stands at the end of your charge.
 
-At the fifteenth level, mercenaries gain the *quick draw* class feature. This lets a mercenary [[* Swapping Held Items][switch weapons]] as a free action instead of a minor action.
+At the fifteenth level, mercenaries gain the *quick draw* class feature. This lets a mercenary [[* Swap Held Equipment][switch weapons]] as a free action instead of a minor action.
 
 At the sixteenth level, mercenaries gain the *battle master* class feature. This lets you make two attacks when using the [[* Weapon Attack][weapon attack]] major action.
 
@@ -582,7 +582,7 @@ Assassins are skilled dealing damage through the use of well placed attacks and 
 
 At the third level, assassins gain the *feint strike* minor action. When targeting an enemy with a [[* Weapon Attack][weapon attack]] this turn, if an ally is within 1 tile of the enemy you are targeting, you may reroll one of your weapon damage die when attacking that enemy.
 
-At the third level, assassins gain the *disarm* major action. An opponent within one tile has a held weapon sent flying two tiles away from you in any direction you choose. Picking it back up requires a [[* Swapping Held Items][weapon swap]] minor action.
+At the third level, assassins gain the *disarm* major action. An opponent within one tile has a held weapon sent flying two tiles away from you in any direction you choose. Picking it back up requires a [[* Swap Held Equipment][weapon swap]] minor action.
 
 At the fifth level, assassins gain the *sole bad guy* minor action. When an ally is withing 1 tile of the enemy you are targeting with a melee attack and that enemy has no allies within 1 tile, ignore any [[* Defense][defense]] provided by armor.
 
@@ -797,7 +797,7 @@ Combat equipment includes weapons, armor, and shields.
 
 Armor is considered worn equipment and comes in light and heavy varieties. Armor provides you with you [[* Defense][defense]] and sets a new base [[* Defense Threshold][defense threshold]]. Only one set of armor can be worn at a time.
 
-Weapons and shields are considered held equipment. Two one-handed held items or one two-handed held item can be equiped at a time. Switching held equipment, can done with the [[* Swapping Held Items][swapping held items]] minor action.
+Weapons and shields are considered held equipment. Two one-handed held items or one two-handed held item can be equiped at a time. Switching held equipment, can done with the [[* Swap Held Equipment][swap held equipment]] minor action.
 
 Characters can carry with them one set of armor and four hands worth of held items.
 
