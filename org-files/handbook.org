@@ -602,8 +602,6 @@ At the sixteenth level, assassins gain the *criticalest* class feature. Critical
 
 Scholars are those who seek to understand the titan's influence on the world. The knowledge is only a mimicry, but even a fraction of that power is enough to demand respect.
 
-One magic system, including the [[* Ancient Whisperer][ancient whisperer]] magic system.
-
 At the first level, scholars gain the *rest enjoyer* class feature. This allows the scholar use gain both [[* Health Points (HP)][HP]] and [[* Magic Power (MP)][MP]] while spending [[* Respite][respite]] dice.
 
 At the third level, scholars gain the *enchant* major action. This makes the next [[* Weapon Attack][weapon attack]] you do deal magic damage instead of physical damage.
@@ -636,8 +634,6 @@ Each group requires a lifetime of practice and a focus to the craft. Even then, 
 
 ** Ancient Whisperer
 
-The ancient whisperer magic system can only be learned by the [[* Scholar][scholar]] class.
-
 The Ancient Whisperers have studied the lost spoken language of the titans. Through great mental exertion, they can recall incantations the forgotten language, shaping the world as the titans once did.
 
 The number of known incantations are shown in the following table.
@@ -647,20 +643,20 @@ The number of known incantations are shown in the following table.
 |-------+----------------------|
 |     1 |                    1 |
 |     2 |                    2 |
-|     3 |                    3 |
-|     4 |                    4 |
-|     5 |                    5 |
-|     6 |                    6 |
-|     7 |                    7 |
-|     8 |                    8 |
-|     9 |                    9 |
-|    10 |                   10 |
-|    11 |                   11 |
-|    12 |                   12 |
-|    13 |                   13 |
-|    14 |                   14 |
-|    15 |                   15 |
-|    16 |                   16 |
+|     3 |                    2 |
+|     4 |                    3 |
+|     5 |                    3 |
+|     6 |                    4 |
+|     7 |                    4 |
+|     8 |                    5 |
+|     9 |                    5 |
+|    10 |                    6 |
+|    11 |                    6 |
+|    12 |                    7 |
+|    13 |                    7 |
+|    14 |                    8 |
+|    15 |                    8 |
+|    16 |                   10 |
 #+end_xtable
 
 ** Elementalist
