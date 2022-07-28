@@ -49,7 +49,6 @@ function objToHTML(obj, pmargin=0, hr=true) {
         objHTML += `<p style="margin-left: ${pmargin}em;"><b>${prettyKey}</b>: None</p>`;
       } else {
         objHTML += `<p style="margin-left: ${pmargin}em;"><b>${prettyKey}</b>:</p><ul style="margin-left: ${pmargin}em;">`;
-        console.log("TODO: implement array output");
         val.forEach((arrVal) => {
           if (isPrimitive(arrVal)) {
             objHTML += `<li><p>${arrVal}</p></li>`;

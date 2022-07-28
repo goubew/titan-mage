@@ -3,12 +3,13 @@ const yaml = require("yaml");
 const nunjucks = require("nunjucks");
 const { execSync } = require("child_process");
 
-const buildDir="./build/"
+const buildDir="./build/";
 
 const referenceTypes = ["armor", "foes", "items", "potions", "shields", "weapons",
                         "ancient-whisperer-spells", "elementalist-spells", "harvester-spells",
-                        "runecast-spells", "spirit-caller-spells"]
-let referencesJSON = {}
+                        "runecast-spells", "spirit-caller-spells"];
+let referencesJSON = {};
+const customReferenceTypes = ["foes"];
 
 // Parse the source yaml files into objects
 function loadReferences() {
@@ -53,16 +54,18 @@ if (require.main === module) {
 
   // Template out reference html docs
   nunjucks.configure('views');
-  const referenceTemplate = 'reference.njk'
+  const referenceTemplate = 'reference.njk';
   for (const reference of referenceTypes) {
-    const context = { "referenceName": makeNiceReferenceName(reference) }
-    const referenceHtmlFile = buildDir + reference + ".html";
-    fs.writeFile(referenceHtmlFile, nunjucks.render(referenceTemplate, context), (err) => {
-      if (err) {
-        console.log(`ERROR: Unable to template reference html file for reference ${reference}`);
-        process.exit(1);
-      }
-    });
+    if (!customReferenceTypes.includes(reference)) {
+      const context = { "referenceName": makeNiceReferenceName(reference) }
+      const referenceHtmlFile = buildDir + reference + ".html";
+      fs.writeFile(referenceHtmlFile, nunjucks.render(referenceTemplate, context), (err) => {
+        if (err) {
+          console.log(`ERROR: Unable to template reference html file for reference ${reference}`);
+          process.exit(1);
+        }
+      });
+    }
   }
 
   // Copying static files is done from package.json build definition

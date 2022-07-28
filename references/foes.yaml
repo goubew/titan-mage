@@ -1,17 +1,17 @@
 ---
 - name: Squirrel
-  description: A typical tree rat. They would be ugly without their tail.
   size: small
-  majStats:
-    power: 0
-    reflex: 6
-    focus: 1
-    presence: 6
+  classifier: rodent
   auxStats:
-    hp: 3
-    mp: 0
-    defense: 0
-    movement: 5
+    maxHp: 3
+    maxMp: 0
+    movSpd: 5
+    defThr: 0
+    def: 0
+    magRes: 0
+  abilities: []
+  majorActions:
+  - name: "Climb"
+    action: "Squirrels can use their movement speed to climb up structures."
   minorActions: []
-  majorActions: [{name: "Climb", action: "Squirrels can use their movement speed to climb up structures."}]
 ...

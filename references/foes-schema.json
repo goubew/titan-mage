@@ -4,29 +4,32 @@
     "type": "object",
     "properties": {
       "name": { "type": "string" },
-      "description": { "type": "string" },
       "size": { "type": "string", "enum": ["small", "medium", "large"] },
-      "majStats": { "type": "object",
-                     "properties": {
-                       "power": { "type": "number", "minimum": 0 },
-                       "reflex": { "type": "number", "minimum": 0 },
-                       "focus": { "type": "number", "minimum": 0 },
-                       "presence": { "type": "number", "minimum": 0 }
-                     },
-                    "minProperties": 4,
-                    "additionalProperties": false
-                  },
+      "classifier": { "type": "string" },
       "auxStats": { "type": "object",
                     "properties": {
-                      "hp": { "type": "number", "minimum": 0 },
-                      "mp": { "type": "number", "minimum": 0 },
-                      "defense": { "type": "number", "minimum": 0 },
-                      "movement": { "type": "number", "minimum": 0 }
+                      "maxHp": { "type": "number", "minimum": 0 },
+                      "maxMp": { "type": "number", "minimum": 0 },
+                      "movSpd": { "type": "number", "minimum": 0 },
+                      "defThr": { "type": "number", "minimum": 0 },
+                      "def": { "type": "number", "minimum": 0 },
+                      "magRes": { "type": "number", "minimum": 0 }
                     },
                     "minProperties": 4,
                     "additionalProperties": false
                   },
-      "minorActions": { "type": "array",
+      "abilities": { "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "name": { "type": "string" },
+                            "effect": { "type": "string" }
+                          },
+                          "minProperties": 2,
+                          "additionalProperties": false
+                        }
+                      },
+      "majorActions": { "type": "array",
                         "items": {
                           "type": "object",
                           "properties": {
@@ -37,7 +40,7 @@
                           "additionalProperties": false
                         }
                       },
-      "majorActions": { "type": "array",
+      "minorActions": { "type": "array",
                         "items": {
                           "type": "object",
                           "properties": {
