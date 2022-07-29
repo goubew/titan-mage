@@ -2,15 +2,96 @@
 #+HTML_LINK_HOME: dummy value
 #+OPTIONS: toc:t toc:2
 
-This guide describes the steps and methods to being a Game Master for the Titan Mage TTRPG. One of the best parts about being a Gamemaster is letting the world you create come to life, so while this document describes steps to be a GM, it is more of a description than a prescription.
+* About This Document
 
-* Session Zero
+This guide describes the steps and methods to being a Game Master for the Titan Mage TTRPG. One of the best parts about being a Gamemaster is letting the world you create come to life, so while this document describes steps to be a GM, it is not filled with hard and fast rules the same as the Player's handbook. It's a method book, not a rulebook.
+
+If you are unfamiliar with the game as a whole, reading through the Player's handbook is as important as this document is for being a GM. It is recmmoneded to start there, then come back.
+
+* GM Responsibilities
 
 * Preparing a Session
 
+The reality of being a GM is having to do more legwork outside of the game than the players do. Not all of it is butterflies and kittens, but that is not to say that it is all tedium. Regardless of how much you enjoy the out of game work, there is always a payoff to bringing people together and seeing them engage with the work that you have done.
+
+Preparing a game is a multi-part exercise, but not every part has to be worked between every session.
+
+The preparation that every session does need is encounters. You will almost always prepare encounters between sessions.
+
+Beyond encounters are adventures. Adventures can be as quick as a single session or stretch out many session. Adventures should be prepared as needed or as you have time.
+
+Worldbuilding is the preparation that needs to occur the least often. It can be some of the most creative work you get to do as a GM, but it doesn't need to be done as often and only after your encounters and adventures are squared away.
+
+** Encounter Building
+
+*** Selecting Baddies
+
+*** Puzzles and Traps
+
+*** Dolling out Treasure
+
+*** Mapping a Dungeon
+
+*** Other Types of Encounters
+
+** Adventure Building
+
+*** Hooks
+
+*** NPCs
+
+*** BBEG
+
+*** Travel
+
+*** Downtime
+
+** World Building
+
+*** Mapping the World
+
+*** Creating Towns
+
+*** Describing the World
+
 * Running the Game
 
-* Creating Spells
+This section describes how the minutiae of the actual in person session. This is where you get to bask in the glory of the fruits of your preparation labor.
+
+** The Core Game Loop
+
+** Resolving Uncertainty
+
+* Tables
+
+** Player Stats by Level
+
+This table shows the minimum and maximum stats that a player can have at each level.
+
+| Level | Min HP/MP | Max HP/MP | Max Stat | Max Stat / 2 | Max Stat / 4 |
+|-------+-----------+-----------+----------+--------------+--------------|
+|     1 |        20 |        21 |        1 |            1 |            1 |
+|     2 |        25 |        27 |        2 |            1 |            1 |
+|     3 |        30 |        33 |        3 |            2 |            1 |
+|     4 |        35 |        39 |        4 |            2 |            1 |
+|     5 |        40 |        50 |        5 |            3 |            2 |
+|     6 |        45 |        57 |        6 |            3 |            2 |
+|     7 |        50 |        64 |        7 |            4 |            2 |
+|     8 |        55 |        71 |        8 |            4 |            2 |
+|     9 |        60 |        87 |        9 |            5 |            3 |
+|    10 |        65 |        95 |       10 |            5 |            3 |
+|    11 |        70 |       103 |       11 |            6 |            3 |
+|    12 |        75 |       111 |       12 |            6 |            3 |
+|    13 |        80 |       132 |       13 |            7 |            4 |
+|    14 |        85 |       141 |       14 |            7 |            4 |
+|    15 |        90 |       150 |       15 |            8 |            4 |
+|    16 |        95 |       159 |       16 |            8 |            4 |
+
+* Homebrew Content
+
+If you find that the options in the game are too limiting or wish to add something specific to your game, here are some references that can help with the design. 
+
+** Creating Spells
 
 Spellmaking is not an exact science, but there are some guidelines. In general, spells should not cost more than 40 MP.
 
@@ -32,29 +113,6 @@ For utility spells costs, use the following table.
 | Great            |      20 |
 | Amazing          |      40 |
 | Earth Shattering |      80 |
-
-* Tables
-
-Player character stats (without items)
-
-| Level | Min HP/MP | Max HP/MP | Max Stat | Max Stat / 2 | Max Stat / 4 |
-|-------+-----------+-----------+----------+--------------+--------------|
-|     1 |        10 |        21 |        1 |            1 |            1 |
-|     2 |        15 |        27 |        2 |            1 |            1 |
-|     3 |        20 |        33 |        3 |            2 |            1 |
-|     4 |        25 |        39 |        4 |            2 |            1 |
-|     5 |        30 |        50 |        5 |            3 |            2 |
-|     6 |        35 |        57 |        6 |            3 |            2 |
-|     7 |        40 |        64 |        7 |            4 |            2 |
-|     8 |        45 |        71 |        8 |            4 |            2 |
-|     9 |        50 |        87 |        9 |            5 |            3 |
-|    10 |        55 |        95 |       10 |            5 |            3 |
-|    11 |        60 |       103 |       11 |            6 |            3 |
-|    12 |        65 |       111 |       12 |            6 |            3 |
-|    13 |        70 |       132 |       13 |            7 |            4 |
-|    14 |        75 |       141 |       14 |            7 |            4 |
-|    15 |        80 |       150 |       15 |            8 |            4 |
-|    16 |        85 |       159 |       16 |            8 |            4 |
 
 -----
 

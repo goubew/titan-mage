@@ -33,7 +33,7 @@ Use the following checklist to create a new character.
   - Fill in your starting spell choices.
 - Give youself a short sword or staff weapon.
 - Fill in your [[* Auxiliary Stats][aux stats]] based on your class and main stats
-  - Use the defaults of five [[* Defense Threshold][defense threshold]], zero [[* Defense][defense]], zero [[* Magic Resistance][magic resistance]], and five [[* Movement Speed][movement speed]]. Max [[* Health Points (HP)][HP]] and max [[* Magic Power (MP)][MP]] start at 15, but may be higher based on the chosen [[* The Main Stats][main stats]].
+  - Use the defaults of five [[* Defense Threshold][defense threshold]], zero [[* Defense][defense]], zero [[* Magic Resistance][magic resistance]], and five [[* Movement Speed][movement speed]]. Max [[* Health Points (HP)][HP]] and max [[* Magic Power (MP)][MP]] start at 20, but may be higher based on the chosen [[* The Main Stats][main stats]].
 - Formulate a [[* Motivation][motivation]].
 - Fill in your character name.
 - (optional) Fill in a character description.
@@ -89,7 +89,7 @@ Whenever you level up, perform the following actions:
 
 Main stats directly measure character prowess. They influence other stats and are used for determining outcomes in [[* Ability Check][ability checks]].
 
-These stats range from 1 to 21. When stats are upgraded, the effects of stats are always retroactive.
+These stats range from 1 to 20. When stats are upgraded, the effects of stats are always retroactive.
 
 Stats are often to modify the damage of attacks or spells as either + stat, + stat/2, or + stat/4. Use the following table to reference these values.
 
@@ -116,7 +116,6 @@ Stats are often to modify the damage of attacks or spells as either + stat, + st
 |   18 |      9 |      5 |
 |   19 |      9 |      5 |
 |   20 |      9 |      5 |
-|   21 |     10 |      6 |
 
 There are four main stats.
 
@@ -163,13 +162,13 @@ Effects:
 
 Health points tracks the life of your character. At 0 HP, your character becomes [[* Incapacitated][incapacitated]].
 
-Character start with 15 HP and gain five extra HP at every level.
+Character start with 20 HP and gain five extra HP at every level.
 
 *** Magic Power (MP)
 
 Magic power tracks the amount of magic that a character can perform. Characters gain extra magic power at every level based on their [[* Player Classes][class]].
 
-Character start with 15 MP and gain five extra MP at every level.
+Character start with 20 MP and gain five extra MP at every level.
 
 *** Defense
 
