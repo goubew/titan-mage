@@ -2,31 +2,51 @@
 #+HTML_LINK_HOME: dummy value
 #+OPTIONS: toc:t toc:2
 
+* Being A Game Master
+
+Every game needs a game master (GM). The game master is the arbiter of rules, the source of the game's content, and is someone that every player should be grateful for. More so than the player's the GM gets gets to flex their creativity and have the greatest involvement in the flow and feel of the game. If your game is missing a GM, then don't be afraid to try it out!
+
 * About This Document
 
-This guide describes the steps and methods to being a Game Master for the Titan Mage TTRPG. One of the best parts about being a Gamemaster is letting the world you create come to life, so while this document describes steps to be a GM, it is not filled with hard and fast rules the same as the Player's handbook. It's a method book, not a rulebook.
+If you are unfamiliar with the game as a whole, reading through the Player's handbook is important for being a GM. It is recommended to start there, then come back.
 
-If you are unfamiliar with the game as a whole, reading through the Player's handbook is as important as this document is for being a GM. It is recmmoneded to start there, then come back.
-
-* GM Responsibilities
+Unlike the Player's Handbook, which is filled with hard rules, this document is meant to be more a process flow. If the Player's Handbook was a fish dinner, then this is the guide to fishing.
 
 * Preparing a Session
 
-The reality of being a GM is having to do more legwork outside of the game than the players do. Not all of it is butterflies and kittens, but that is not to say that it is all tedium. Regardless of how much you enjoy the out of game work, there is always a payoff to bringing people together and seeing them engage with the work that you have done.
+The reality of being a GM is having to do some more legwork outside of the game than the players do. While this work can be fun on its own, the real payoff is bringing people together and seeing them engage with your world.
 
-Preparing a game is a multi-part exercise, but not every part has to be worked between every session.
+Preparing for a game is done at different scales, namely encounter building, adventure building, and world building. Not all of these levels need to be worked on between game sessions, so it is important to understand how to give priority to these.
 
 The preparation that every session does need is encounters. You will almost always prepare encounters between sessions.
 
-Beyond encounters are adventures. Adventures can be as quick as a single session or stretch out many session. Adventures should be prepared as needed or as you have time.
+Above encounter building is adventure building. Adventures can last a single session or stretch out many sessions, so adventure should be prepared as you expect the current adventure to wrap up.
 
-Worldbuilding is the preparation that needs to occur the least often. It can be some of the most creative work you get to do as a GM, but it doesn't need to be done as often and only after your encounters and adventures are squared away.
+World building is the preparation that happens above adventure preparation. It can be some of the most creative work you get to do as a GM. Some early world building can last many adventures, so it is only needed at the beginning of the game or during big changes in the story. However, it can be fun to add to whenever the urge strikes.
 
 ** Encounter Building
 
+Encounter building is the meat and potatoes of GM preparation. Encounters are the problems that you are going to stick in front of your players for them to figure out. The majority of game time will be spent handling the encounters, so they will actually have the biggest impact on your game.
+
+Creating balanced encounters is a form of art. Different players will handle encounters differently and the dice can always throw a wrench into their plans. Creating challenging but rewarding encounters is a skill that can truly only come with experience with your particular players.
+
+A cool thing to note about encounters is that it up to the players to solve them, not you. You do not always have to know how the players are going to overcome your predicaments as long as you believe that they can. Maintaining an open mind about how to solve your encounters is an important part of being a DM. Be ready to accept the solutions they propose to you, through the filter of [[* Resolving Uncertainty][unceartainty resolution]] of course!
+
 *** Selecting Baddies
 
-*** Puzzles and Traps
+Titan Mage is an RPG about fighting monsters. Combat is a core and expected part of the game, so making sure that adventures are filled with foul fiends is a must.
+
+Use the Foe Reference page to select some enemies for your players. Foes are categorized by the relative level your players are at: apprentice, journeyman, master, and grandmaster. It is not recommended to put higher level foes against lower level players.
+
+Beyond the difficulty level of individual monsters, there are two other ways to balance enemies. You can add multiple monsters to the encounter. This has a multiplicative effect on the difficulty of the encounter. Be careful not to make an encounter with too many characters that bring down a player character in little time by focusing attacks. The second way to balance is in the number of encounters. Characters have a specific amount of healing that can be done before they are forced to retreat back to the safety of town. If they get worn down too much, even easy encounters can be dangerous.
+
+As a DM, it is your job to keep a pulse on the overall health of the party. Tweaking encounter enemy numbers and the number of combat encounters should be done in order to maintain difficulty without killing the entire party.
+
+Difficult encounters can result in player deaths. Games where players are dying constantly are not fun for the players, so it's important to manage this occurrence. Do the best job you can saving the most difficult encounters for dramatic parts in the story, so that deaths can be meaningful for the players and the other members of the party. It's possible for the death of the entire party to be their fault, but it is nearly always a failure on the GM's part.
+
+*** Confounding Puzzles
+
+*** Dangerous Traps
 
 *** Dolling out Treasure
 
