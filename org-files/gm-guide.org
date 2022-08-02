@@ -46,6 +46,20 @@ Difficult encounters can result in player deaths. Games where players are dying 
 
 *** Confounding Puzzles
 
+Puzzles are a type of encounter that forces the players to think together and slows the pace of the game.
+
+When designing puzzles that are required for adventure progression, it is important to prepare clues to feed your players when they get stuck. You can put these behind ability checks to disguise them.
+
+Puzzles that are not required for adventure progression can be used to deliver extra rare loot or make other parts of the adventure easier. These do not need clues, but should have hints that show that the puzzle exists.
+
+Some types of puzzles that you may with to come up with:
+- Riddle: Classic spoken puzzles
+- Object: Interactions with physical objects
+- Social: Having to gain somebodies trust
+- Cipher: Understanding hidden information
+- Rube Golberg: Puzzles with multiple steps that each chain together
+- Memory: Requiring players to remember information that was given a while ago
+
 *** Dangerous Traps
 
 *** Dolling out Treasure
