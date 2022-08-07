@@ -32,6 +32,8 @@ Creating balanced encounters is a form of art. Different players will handle enc
 
 A cool thing to note about encounters is that it up to the players to solve them, not you. You do not always have to know how the players are going to overcome your predicaments as long as you believe that they can. Maintaining an open mind about how to solve your encounters is an important part of being a DM. Be ready to accept the solutions they propose to you, through the filter of [[* Resolving Uncertainty][unceartainty resolution]] of course!
 
+Before you begin planning out your encounters, you should have a theme in mind from your [[* Adventure Building][adventure building]]. Keep that theme in mind when choosing which encounters to include.
+
 *** Selecting Baddies
 
 Titan Mage is an RPG about fighting monsters. Combat is a core and expected part of the game, so making sure that adventures are filled with foul fiends is a must.
@@ -64,21 +66,42 @@ Some types of puzzles that you may with to come up with:
 
 *** Dangerous Traps
 
-Traps are a source of danger other than combat encounters. Traps can be a source of damage, but there are many insidious ways for traps to work: 
+Traps are a source of danger other than combat encounters. Traps can be a source of damage, but there are many insidious ways for traps to work:
 - Damage: Straightforward traps that deal damage
 - Effect: Traps that inflict negative conditions
 - Enclosures: Locking players into a specific room or area
-- Party Splitters: Traps that keep players away from each other
+- Party Splitter: Traps that keep players away from each other
 - Sound: Alerts enemies in the area
-- Timers: Areas that get progressively more dangerous over time
+- Timer: Areas that get progressively more dangerous over time
 
 It is up to you how the trap is triggered. Whether it is automatic or whether an enemy has to set it off. It is also up to you if the traps can be disabled or not.
 
 *** Dolling out Treasure
 
+Players love treasure, and they will love you for giving them cool treasure. It's a psychology thing.
+
+There are three main types of treasures:
+- Shells: Raw currency
+- Valuables: Items that can be traded for raw currency
+- Artifacts: Equipment that is marked epic or legendary
+
+Shells are a straightforward treasure. Players need it to buy equipment, live in town, and level up.
+
+Valuables are essentially another way to give out shells, but they have a few advantages. First, valuables can be kept by foes who normally wouldn't carry shells. They can be crafted to fit the theme of the other adventure encounters. Finally they can serve to add realism to the world when the players inevitably to trade them for shells. Some merchants might buy certain values at a higher price or have plot hooks for the player concerning specific valuables.
+
+Artifacts are the last kind of treasure. Artifacts are a way separate from character level to increase the ability of the party. Within the Player's resource tables are items marked as epic or legendary. These are the artifacts. Artifacts can not be typically bought or sold, so instead they should be given out as adventure rewards or as hidden treasure.
+
+When deciding how many shells or valuables to put into an adventure, use the character level table from the Player's Handbook to decide. It's up to you to set a pace for how often the player's can level up, but in giving out enough treasure for one level per adventure is a good pace.
+
+It's recommended to give out artifacts roughly based on the player character ranks from the character level table. Apprentice players should acquire a couple minor epic artifacts. Consumables or equipment are good candidates. Journeyman should begin to get a couple of the rarer combat focused artifacts or ones with strong effects. Still only epic level though. A master should receive a legendary artifact and continue to receive epic artifacts. Once a player reaches grandmaster level, artifacts are the only way to continue increasing their power, so if you wish to keep the campaign going you are allowed to be more liberal.
+
 *** Mapping a Dungeon
 
-*** Other Types of Encounters
+At this point in your adventure prep, you should have some assortment of baddies, puzzles, traps, and treasure. It is at this point that you should design the map.
+
+Some adventure may take place out in the open, and in that case, there's not much of a map to plan, but if your player's are delving into a dungeon, cave, building, ship or other enclosed space, it's good to create some interconnected rooms to fill with all of your encounters. Doing the mapping after the other encounter preparation will help tell you how big of an area to map out.
+
+There are many ways to lay out a map. The simplest is just a linear set of rooms with one encounter after another. That is a fine way to do it. At it's biggest, a map can have multiple entrances, large paths of dead ends, and enough rooms to last multiple adventures. Most maps will fall somewhere in the middle. The best way do design a map of course is to follow your heart, and figure out through experimentation what types of maps are good for you and your players.
 
 ** Adventure Building
 
@@ -135,7 +158,7 @@ This table shows the minimum and maximum stats that a player can have at each le
 
 * Homebrew Content
 
-If you find that the options in the game are too limiting or wish to add something specific to your game, here are some references that can help with the design. 
+If you find that the options in the game are too limiting or wish to add something specific to your game, here are some references that can help with the design.
 
 ** Creating Spells
 
