@@ -105,9 +105,19 @@ There are many ways to lay out a map. The simplest is just a linear set of rooms
 
 ** Adventure Building
 
+Adventures are the containers for your encounters. They set the theme, the pace, and the difficulty. A good juicy adventure preparation will convince the players and their characters that experiencing dangers will be worth it.
+
 *** Hooks
 
-*** NPCs
+Hooks are the scenes where you try and convince the players that you adventure needs to happen. Hooks can be as subtle as mentioning a mysterios stranger at a bar or as straightforward as telling your players that they have become lost in a dense fog. The goal of the hook is to convince the players, so here are some reasons that players may be interested:
+- Rewards: [[* Dolling out Treasure][Money, valuables, and rare items]]
+- Morals: Helping the less fortunate or opressed
+- Relationships: If an [[* NPCs][NPC]] that the players know or a family member of the characters requests help
+- Exploration: Seeing some cool new area or environment
+- Furtherin Goals: If the results of this adventure help the players complete a larger goal or adventure
+- Mandatory Fun: As a last resort, you can use the power of GM handwoven narration to begin an adventure, best used as a last resort
+
+When you are not sure what kind of hook to make, take a look at your players' motivations for inspiration.
 
 *** BBEG
 
@@ -116,6 +126,8 @@ There are many ways to lay out a map. The simplest is just a linear set of rooms
 *** Downtime
 
 ** World Building
+
+*** NPCs
 
 *** Mapping the World
 
