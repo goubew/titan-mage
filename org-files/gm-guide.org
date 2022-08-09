@@ -4,7 +4,7 @@
 
 * Being A Game Master
 
-Every game needs a game master (GM). The game master is the arbiter of rules, the source of the game's content, and is someone that every player should be grateful for. More so than the player's the GM gets gets to flex their creativity and have the greatest involvement in the flow and feel of the game. If your game is missing a GM, then don't be afraid to try it out!
+Every game needs a game master (GM). The game master is the arbiter of rules, the source of the game's content, and is someone that every player should be grateful for. More so than the players the GM gets gets to flex their creativity and have the greatest involvement in the flow and feel of the game. If your game is missing a GM, then don't be afraid to try it out!
 
 * About This Document
 
@@ -44,7 +44,7 @@ Beyond the difficulty level of individual monsters, there are two other ways to 
 
 As a DM, it is your job to keep a pulse on the overall health of the party. Tweaking encounter enemy numbers and the number of combat encounters should be done in order to maintain difficulty without killing the entire party.
 
-Difficult encounters can result in player deaths. Games where players are dying constantly are not fun for the players, so it's important to manage this occurrence. Do the best job you can saving the most difficult encounters for dramatic parts in the story, so that deaths can be meaningful for the players and the other members of the party. It's possible for the death of the entire party to be their fault, but it is nearly always a failure on the GM's part.
+Difficult encounters can result in player deaths. Games where players are dying constantly are not fun for the players, so it's important to manage this occurrence. Do the best job you can saving the most difficult encounters for dramatic parts in the story, so that deaths can be meaningful for the players and the other members of the party. It's possible for the death of the entire party to be their fault, but there is almost always a way that GMs can massage the difficulty of an adventure without breaking the rules of the game.
 
 *** Confounding Puzzles
 
@@ -137,11 +137,26 @@ Hooks are the scenes where you try and convince the players that you adventure n
 
 When you are not sure what kind of hook to make, take a look at your players' motivations for inspiration.
 
-*** BBEG
-
 *** Travel
 
+When adventuring invitably takes the party further away on the [[* Mapping the World][map]], it's time to do some travel resolution. It's up to the players to let you know what path they are going to take and what speed they are going to travel at. Based on their speed, this is how many hexes can be covered in a day of traveling:
+- Fast: (3mph) 4 hexes per 8 hour travel time
+- Slow: (2mph) 3 hexes per 8 hours travel time
+  
+You may with to introduce to planned or random encounters while traveling. Here are some considerations that can help when deciding what to plan:
+- Distance: The total distance traveled
+- Terrain: Is the party traveling on a road or through a dangerous forest
+- Speed: Fast vs slow
+- Location: Is this path close to civilization or to any baddie encampments
+- Party State: Will another encounter wipe the entire party after a tense adventure
+  
+Road encounters need not always be combat. Meeting people along the road or neutral creatures in the wild can help show how the different areas in your world are laid out.
+
 *** Downtime
+
+Eventually players will want to return back to town. They need to recover, sell valuables, level up, and prepare for the next adventure. Ask your players how long they are planning to stay in town and what downtime actions they are gong to take.
+
+It is up to you whether to resolve these actions through quick narration or whether you want to play out the scenarios. Playing then out can help build rapport with [[* NPCs][NPCs]], to give out details about [[* Creating Towns][town happenings]], or to provide your next [[* Hooks][hook]].
 
 ** World Building
 
