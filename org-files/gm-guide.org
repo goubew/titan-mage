@@ -129,7 +129,7 @@ Here are ideas for some adventure goals that you may want to use:
 Hooks are the scenes where you try and convince the players that you adventure needs to happen. Hooks can be as subtle as mentioning a mysterios stranger at a bar or as straightforward as telling your players that they have become lost in a dense fog. The goal of the hook is to convince the players, so here are some reasons that players may be interested:
 - Rewards: [[* Dolling out Treasure][Money, valuables, and rare items]]
 - Morals: Helping the less fortunate or opressed
-- Relationships: If an [[* NPCs][NPC]] that the players know or a family member of the characters requests help
+- Relationships: If an [[* Non Player Characters (NPCs)][NPC]] that the players know or a family member of the characters requests help
 - Exploration: Seeing some cool new area or environment
 - Furthering Goals: If the results of this adventure help the players complete a larger goal or adventure
 - Good Players: A good player is aware that they that you have done the work to set up an adventure and will have an eye out for your clues
@@ -156,11 +156,25 @@ Road encounters need not always be combat. Meeting people along the road or neut
 
 Eventually players will want to return back to town. They need to recover, sell valuables, level up, and prepare for the next adventure. Ask your players how long they are planning to stay in town and what downtime actions they are gong to take.
 
-It is up to you whether to resolve these actions through quick narration or whether you want to play out the scenarios. Playing then out can help build rapport with [[* NPCs][NPCs]], to give out details about [[* Creating Towns][town happenings]], or to provide your next [[* Hooks][hook]].
+It is up to you whether to resolve these actions through quick narration or whether you want to play out the scenarios. Playing then out can help build rapport with [[* Non Player Characters (NPCs)][NPCs]], to give out details about [[* Creating Towns][town happenings]], or to provide your next [[* Hooks][hook]].
 
 ** World Building
 
-*** NPCs
+*** Non Player Characters (NPCs)
+
+Players are going to encounter many characters throughout their adventures. So many, that it is a bit of a wasted time to flesh out NPCs as much as the players flesh our their characters.
+
+NPCs belong in the game to further the gameplay that the players are interested in. They sell sharp objects to the players in exchange for shiny objects. They request help from the player. They exist when the players are close to them and stay out of the way otherwise. Thus, whenever you make an NPC, you first start with a skeleton NPC.
+
+A skeleton NPC is four things:
+- A name
+- A job
+- A physical trait
+- A personality trait
+  
+Four lines. Three if you write the name and job on one line. This is all that it takes to bring an NPC to the table.
+
+Now, if the players take an interest in the NPC, if they make an effort to return back and ask questions, that is when you are allowed to add some more detail. Maybe some things are going on in their life, and they pass those details on to the players, but NPCs should remain back seat characters. They can offer up hints when asked, but should never outright solve the party's problems without the party planning out working with them.
 
 *** Mapping the World
 
