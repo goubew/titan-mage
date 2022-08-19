@@ -142,14 +142,14 @@ When you are not sure what kind of hook to make, take a look at your players' mo
 When adventuring invitably takes the party further away on the [[* Mapping the World][map]], it's time to do some travel resolution. It's up to the players to let you know what path they are going to take and what speed they are going to travel at. Based on their speed, this is how many hexes can be covered in a day of traveling:
 - Fast: (3mph) 4 hexes per 8 hour travel time
 - Slow: (2mph) 3 hexes per 8 hours travel time
-  
+
 You may with to introduce to planned or random encounters while traveling. Here are some considerations that can help when deciding what to plan:
 - Distance: The total distance traveled
 - Terrain: Is the party traveling on a road or through a dangerous forest
 - Speed: Fast vs slow
 - Location: Is this path close to civilization or to any baddie encampments
 - Party State: Will another encounter wipe the entire party after a tense adventure
-  
+
 Road encounters need not always be combat. Meeting people along the road or neutral creatures in the wild can help show how the different areas in your world are laid out.
 
 *** Downtime
@@ -171,12 +171,33 @@ A skeleton NPC is four things:
 - A job
 - A physical trait
 - A personality trait
-  
+
 Four lines. Three if you write the name and job on one line. This is all that it takes to bring an NPC to the table.
 
 Now, if the players take an interest in the NPC, if they make an effort to return back and ask questions, that is when you are allowed to add some more detail. Maybe some things are going on in their life, and they pass those details on to the players, but NPCs should remain back seat characters. They can offer up hints when asked, but should never outright solve the party's problems without the party planning out working with them.
 
 *** Mapping the World
+
+Mapping your world is important to the realism of the game. When players travel between towns, it should take them the same amount of time every time. When they get lost in the woods and head into a random direction, you should know what kind of town or dangerous creature they are heading towards and how long it will take to get there.
+
+The type of map in famous fantasy books is fun to look at, but not fun do distance calculations with. When the players need to go somewhere and are asking around to see how long their travel will take, you need a way to figure out offhand without getting out a ruler. Instead, you need a hex grid.
+
+When players travel, they'll be traversing hexes on this map. Each hex represents 6 miles. There is a couple reasons for this. One is that on flat terrain, at the center of the hex, players can see about the edges of the hex and no further. That is nice for explaining what they see while they travel. Two, players travel at a rate that is divisible by 6 as described in [[* Travel][travel]].
+
+Download the [[./titan-mage-hex-map.pdf][GM map]] and print it out. When filling it in, colors can help a lot to differentiate everything. The first thing you need to do is lay down some terrain. In each hex, decide if the hex is:
+- Grassland
+- Mountain
+- Hills
+- Forest
+- Lake
+- Ocean
+- Desert
+- Tundra
+- Swamp
+
+Once the terrain is there, add in some paths. Create some rivers and streams along the edges of the hexes. These tend to flow from the higher areas like mountains, towards the larger bodies of water like lakes and oceans. Choose a few hexes to become towns. Mark these in the middle of the hexes. Connect the towns with some roads. These can run through the middle of the hexes to distinguish them. Finally, write some labels in if you want to name things. That is all there is to it. You can add more details to it as the players progress through and you come up with adventures, but just stick those over some existing unused hexes.
+
+Be sure not to let the players see this map. Use it to do calculations and describe the world to them narratively. If you have got some time and energy, and if you are feeling fond of your players, you can make them a pretty map out of your useful one. Brush some mountains and forests on there in roughly the same places as yours. Etch in some fancy lettering. Slap a compass on there. They will love it. Do continue to use your map yourself though.
 
 *** Creating Towns
 

@@ -26,8 +26,11 @@ The game is still under construction and is subject to heavy changes.
 
 * For Game Masters
 
-- [[./gm-guide.org][Game Master's Guide]]
-- [[./foes.html][Foes Reference]]
+- Documents
+  - [[./gm-guide.org][Game Master's Guide]]
+  - [[./titan-mage-hex-map.pdf][GM Map]]
+- References
+  - [[./foes.html][Foes Reference]]
 
 -----
 
