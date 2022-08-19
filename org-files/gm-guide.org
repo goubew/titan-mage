@@ -201,17 +201,59 @@ Be sure not to let the players see this map. Use it to do calculations and descr
 
 *** Creating Towns
 
+Towns fill a few purposes. They are where the players refuel between adventures, where they scope out new work, and where their heroics (or lack of) have consequence. Players will return to the same town many times, so it is important to have the nearest town prepared.
+
+Towns are a bit like [[* Non Player Characters (NPCs)][NPCs]] in that you first start off with skeleton, then add in little details as needed. Here are the details of the town that you need to decide on and write down:
+- Purpose: Why was the town created? Is is close to natural resources, a place to ship goods, a defensive outpost?
+- Population: How big is the town? A few buildings, a few streets, a few neighborhoods? This will tell you what kind of buildings the town has and how many amenities.
+- Authority: Who writes the laws in the town and who would come talk to players if they broke those laws?
+- Amenities: What can the players do in the town? They will need a place to sleep at least, but take a look at the *Town Features* section in the Player's Handbook for some more ideas.
+- NPCs: Important folks, store owners, or other people that you expect the players to run into should be prepared with [[* Non Player Characters (NPCs)][NPC prep]].
+- Specific Details: These are bits of odd information that NPCs can feed the players. Things like, "I heard the alehouse is serving rat.", "There's a lot more man eating spiders than usual this summer.", or "The soup at the alehouse is great lately!". Stashing away about five of these tidbits is good. Any that the players take a real interest in can even be fleshed out some more. Maybe turned into side adventures a little later.
+
 *** Describing the World
+
+World details are the most generic kind of world prep. The world description should set the mood for the game. Here is a real non-inclusive list of things that you may want to consider about the world.
+- Age: Is the world filled with ruins of past civilizations or is it filled with unexplored lands?
+- Politics: Are there many organizations vying for power? Will the characters have an impact on the makeup of power?
+- Theme: Is the world a lighthearted place or filled with dread? Do people trust each other naturally?
+- Magic: Is magic abound in the world? Is it understood or trusted by the common people?
+
+While these details can be specific for you, to the players, they should be subtle. Hide these details from them, but keep them in mind while doing the other prep for the game. They should emerge naturally as the players explore the world.
 
 * Running the Game
 
-This section describes how the minutiae of the actual in person session. This is where you get to bask in the glory of the fruits of your preparation labor.
+This section describes the minutiae of the game once you and the players have all gathered together. This is where you get to bask in the glory of the fruits of your preparation labor. Running the game is a skill that is honed with practice, but with the prep work that you already did and a couple pointers, you are more than ready to run a fun and engaging game.
 
 ** The Core Game Loop
 
+The game plays out in a constant loop, and it is a simple one:
+- The GM describes a situation
+- The players decide how to handle the situation
+- The GM describes the outcome
+
+During a typical game, the players out for an adventure, then this loop happens a number of times until they return to town. That's the game in a nutshell. You have done the prep work creating the situations, and the game is seeing how well the players do to solve them.
+
 ** Resolving Uncertainty
 
+When the players propose doing something with an uncertain outcome, it is up to you to figure out whether they succeed or not.
+
+For example, if the players say they enjoy a breakfast of gruel, you tell them how tasty it was. There is no need to check whether they can use a spoon. Even level one players can handle a bowl of gruel. Just move on. Now, say the players are in a heated battle with a fully grown dragon. One of the players decides that they want to suplex the dragon. That is a bold move, but how should that play out. Well the dragon is having pancakes for dinner. It beats gruel. Just move on.
+
+If the players suggest something that they could possibly fail or possibly succeed at, then it is time to ask for a skill check. Choose one of the four stats that applies the most to what they are trying to do, then have them make the roll. While they are doing that math, figure out how difficult their task is. Reference the [[* Skill Check Uncertainty Table][skill check uncertainty table]] to get the value that they need to beat. If the player's value matches the check, they succeed. Let them know what joys await. If they get lower than the needed value, they fail. Let them know what horrors await.
+
 * Tables
+
+** Skill Check Uncertainty Table
+
+| Difficulty  | Value |
+|-------------+-------|
+| Trivial     |     0 |
+| Simple      |     5 |
+| Tough       |    10 |
+| Challenging |    15 |
+| Heroic      |    20 |
+| Impossible  |   n/a |
 
 ** Player Stats by Level
 
