@@ -33,7 +33,7 @@ function foeToHTML(foe) {
   objHTML.push("</div>");
   if (foe.abilities.length > 0) {
     objHTML.push("<p><b>Abilities</b>:</p><ul>");
-    foe.abilites.forEach((ability) => {
+    foe.abilities.forEach((ability) => {
       objHTML.push(`<li><b>${ability.name}</b>: ${ability.effect}</li>`);
     });
     objHTML.push("</ul>");
