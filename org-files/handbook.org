@@ -587,7 +587,7 @@ At the fifth level, assassins gain the *sole bad guy* minor action. When an ally
 
 At the seventh level, assassins gain the *flourish strike* class feature. This lets you take an extra minor action whenever you perform a critical weapon attack. This feature can only be used once per turn. The minor action must be different than your other minor action.
 
-At the ninth level, assassins gain the *traveling combatant* class feature. Whenever you are the target of an attack or spell, you make move 1 tile after the attack or spell resolves.
+At the ninth level, assassins gain the *traveling combatant* class feature. Whenever you are the target of an attack or spell, you may move 1 tile after the attack or spell resolves.
 
 At the eleventh level, assassins gain the *rapid strike* class feature. If you kill an opponent with a weapon strike, you may take an extra major action. This feature can only be used once per turn.
 
