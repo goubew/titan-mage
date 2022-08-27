@@ -603,7 +603,7 @@ Scholars are those who seek to understand the titan's influence on the world. Th
 
 At the first level, scholars gain the *rest enjoyer* class feature. This allows the scholar use gain both [[* Health Points (HP)][HP]] and [[* Magic Power (MP)][MP]] while spending [[* Respite][respite]] dice.
 
-At the third level, scholars gain the *enchant* major action. This makes the next [[* Weapon Attack][weapon attack]] you do deal magic damage instead of physical damage.
+At the third level, scholars gain the *enchant* minor action. This makes the next [[* Weapon Attack][weapon attack]] you do deal magic damage instead of physical damage.
 
 At the fifth level, scholars gain the *spell imprint* minor action. If you cast a major action spell last turn, it can be cast again as a minor action. If you cast a minor action spell last turn, it can be cast again for half the mana cost. The spell imprint minor action can not be used two turns in a row.
 
