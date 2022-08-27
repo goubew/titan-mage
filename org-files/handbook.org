@@ -567,7 +567,7 @@ At the seventh level, mercenaries gain the *en guarde* class feature. Once per [
 
 At the ninth level, mercenaries gain the *quick engage* class feature. This turns *engage* into a free action that can be used once per turn.
 
-At the eleventh level, mercenaries gain the *power strike* minor action. When combined with the [[* Weapon Attack][weapon attack]] major action, your subtracted dice rolls become additive.
+At the eleventh level, mercenaries gain the *power strike* minor action. When the [[* Weapon Attack][weapon attack]] major action is used, you may choose to reroll one of the dice.
 
 At the thirteenth level, mercenaries gain the *charge* class feature. When taking the [[* Movement][movement]] minor action, as long as your movement is a straight line. You can use *shove* as a free action if an enemy stands at the end of your charge.
 
