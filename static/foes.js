@@ -4,7 +4,14 @@ function foeToHTML(foe) {
   <hr>
   <p><b>${foe.name}</b></p>
   <p><em>${foe.size} ${foe.classifier}</em></p>
-  <div class="stats">`];
+  <div class="stats">
+  <p><b>POWER</b><br>${foe.mainStats.power}</p>
+  <p><b>REFLEX</b><br>${foe.mainStats.reflex}</p>
+  <p><b>PRESENCE</b><br>${foe.mainStats.presence}</p>
+  <p><b>FOCUS</b><br>${foe.mainStats.focus}</p>
+  </div>
+  <div class="stats stats-end">`];
+
   if (foe.auxStats.maxHp > 0) {
     objHTML.push(`<p><b>MAX HP</b><br>${foe.auxStats.maxHp}</p>`);
   }

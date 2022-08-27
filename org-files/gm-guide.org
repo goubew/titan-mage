@@ -14,9 +14,7 @@ Unlike the Player's Handbook, which is filled with hard rules, this document is 
 
 * Preparing a Session
 
-The reality of being a GM is having to do some more legwork outside of the game than the players do. While this work can be fun on its own, the real payoff is bringing people together and seeing them engage with your world.
-
-Preparing for a game is done at different scales, namely encounter building, adventure building, and world building. Not all of these levels need to be worked on between game sessions, so it is important to understand how to give priority to these.
+Preparing for a game is done at different scales. Namely, encounter building, adventure building, and world building. Not all of these levels need to be worked on between game sessions, so it is important to understand how to give priority to these.
 
 The preparation that every session does need is encounters. You will almost always prepare encounters between sessions.
 

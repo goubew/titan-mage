@@ -2,6 +2,11 @@
 - name: Squirrel
   size: small
   classifier: rodent
+  mainStats:
+    power: 0
+    reflex: 1
+    focus: 0
+    presence: 0
   auxStats:
     maxHp: 3
     maxMp: 0
@@ -11,7 +16,30 @@
     magRes: 0
   abilities: []
   majorActions:
-  - name: "Climb"
-    action: "Squirrels can use their movement speed to climb up structures."
+  - name: Climb
+    action: Squirrels can use their movement speed to climb up structures.
+  minorActions: []
+
+- name: Goblin Scout
+  size: medium
+  classifier: goblin
+  mainStats:
+    power: 0
+    reflex: 2
+    focus: 0
+    presence: 0
+  auxStats:
+    maxHp: 7
+    maxMp: 0
+    movSpd: 5
+    defThr: 0
+    def: 0
+    magRes: 0
+  abilities:
+  - name: Goblin strike
+    effect: Goblins can move one tile during their attack action.
+  majorActions:
+  - name: Shiv
+    action: Deal ~(2d4) damage range 1
   minorActions: []
 ...

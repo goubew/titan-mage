@@ -6,6 +6,16 @@
       "name": { "type": "string" },
       "size": { "type": "string", "enum": ["small", "medium", "large"] },
       "classifier": { "type": "string" },
+      "mainStats": { "type": "object",
+                    "properties": {
+                      "power": { "type": "number", "minimum": 0 },
+                      "reflex": { "type": "number", "minimum": 0 },
+                      "presence": { "type": "number", "minimum": 0 },
+                      "focus": { "type": "number", "minimum": 0 }
+                    },
+                    "minProperties": 4,
+                    "additionalProperties": false
+                  },
       "auxStats": { "type": "object",
                     "properties": {
                       "maxHp": { "type": "number", "minimum": 0 },
@@ -52,7 +62,7 @@
                         }
                       }
     },
-    "minProperties": 7,
+    "minProperties": 8,
     "additionalProperties": false
   }
 }
