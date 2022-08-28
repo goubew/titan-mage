@@ -64,7 +64,9 @@ small, sub, sup {
   font-size: 75%; }
 
 hr {
-  border-color: #6c71c4; }
+  height: 1px;
+  background-color: #6c71c4;
+  border: none;}
 
 a {
   text-decoration: none;
