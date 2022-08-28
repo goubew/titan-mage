@@ -21,7 +21,7 @@
   requirements: None
 
 - name: Armor of the Veil
-  description: Your armor becomes cloaked is a misty veil incribed with the banner of your family.
+  description: Your armor becomes cloaked in a misty veil incribed with the banner of your family.
   cost: 10
   action: major
   effect: Gain magic defense equal to your 1 + presence/4.

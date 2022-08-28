@@ -176,7 +176,7 @@ Defense provides flat physical damage reduction. Defense is provided primarily b
 
 *** Defense Threshold
 
-The reduction in damage provided by [[* Defense][defense]] only goes into effect after a certain ammount of damage is taken. This amount is the damage threshold.
+The reduction in damage provided by [[* Defense][defense]] only goes into effect after a certain amount of damage is taken. This amount is the damage threshold.
 
 Damage threshold is set to five by default, but can be affected by [[* Combat Equipment][armor]], the [[* Reflex][reflex]] stat, by utilizing shields, and specific effects. Defense threshold can not be lowered below one. Thus, every physical attack with at least one point of damage will inflict at least one damage.
 
@@ -279,11 +279,21 @@ Damage dealt by spells is counted as magical damage and can be reduced by the [[
 
 *** Blinded
 
-A blinded character can only make attacks against the last enemy that took their turn. Creatures with other heightened senses may not be affected by blindness.
+A blinded character can only make attacks against the last enemy that took their turn. The blinded condition ends at the end of your turn.
+
+Creatures with other heightened senses may not be affected by blindness.
+
+*** Bleed
+
+Bleed is applied with a level. For example, you may see bleed (2). Bleed causes you to take extra damage whenever you are hit by an attack. The level of bleed corresponds to the amount of extra damage taken.
+
+When you already have bleed and are inflicted by bleed again, keep the larger of the two bleed levels.
+
+If a healing item or effect is used, all levels of bleed are cleared, and you still heal the full amount.
 
 *** Chilled
 
-When chilled, you may only take a [[* Default Major Actions][major action]] on your turn.
+When chilled, you may only take a [[* Default Major Actions][major action]] on your turn. The chilled condition ends at the end of your turn.
 
 *** Grappled
 
@@ -295,7 +305,7 @@ Characters who are exhausted cannot take major actions and their [[* Movement Sp
 
 *** Fallen
 
-In the fallen condition, you are unable to make the [[* Weapon Attack][weapon attack]] major action or the [[* Movement][movement]] minor action. Standing back up takes a major action. While fallen, instead of the normal movement minor action, you can use a minor action to roll one tile.
+In the fallen condition, you are unable to make ranged [[* Weapon Attack][weapon attacks]] andthe [[* Movement][movement]] minor action only lets you roll one tile. Standing back up takes a major action.
 
 *** Incapacitated
 
@@ -312,6 +322,14 @@ Every time a character is attacked while incapacitated, they suffer another [[* 
 *** Paralyzed
 
 A paralyzed character is unable to take any action. Their [[* Defense Threshold][defense threshold]] is doubled while paralyzed.
+
+*** Poisoned
+
+Poison is a condition that is afflicted with a number. For example, you may see poison (3), which applies 3 levels of poison. If a character is poisoned they take their level of poison as damage at the end of their turn, then the level of poison is reduced by one. 
+
+If poison is applied again while already poisoned, the poison levels are added together.
+
+If a healing item or effect is used, all levels of poison are cleared, and you still heal the full amount.
 
 *** Death
 
