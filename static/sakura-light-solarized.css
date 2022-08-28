@@ -204,14 +204,10 @@ div.xtable {
 }
 
 .stats {
-  border-top: 1px solid #839496;
-  justify-content: space-evenly;
-  text-align: center;
   display: flex;
-}
-
-.stats-end {
-  border-bottom: 1px solid #839496;
+  justify-content: flex-start;
+  gap: 1em;
+  text-align: center;
 }
 
 .reference p {

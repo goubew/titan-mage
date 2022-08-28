@@ -2,6 +2,7 @@
 - name: Squirrel
   size: small
   classifier: critter
+  difficulty: apprentice
   mainStats:
     power: 0
     reflex: 1
@@ -23,6 +24,7 @@
 - name: Goblin Scout
   size: medium
   classifier: goblin
+  difficulty: apprentice
   mainStats:
     power: 0
     reflex: 2
@@ -46,6 +48,7 @@
 - name: Goblin Warrior
   size: medium
   classifier: goblin
+  difficulty: apprentice
   mainStats:
     power: 2
     reflex: 2
@@ -71,6 +74,7 @@
 - name: Goblin Sharpshooter
   size: medium
   classifier: goblin
+  difficulty: apprentice
   mainStats:
     power: 0
     reflex: 2
@@ -94,6 +98,7 @@
 - name: Goblin Webweaver
   size: medium
   classifier: goblin
+  difficulty: apprentice
   mainStats:
     power: 0
     reflex: 2
