@@ -42,4 +42,52 @@
   - name: Shiv
     action: Deal ~(2d4) damage range 1
   minorActions: []
+
+- name: Goblin Warrior
+  size: medium
+  classifier: goblin
+  mainStats:
+    power: 2
+    reflex: 2
+    focus: 0
+    presence: 0
+  auxStats:
+    maxHp: 10
+    maxMp: 0
+    movSpd: 5
+    defThr: 4
+    def: 1
+    magRes: 0
+  abilities:
+  - name: Goblin strike
+    effect: Goblins can move one tile during their attack action.
+  majorActions:
+  - name: Dagger
+    action: Deal ~(2d4) + 1 damage range 1
+  - name: Venom Vial (1)
+    action: The next time a character is attacked, inflict the poisoned condition.
+  minorActions: []
+
+- name: Goblin Sharpshooter
+  size: medium
+  classifier: goblin
+  mainStats:
+    power: 0
+    reflex: 2
+    focus: 0
+    presence: 2
+  auxStats:
+    maxHp: 7
+    maxMp: 0
+    movSpd: 5
+    defThr: 0
+    def: 0
+    magRes: 0
+  abilities:
+  - name: Goblin strike
+    effect: Goblins can move one tile during their attack action.
+  majorActions:
+  - name: Bow
+    action: Deal ~(2d4) + 1 damage range 6
+  minorActions: []
 ...
