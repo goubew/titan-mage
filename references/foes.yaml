@@ -67,7 +67,7 @@
   majorActions:
   - name: Dagger
     action: Deal ~(2d4) + 1 damage range 1
-  - name: Venom Vial (1)
+  - name: Venom Vial (1 use)
     action: The next time a character is attacked, inflict the poison (2).
   minorActions: []
 
