@@ -93,6 +93,7 @@ $.getJSON(`./${referenceType}.json`, (referenes) => {
     reloadJson();
   });
   $('#search-clear-button').click(() => {
+    $('#search-field').val('');
     searchQuery = new RegExp('.*', 'i');
     reloadJson();
   });
