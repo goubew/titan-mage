@@ -169,7 +169,7 @@ textarea, select, input {
   color: #839496;
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   background-color: #eee8d5;
   border: 1px solid #eee8d5;
   border-radius: 4px;
@@ -203,6 +203,23 @@ div.xtable {
   text-align: center;
 }
 
+.search-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-div input {
+  font-size: 1.8rem;
+}
+@media (max-width: 684px) {
+  .search-dev input {
+    font-size: 1.53rem; } }
+@media (max-width: 382px) {
+  .search-dev input {
+    font-size: 1.35rem; } }
+
 .stats {
   display: flex;
   justify-content: flex-start;
@@ -216,4 +233,9 @@ div.xtable {
 
 .inline-reference p {
   margin-left: 1em;
+}
+
+/* IDs */
+#search-field {
+  flex: 1;
 }

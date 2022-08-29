@@ -5,6 +5,8 @@ const prettyMap = {
   majStats: "Major Stats",
   auxStats: "Auxiliary Stats",
 }
+let searchQuery = new RegExp('.*', 'i');
+let rawReferences = [];
 
 function uncamelcase(str) {
   // Put spaces in front of capitals
@@ -33,6 +35,9 @@ function isPrimitive(obj) {
 }
 
 function objToHTML(obj, pmargin=0, hr=true) {
+  if (!searchQuery.test(obj.name)) {
+    return "";
+  }
   var objHTML = "<div class=\"reference\">";
   if (hr) { objHTML += "<hr>"; }
   Object.keys(obj).forEach((key) => {
@@ -68,10 +73,27 @@ function objToHTML(obj, pmargin=0, hr=true) {
   return objHTML;
 }
 
-$.getJSON(`./${referenceType}.json`, (referenes) => {
-  var referenceHTML = "";
-  referenes.forEach((reference) => {
+function reloadJson() {
+  let referenceHTML = "";
+  rawReferences.forEach((reference) => {
     referenceHTML += objToHTML(reference);
   });
+  $('.json-content').empty()
   $('.json-content').append(referenceHTML);
+}
+
+$.getJSON(`./${referenceType}.json`, (referenes) => {
+  referenes.forEach((reference) => {
+    rawReferences.push(reference);
+  });
+  reloadJson();
+
+  $('#search-button').click(() => {
+    searchQuery = new RegExp($('#search-field').val(), 'i');
+    reloadJson();
+  });
+  $('#search-clear-button').click(() => {
+    searchQuery = new RegExp('.*', 'i');
+    reloadJson();
+  });
 });
