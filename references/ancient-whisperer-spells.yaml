@@ -4,82 +4,82 @@
   cost: 5
   action: minor
   effect: Designate a 2x2 tile within 6 tiles of you. No sound generated inside can escape, but other sounds are allowed in.
-  requirements: None
+  requirements: Apprentice
 
 - name: Instant Arrows
   description: Arrows instantly notch themselves from your quiver.
   cost: 5
   action: major
   effect: Take a normal attack action to use a ranged weapon. Ammunition is instantly reloaded.
-  requirements: None
+  requirements: Apprentice
  
 - name: Levitate
   description: A character raises upward slightly and feels a floor made of nothing.
   cost: 5
   action: major
   effect: A character of your choice within 6 tiles is lifted one tile vertically. They maintain this hight until the end of your next turn. They are able to use their movement while in the air. The spell can be recast as a minor action.
-  requirements: None
+  requirements: Apprentice
 
 - name: Orb of Light
   description: Bright light emits from a point in all directions
   cost: 5
   action: major
   effect: Bright light is emitted from the tile you are standing on 8 tiles in all directions. When you cast the spell, choose whether the light follows you, or remains in the tile. The light remains until the end of your next turn. The spell can be recast as a minor action for no cost.
-  requirements: None
+  requirements: Apprentice
 
 - name: Speed Read
   description: Your english teacher would be proud.
   cost: 5
   action: major
   effect: For thirty minutes, you are able to read text that you already understand as fast as the eyes can move across the page.
-  requirements: None
+  requirements: Apprentice
 
 - name: Light Spears
   description: Form slivers of light that fly out attacking multiple enemies.
   cost: 8
   action: major
-  effect: Makes three against any enemy within 6 tiles. Each attack does d8 magic damage
-  requirements: None
-
-- name: Crystal Weapon
-  description: Crystals creep along the edge of a weapon.
-  cost: 10
-  action: major
-  effect: Choose a weapon that you are touching. Until you cast another spell as a major action, attacks with the weapon deal presence/4 additional damage. Every attack costs you presence/4 MP.
-  requirements: None
-
-- name: Spirit Weapon
-  description: Summon a blade out of thin air.
-  cost: 10
-  action: major
-  effect: Equip a one handed spirit blade into a free hand of yours. The blade can be used to make a ~2d4 + presence/2 physical damage attack using the attack action.
-  requirements: None
+  effect: Makes two against any enemy within 6 tiles. Each attack does d8 magic damage
+  requirements: Apprentice
 
 - name: Tongues
   description: Understand any language.
   cost: 10
   action: major
   effect: Choose a character within 6 tiles of you who is speaking a language that you do not understand. Until they and you become more than six tiles apart, you can understand the language that they speak.
-  requirements: None
+  requirements: Apprentice
+
+- name: Crystal Weapon
+  description: Crystals creep along the edge of a weapon.
+  cost: 10
+  action: major
+  effect: Choose a weapon that you are touching. Until you cast another spell as a major action, attacks with the weapon deal presence/4 additional damage. Every attack costs you presence/4 MP.
+  requirements: Journeyman
+
+- name: Spirit Weapon
+  description: Summon a blade out of thin air.
+  cost: 10
+  action: major
+  effect: Equip a one handed spirit blade into a free hand of yours. The blade can be used to make a ~2d4 + presence/2 physical damage attack using the attack action.
+  requirements: Journeyman
 
 - name: Pocket
   description: Hold items in an impossibly large pocket. 
   cost: 10
   action: major
   effect: Choose a pocket on your person. The contents of the pocket are replaced with a void that can store up to one ton of material. Items placed inside the pocket do not weigh down the clothing. The opening to the pocket does not stretch, so anything you put inside must fit. The spell ends at will returning the pocket to its original state. To retrieve items from the pocket, the same physical pocket needs to be opened with the pocket spell.
-  requirements: None
+  requirements: Journeyman
 
 - name: Invisible
   description: A character vanishes from sight.
   cost: 20
   action: major
   effect: A character of your choice within 6 tiles becomes invisible to the eye untl the end of your next turn. The spell can be recast as a minor action for half the cost. Enemies will not be able to attack unless your position is known or you reveal yourself through other actions.
-  requirements: None
+  requirements: Master
 
 - name: Half Magic
   description: It works 50% of the time every time.
   cost: 80
   action: minor
   effect: Choose a character within 6 tiles. Roll a d4. On an even roll, set that character's health points to half of their maximum value.
-  requirements: None
+  requirements: Grandmaster
 ...

@@ -4,61 +4,61 @@
   cost: 5
   action: minor
   effect: A rope of length one to 100 meters is formed in front of you. The rope can extend itself as desired, but is not able to shrink. It dissapears after an hour.
-  requirements: None
+  requirements: Apprentice
 
 - name: Offering
   description: Offer up your defeated foes as a sacrifice.
   cost: 5
   action: minor
   effect: If your major action this turn defeated an enemy, gain HP equal to the damage of your attack. The MP cost of this spell increases for each HP gained.
-  requirements: None
+  requirements: Apprentice
 
 - name: Family Tree
   description: Thick roots emerge around your grasping onto enemies surrounding you.
   cost: 10
   action: minor
-  effect: Up to 1 + presense/4 characters of your choice within one tile of you are grappled until the end of your next turn.
-  requirements: None
+  effect: All characters within one tile of your are grappled for 1 + presence/4 turns.
+  requirements: Apprentice
 
 - name: Armor of the Veil
   description: Your armor becomes cloaked in a misty veil incribed with the banner of your family.
   cost: 10
   action: major
   effect: Gain magic defense equal to your 1 + presence/4.
-  requirements: None
+  requirements: Apprentice
 
 - name: Remnants
   description: A misty path leads you towards a remembered object.
   cost: 10
   action: major
   effect: Choose an inanimate object that you have seen in 1 + presence/4 days. A mistry trail that only you can see forms along the ground. Following the trail leads you to the item.
-  requirements: None
+  requirements: Journeyman
 
 - name: Blessing of Protection
   description: Become bestowed with a watchful gaze that will intervene in your favor.
   cost: 10
   action: major
   effect: The next time that you suffer an attack or negative condition, take no damage and do not become affected by the condition.
-  requirements: None
+  requirements: Journeyman
 
 - name: Commune with Ancestor
   description: Summon a willing spirit of an ancestor who can tell you about the past.
   cost: 20
   action: major
   effect: A spectral form of one of your distant ancestors appears before you. For up to an hour, you can converse them them about the past. While using the spell only you can see our hear your ancestor. Anything you tell them cannot be remembered by their spirit once the spell ends.
-  requirements: None
+  requirements: Journeyman
 
 - name: Ancestral Weapon
   description: Draw from a scabbard a sacred weapon from long past, a relic that has returned to aid you.
   cost: 20
   action: major
   effect: The weapon deals d4 (presence < 10) or d8 (presence >= 10) extra damage every hit. The weapon also glows with a sunlike light providing vision in dark areas.
-  requirements: None
+  requirements: Journeyman
 
 - name: Duelist Dimension
   description: Challenge a foe to a fated fight in another dimension. It's time to duel!
   cost: 40
   action: major
   effect: Choose a character within 6 tiles. You and that character are transported into a blank dimension. Everything you and they carry is brought with you, but nothing else from the original dimension can affect this one. You both remain in this dimension until one of you is incapacitated or you use a minor action to end the spell early.
-  requirements: None
+  requirements: Master
 ...

@@ -4,89 +4,89 @@
   cost: 5 MP, 1 soul pieces
   action: minor
   effect: If an enemy dies before the beginning of your next turn, gain 3 soul pieces instead of 1.
-  requirements: None
+  requirements: Apprentice
 
 - name: Ahoy Matey
   description: None can resist the call.
   cost: 5/10 MP, 1 soul pieces
   action: minor
   effect: Choose a character that you can see. As long as they can speak, they are forced to say "Ahoy matey!" as loud as they can. For 5 MP more, you can make them say a different phrase that's three words or less
-  requirements: None
+  requirements: Apprentice
 
 - name: Shadow Knife
   description: Form a dark dagger out of a shadow.
   cost: 5 MP, 1 soul pieces
   action: major
   effect: Throw the dagger at an enemy within 5 tiles. The dagger deals 2d4 + presense/4 magic damage.
-  requirements: None
+  requirements: Apprentice
 
 - name: Borrowed Vigor
   description: No need to waste good energy.
   cost: 5 MP, 1 soul pieces
   action: minor
   effect: Take a move minor action, but move up to presence/4 additional tiles.
-  requirements: None
+  requirements: Apprentice
 
 - name: Cold Blooded
   description: It's like the trick you teach your dog, but more convincing.
   cost: 5 MP, 1 soul pieces
   action: minor
   effect: Upon casting the spell, you take on the appearance of death. Your body becomes cold stiff. While in this state, you keep your senses, but are unable to move. You can end the effect at any time.
-  requirements: None
+  requirements: Apprentice
 
 - name: Shadow Hand
   description: Bend space by manipulating shadow.
   cost: 10 MP, 2 soul pieces
   action: minor
   effect: A shadow near you acts a portal for a moment. Reach your hand through and it comes out of another shadow that you can see within vision. You are able to pull anything that the hand grabs back through the shadow if you have the strength for it and it too fits in the shadow.
-  requirements: None
+  requirements: Apprentice
 
 - name: Brew
   description: A potion poured into two containers flows enough to fill both.
   cost: common - 10 MP, 2 soul pieces; rare - 20 MP, 4 soul pieces; epic - 40 MP, 6 soul pieces; legendary - unable to duplicate
   action: major
   effect: Duplicate one of your held potions. The cost scales based on the rarity of the potion. Duplicated potions appear more shadowy than the original and can only be used by yourself.
-  requirements: None
+  requirements: Journeyman
 
 - name: Hatred Guard
   description: Reflect back an opponent's strength.
   cost: 10 MP, 1 soul pieces
   action: major
   effect: Treat this action as a guard or block action. Until the beginning of your next turn, the next time you are dealt damage, inflict the same amount of damage back but always dealt as magic damage.
-  requirements: None
+  requirements: Journeyman
 
 - name: Skeleton Key
   description: Shape a peculiar looking key from the bones of the fallen.
   cost: 10 MP, 1 soul pieces
   action: major
   effect: Create a key that is capable of opening a single lock. Using the spell to create another key causes the first to break.
-  requirements: None
+  requirements: Journeyman
 
 - name: Shadow Step
   description: Meld into the shadows to reappear in another.
   cost: 20 MP, 3 soul pieces
   action: minor
-  effect: Teleport to another shadow within 10 tiles.
-  requirements: None
+  effect: Teleport to another shadow within presense tiles.
+  requirements: Journeyman
 
 - name: Reanimate
   description: A body returns devoid of conciousness or free will.
   cost: 20 MP, 1+ soul pieces
   action: major
   effect: Choose a character within 5 tiles that has suffered death. That character is animated with health points equal to 10 * the number of soul pieces used to cast the spell. The character takes a turn at the end of your turn. It is only able to the the move minor action and the attack major action. It uses the attack stats of any weapon it is carrying and the armor stats of any armor it is wearing.
-  requirements: None
+  requirements: Journeyman
 
 - name: Destiny Bind
   description: Choose two characters within 6 tiles of you. For presence/4 turns, any damage dealt to one character is automatically dealt to the other.
   cost: 40 MP, 6 soul pieces
   action: major
   effect: dummy
-  requirements: None
+  requirements: Master
 
 - name: Borrowed life
   description: A character is pinned to the world of the living.
   cost: 40 MP, 6 soul pieces
   action: major
   effect: Choose a character that has sufferred death within 5 tiles. That character is returned to a temporary life. Their health points are set to full, and they are once again able to take their turn normally. They are unable to regain hit points through any means and cannot be revived again.
-  requirements: 4 Focus
+  requirements: Grandmaster
 ...

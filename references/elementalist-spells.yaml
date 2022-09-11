@@ -1,141 +1,141 @@
 ---
 - name: Channel Heat
-  description: The rooom around you become distorted with heat.
+  description: The room around you become distorted with heat.
   cost: 3 MP
   action: minor
   effect: Creates 3 heat catalyst.
-  requirements: None
+  requirements: Apprentice
 
 - name: Channel Cold
-  description: The rooom around you drains warmth.
+  description: The room around you drains warmth.
   cost: 3 MP
   action: minor
   effect: Creates 3 cold catalyst.
-  requirements: None
+  requirements: Apprenticeone
 
 - name: Channel Lightning
   description: Metal around the room begins to spark.
   cost: 3 MP
   action: minor
   effect: Creates 3 light catalyst.
-  requirements: None
+  requirements: Apprenticeone
 
 - name: Channel Dark
-  description: The rooom around you becomes dim.
+  description: The room around you becomes dim.
   cost: 3 MP
   action: minor
   effect: Creates 3 dark catalyst.
-  requirements: None
+  requirements: Apprenticeone
 
 - name: Channel Earth
   description: The earth beneath you rumbles and loosens.
   cost: 3 MP
   action: minor
   effect: Creates 3 earth catalyst.
-  requirements: None
+  requirements: Apprenticeone
 
 - name: Channel Suspension
   description: Focus inward to extend the duration of all channeled catalysts.
   cost: 4 MP
   action: minor
   effect: Add 2 to every currently channeled catalyst.
-  requirements: None
+  requirements: Apprenticeone
 
 - name: Earthen Armor
   description: Pieces of stone mold around a target protecting it from physical harm.
   cost: 2 MP per turn, 1 earth catalyst per turn
   action: minor
   effect: A target of your choosing gains presence/2 defense.
-  requirements: None
+  requirements: Apprentice
 
 - name: Elemental Orb
   description: An orb infused with magic is launched at an enemy.
   cost: 5 MP, > 0 of one catalyst type
   action: major
   effect: A target within number of catalysts consumed tiles takes d4 magic damage for each catalyst consumed.
-  requirements: None
+  requirements: Apprentice
 
 - name: Magnetism
   description: A localized magnetic field is created pulling enemies together.
   cost: 5 MP, 1 lightning catalysts.
   action: major
   effect: Two targets within 5 tiles of you that are made of metal or wearing metal armor are pulled together. The lighter object is pulled toward the heavier one. They cannot move from this spot until the beginning of your next turn.
-  requirements: None
+  requirements: Apprentice
 
 - name: Darker Dungeon
   description: It's the dungeon, but darker.
   cost: 5 MP, 1 dark catalyst
   action: minor
   effect: A creature within one tile and you are blinded until the beginning of your next turn.
-  requirements: None
+  requirements: Apprentice
 
 - name: Heat Pump
   description: Steal heat from the surroundings and focus it onto an enemy.
   cost: 5 MP, 1 heat catalyst
   action: minor
   effect: A target within 5 tiles takes d4 + presence/4 magic damage. Channel 1 cold catalyst.
-  requirements: None
+  requirements: Apprentice
 
 - name: Reverse Heat Pump
   description: Steal heat from an enemy and spread it to the surroundings.
   cost: 5 MP, 1 cold catalyst
   action: minor
   effect: A target within 5 tiles becomes chilled for one turn. Channel 1 heat catalyst.
-  requirements: None
+  requirements: Apprentice
 
 - name: Instapillar
   description: A column of earth rises up creating a barrier.
   cost: 5 MP, 1 earth catalyst
   action: minor
   effect: A one tile pillar within 5 tiles of you rises up providing protection. Anybody on the pillar is raised into the air.
-  requirements: None
+  requirements: Apprentice
 
 - name: Fire Spin
   description: A ring of fire emits in a circle around you.
   cost: 5 MP, 2 heat catalysts
   action: major
   effect: Anybody with one tile of you take d4 magic damage. Channel a heat catalyst for every hit enemy.
-  requirements: None
+  requirements: Apprentice
 
 - name: Arc Lightning
   description: A flash of lightning strikes between two points.
   cost: 8 MP, 2 lightning catalysts
   action: major
   effect: Choose two metalic points each within 5 tiles of you. All characters between those points take 2d4 + presence/4 magic damage. Channel a lightning catalyst for every hit enemy.
-  requirements: None
+  requirements: Journeyman
 
 - name: Icicle Spears
   description: Launch shards of sharpened ice at foes.
-  cost: 8 MP, > 0 cold catalysts
+  cost: 8 MP per spear, > 0 cold catalysts
   action: major
   effect: For each ice catalyst consumed, launch a spear at any foe within 5 tiles. Each spear does d8 + presence/4 physical damage. This spell can crit.
-  requirements: None
+  requirements: Journeyman
 
 - name: The Boulder
   description: A large boulder is hurled at an enemy - dddddd.
   cost: 10 MP, 3 earth catalysts
   action: major
   effect: An enemy with in 5 tiles takes 2d12 + presence/4 physical damage. This spell ignores armor. This spell can crit.
-  requirements: None
+  requirements: Journeyman
 
 - name: Solar Flare
   description: A ray of radiant energy blasts down from the sky.
   cost: 20 MP, 4 heat catalysts
   action: major
   effect: Choose a target within 5 tiles of you that has sunlight shining on it. The target takes 6d6 + presence/2 magic damage.
-  requirements: 2 focus
+  requirements: Master
 
 - name: Lightning Strike
   description: Lightning streaks down from the sky
   cost: 20 MP, 4 lightning catalysts
   action: major
   effect: Choose a target within 5 tiles of you that is open to the sky. The target takes d12 damage and is paralyzed until the beginning of your next turn.
-  requirements: 2 focus
+  requirements: Master
 
 - name: The Long Dark
   description: An enemy is delivered to their maker.
   cost: 80 MP, 5 dark catalysts, 5 cold catalysts, 5 earth catalysts
   action: major
   effect: An enemy within 2 tiles of you takes 6d20 damage.
-  requirements: 4 focus
+  requirements: Grandmaster
 ...
