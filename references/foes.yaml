@@ -144,7 +144,31 @@
   - name: Powder Charge
     action: If the movement action this turn was in a straight line, deal (d4,d6) damage range 1.
   - name: Headbutt
-    action: Deal (2d4) damage range 1.
+    action: Deal ~(2d4) damage range 1.
+  minorActions: []
+
+- name: Wolf Spider
+  size: medium
+  classifier: beast
+  difficulty: apprentice
+  mainStats:
+    power: 1
+    reflex: 1
+    focus: 0
+    presence: 1
+  auxStats:
+    maxHp: 15
+    maxMp: 0
+    movSpd: 6
+    defThr: 4
+    def: 1
+    magRes: 0
+  abilities:
+  - name: Venom
+    effect: Any character grappled by a web gains poison (1) when bitten.
+  majorActions:
+  - name: Bite
+    action: Deal ~(2d4) +1 damage range 1.
   minorActions: []
 
 ...

@@ -152,4 +152,7 @@
 - name: Woven Rope
   description: A sturdy woven rope. Priced per foot.
   cost: 1
+- name: Serious Putty
+  description: This putty comes in the shape of a ball. It can mold around an object and will harden when done so. The mold is held until the putty is reheated in a fire.
+  cost: 0
 ...
