@@ -43,7 +43,7 @@ Use the following checklist to create a new character.
 
 This section lists some conventions used in Titan Mage.
 
-- *Rounding*: Any time rounding is required, always round up.
+- *Rounding*: Whenever rounding is required, always round up.
 - *Dice Markings*: Damage values are usually marked with die to roll, d6, d10, etc. If multiple dice of the same type are to be rolled, the dice value will be prefixed with a number. For example 4d6 means to roll 4 d6 dice and add the value of all the rolls together. Some dice rolls are marked with a tilde and parentheses ~(2d4). For these rolls, roll 2 dice and subtract the larger value from the smaller. This may use dice of different size, e.g. ~(d4,d6). Always subtract the larger rolled value, regardless of which die has more sides.
 
 * Character Stats

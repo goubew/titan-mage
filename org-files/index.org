@@ -1,7 +1,7 @@
 #+Title: Titan Mage TTRPG
 #+OPTIONS: toc:nil
 
-Welcome to Titan Mage, a free hobbyist fantasy TTRPG!
+Welcome to Titan Mage, a free hobbyist fantasy table top role playing game!
 
 The game is still under construction and is subject to heavy changes.
 
