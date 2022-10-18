@@ -736,29 +736,29 @@ The number of known extractions and maximum number of should pieces that can be 
 
 The Runecast are warriors that pursue the study of an ancient written language. By etching these runic symbols into their weapons and armor, they are able to bind the power of magic to physical objects, and augment their combat ability.
 
-Runes carved into your weapons and armor can be activated with a minor action for 0 [[* Magic Power (MP)][MP]]. Whenever the effect of the rune is used [[* Magic Power (MP)][MP]] is lost. The passive effects of these runes are always present once activated. Runecast are only able to modify their own equipment and can not add runes to [[* Artifacts][artifacts]].
+Runes carved into your weapons and armor can be activated with a minor action for 0 [[* Magic Power (MP)][MP]]. Whenever the the rune is used after it is activated [[* Magic Power (MP)][MP]] is lost. As the Runecast levels up, more runes can be active at once. The passive effects of these runes last until the end of combat when used during combat and at the end of the day when used out of combat. Runecast are only able to modify their own equipment and can not add runes to [[* Artifacts][artifacts]].
 
 The number of runes that can be equipped at a time is shown in the following table.
 
 #+begin_xtable
-| Level | Max # of Runes | # Runes Active at Once |
-|-------+----------------+------------------------|
-|     1 |              1 |                      1 |
-|     2 |              1 |                      1 |
-|     3 |              1 |                      1 |
-|     4 |              2 |                      1 |
-|     5 |              2 |                      1 |
-|     6 |              2 |                      2 |
-|     7 |              3 |                      2 |
-|     8 |              3 |                      2 |
-|     9 |              3 |                      2 |
-|    10 |              4 |                      2 |
-|    11 |              4 |                      3 |
-|    12 |              4 |                      3 |
-|    13 |              5 |                      3 |
-|    14 |              5 |                      3 |
-|    15 |              5 |                      3 |
-|    16 |              6 |                      4 |
+| Level | # of Runes Known | # Runes Active at Once |
+|-------+------------------+------------------------|
+|     1 |                1 |                      1 |
+|     2 |                1 |                      1 |
+|     3 |                1 |                      1 |
+|     4 |                2 |                      1 |
+|     5 |                2 |                      1 |
+|     6 |                2 |                      2 |
+|     7 |                3 |                      2 |
+|     8 |                3 |                      2 |
+|     9 |                3 |                      2 |
+|    10 |                4 |                      2 |
+|    11 |                4 |                      3 |
+|    12 |                4 |                      3 |
+|    13 |                5 |                      3 |
+|    14 |                5 |                      3 |
+|    15 |                5 |                      3 |
+|    16 |                6 |                      4 |
 #+end_xtable
 
 ** Spirit Caller
