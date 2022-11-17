@@ -27,6 +27,7 @@ The game is still under construction and is subject to heavy changes.
 * For Game Masters
 
 - Documents
+  - [[./lore.org][Lore]]
   - [[./gm-guide.org][Game Master's Guide]]
   - [[./titan-mage-hex-map.pdf][GM Map]]
 - References
