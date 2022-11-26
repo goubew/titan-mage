@@ -5,11 +5,24 @@ const { execSync } = require("child_process");
 
 const buildDir="./build/";
 
-const referenceTypes = ["armor", "foes", "items", "potions", "shields", "weapons",
-                        "ancient-whisperer-spells", "elementalist-spells", "harvester-spells",
-                        "runecast-spells", "spirit-caller-spells"];
-let referencesJSON = {};
+const referenceDescriptions = {
+  "armor": "A searchable list of armor in TitanMage TTRPG.",
+  "foes": "",
+  "items": "A searchable list of items in TitanMage TTRPG.",
+  "potions": "A searchable list of potions in TitanMage TTRPG.",
+  "shields": "A searchable list of shields in TitanMage TTRPG.",
+  "weapons": "A searchable list of weapons in TitanMage TTRPG.",
+  "ancient-whisperer-spells": "A searchable list of spells for the Ancient Whisperer magic system in TitanMage TTRPG.",
+  "elementalist-spells": "A searchable list of spells for the Elementalist magic system in TitanMage TTRPG.",
+  "harvester-spells": "A searchable list of spells for the Harvester magic system in TitanMage TTRPG.",
+  "runecast-spells": "A searchable list of spells for the Runecast magic system in TitanMage TTRPG.",
+  "spirit-caller-spells": "A searchable list of spells for the Spirit Caller magic system in TitanMage TTRPG."
+};
+
+const referenceTypes = Object.keys(referenceDescriptions);
 const customReferenceTypes = ["foes"];
+
+var referencesJSON = {};
 
 // Parse the source yaml files into objects
 function loadReferences() {
@@ -57,7 +70,8 @@ if (require.main === module) {
   const referenceTemplate = 'reference.njk';
   for (const reference of referenceTypes) {
     if (!customReferenceTypes.includes(reference)) {
-      const context = { "referenceName": makeNiceReferenceName(reference) }
+      const context = { "referenceName": makeNiceReferenceName(reference),
+                        "description": referenceDescriptions[reference] };
       const referenceHtmlFile = buildDir + reference + ".html";
       fs.writeFile(referenceHtmlFile, nunjucks.render(referenceTemplate, context), (err) => {
         if (err) {

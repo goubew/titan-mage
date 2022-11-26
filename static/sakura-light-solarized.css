@@ -203,7 +203,7 @@ div.xtable {
   text-align: center;
 }
 
-.search-div {
+.input-div {
   display: flex;
   gap: 0.3em;
   flex-wrap: wrap;
@@ -211,9 +211,10 @@ div.xtable {
   align-items: center;
 }
 
-.search-div input {
+.input-div input {
   font-size: 1.8rem;
 }
+
 @media (max-width: 684px) {
   .search-dev input {
     font-size: 1.53rem; } }
@@ -239,4 +240,22 @@ div.xtable {
 /* IDs */
 #search-field {
   flex: 1;
+}
+
+#dice-equation {
+  flex: 1;
+}
+
+#dice-input-div {
+  margin-bottom: 1em;
+}
+
+#dice-canvas {
+  border: 3px solid rgba(131,148,150,.1);
+}
+
+#dice-canvas-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

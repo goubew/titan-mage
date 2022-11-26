@@ -32,6 +32,10 @@ The game is still under construction and is subject to heavy changes.
   - [[./titan-mage-hex-map.pdf][GM Map]]
 - References
   - [[./foes.html][Foes Reference]]
+    
+* Extras
+- Tools
+  - [[./dice-engine.html][Dice Rolling Engine]]
 
 -----
 
