@@ -1,4 +1,5 @@
 #+Title: Titan Mage TTRPG
+#+DESCRIPTION: TitanMage TTRPG is a free hobbyist fantasy role playing game.
 #+OPTIONS: toc:nil
 
 Welcome to Titan Mage, a free hobbyist fantasy table top role playing game!

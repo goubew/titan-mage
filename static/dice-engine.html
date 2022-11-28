@@ -6,10 +6,11 @@
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Dice Engine - Titan Mage TTRPG</title>
-  <meta name="description" content="The dice engine is a page that can be used to simulate die roles and do math against the results. It supports the d20, d12, d10, d8, d6, and d4." />
+  <meta name="description" content="The dice engine is a page that can be used to simulate die rolls and do math against the results. It supports the d20, d12, d10, d8, d6, and d4." />
   <link rel="stylesheet" href="./sakura-light-solarized.css" type="text/css" />
   <script src="./matter.min.js"></script>
   <script src="./dice-factory.js"></script>
+  <script src="./dice-parser.js"></script>
   <script src="./dice-engine.js"></script>
 </head>
 
@@ -23,9 +24,10 @@
 <div id="dice-input-div" class="input-div">
   <input type="text" id="dice-equation" name="dice-equation" placeholder="e.g. ~(2d4) + 1"/>
   <div>
-    <input type="button" id="roll-button" value="Role!">
+    <input type="button" id="roll-button" value="Roll!">
   </div>
 </div>
+<p><b>Result: </b><span id="dice-roll-result">0</span></p>
 <div id="dice-canvas-container">
   <canvas id="dice-canvas"/>
 </div>

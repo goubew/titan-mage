@@ -36,12 +36,12 @@ function runMatter() {
   // add all of the bodies to the world
   Composite.add(engine.world, [
     //Dice
-    newD20(),
-    newD12(),
-    newD10(),
-    newD8(),
-    newD6(),
-    newD4(),
+    newD20(20),
+    newD12(12),
+    newD10(10),
+    newD8(8),
+    newD6(6),
+    newD4(4),
 
     // Walls
     Bodies.rectangle(canvasWidth/2, -25, canvasWidth, 50, wallOptions),
@@ -61,6 +61,14 @@ function runMatter() {
   setTimeout(() => {
     Runner.stop(runner);
   }, 5000);
+
+  document.getElementById('roll-button').addEventListener("click", () => {
+    const equation = document.getElementById('dice-equation').value;
+    if (equation != null && equation != "") {
+      const equationResults = extractEquationDice(equation);
+      document.getElementById('dice-roll-result').textContent = equationResults.value;
+    }
+  });
 }
 
 document.addEventListener("DOMContentLoaded", runMatter)

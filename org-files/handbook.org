@@ -1,5 +1,6 @@
 #+Title: Titan Mage Player's Handbook
 #+HTML_LINK_HOME: dummy value
+#+DESCRIPTION: Learn how to create a character and play TitanMage TTRPG.
 #+OPTIONS: toc:t toc:2
 
 * Introduction
@@ -577,7 +578,7 @@ Mercenaries are masters of combat and weaponry, able to wield the rarest weapons
 
 At the first level, mercenaries gain the *engage* minor action. This can be used when an enemy is within 1 tile. Until the beginning of your next turn, if the enemy you target moves from their tile, you may take a free attack action during their turn as soon as they move. This effect lasts until you or the enemy moves at least one tile.
 
-At the third level, mercenaries gain the *distracted strike* class feature. This lets allies add 10 to crit roles when targeting enemies that you have engaged. If the enemy moves away from you, this bonus no longer applies.
+At the third level, mercenaries gain the *distracted strike* class feature. This lets allies add 10 to crit rolls when targeting enemies that you have engaged. If the enemy moves away from you, this bonus no longer applies.
 
 At the fifth level, mercenaries gain the *shove* major action. This puts a normal or smaller size enemy into the [[* Fallen][fallen]] state.
 

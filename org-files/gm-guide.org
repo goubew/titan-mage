@@ -1,5 +1,6 @@
 #+Title: Titan Mage GM Guide
 #+HTML_LINK_HOME: dummy value
+#+DESCRIPTION: Learn to become a game master (GM) for the game of TitanMage TTRPG.
 #+OPTIONS: toc:t toc:2
 
 * Being A Game Master

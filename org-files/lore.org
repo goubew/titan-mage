@@ -1,5 +1,6 @@
 #+Title: Titan Mage Lore
 #+HTML_LINK_HOME: dummy value
+#+DESCRIPTION: Learn about the world and creatures that inhabit the world of TitanMage TTRPG.
 #+OPTIONS: toc:nil
 
 * Foes
