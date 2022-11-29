@@ -7,9 +7,9 @@ if (window.innerWidth && window.innerWidth < canvasWidth) {
 let canvasHeight = canvasWidth * 0.8;
 
 function scaleBody(body) {
-  Matter.Body.scale(body, 0.5, 0.5);
-  body.render.sprite.xScale = 0.5;
-  body.render.sprite.yScale = 0.5;
+  Matter.Body.scale(body, 0.8, 0.8);
+  body.render.sprite.xScale = 0.8;
+  body.render.sprite.yScale = 0.8;
   body.torque = body.torque / 5;
 }
 
