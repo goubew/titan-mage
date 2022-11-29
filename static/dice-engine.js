@@ -1,5 +1,12 @@
-const canvasWidth = 600;
-const canvasHeight = 400;
+let canvasWidth = 600;
+if (window.innerWidth && window.innerWidth < canvasWidth) {
+  canvasWidth = window.innerWidth * 0.9;
+}
+
+let canvasHeight = 400;
+if (canvasWidth < 600) {
+  canvasHeight = canvasWidth;
+}
 
 function runMatter() {
   // module aliases
@@ -10,7 +17,9 @@ function runMatter() {
       Composite = Matter.Composite;
 
   // create an engine
-  var engine = Engine.create();
+  var engine = Engine.create({
+    enableSleeping: true
+  });
   engine.gravity.y = 0;
 
   // create a renderer
@@ -18,12 +27,13 @@ function runMatter() {
     canvas: document.getElementById("dice-canvas"),
     engine: engine,
     options: {
-      width: canvasWidth,
+      background: "transparent",
       height: canvasHeight,
-      showVelocity: false,
       showAngleIndicator: false,
-      wireframes: false,
-      background: "transparent"
+      showSleeping: false,
+      showVelocity: false,
+      width: canvasWidth,
+      wireframes: false
     }
   });
 
@@ -33,40 +43,35 @@ function runMatter() {
       visible: false
     }
   }
-  // add all of the bodies to the world
-  Composite.add(engine.world, [
-    //Dice
-    newD20(20),
-    newD12(12),
-    newD10(10),
-    newD8(8),
-    newD6(6),
-    newD4(4),
+  const topWall = Bodies.rectangle(canvasWidth/2, -24, canvasWidth, 50, wallOptions);
+  const rightWall = Bodies.rectangle(canvasWidth + 24, canvasHeight/2, 50, canvasHeight + 100, wallOptions);
+  const bottomWall = Bodies.rectangle(canvasWidth/2, canvasHeight + 24, canvasWidth, 50, wallOptions);
+  const leftWall = Bodies.rectangle(-24, canvasHeight/2, 50, canvasHeight + 100, wallOptions);
 
-    // Walls
-    Bodies.rectangle(canvasWidth/2, -25, canvasWidth, 50, wallOptions),
-    Bodies.rectangle(canvasWidth + 25, canvasHeight/2, 50, canvasHeight + 100, wallOptions),
-    Bodies.rectangle(canvasWidth/2, canvasHeight + 25, canvasWidth, 50, wallOptions),
-    Bodies.rectangle(-25, canvasHeight/2, 50, canvasHeight + 100, wallOptions)
+  Composite.add(engine.world, [
+    topWall,
+    rightWall,
+    bottomWall,
+    leftWall
   ]);
 
-  // run the renderer
   Render.run(render);
 
-  // create runner
   var runner = Runner.create();
 
-  // run the engine
   Runner.run(runner, engine);
-  setTimeout(() => {
-    Runner.stop(runner);
-  }, 5000);
-
   document.getElementById('roll-button').addEventListener("click", () => {
     const equation = document.getElementById('dice-equation').value;
     if (equation != null && equation != "") {
       const equationResults = extractEquationDice(equation);
-      document.getElementById('dice-roll-result').textContent = equationResults.value;
+
+      Composite.clear(engine.world, true);
+      if (equationResults.dice.length <= 10) {
+        Composite.add(engine.world, equationResults.dice);
+        document.getElementById('dice-roll-result').textContent = equationResults.value;
+      } else {
+        document.getElementById('dice-roll-result').textContent = `${equationResults.value} (Too many dice to render!)`;
+      }
     }
   });
 }
