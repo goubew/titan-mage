@@ -17,15 +17,19 @@ function getRandomInt(min, max) {
 }
 
 function randX() {
-  return Math.floor(Math.random()*200 + 100);
+  const canvas = document.getElementById('dice-canvas');
+  return getRandomInt(radiusDef*2, canvas.width - radiusDef*2);
 }
 
 function randY() {
-  return Math.floor(Math.random()*200 + 100);
+  const canvas = document.getElementById('dice-canvas');
+  return getRandomInt(radiusDef*2, canvas.height - radiusDef*2);
 }
 
 function randXVel() {
-  return Math.floor(Math.random()*10 + 10);
+  const val = Math.floor(Math.random()*10 + 10);
+  if (Math.random() > 0.5) { return val; }
+  return -val;
 }
 
 function randYVel() {
