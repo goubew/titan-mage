@@ -68,6 +68,8 @@ function runMatter() {
 
   Runner.run(runner, engine);
   document.getElementById('roll-button').addEventListener("click", () => {
+    Composite.clear(engine.world, true);
+
     const equation = document.getElementById('dice-equation').value;
     if (equation != null && equation != "") {
       const equationResults = extractEquationDice(equation);
@@ -76,7 +78,6 @@ function runMatter() {
         document.getElementById('dice-roll-result').textContent = "My brain is too small for this equation!";
       }
 
-      Composite.clear(engine.world, true);
       if (equationResults.dice.length <= 10) {
         if (canvasWidth < defaultCanvasWidth) {
           equationResults.dice.forEach((body) => {
