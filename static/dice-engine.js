@@ -1,10 +1,18 @@
+const Engine = Matter.Engine,
+      Render = Matter.Render,
+      Runner = Matter.Runner,
+      Bodies = Matter.Bodies,
+      Composite = Matter.Composite;
+
+var engine, runner, render;
+
 const defaultCanvasWidth = 600
 let canvasWidth = defaultCanvasWidth;
 if (window.innerWidth && window.innerWidth < canvasWidth) {
   canvasWidth = window.innerWidth * 0.9;
 }
 
-let canvasHeight = canvasWidth * 0.8;
+let canvasHeight = canvasWidth * 0.7;
 
 function scaleBody(body) {
   Matter.Body.scale(body, 0.8, 0.8);
@@ -13,22 +21,44 @@ function scaleBody(body) {
   body.torque = body.torque / 5;
 }
 
-function runMatter() {
-  // module aliases
-  var Engine = Matter.Engine,
-      Render = Matter.Render,
-      Runner = Matter.Runner,
-      Bodies = Matter.Bodies,
-      Composite = Matter.Composite;
+function equationHandler() {
+  Composite.clear(engine.world, true);
 
+  const equation = document.getElementById('dice-equation').value;
+  if (equation != null && equation != "") {
+    const equationResults = extractEquationDice(equation);
+
+    if (equationResults == null) {
+      document.getElementById('dice-roll-result').textContent = "My brain is too small for this equation!";
+      return;
+    }
+
+    const critDiceResults = newDice("d20");
+    equationResults.dice.push(critDiceResults.diceBody);
+
+    if (equationResults.dice.length <= 10) {
+      if (canvasWidth < defaultCanvasWidth) {
+        equationResults.dice.forEach((body) => {
+          scaleBody(body);
+        });
+      }
+      Composite.add(engine.world, equationResults.dice);
+      document.getElementById('dice-roll-result').textContent = `${equationResults.value} (Crit ${critDiceResults.roll})`;
+    } else {
+      document.getElementById('dice-roll-result').textContent = `${equationResults.value} (Crit ${critDiceResults.roll}) (Too many dice to render!)`;
+    }
+  }
+}
+
+function runMatter() {
   // create an engine
-  var engine = Engine.create({
+  engine = Engine.create({
     enableSleeping: true
   });
   engine.gravity.y = 0;
 
   // create a renderer
-  var render = Render.create({
+  render = Render.create({
     canvas: document.getElementById("dice-canvas"),
     engine: engine,
     options: {
@@ -64,33 +94,10 @@ function runMatter() {
 
   Render.run(render);
 
-  var runner = Runner.create();
+  runner = Runner.create();
 
   Runner.run(runner, engine);
-  document.getElementById('roll-button').addEventListener("click", () => {
-    Composite.clear(engine.world, true);
-
-    const equation = document.getElementById('dice-equation').value;
-    if (equation != null && equation != "") {
-      const equationResults = extractEquationDice(equation);
-
-      if (equationResults == null) {
-        document.getElementById('dice-roll-result').textContent = "My brain is too small for this equation!";
-      }
-
-      if (equationResults.dice.length <= 10) {
-        if (canvasWidth < defaultCanvasWidth) {
-          equationResults.dice.forEach((body) => {
-            scaleBody(body);
-          });
-        }
-        Composite.add(engine.world, equationResults.dice);
-        document.getElementById('dice-roll-result').textContent = equationResults.value;
-      } else {
-        document.getElementById('dice-roll-result').textContent = `${equationResults.value} (Too many dice to render!)`;
-      }
-    }
-  });
+  document.getElementById('roll-button').addEventListener("click", equationHandler);
 }
 
 document.addEventListener("DOMContentLoaded", runMatter)

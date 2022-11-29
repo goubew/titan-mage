@@ -199,8 +199,23 @@ div.xtable {
   overflow-x: auto;
 }
 
+.bigp {
+  font-size: 2rem;
+}
+@media (max-width: 684px) {
+  .bigp input {
+    font-size: 1.8rem; }
+}
+@media (max-width: 382px) {
+  .bigp input {
+    font-size: 1.53rem; } }
+
 .cw {
   text-align: center;
+}
+
+.foe-name {
+  color: #268bd2
 }
 
 .input-div {

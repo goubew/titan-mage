@@ -2,7 +2,7 @@ function foeToHTML(foe) {
   var objHTML = [`
 <div class="reference">
   <hr>
-  <p><b>${foe.name}</b> - <em>${foe.size} ${foe.classifier}</em> - ${foe.difficulty} </p>
+  <p class="bigp"><span class="foe-name"><b>${foe.name}</b></span> - <em>${foe.size} ${foe.classifier}</em> - ${foe.difficulty}</p>
   <div class="stats">
   <p><b>POWER</b><br>${foe.mainStats.power}</p>
   <p><b>REFLEX</b><br>${foe.mainStats.reflex}</p>
