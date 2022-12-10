@@ -4,7 +4,7 @@ const Engine = Matter.Engine,
       Bodies = Matter.Bodies,
       Composite = Matter.Composite;
 
-var engine, runner, render;
+let engine, runner, render;
 
 const defaultCanvasWidth = 600
 let canvasWidth = defaultCanvasWidth;
@@ -13,12 +13,18 @@ if (window.innerWidth && window.innerWidth < canvasWidth) {
 }
 
 let canvasHeight = canvasWidth * 0.7;
+let diceEquations = [];
 
 function scaleBody(body) {
   Matter.Body.scale(body, 0.8, 0.8);
   body.render.sprite.xScale = 0.8;
   body.render.sprite.yScale = 0.8;
   body.torque = body.torque / 5;
+}
+
+function historySelected() {
+  const diceInput = document.getElementById("dice-equation");
+  diceInput.value = this.value;
 }
 
 function equationHandler() {
@@ -32,6 +38,18 @@ function equationHandler() {
       document.getElementById('dice-roll-result').textContent = "My brain is too small for this equation!";
       return;
     }
+
+    const prettyEquation = prettyDiceEquation(equation);
+    if (!diceEquations.includes(prettyEquation)) {
+      diceEquations.push(prettyEquation);
+
+      const opt = document.createElement('option');
+      opt.value = prettyEquation;
+      opt.innerHTML = prettyEquation;
+
+      const equationSelection = document.getElementById("dice-equation-selection");
+      equationSelection.append(opt);
+    } 
 
     const critDiceResults = newDice("d20");
     equationResults.dice.push(critDiceResults.diceBody);
@@ -98,6 +116,7 @@ function runMatter() {
 
   Runner.run(runner, engine);
   document.getElementById('roll-button').addEventListener("click", equationHandler);
+  document.getElementById('dice-equation-selection').addEventListener("change", historySelected);
 }
 
 document.addEventListener("DOMContentLoaded", runMatter)

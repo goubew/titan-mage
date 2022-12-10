@@ -95,6 +95,12 @@ function isValidDiceEquation(equation) {
   });
 }
 
+function prettyDiceEquation(equation) {
+  equation = equation.toLowerCase();
+  equation = equation.replace(/\s/g, '');
+  return equation;
+}
+
 function normalizeDiceEquation(equation) {
   equation = equation.toLowerCase();
   equation = equation.replace(/\s/g, '');

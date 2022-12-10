@@ -21,7 +21,14 @@
 
 <h1 class="title">Dice Engine - Titan Mage TTRPG</h1>
 
-<div id="dice-input-div" class="input-div">
+<div id="input-div" class="bottom-margin">
+  <span>History:</span>
+  <select id="dice-equation-selection">
+    <option value="--">--</option>
+  </select>
+</div>
+
+<div id="dice-input-div" class="input-div bottom-margin">
   <input type="text" id="dice-equation" name="dice-equation" placeholder="e.g. ~(2d4) + 1"/>
   <div>
     <input type="button" id="roll-button" value="Roll!"/>
