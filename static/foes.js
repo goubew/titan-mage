@@ -1,6 +1,58 @@
+function capitalize(str) {
+  return str.replace(/^\w/, (c) => c.toUpperCase());
+}
+
+function nameToId(name) {
+  return name.toLowerCase().replace(/\s/g, '-');
+}
+
+function getSortedFoeTypes(foes) {
+  var foeTypes = [];
+  foes.forEach((foe) => {
+    if (!foeTypes.includes(foe.classifier)) {
+      foeTypes.push(foe.classifier);
+    }
+  });
+
+  return foeTypes.sort();
+}
+
+function getSortedFoesByType(foes) {
+  var foeByType = {};
+  foes.forEach((foe) => {
+    if (foe.classifier in foeByType) {
+      foeByType[foe.classifier].push(foe.name);
+    } else {
+      foeByType[foe.classifier] = [foe.name];
+    }
+  });
+
+  for (var foeType in foeByType) {
+    foeByType[foeType] = foeByType[foeType].sort();
+  }
+
+  return foeByType;
+}
+
+function foeTypeFilter(foeType, foes) {
+  var objHTML = [`
+<hr>
+<h5>${capitalize(foeType)}</h5>
+`];
+  foes.forEach((foe) => {
+    const foeId = nameToId(foe);
+    objHTML.push(`
+<div>
+<input type="checkbox" name="${foeId}" id="checkbox-${foeId}" class="checkbox-filter"><label for="checkbox-${foeId}">${foe}</label>
+</div>
+`);
+  });
+  return objHTML.join("");
+}
+
 function foeToHTML(foe) {
   var objHTML = [`
-<div class="reference">
+<div class="reference" id="${nameToId(foe.name)}">
   <hr>
   <p class="bigp"><span class="foe-name"><b>${foe.name}</b></span> - <em>${foe.size} ${foe.classifier}</em> - ${foe.difficulty}</p>
   <div class="stats">
@@ -56,10 +108,55 @@ function foeToHTML(foe) {
   return objHTML.join("");
 }
 
-$.getJSON("./foes.json", (foes) => {
-  var referenceHTML = [];
-  foes.forEach((foe) => {
-    referenceHTML.push(foeToHTML(foe));
+function showFilterList() {
+  $('#foe-content-div').hide();
+  $('#filter-div').show();
+}
+
+function hideFilterList() {
+  $('#foe-content-div').show();
+  $('#filter-div').hide();
+}
+
+function applyFilterList() {
+  $('.checkbox-filter').each((_, checkbox) => {
+    const foeId = `#${checkbox.name}`
+    if (checkbox.checked) {
+      console.log(`Showing element ${foeId}`);
+      $(foeId).show();
+    } else {
+      // TODO hide does not seem to be working
+      console.log(`Hiding element ${foeId}`);
+      $(foeId).hide();
+    }
   });
-  $('.json-content').append(referenceHTML.join(""));
+  hideFilterList();
+}
+
+function resetFoes() {
+  $('.reference').show();
+}
+
+$(document).ready(() => {
+  $.getJSON("./foes.json", (foes) => {
+    var sortedFoeTypes = getSortedFoeTypes(foes);
+    var sortedFoesByType = getSortedFoesByType(foes);
+    var referenceHTML = [];
+
+    sortedFoeTypes.forEach((foeType) => {
+      referenceHTML.push(foeTypeFilter(foeType, sortedFoesByType[foeType]));
+    });
+    $('#filter-list-div').append(referenceHTML.join(""));
+
+    var referenceHTML = [];
+    foes.forEach((foe) => {
+      referenceHTML.push(foeToHTML(foe));
+    });
+    $('.json-content').append(referenceHTML.join(""));
+  });
+
+  $('#filter-button').click(showFilterList);
+  $('#reset-button').click(resetFoes);
+  $('#apply-button').click(applyFilterList);
+  $('#cancel-button').click(hideFilterList);
 });

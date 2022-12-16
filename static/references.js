@@ -82,19 +82,21 @@ function reloadJson() {
   $('.json-content').append(referenceHTML);
 }
 
-$.getJSON(`./${referenceType}.json`, (referenes) => {
-  referenes.forEach((reference) => {
-    rawReferences.push(reference);
-  });
-  reloadJson();
+$(document).ready(() => {
+  $.getJSON(`./${referenceType}.json`, (referenes) => {
+    referenes.forEach((reference) => {
+      rawReferences.push(reference);
+    });
+    reloadJson();
 
-  $('#search-button').click(() => {
-    searchQuery = new RegExp($('#search-field').val(), 'i');
-    reloadJson();
-  });
-  $('#search-clear-button').click(() => {
-    $('#search-field').val('');
-    searchQuery = new RegExp('.*', 'i');
-    reloadJson();
+    $('#search-button').click(() => {
+      searchQuery = new RegExp($('#search-field').val(), 'i');
+      reloadJson();
+    });
+    $('#search-clear-button').click(() => {
+      $('#search-field').val('');
+      searchQuery = new RegExp('.*', 'i');
+      reloadJson();
+    });
   });
 });

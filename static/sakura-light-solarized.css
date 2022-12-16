@@ -183,7 +183,6 @@ input[type="checkbox"]:focus {
   outline: 1px dotted #6c71c4; }
 
 label, legend, fieldset {
-  display: block;
   margin-bottom: .5rem;
   font-weight: 600; }
 
@@ -275,3 +274,8 @@ div.xtable {
   align-items: center;
   justify-content: center;
 }
+
+#filter-div {
+  display: none;
+}
+
