@@ -17,6 +17,20 @@ Goblins are able to talk to each other with chitters, but no one has been able t
 
 The spiders that inhabit their holes are also able to grow to a meter in size, as they have a more reliable food source. They have adapted to incapacitate larger prey with a stronger venom.
 
+** Powder Ram
+
+A powder ram is a common familiar of witches. The particulary fiesty rams are chosen by the witch and augmented with explosive runes. Their glowing red head and black horns warn off the wary.
+
+** Undead
+
+Through certain kinds of magic, the dead can be forced to walk again. When practiced by lesser spellcasters, the dead retain none of their mental ability or physical abilities.  They are husks of life that desire only to harm the living.
+
+When practiced by master spellcasters, the undead maintain basic forms of speech and desire, but are still angry vengeful beings.
+
+Because of the aggressive effect that this kind of magic has, it is often frowned upon.
+
+A perfect reincarnation has not been achieved, but that doesn't stop people from trying.
+
 -----
 
 #+begin_cw

@@ -1,4 +1,54 @@
 ---
+- name: Powder Ram
+  size: medium
+  classifier: beast
+  difficulty: apprentice
+  mainStats:
+    power: 3
+    reflex: 0
+    focus: 0
+    presence: 0
+  auxStats:
+    maxHp: 15
+    maxMp: 0
+    movSpd: 5
+    defThr: 0
+    def: 0
+    magRes: 0
+  abilities:
+  - name: Powder Build Up
+    effect: Every other turn, at the end of the turn, the powerder ram's horns turn black. While in this state the next charge attack deals d6 magic damage instead, and the horns return to a normal color.
+  majorActions:
+  - name: Powder Charge
+    action: If the movement action this turn was in a straight line, deal (d4,d6) damage range 1.
+  - name: Headbutt
+    action: Deal ~(2d4) damage range 1.
+  minorActions: []
+
+- name: Wolf Spider
+  size: medium
+  classifier: beast
+  difficulty: apprentice
+  mainStats:
+    power: 1
+    reflex: 1
+    focus: 0
+    presence: 1
+  auxStats:
+    maxHp: 15
+    maxMp: 0
+    movSpd: 6
+    defThr: 4
+    def: 1
+    magRes: 0
+  abilities:
+  - name: Venom
+    effect: Any character grappled by a web gains poison (1) when bitten.
+  majorActions:
+  - name: Bite
+    action: Deal ~(2d4) +1 damage range 1.
+  minorActions: []
+
 - name: Squirrel
   size: small
   classifier: critter
@@ -68,7 +118,7 @@
   - name: Dagger
     action: Deal ~(2d4) + 1 damage range 1
   - name: Venom Vial (1 use)
-    action: The next time a character is attacked, inflict the poison (2).
+    action: The next time a character is attacked, inflict poison (2).
   minorActions: []
 
 - name: Goblin Sharpshooter
@@ -121,54 +171,29 @@
     action: Choose a target within 5 tiles. They are shot with a stream of sticky web and become afflicted with the grappled condition. They can use a major action to cut themselves free of the web.
   minorActions: []
 
-- name: Powder Ram
+- name: Rotting Zombie
   size: medium
-  classifier: beast
+  classifier: undead
   difficulty: apprentice
   mainStats:
-    power: 3
+    power: 2
     reflex: 0
     focus: 0
     presence: 0
   auxStats:
-    maxHp: 15
+    maxHp: 7
     maxMp: 0
-    movSpd: 5
+    movSpd: 4
     defThr: 0
     def: 0
     magRes: 0
   abilities:
-  - name: Powder Build Up
-    effect: Every other turn, at the end of the turn, the powerder ram's horns turn black. While in this state the next charge attack deals d6 magic damage instead, and the horns return to a normal color.
-  majorActions:
-  - name: Powder Charge
-    action: If the movement action this turn was in a straight line, deal (d4,d6) damage range 1.
-  - name: Headbutt
-    action: Deal ~(2d4) damage range 1.
-  minorActions: []
-
-- name: Wolf Spider
-  size: medium
-  classifier: beast
-  difficulty: apprentice
-  mainStats:
-    power: 1
-    reflex: 1
-    focus: 0
-    presence: 1
-  auxStats:
-    maxHp: 15
-    maxMp: 0
-    movSpd: 6
-    defThr: 4
-    def: 1
-    magRes: 0
-  abilities:
-  - name: Venom
-    effect: Any character grappled by a web gains poison (1) when bitten.
+  - name: Undead fortitude
+    effect: When reduced to zero or less HP, Zombies will wait until the end of their next turn to die.
   majorActions:
   - name: Bite
-    action: Deal ~(2d4) +1 damage range 1.
+    action: Deal ~(2d4) damage range 1
+  - name: Infect
+    action: Choose a target within 1 tile. They must make a ability check of 5 or become exhausted until the end of their next turn. 
   minorActions: []
-
 ...
