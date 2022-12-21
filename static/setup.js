@@ -1,19 +1,28 @@
-// Requires JQuery
-
-$(document).ready(function(){
+function setupPage() {
   const headerPrefixColor="#cb4b16";
 
-  // Add the floating scroll button
-  $('body').prepend('<button class="to-top-button">^</button>');
-  $('.to-top-button').click(() => {
+  const toTopButton = document.createElement("button");
+  toTopButton.classList.add('to-top-button');
+  toTopButton.append('^');
+  document.body.prepend(toTopButton);
+
+  toTopButton.addEventListener("click", () => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   });
 
-  // Add indentation markers to headings
-  $('h2').prepend(`<span style="color: ${headerPrefixColor}">#</span> `);
-  $('h3').prepend(`<span style="color: ${headerPrefixColor}">##</span> `);
-  $('h4').prepend(`<span style="color: ${headerPrefixColor}">###</span> `);
-  $('h5').prepend(`<span style="color: ${headerPrefixColor}">####</span> `);
-  $('h6').prepend(`<span style="color: ${headerPrefixColor}">#####</span> `);
-});
+  let headerPrefix = "# ";
+  const headerQuerySelectors = ["h2", "h3", "h4", "h5", "h6"];
+  headerQuerySelectors.forEach((selector) => {
+    document.querySelectorAll(selector).forEach((header) => {
+      const prefixSpan = document.createElement("span");
+      prefixSpan.style.color = headerPrefixColor;
+      prefixSpan.innerText = headerPrefix;
+
+      header.prepend(prefixSpan);
+    });
+    headerPrefix = "#" + headerPrefix;
+  });
+}
+
+document.addEventListener("DOMContentLoaded", setupPage);

@@ -78,25 +78,33 @@ function reloadJson() {
   rawReferences.forEach((reference) => {
     referenceHTML += objToHTML(reference);
   });
-  $('.json-content').empty()
-  $('.json-content').append(referenceHTML);
+  document.querySelector('.json-content').innerHTML = referenceHTML;
 }
 
-$(document).ready(() => {
-  $.getJSON(`./${referenceType}.json`, (referenes) => {
-    referenes.forEach((reference) => {
-      rawReferences.push(reference);
-    });
-    reloadJson();
+async function loadReferences() {
+  const response = await fetch(`./${referenceType}.json`);
 
-    $('#search-button').click(() => {
-      searchQuery = new RegExp($('#search-field').val(), 'i');
-      reloadJson();
-    });
-    $('#search-clear-button').click(() => {
-      $('#search-field').val('');
-      searchQuery = new RegExp('.*', 'i');
-      reloadJson();
-    });
+  if (!response.ok) {
+    console.log("Failed to load foe JSON");
+    return {};
+  }
+
+  const responseJson = await response.json();
+  responseJson.forEach((reference) => {
+    rawReferences.push(reference);
   });
-});
+  reloadJson();
+
+  document.querySelector('#search-button').addEventListener("click", () => {
+    searchQuery = new RegExp(document.querySelector('#search-field').value, 'i');
+    reloadJson();
+  });
+
+  document.querySelector('#search-clear-button').addEventListener("click", () => {
+    document.querySelector('#search-field').value = "";
+    searchQuery = new RegExp('.*', 'i');
+    reloadJson();
+  });
+}
+
+document.addEventListener("DOMContentLoaded", loadReferences);

@@ -109,54 +109,65 @@ function foeToHTML(foe) {
 }
 
 function showFilterList() {
-  $('#foe-content-div').hide();
-  $('#filter-div').show();
+  document.querySelector('#foe-content-div').style.display = 'none';
+  document.querySelector('#filter-div').style.display = 'block';
 }
 
 function hideFilterList() {
-  $('#foe-content-div').show();
-  $('#filter-div').hide();
+  document.querySelector('#foe-content-div').style.display = null;
+  document.querySelector('#filter-div').style.display = 'none';
 }
 
 function applyFilterList() {
-  $('.checkbox-filter').each((_, checkbox) => {
+  document.querySelectorAll('.checkbox-filter').forEach((checkbox) => {
     const foeId = `#${checkbox.name}`
+    const foeDiv = document.querySelector(foeId);
     if (checkbox.checked) {
       console.log(`Showing element ${foeId}`);
-      $(foeId).show();
+      foeDiv.style.display = null;
     } else {
       // TODO hide does not seem to be working
       console.log(`Hiding element ${foeId}`);
-      $(foeId).hide();
+      foeDiv.style.display = 'none';
     }
   });
   hideFilterList();
 }
 
 function resetFoes() {
-  $('.reference').show();
+  document.querySelectorAll('.reference').forEach((reference) => {
+    reference.style.display = null;
+  });
 }
 
-$(document).ready(() => {
-  $.getJSON("./foes.json", (foes) => {
-    var sortedFoeTypes = getSortedFoeTypes(foes);
-    var sortedFoesByType = getSortedFoesByType(foes);
-    var referenceHTML = [];
+async function loadFoesJson() {
+  const response = await fetch("./foes.json");
 
-    sortedFoeTypes.forEach((foeType) => {
-      referenceHTML.push(foeTypeFilter(foeType, sortedFoesByType[foeType]));
-    });
-    $('#filter-list-div').append(referenceHTML.join(""));
+  if (!response.ok) {
+    console.log("Failed to load foe JSON");
+    return {};
+  }
 
-    var referenceHTML = [];
-    foes.forEach((foe) => {
-      referenceHTML.push(foeToHTML(foe));
-    });
-    $('.json-content').append(referenceHTML.join(""));
+  const foesJson = await response.json();
+  var sortedFoeTypes = getSortedFoeTypes(foesJson);
+  var sortedFoesByType = getSortedFoesByType(foesJson);
+  var referenceHTML = [];
+
+  sortedFoeTypes.forEach((foeType) => {
+    referenceHTML.push(foeTypeFilter(foeType, sortedFoesByType[foeType]));
   });
+  document.querySelector('#filter-list-div').innerHTML = referenceHTML.join("");
 
-  $('#filter-button').click(showFilterList);
-  $('#reset-button').click(resetFoes);
-  $('#apply-button').click(applyFilterList);
-  $('#cancel-button').click(hideFilterList);
-});
+  var referenceHTML = [];
+  foesJson.forEach((foe) => {
+    referenceHTML.push(foeToHTML(foe));
+  });
+  document.querySelector('.json-content').innerHTML = referenceHTML.join("");
+
+  document.querySelector('#filter-button').addEventListener("click", showFilterList);
+  document.querySelector('#reset-button').addEventListener("click", resetFoes);
+  document.querySelector('#apply-button').addEventListener("click", applyFilterList);
+  document.querySelector('#cancel-button').addEventListener("click", hideFilterList);
+}
+
+document.addEventListener("DOMContentLoaded", loadFoesJson);
