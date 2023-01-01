@@ -15,13 +15,11 @@ But the world is beginning to change once again. Humans are uncovering the magic
 
 ** What is Needed to Play
 
-Titan Mage is meant to be played with two or more players. The sweet spot is 3 to 5 players and another player be the Game Master, abbreviated GM from here on out.
+All that is needed to play Titan Mage is 3 or more players, a way to print, and a way to view the website. It is recommended to get two sets of RPG dice if you don't want to use the online [[./dice-engine.html][dice roller]].
 
-Each player requires one full set of RPG dice: a four sided die (d4), a six sided die (d6), a ten sided die (d10), a twelve sided die (d12), a twenty sided die (d20), and a ten sided die with multiples of 10 (used with the d10 to make a d100).
+Titan Mage is meant to be played with three or more players. The sweet spot is 4 to 6 players with one player taking on the role of the Game Master, abbreviated GM from here on out.
 
-It is recommended to have two sets per player so that multi-dice rolls can occur at once.
-
-Any die with a zero side is used as the max value for the die. For example, the zero on a d10 has a value of 10.
+Each player requires one full set of RPG dice: a four sided die (d4), a six sided die (d6), a ten sided die (d10), a twelve sided die (d12), a twenty sided die (d20), and a ten sided die with multiples of 10 (used with the d10 to make a d100). It is recommended to have two sets of dice per player so that multi-dice rolls can occur at once. If you don't have any dice yet, you can use the online [[./dice-engine.html][dice roller]].
 
 ** Creating a Character
 
@@ -32,7 +30,7 @@ Use the following checklist to create a new character.
 - Add one point to any two of the main stats [[* The Main Stats][main stats]].
 - Decide on a [[* Systems of Magic][magic system]] compatible with your player class.
   - Fill in your starting spell choices.
-- Give youself a short sword or staff weapon.
+- Give yourself a short sword or staff weapon from the [[./weapons.html][weapons reference]].
 - Fill in your [[* Auxiliary Stats][aux stats]] based on your class and main stats
   - Use the defaults of five [[* Defense Threshold][defense threshold]], zero [[* Defense][defense]], zero [[* Magic Resistance][magic resistance]], and five [[* Movement Speed][movement speed]]. Max [[* Health Points (HP)][HP]] and max [[* Magic Power (MP)][MP]] start at 20, but may be higher based on the chosen [[* The Main Stats][main stats]].
 - Formulate a [[* Motivation][motivation]].
@@ -45,6 +43,7 @@ Use the following checklist to create a new character.
 This section lists some conventions used in Titan Mage.
 
 - *Rounding*: Whenever rounding is required, always round up.
+- *Dice Markings*: Dice with a 0 side are counted as a max value. For example, a 0 roll on a d10 counts as 10.
 - *Dice Markings*: Damage values are usually marked with die to roll, d6, d10, etc. If multiple dice of the same type are to be rolled, the dice value will be prefixed with a number. For example 4d6 means to roll 4 d6 dice and add the value of all the rolls together. Some dice rolls are marked with a tilde and parentheses ~(2d4). For these rolls, roll 2 dice and subtract the larger value from the smaller. This may use dice of different size, e.g. ~(d4,d6). Always subtract the larger rolled value, regardless of which die has more sides.
 
 * Character Stats
