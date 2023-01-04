@@ -52,7 +52,11 @@ function equationHandler() {
     } 
 
     const critDiceResults = newDice("d20");
-    equationResults.dice.push(critDiceResults.diceBody);
+    const shouldRollCritDiceCheckbox = document.getElementById("crit-checkbox");
+    const critDiceMessage = shouldRollCritDiceCheckbox.checked ? `(Crit ${critDiceResults.roll})`:"";
+    if (shouldRollCritDiceCheckbox.checked) {
+      equationResults.dice.push(critDiceResults.diceBody);
+    }
 
     if (equationResults.dice.length <= 10) {
       if (canvasWidth < defaultCanvasWidth) {
@@ -61,9 +65,10 @@ function equationHandler() {
         });
       }
       Composite.add(engine.world, equationResults.dice);
-      document.getElementById('dice-roll-result').textContent = `${equationResults.value} (Crit ${critDiceResults.roll})`;
+
+      document.getElementById('dice-roll-result').textContent = `${equationResults.value} ${critDiceMessage}`;
     } else {
-      document.getElementById('dice-roll-result').textContent = `${equationResults.value} (Crit ${critDiceResults.roll}) (Too many dice to render!)`;
+      document.getElementById('dice-roll-result').textContent = `${equationResults.value} ${critDiceMessage} (Too many dice to render!)`;
     }
   }
 }
