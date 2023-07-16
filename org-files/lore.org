@@ -34,5 +34,5 @@ A perfect reincarnation has not been achieved, but that doesn't stop people from
 -----
 
 #+begin_cw
-Game on
+#+HTML: <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;margin-bottom:0em" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> Game on</p>
 #+end_cw

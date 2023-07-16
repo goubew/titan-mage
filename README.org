@@ -1,0 +1,16 @@
+* TitanMage
+
+TitanMage is a free hobbyist fantasy table top role playing game.
+
+* Building
+
+Building TitanMage requires a recent version of emacs, NPM, and the unix cp utility. Commits to the repo are automatically built and deployed to https://titanmage.com.
+
+* License
+
+This project makes use a few open source components. They include, but are not limited to:
+- static/sakura-light-solarized.css, based off of [[https://github.com/oxalorg/sakura][Sakura]], is licensed with the MIT license.
+- elisp/unpackaged.el from [[https://github.com/alphapapa/unpackaged.el#export-to-html-with-useful-anchors][unpackaged.el]] is licensed with GPL-3.0.
+- elisp/dash.el from [[https://github.com/magnars/dash.el][dash.el]] is licensed with GPL-3.0.
+
+Any files that do not contain an explicit license notice are licensed under the [[https://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons by-nc-sa version 4.0]] license.
