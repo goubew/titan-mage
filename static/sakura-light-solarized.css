@@ -186,6 +186,9 @@ label, legend, fieldset {
   margin-bottom: .5rem;
   font-weight: 600; }
 
+p a {
+  vertical-align: middle; }
+
 /* Classes */
 
 button.to-top-button {
