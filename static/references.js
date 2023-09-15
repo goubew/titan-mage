@@ -1,4 +1,4 @@
-const referenceType = window.location.pathname.match(/\/(.*)\.html(\?.*)?/)[1];
+const referenceType = window.location.pathname.match(/\/(.*)(\.html)?(\?.*)?/)[1];
 const prettyMap = {
   mp: "MP",
   hp: "HP",
