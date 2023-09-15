@@ -95,6 +95,13 @@ async function loadReferences() {
   });
   reloadJson();
 
+  document.querySelector('#search-field').addEventListener("keydown", (e) => {
+    if (e.code === "Enter") {
+      searchQuery = new RegExp(document.querySelector('#search-field').value, 'i');
+      reloadJson();
+    }
+  });
+
   document.querySelector('#search-button').addEventListener("click", () => {
     searchQuery = new RegExp(document.querySelector('#search-field').value, 'i');
     reloadJson();
