@@ -44,7 +44,7 @@ This section lists some conventions used in Titan Mage.
 
 - *Rounding*: Whenever rounding is required, always round up.
 - *Dice Markings*: Dice with a 0 side are counted as a max value. For example, a 0 roll on a d10 counts as 10.
-- *Dice Markings*: Damage values are usually marked with die to roll, d6, d10, etc. If multiple dice of the same type are to be rolled, the dice value will be prefixed with a number. For example 4d6 means to roll 4 d6 dice and add the value of all the rolls together. Some dice rolls are marked with a tilde and parentheses ~(2d4). For these rolls, roll 2 dice and subtract the larger value from the smaller. This may use dice of different size, e.g. ~(d4,d6). Always subtract the larger rolled value, regardless of which die has more sides.
+- *Dice Notation*: Damage values are usually marked with die to roll, d6, d10, etc. If multiple dice of the same type are to be rolled, the dice value will be prefixed with a number. For example 4d6 means to roll 4 d6 dice and add the value of all the rolls together. Some dice rolls are marked with a tilde and parentheses ~(2d4). For these rolls, roll 2 dice and subtract the larger value from the smaller. This may use dice of different size, e.g. ~(d4,d6). Always subtract the larger rolled value, regardless of which die has more sides.
 
 * Character Stats
 
@@ -222,9 +222,9 @@ Whenever a weapon attack that inflicts [[* Damage Types][physical damage]] is ma
 
 Characters who are learned in a [[* Systems of Magic][school of magic]] can cast any spell that has been learned.
 
-*** Guard
+*** Block
 
-Characters have their [[* Defense Threshold][defense threshold]] set to one until the beginning of their next turn. In addition, if a [[* Combat Equipment][shield]] is equiped, gain the extra [[* Defense][defense]] provided by the shield's stats, as if the [[* Block][block]] minor action was used.
+Characters with a [[* Combat Equipment][shield]] equipped can use this minor action to turn pure damage into defense damage and gain the [[* Defense][defense]] bonus from the shield.
 
 *** Defend
 
@@ -246,11 +246,7 @@ Learned spells marked as minor actions can be cast during the minor action of a 
 
 *** Offhand Weapon Attack
 
-Characters with two one handed weapons can attack with the off hand as a minor action. Offhand weapon damage ignores any scaling from [[* Character Stats][stats]] and only deals damage from the dice rolls. In addition offhand attacks cannot crit.
-
-*** Block
-
-Characters with a [[* Combat Equipment][shield]] equipped can use this minor action to gain the [[* Defense][defense]] bonus and [[* Defense Threshold][defense threshold]] modifier of their shield.
+Characters with two one handed weapons or characters that took the block major action can attack with the off hand as a minor action. Offhand weapon damage ignores any scaling from [[* Character Stats][stats]] and only deals damage from the dice rolls. In addition, the dice damage from an offhand attack is dealt as defense damage instead of pure damage.
 
 *** Quaff
 
@@ -263,6 +259,10 @@ Characters load ammunition into a ranged weapon, a bow for example.
 *** Swap Held Equipment
 
 Characters put away, replace, or take out [[* Combat Equipment][held equipment]].
+
+*** Hold
+
+Characters may prepare a major action for later in the turn order. The conditions under which the major action will occur must be declared this turn.
 
 ** Turn Order
 
@@ -387,7 +387,7 @@ A full recovery restores all of a character's [[* Health Points (HP)][HP]] and [
 
 ** Skills
 
-Skills are trades that can be learned while in [[* Towns][town]] in order to augment a character's abilities. Skills take three months of time to learn and have an upfront cost. A character can learn a maximum of three skills.
+Skills are trades that can be learned while in [[* Towns][town]] in order to augment a character's abilities. Skills take three months of time to learn and have an upfront cost. A player character can learn up to level/2 skills at a time.
 
 *** Alchemy
 
