@@ -32,11 +32,11 @@ Use the following checklist to create a new character.
   - Fill in your starting spell choices.
 - Give yourself a short sword or staff weapon from the [[./weapons.html][weapons reference]].
 - Fill in your [[* Auxiliary Stats][aux stats]] based on your class and main stats
-  - Use the defaults of five [[* Defense Threshold][defense threshold]], zero [[* Defense][defense]], zero [[* Magic Resistance][magic resistance]], and five [[* Movement Speed][movement speed]]. Max [[* Health Points (HP)][HP]] and max [[* Magic Power (MP)][MP]] start at 20, but may be higher based on the chosen [[* The Main Stats][main stats]].
+  - Use the defaults of zero [[* Defense][defense]], zero [[* Magic Resistance][magic resistance]], and six [[* Movement Speed][movement speed]]. Max [[* Health Points (HP)][HP]] and max [[* Magic Power (MP)][MP]] start at 20, but may be higher based on the chosen [[* The Main Stats][main stats]].
 - Formulate a [[* Motivation][motivation]].
 - Fill in your character name.
 - (optional) Fill in a character description.
-  - The motivation is enough to start a game. A description can always be added to later.
+  - The motivation is enough to start a game. A description can always be added to later as you find out who your character is through play.
 
 ** Conventions
 
@@ -93,29 +93,29 @@ These stats range from 1 to 20. When stats are upgraded, the effects of stats ar
 
 Stats are often to modify the damage of attacks or spells as either + stat, + stat/2, or + stat/4. Use the following table to reference these values.
 
-| Stat | Stat/2 | Stat/4 |
-|------+--------+--------|
-|    0 |      0 |      0 |
-|    1 |      1 |      1 |
-|    2 |      1 |      1 |
-|    3 |      2 |      1 |
-|    4 |      2 |      1 |
-|    5 |      3 |      2 |
-|    6 |      3 |      2 |
-|    7 |      4 |      2 |
-|    8 |      4 |      2 |
-|    9 |      5 |      3 |
-|   10 |      5 |      3 |
-|   11 |      6 |      3 |
-|   12 |      6 |      3 |
-|   13 |      7 |      4 |
-|   14 |      7 |      4 |
-|   15 |      8 |      4 |
-|   16 |      8 |      4 |
-|   17 |      9 |      5 |
-|   18 |      9 |      5 |
-|   19 |      9 |      5 |
-|   20 |      9 |      5 |
+| Stat | Stat/2 | Stat/4 | Stat/8 |
+|------+--------+--------+--------|
+|    0 |      0 |      0 |      0 |
+|    1 |      1 |      1 |      1 |
+|    2 |      1 |      1 |      1 |
+|    3 |      2 |      1 |      1 |
+|    4 |      2 |      1 |      1 |
+|    5 |      3 |      2 |      1 |
+|    6 |      3 |      2 |      1 |
+|    7 |      4 |      2 |      1 |
+|    8 |      4 |      2 |      1 |
+|    9 |      5 |      3 |      2 |
+|   10 |      5 |      3 |      2 |
+|   11 |      6 |      3 |      2 |
+|   12 |      6 |      3 |      2 |
+|   13 |      7 |      4 |      2 |
+|   14 |      7 |      4 |      2 |
+|   15 |      8 |      4 |      2 |
+|   16 |      8 |      4 |      2 |
+|   17 |      9 |      5 |      3 |
+|   18 |      9 |      5 |      3 |
+|   19 |      9 |      5 |      3 |
+|   20 |      9 |      5 |      3 |
 
 There are four main stats.
 
@@ -135,7 +135,7 @@ Effects:
 Effects:
 
 - Combat order: Higher reflex acts first
-- Modified defense threshold: [[* Defense Threshold][Defense threshold]] reduced by Reflex / 4 when wearing light armor
+- Provides extra defense when wearing certain [[* Combat Equipment][armor]]
 - Special weapon effectviness: Extra damage with specialized weapons
 
 *** Presence
@@ -172,15 +172,11 @@ Character start with 20 MP and gain five extra MP at every level.
 
 *** Defense
 
-Defense provides flat physical damage reduction. Defense is provided primarily by your [[* Combat Equipment][armor]]. Certain abilities are able to reduce an opponents defense and are marked as /armor piercing/.
+Defense provides flat physical damage reduction. Defense is calculated by the [[* Combat Equipment][armor]] you have equipped. Most light armor grants defense based on your [[* Reflex][reflex]] stat up to a cap. Heavy armor provides flat defense, but this comes at a movement speed cost.
 
-*** Defense Threshold
+For example, say your armor provides 0 flat defense, reflex/2 reflex defense, and has a reflex cap of 2. If you have 1 reflex, the armor provides reflex/2 = 1 defense. If you have 3 reflex, the armor provides reflex/2 = 2 defense. If you have 5 reflex, the armor provides 2 defense because the reflex cap has been hit.
 
-The reduction in damage provided by [[* Defense][defense]] only goes into effect after a certain amount of damage is taken. This amount is the damage threshold.
-
-Damage threshold is set to five by default, but can be affected by [[* Combat Equipment][armor]], the [[* Reflex][reflex]] stat, by utilizing shields, and specific effects. Defense threshold can not be lowered below one. Thus, every physical attack with at least one point of damage will inflict at least one damage.
-
-As an example, say you have 3 defense and 5 defense threshold. If you take 7 damage, you take the first 5 points of damage directly, leaving 2 damage that can be affected by defense. 3 defense is greater than 2 damage, so both points of damage are negated and your HP is reduced by 5.
+values with [[* Reflex][Reflex]]. Certain abilities are able to reduce an opponents defense and are marked as /armor piercing/.
 
 *** Magic Resistance
 
@@ -214,9 +210,15 @@ Free actions are quick light actions such as shouting a command or turning a loc
 
 *** Weapon Attack
 
-Characters make an attack against an enemy using an equipped weapon. An unarmed attack can be made for 1 damage if no weapons are equipped.
+Characters make an attack against an enemy using an equipped weapon.
 
-Whenever a weapon attack that inflicts [[* Damage Types][physical damage]] is made, roll a d20. If your roll [[* Presence][presence]] stat is equal or higher than the roll, double the damage of the attack.
+Weapon attacks are made up of die rolls and flat bonuses. For example, if the weapon damage is =~(2d4) + 1=, =2d4= is the die portion, and =1= is the flat bonus.
+
+The damage from the die portion is dealt as [[* Damage Types][pure damage]] and the damage from the bonus is dealth as [[* Damage Types][physical damage]].
+
+Whenever a weapon attack is made, roll a d20. If your [[* Presence][presence]] stat is equal or higher than the roll, this is considered a crit. Double the physical damage portion of the attack.
+
+An unarmed attack can be made for 1 physical damage if no weapons are equipped.
 
 *** Spell Cast
 
@@ -224,7 +226,7 @@ Characters who are learned in a [[* Systems of Magic][school of magic]] can cast
 
 *** Block
 
-Characters with a [[* Combat Equipment][shield]] equipped can use this minor action to turn pure damage into defense damage and gain the [[* Defense][defense]] bonus from the shield.
+Characters with a [[* Combat Equipment][shield]] equipped can use this minor action to activate the effect of their shield. turn pure damage into defense damage and gain the [[* Defense][defense]] bonus from the shield.
 
 *** Defend
 
@@ -268,10 +270,13 @@ Characters may prepare a major action for later in the turn order. The condition
 
 Turn order is decided by the [[* Reflex][reflex]] stat. A higher stat means you go first. Ties are decided by the players.
 
-
 ** Damage Types
 
-Damage dealt by weapons is counted as physical damage and can be reduced by the [[* Defense][defense]] stat (after [[* Defense Threshold][defense threshold]] is calculated in). When making a physical damage attack, make sure to roll a d20 to check for [[* Presence][crits]].
+There are three types of damage in Titan Mage: pure damage, physical damage, and magic damage.
+
+Pure damage can not be reduced by any kind of defense. Pure damage is dealt by the dice portion of an attack role.
+
+Any extra damage dealt by weapons is counted as physical damage and can be reduced by the [[* Defense][defense]] stat. When making a physical damage attack, make sure to roll a d20 to check for [[* Presence][crits]].
 
 Damage dealt by spells is counted as magical damage and can be reduced by the [[* Magic Resistance][magic resistance]] stat. Attacks made with magical damage can not crit.
 
@@ -321,7 +326,7 @@ Every time a character is attacked while incapacitated, they suffer another [[* 
 
 *** Paralyzed
 
-A paralyzed character is unable to take any action. Their [[* Defense Threshold][defense threshold]] is doubled while paralyzed.
+A paralyzed character is unable to take any action. [[* Defense][Defense]] is set to 0 while paralyzed.
 
 *** Poisoned
 
@@ -559,7 +564,8 @@ At the third level, tacticians gain the *battle insight* minor action. This lets
 
 At the fifth level, tacticians gain the *dual guard* major action. If an ally is within five feet of the tactician, both they and the tactician gain the effect of the guard. This can only affect one ally per turn, and that ally cannot benefit from a guard of their own on the same turn.
 
-At the seventh level, tacticians gain the *unguard* minor action. This removes the extra [[* Defense][defense]] that an enemy gains when using the [[* Guard][guard]] action.
+TODO Change this
+At the seventh level, tacticians gain the *unguard* minor action. This removes the extra [[* Defense][defense]] that an enemy gains when using the Guard action.
 
 At the ninth level, tacticians gain the *minor shot calling* minor action. This lets another player character take a minor action during your turn instead of you. You decide who, and they decide which action to take. They cannot take the same minor action the next time they take their turn.
 
@@ -808,9 +814,9 @@ The currency in the game are shells and pearls.
 
 Combat equipment includes weapons, armor, and shields.
 
-Armor is considered worn equipment and comes in light and heavy varieties. Armor provides you with you [[* Defense][defense]] and sets a new base [[* Defense Threshold][defense threshold]]. Only one set of armor can be worn at a time.
+Armor is considered worn equipment and comes in light and heavy varieties. Armor provides you with passive [[* Defense][defense]]. Only one set of armor can be worn at a time.
 
-Weapons and shields are considered held equipment. Two one-handed held items or one two-handed held item can be equiped at a time. Switching held equipment, can done with the [[* Swap Held Equipment][swap held equipment]] minor action.
+Weapons and shields are considered held equipment. Two one-handed held items or one two-handed held item can be equipped at a time. Switching held equipment, can done with the [[* Swap Held Equipment][swap held equipment]] minor action. Held equipment requires an [[* Action Types][action]] for their effects to be active.
 
 Characters can carry with them one set of armor and four hands worth of held items.
 

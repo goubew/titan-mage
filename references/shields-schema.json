@@ -5,14 +5,12 @@
     "properties": {
       "name": { "type": "string" },
       "description": { "type": "string" },
-      "defense": { "type": "number", "minimum": 0 },
-      "defenseThresholdModifier": { "type": "number" },
-      "movementSpeedPenalty": { "type": "number", "minimum": -1 },
+      "effect": { "type": "string" },
       "cost": { "type": "number", "minimum": 0 },
       "rarity": { "type": "string", "enum": ["common", "rare", "epic", "legendary"] },
       "requirements": { "type": "string" }
     },
-    "minProperties": 8,
+    "minProperties": 6,
     "additionalProperties": false
   }
 }

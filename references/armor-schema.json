@@ -5,9 +5,9 @@
     "properties": {
       "name": { "type": "string" },
       "description": { "type": "string" },
-      "defense": { "type": "number", "minimum": 0 },
-      "defenseThreshold": { "type": "number", "minimum": 0 },
-      "movementSpeedPenalty": { "type": "number", "minimum": 0 },
+      "flatDefense": { "type": "number", "minimum": 0 },
+      "reflexDefense": { "type": "string" },
+      "reflexDefenseCap": { "type": "number", "minimum": 0 },
       "weight": { "type": "string", "enum": ["light", "heavy"] },
       "cost": { "type": "number", "minimum": 0 },
       "rarity": { "type": "string", "enum": ["common", "rare", "epic", "legendary"] },

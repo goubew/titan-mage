@@ -1,9 +1,10 @@
 ---
 - name: Leather Armor
   description: A thick leather armor provides protection in high risk areas.
-  defense: 2
-  defenseThreshold: 4
-  movementSpeedPenalty: 0
+  flatDefense: 0
+  reflexDefense: reflex/8
+  reflexDefenseCap: 1
+  movementSpeedPenalty: 1
   weight: light
   cost: 200
   rarity: common
@@ -11,9 +12,10 @@
 
 - name: Padded Leather Armor
   description: A thick leather armor with reinforced areas meant to deflect blows.
-  defense: 3
-  defenseThreshold: 4
-  movementSpeedPenalty: 0
+  flatDefense: 0
+  reflexDefense: reflex/8
+  reflexDefenseCap: 2
+  movementSpeedPenalty: 1
   weight: light
   cost: 400
   rarity: common
@@ -21,29 +23,32 @@
 
 - name: Chainmail
   description: A metal armor made from interlocking metal rings over a leather garment.
-  defense: 4
-  defenseThreshold: 4
-  movementSpeedPenalty: 0
+  flatDefense: 0
+  reflexDefense: reflex/4
+  reflexDefenseCap: 2
+  movementSpeedPenalty: 1
   weight: light
-  cost: 500
+  cost: 750
   rarity: common
   requirements: None
 
 - name: Half Plate
   description: Metal plated armor that covers the torso and arms.
-  defense: 5
-  defenseThreshold: 4
-  movementSpeedPenalty: 1
+  flatDefense: 1
+  reflexDefense: reflex/8
+  reflexDefenseCap: 2
+  movementSpeedPenalty: 2
   weight: heavy
   cost: 750
   rarity: common
-  requirements: None
+  requirements: 2 Power
 
 - name: Full Plate
   description: Metal plated armor that covers the entire body.
-  defense: 6
-  defenseThreshold: 3
-  movementSpeedPenalty: 2
+  flatDefense: 3
+  reflexDefense: None
+  reflexDefenseCap: 0
+  movementSpeedPenalty: 3
   weight: heavy
   cost: 1000
   rarity: rare
@@ -51,11 +56,12 @@
 
 - name: Dragon Scale Armor
   description: A light armor made from woven dragon scales. The scales can be hardened on command for those who know how.
-  defense: 4
-  defenseThreshold: 4
-  movementSpeedPenalty: 0
+  flatDefense: 0
+  reflexDefense: reflex/4
+  reflexDefenseCap: 6
+  movementSpeedPenalty: 1
   weight: light
   cost: 10000
   rarity: epic
-  requirements: 4 focus
+  requirements: None
 ...

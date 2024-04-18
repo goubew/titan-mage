@@ -1,54 +1,42 @@
 ---
 - name: Wooden Round Shield
   description: A round wooden shield, painted with a signet.
-  defense: 2
-  defenseThresholdModifier: 0
-  movementSpeedPenalty: 0
+  effect: Until the beginning of your next turn, gain one extra defense if your armor is not at its reflex cap.
   cost: 200
   rarity: common
   requirements: None
 
 - name: Buckler
   description: A small metal shield meant to be maneuverable.
-  defense: 1
-  defenseThresholdModifier: 0
-  movementSpeedPenalty: 0
-  cost: 200
+  effect: Until the beginning of your next turn, gain one extra defense if your armor is at its reflex cap.
+  cost: 300
   rarity: common
   requirements: None
 
 - name: Heater Shield
   description: A small leather shield that tapers at the bottom.
-  defense: 1
-  defenseThresholdModifier: 1
-  movementSpeedPenalty: 0
+  effect:
   cost: 300
   rarity: common
   requirements: None
 
 - name: Knight's shield
   description: A medium sized metal shield.
-  defense: 2
-  defenseThresholdModifier: 1
-  movementSpeedPenalty: 0
+  effect: Until the beginning of your next turn, you may use your defense value to reduce either the pure damage or the 
   cost: 400
   rarity: common
   requirements: None
 
 - name: Tower Shield
-  description: A large shield that covers almost the whole body. This shield cannot be unequipped during combat.
-  defense: 3
-  defenseThresholdModifier: 3
-  movementSpeedPenalty: 1
-  cost: 500
-  rarity: common
+  description: A large shield that covers almost the whole body. This shield cannot be unequipped during combat. Reduces your movement speed by one while this shield is equipped.
+  effect: Until the beginning of your next turn, pure damage from weapon attacks is halved.
+  cost: 1000
+  rarity: rare
   requirements: 4 Power
 
 - name: Shield of the Woods
   description: A shield carved from the dwellers of the deep wood. It works mysteriously for some and not at all for others.
-  defense: 1
-  defenseThresholdModifier: 0
-  movementSpeedPenalty: -1
+  effect: Gain two extra defense on attacks until the start of your next turn. You may move one extra tile when taking the movement minor action this round.
   cost: 10000
   rarity: epic
   requirements: None
