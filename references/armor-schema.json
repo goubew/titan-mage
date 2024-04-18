@@ -8,12 +8,13 @@
       "flatDefense": { "type": "number", "minimum": 0 },
       "reflexDefense": { "type": "string" },
       "reflexDefenseCap": { "type": "number", "minimum": 0 },
+      "movementSpeedPenalty": { "type": "number", "minimum": 0 },
       "weight": { "type": "string", "enum": ["light", "heavy"] },
       "cost": { "type": "number", "minimum": 0 },
       "rarity": { "type": "string", "enum": ["common", "rare", "epic", "legendary"] },
       "requirements": { "type": "string" }
     },
-    "minProperties": 9,
+    "minProperties": 10,
     "additionalProperties": false
   }
 }

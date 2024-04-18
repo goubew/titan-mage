@@ -13,18 +13,11 @@
   rarity: common
   requirements: None
 
-- name: Heater Shield
-  description: A small leather shield that tapers at the bottom.
-  effect:
-  cost: 300
-  rarity: common
-  requirements: None
-
 - name: Knight's shield
   description: A medium sized metal shield.
-  effect: Until the beginning of your next turn, you may use your defense value to reduce either the pure damage or the 
-  cost: 400
-  rarity: common
+  effect: Until the beginning of your next turn, you may use your defense value to reduce either the pure damage or the physical damage of weapon attacks.
+  cost: 1000
+  rarity: rare
   requirements: None
 
 - name: Tower Shield
