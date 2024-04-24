@@ -34,6 +34,19 @@ function isPrimitive(obj) {
   return ["boolean", "number", "bigint", "string"].includes(typeof(obj));
 }
 
+function getOptValClass(key, value) {
+  if (key == "rarity") {
+    if (value == "legendary") {
+      return 'class="rarity-legendary"'
+    } else if (value == "epic") {
+      return 'class="rarity-epic"'
+    } else if (value == "rare") {
+      return 'class="rarity-rare"'
+    }
+    // Common items do not need their color modified
+  }
+}
+
 function objToHTML(obj, pmargin=0, hr=true) {
   if (!searchQuery.test(obj.name)) {
     return "";
@@ -45,7 +58,8 @@ function objToHTML(obj, pmargin=0, hr=true) {
     const val = obj[key];
 
     if (isPrimitive(val)) {
-      objHTML += `<p style="margin-left: ${pmargin}em;"><b>${prettyKey}</b>: ${val}</p>`;
+      const optValClass = getOptValClass(key, val);
+      objHTML += `<p style="margin-left: ${pmargin}em;"><b>${prettyKey}</b>: <span ${optValClass}>${val}</span></p>`;
     } else if (isNestedObj(val)){
       objHTML += `<p style="margin-left: ${pmargin}em;"><b>${prettyKey}</b>:</p>`;
       objHTML += objToHTML(val, pmargin + 1, false);

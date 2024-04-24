@@ -180,7 +180,7 @@ values with [[* Reflex][Reflex]]. Certain abilities are able to reduce an oppone
 
 *** Magic Resistance
 
-Magic resistance provides flat magic damage reduction. Magic resistance is rare, and is not provided by any normal armors. There is no magic resistance threshold, the reduction is always applied.
+Magic resistance provides flat magic damage reduction. Magic resistance is rare, and is not provided by any normal armors.
 
 *** Movement Speed
 

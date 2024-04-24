@@ -251,6 +251,18 @@ div.xtable {
   text-align: center;
 }
 
+.rarity-legendary {
+  color: #cb4b16
+}
+
+.rarity-epic {
+  color: #6c71c4
+}
+
+.rarity-rare {
+  color: #268bd2
+}
+
 .reference p {
   margin-bottom: 0em;
 }
