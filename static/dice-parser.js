@@ -174,7 +174,7 @@ function evaluateConstantExpression(term) {
 
 /* Returns an object
    {
-   "value": <- The result of executing the equation with random dice values
+   "value": <- The string result of executing the equation with random dice values
    "dice": <- Array of Matter.js bodies for the extracted dice
    }
 
@@ -189,21 +189,31 @@ function extractEquationDice(equation) {
   }
 
   let diceBodies = [];
-  let rollingResult = 0;
+  let rollingTrueDamage = 0;
+  let rollingPhysicalDamage = 0;
 
   const expressionTerms = equation.split('+');
   expressionTerms.forEach((term) => {
     let result;
-    if (term.includes('~')) result = evaluateTildeExpression(term);
-    else if (term.includes('d')) result = evaluateDiceExpression(term);
-    else result = evaluateConstantExpression(term);
 
-    rollingResult += result.value;
+    if (term.includes('~')) {
+      result = evaluateTildeExpression(term); 
+      rollingTrueDamage += result.value
+    } else if (term.includes('d')) {
+      result = evaluateDiceExpression(term); 
+      rollingTrueDamage += result.value
+    } else {
+      result = evaluateConstantExpression(term); 
+      rollingPhysicalDamage += result.value
+    }
+
     diceBodies = diceBodies.concat(result.dice);
   });
 
+  let totalDamage = rollingTrueDamage + rollingPhysicalDamage;
+
   return {
-    value: rollingResult,
+    value: `${rollingTrueDamage} True + ${rollingPhysicalDamage} Physical = ${totalDamage} Total`,
     dice: diceBodies
   }
 }

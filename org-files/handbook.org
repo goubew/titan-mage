@@ -276,7 +276,7 @@ There are three types of damage in Titan Mage: pure damage, physical damage, and
 
 Pure damage can not be reduced by any kind of defense. Pure damage is dealt by the dice portion of an attack role.
 
-Any extra damage dealt by weapons is counted as physical damage and can be reduced by the [[* Defense][defense]] stat. When making a physical damage attack, make sure to roll a d20 to check for [[* Presence][crits]].
+Any extra damage dealt by weapons is counted as physical damage and can be reduced by the [[* Defense][defense]] stat. When making a physical damage attack, make sure to roll a d20 to check for [[* Presence][crits]]. Critical hits double physical damage.
 
 Damage dealt by spells is counted as magical damage and can be reduced by the [[* Magic Resistance][magic resistance]] stat. Attacks made with magical damage can not crit.
 
