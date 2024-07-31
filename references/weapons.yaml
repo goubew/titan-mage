@@ -28,7 +28,7 @@
   description: This well made staff is as good for beating as it is for walking.
   class: hammer
   range: 1
-  damage: ~(2d4) [armor pierce 1]
+  damage: ~(2d4)
   handed: two
   cost: 100
   rarity: common
@@ -58,7 +58,7 @@
   description: This narrow sword is meant to pierce opponents.
   class: sword
   range: 1
-  damage: ~(2d4) + reflex/4 [armor pierce 2]
+  damage: ~(2d4) + reflex/4 + 1
   handed: one
   cost: 300
   rarity: rare
@@ -70,7 +70,7 @@
   range: 1
   damage: ~(2d12) + power/4
   handed: two
-  cost: 500
+  cost: 1000
   rarity: rare
   requirements: 4 Power
 
@@ -80,7 +80,7 @@
   range: 1
   damage: ~(d4,d6) + reflex/2
   handed: two
-  cost: 500
+  cost: 1000
   rarity: rare
   requirements: 4 Reflex
 
@@ -88,7 +88,7 @@
   description: A large piece of hardwood meant for pummeling.
   class: hammer
   range: 1
-  damage: ~(2d4) + power/4 [armor pierce 1]
+  damage: ~(2d4) + power/4 + 1
   handed: one
   cost: 300
   rarity: common
@@ -98,7 +98,7 @@
   description: A well formed bludgeoning object with a bulbous head.
   class: hammer
   range: 1
-  damage: ~(2d4) + power/4 [armor pierce 2]
+  damage: ~(2d4) + power/4 + 2
   handed: one
   cost: 400
   rarity: rare
@@ -108,9 +108,9 @@
   description: A hefty two handed hammer meant to crush.
   class: hammer
   range: 1
-  damage: ~(2d8) + power/4 [armor pierce 4]
+  damage: ~(2d8) + power/4 + 4
   handed: two
-  cost: 500
+  cost: 1000
   rarity: rare
   requirements: 4 Power
 

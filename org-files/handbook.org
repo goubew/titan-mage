@@ -17,7 +17,7 @@ But the world is beginning to change once again. Humans are uncovering the magic
 
 All that is needed to play Titan Mage is 3 or more players, a way to print, and a way to view the website. It is recommended to get two sets of RPG dice if you don't want to use the online [[./dice-engine.html][dice roller]].
 
-Titan Mage is meant to be played with three or more players. The sweet spot is 4 to 6 players with one player taking on the role of the Game Master, abbreviated GM from here on out.
+Titan Mage is meant to be played with three or more players. The sweet spot is 4 to 6 players with one player taking on the role of the Game Maestro, abbreviated GM from here on out.
 
 Each player requires one full set of RPG dice: a four sided die (d4), a six sided die (d6), a ten sided die (d10), a twelve sided die (d12), a twenty sided die (d20), and a ten sided die with multiples of 10 (used with the d10 to make a d100). It is recommended to have two sets of dice per player so that multi-dice rolls can occur at once. If you don't have any dice yet, you can use the online [[./dice-engine.html][dice roller]].
 
@@ -54,29 +54,29 @@ The level of your character is a measure of how skilled they are at their craft.
 
 Character level starts at 1 and goes up to 16. In order to level up, characters need to both gain experience out adventuring and spend time and money in [[* Towns][town]]. It is up to you to choose when to spend the time and money to learn the next level during [[* Town Actions][your town actions]].
 
-At the 6th level, a study under a master is required. Masters are not uncommon, but are not found in every town. At the 11th level, a study under a grandmaster is required. Although most grandmasters are well known in story and legend, not all of them can be easy to find. In order to attain the 16th level, one has to advance their field beyond it's current limits. Work with your DM to discuss your plan for this, as such things do not come with a one size fits all price tag.
+At the 6th level, a study under a magi is required. Magi are not uncommon, but are not found in every town. At the 11th level, a study under a grandmagi is required. Although most grandmagi are well known in story and legend, not all of them can be easy to find. In order to attain the 16th level, one has to advance their field beyond it's current limits. Work with your DM to discuss your plan for this, as such things do not come with a one size fits all price tag.
 
 Use the following requirements chart to see what it takes to make it to level up. While spending the time to level up, [[* Living Expenses][living expenses]] do not need to be paid, but if others in the party are not leveling up at the same time, they will need to pay them.
 
 #+begin_xtable
-| Level | Location          | Time     | Monetary Cost | Rank           |
-|-------+-------------------+----------+---------------+----------------|
-|     1 | N/A               | N/A      | N/A           | Apprentice     |
-|     2 | Adventure Hall    | 1 month  | 300 Shells    | Apprentice II  |
-|     3 | Adventure Hall    | 1 month  | 400 Shells    | Apprentice III |
-|     4 | Adventure Hall    | 1 month  | 500 Shells    | Apprentice IV  |
-|     5 | Adventure Hall    | 1 month  | 600 Shells    | Apprentice V   |
-|     6 | Master Study      | 6 months | 1000 Shells   | Journeyman     |
-|     7 | Adventure Hall    | 2 months | 1200 Shells   | Journeyman II  |
-|     8 | Adventure Hall    | 2 months | 1400 Shells   | Journeyman III |
-|     9 | Adventure Hall    | 2 months | 1600 Shells   | Journeyman IV  |
-|    10 | Adventure Hall    | 2 months | 1800 Shells   | Journeyman V   |
-|    11 | Grandmaster Study | 1 year   | 5000 Shells   | Master         |
-|    12 | Adventure Hall    | 3 months | 5500 Shells   | Master II      |
-|    13 | Adventure Hall    | 3 months | 6000 Shells   | Master III     |
-|    14 | Adventure Hall    | 3 months | 6500 Shells   | Master IV      |
-|    15 | Adventure Hall    | 3 months | 7000 Shells   | Master V       |
-|    16 | ?                 | ?        | ?             | Grandmaster    |
+| Level | Location        | Time     | Monetary Cost | Rank           |
+|-------+-----------------+----------+---------------+----------------|
+|     1 | N/A             | N/A      | N/A           | Apprentice     |
+|     2 | Adventure Hall  | 1 month  | 300 Shells    | Apprentice II  |
+|     3 | Adventure Hall  | 1 month  | 400 Shells    | Apprentice III |
+|     4 | Adventure Hall  | 1 month  | 500 Shells    | Apprentice IV  |
+|     5 | Adventure Hall  | 1 month  | 600 Shells    | Apprentice V   |
+|     6 | Magi Study      | 6 months | 1000 Shells   | Journeyman     |
+|     7 | Adventure Hall  | 2 months | 1200 Shells   | Journeyman II  |
+|     8 | Adventure Hall  | 2 months | 1400 Shells   | Journeyman III |
+|     9 | Adventure Hall  | 2 months | 1600 Shells   | Journeyman IV  |
+|    10 | Adventure Hall  | 2 months | 1800 Shells   | Journeyman V   |
+|    11 | GrandMagi Study | 1 year   | 5000 Shells   | Magi           |
+|    12 | Adventure Hall  | 3 months | 5500 Shells   | Magi II        |
+|    13 | Adventure Hall  | 3 months | 6000 Shells   | Magi III       |
+|    14 | Adventure Hall  | 3 months | 6500 Shells   | Magi IV        |
+|    15 | Adventure Hall  | 3 months | 7000 Shells   | Magi V         |
+|    16 | ?               | ?        | ?             | Grandmagi      |
 #+end_xtable
 
 Whenever you level up, perform the following actions:
@@ -214,7 +214,7 @@ Characters make an attack against an enemy using an equipped weapon.
 
 Weapon attacks are made up of die rolls and flat bonuses. For example, if the weapon damage is =~(2d4) + 1=, =2d4= is the die portion, and =1= is the flat bonus.
 
-The damage from the die portion is dealt as [[* Damage Types][pure damage]] and the damage from the bonus is dealth as [[* Damage Types][physical damage]].
+The damage from the die portion is dealt as [[* Damage Types][pure damage]] and the damage from the bonus is dealt as [[* Damage Types][physical damage]].
 
 Whenever a weapon attack is made, roll a d20. If your [[* Presence][presence]] stat is equal or higher than the roll, this is considered a crit. Double the physical damage portion of the attack.
 
@@ -226,7 +226,7 @@ Characters who are learned in a [[* Systems of Magic][school of magic]] can cast
 
 *** Block
 
-Characters with a [[* Combat Equipment][shield]] equipped can use this minor action to activate the effect of their shield. turn pure damage into defense damage and gain the [[* Defense][defense]] bonus from the shield.
+Characters with a [[* Combat Equipment][shield]] equipped can use this minor action to activate the effect of their shield.
 
 *** Defend
 
@@ -310,7 +310,7 @@ Characters who are exhausted cannot take major actions and their [[* Movement Sp
 
 *** Fallen
 
-In the fallen condition, you are unable to make ranged [[* Weapon Attack][weapon attacks]] and the [[* Movement][movement]] minor action only lets you roll one tile. Standing back up takes a major action.
+In the fallen condition, you are unable to make ranged [[* Weapon Attack][weapon attacks]] and the [[* Movement][movement]] minor action only lets you roll one tile. Standing back up takes a minor action.
 
 *** Incapacitated
 
@@ -558,14 +558,13 @@ Taking up temporary work allows you to live with frugal [[* Living Expenses][exp
 
 Tacticians are able to survey a battlefield with ease. They are able to command allies, increasing their battle effectiveness, and have insight into enemies traits.
 
-At the first level, tacticians gain the *delayed action* class feature. This allows the player to take their minor action, major action, or both actions later in the turn order. The conditions for taking the turn and the action that is to be taken must be expressed during your normal turn.
+At the first level, tacticians gain the *delayed action* class feature. This allows the player to take a prepare both their minor action and a major action until later in the turn order without having to use [[* Hold][hold]].
 
-At the third level, tacticians gain the *battle insight* minor action. This lets the tactician determine either the remaining [[* Health Points (HP)][HP]] of a single enemy, the current [[* Defense][defense]] of a single enemy, or the damage weaknesses of a single enemy.
+At the third level, tacticians gain the *battle insight* minor action. This lets the tactician determine either the remaining [[* Health Points (HP)][HP]] of a single enemy, the current [[* Defense][defense]] of a single enemy, or a damage weaknesses of a single enemy.
 
-At the fifth level, tacticians gain the *dual guard* major action. If an ally is within five feet of the tactician, both they and the tactician gain the effect of the guard. This can only affect one ally per turn, and that ally cannot benefit from a guard of their own on the same turn.
+At the fifth level, tacticians gain the *dual guard* major action. If an ally is within one tile of the tactician, both benefit from the effect of the [[* Block][block]] action.
 
-TODO Change this
-At the seventh level, tacticians gain the *unguard* minor action. This removes the extra [[* Defense][defense]] that an enemy gains when using the Guard action.
+At the seventh level, tacticians gain the *quick insight* minor action. This allows battle insight to be used as a free action instead of a minor action.
 
 At the ninth level, tacticians gain the *minor shot calling* minor action. This lets another player character take a minor action during your turn instead of you. You decide who, and they decide which action to take. They cannot take the same minor action the next time they take their turn.
 
@@ -585,13 +584,13 @@ At the first level, mercenaries gain the *engage* minor action. This can be used
 
 At the third level, mercenaries gain the *distracted strike* class feature. This lets allies add 10 to crit rolls when targeting enemies that you have engaged. If the enemy moves away from you, this bonus no longer applies.
 
-At the fifth level, mercenaries gain the *shove* major action. This puts a normal or smaller size enemy into the [[* Fallen][fallen]] state.
+At the fifth level, mercenaries gain the *shove* major action. This puts a normal or smaller size enemy into the [[* Fallen][fallen]] state. When you take this action, roll a d12. If the roll is 6 or lower, the shove fails and the opponent keeps their footing.
 
-At the seventh level, mercenaries gain the *en guarde* class feature. Once per [[* Respite][respite]] when your [[* Health Points (HP)][HP]] is reduced to 0, it remains at 1 instead.
+At the seventh level, mercenaries gain the *en guarde* class feature. Once per [[* Respite][respite]], when your [[* Health Points (HP)][HP]] is reduced to 0, it remains at 1 instead.
 
 At the ninth level, mercenaries gain the *quick engage* class feature. This turns *engage* into a free action that can be used once per turn.
 
-At the eleventh level, mercenaries gain the *power strike* minor action. When the [[* Weapon Attack][weapon attack]] major action is used, you may choose to reroll one of the dice.
+At the eleventh level, mercenaries gain the *power strike* minor action. When the [[* Weapon Attack][weapon attack]] major action is used, you may choose to reroll the crit die.
 
 At the thirteenth level, mercenaries gain the *charge* class feature. When taking the [[* Movement][movement]] minor action, as long as your movement is a straight line. You can use *shove* as a free action if an enemy stands at the end of your charge.
 
@@ -605,9 +604,9 @@ Assassins are skilled dealing damage through the use of well placed attacks and 
 
 At the first level, assassins gain the *feint strike* minor action. When targeting an enemy with a [[* Weapon Attack][weapon attack]] this turn, if an ally is within 1 tile of the enemy you are targeting, you may reroll one of your weapon damage die when attacking that enemy.
 
-At the third level, assassins gain the *disarm* major action. An opponent within one tile has a held weapon sent flying two tiles away from you in any direction you choose. Picking it back up requires a [[* Swap Held Equipment][weapon swap]] minor action.
+At the third level, assassins gain the *disarm* major action. An opponent within one tile has a held weapon knocked out of their hands and falling to their feet. Picking it back up requires a [[* Swap Held Equipment][weapon swap]] minor action. When you take this action, roll a d12. If the roll is 6 or lower, the disarm fails and the opponent retains their grip on the weapon.
 
-At the fifth level, assassins gain the *sole bad guy* minor action. When an ally is withing 1 tile of the enemy you are targeting with a melee attack and that enemy has no allies within 1 tile, reroll one of your attack dice during a [[* Weapon Attack][weapon attack]] action and attack with 5 [[* Defense][armor pierce]].
+At the fifth level, assassins gain the *sole bad guy* minor action. When an ally is withing 1 tile of the enemy you are targeting with a melee attack and that enemy has no allies within 1 tile, you may reroll both of your weapon damage dice during the [[* Weapon Attack][weapon attack]] action.
 
 At the seventh level, assassins gain the *flourish strike* class feature. This lets you take an extra minor action whenever you perform a critical weapon attack. This feature can only be used once per turn. The minor action must be different than your other minor action.
 
@@ -615,11 +614,11 @@ At the ninth level, assassins gain the *traveling combatant* class feature. When
 
 At the eleventh level, mercenaries gain the *quick draw* class feature. This lets a mercenary [[* Swap Held Equipment][switch weapons]] as a free action instead of a minor action.
 
-At the thirteenth level, assassins gain the *weapon catch* class feature. This lets you keep the weapon thrown with disarm instead of sending it flying.
+At the thirteenth level, assassins gain the *weapon catch* class feature. This lets you equip the weapon thrown with the disarm major action instead of simply knocking it to the ground.
 
-At the fifteenth level, assassins gain the *criticaler* class feature. When making a weapon attack, roll two crit dice. If both dice manage to crit, the multipliers are combined.
+At the fifteenth level, assassins gain the *deep cut* class feature. When making a weapon attack, roll two crit dice. If both dice manage to crit, the multipliers are combined.
 
-At the sixteenth level, assassins gain the *criticalest* class feature. Critical strikes do 3x the damage instead of 2x.
+At the sixteenth level, assassins gain the *weak point specialist* class feature. Critical strikes do 3x the damage instead of 2x.
 
 ** Scholar
 
@@ -629,7 +628,7 @@ At the first level, scholars gain the *rest enjoyer* class feature. This allows 
 
 At the third level, scholars gain the *enchant* major action. This makes the next [[* Weapon Attack][weapon attack]] you do deal magic damage instead of physical damage.
 
-At the fifth level, scholars gain the *spell imprint* minor action. If you cast a major action spell last turn, it can be cast again as a minor action. If you cast a minor action spell last turn, it can be cast again for half the mana cost. The spell imprint minor action can not be used two turns in a row.
+At the fifth level, scholars gain the *spell imprint* minor action. If you cast a major action spell last turn, it can be cast again as a minor action. If you cast a minor action spell last turn, it can be cast again for half the MP cost. The spell imprint minor action can not be used two turns in a row.
 
 At the seventh level, scholars gain the *spirited defense* class feature. Whenever magic damage it taken, gain [[* Magic Resistance][magic resistance]] equal to half the damage taken. This resistance goes away after the next time you take damage (physical or magical).
 
@@ -742,7 +741,7 @@ The number of known extractions and maximum number of should pieces that can be 
 
 The Runecast are warriors that pursue the study of an ancient written language. By etching these runic symbols into their weapons and armor, they are able to bind the power of magic to physical objects, and augment their combat ability.
 
-Runes carved into your weapons and armor can be activated with a minor action for 0 [[* Magic Power (MP)][MP]]. Whenever the the rune is used after it is activated [[* Magic Power (MP)][MP]] is lost. As the Runecast levels up, more runes can be active at once. The passive effects of these runes last until the end of combat when used during combat and at the end of the day when used out of combat. Runecast are only able to modify their own equipment and can not add runes to [[* Artifacts][artifacts]].
+Runes carved into your weapons and armor can be activated with a minor action for 0 [[* Magic Power (MP)][MP]]. Whenever the rune is used after it is activated [[* Magic Power (MP)][MP]] is lost. As the Runecast levels up, more runes can be active at once. The passive effects of these runes last until the end of combat when used during combat and at the end of the day when used out of combat. Runecast are only able to modify their own equipment and can not add runes to [[* Artifacts][artifacts]].
 
 The number of runes that can be equipped at a time is shown in the following table.
 
@@ -838,7 +837,7 @@ Up to 8 potions can be carried at a time.
 
 Artifacts are special items infused with great power. Artifacts can be of any item type, but are always better than base items. Artifacts may have requirements beyond the base item.
 
-Artifacts are described by their rarit: rare, epic, or legendary.
+Artifacts are described by their rarity: rare, epic, or legendary.
 
 Artifacts are valuable and coveted, so to have any is to paint a target on your back. Guard them carefully.
 
