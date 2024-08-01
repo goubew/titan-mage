@@ -7,15 +7,15 @@
 
 ** The World of Titan Mage
 
-The world of Titan Mage began with the titans. The colossal beings used might and magic to shear the plains flat, heat the core of the planet, and gift the world with water and sun. Today, their fossilized remains are strewn about the world in hidden groves. Nobody knows how they came to die, but legend says that they gave up their power willingly, to share their earthen canvas with the rest of life's creatures.
+Among the ancient and hidden places of the world, there lies the remains of the colossal beings known as the titans. Even in death, their bones remain harder than any human made pick can dislodge. It is imagined that their power shaped the very world itself, but none know how they came to their rest.
 
-Without the chaos of the titan's ongoing construction, the creatures of the world were allowed to grow and evolve. With enough time, the lands became overgrown with all manner of beast. Intelligence alone was not enough to live at the top of the food chain, so lowly humans were relegated to hiding and building what defenses they could, praying that their independent settlements not fall victim to ruin.
+With the death of the titans, their power leached away from their remains, returning to the earth and its creatures. With enough time, the lands became overgrown with all manner of dangerous beast. Intelligence alone was not enough to venture safely, so lowly humans were relegated to hiding and building what defenses they could, praying that their independent settlements not fall victim to ruin.
 
-But the world is beginning to change once again. Humans are uncovering the magic that the titans left behind. With this newfound power, they are striking out, exploring the world, and trading with others for the first time. It is in this setting that Titan Mage takes place. There is high demand for those who can defend against the wilds. The best adventurers of the world are renowned and exalted, but not many of them are very wrinkled...
+But the tenacity of human invention is bearing fruit. Humans are uncovering the magic that the titans left behind. With this newfound power, they are striking out, exploring the world, and trading with others for the first time. It is in this setting that Titan Mage takes place. There is high demand for those who can defend against the wilds. The best adventurers of the world are renowned and exalted, but not many of them are very wrinkled...
 
 ** What is Needed to Play
 
-All that is needed to play Titan Mage is 3 or more players, a way to print, and a way to view the website. It is recommended to get two sets of RPG dice if you don't want to use the online [[./dice-engine.html][dice roller]].
+All that is needed to play Titan Mage is 3 or more players, a way to print, and a way to view this website. It is recommended to get two sets of RPG dice if you don't want to use the online [[./dice-engine.html][dice roller]].
 
 Titan Mage is meant to be played with three or more players. The sweet spot is 4 to 6 players with one player taking on the role of the Game Maestro, abbreviated GM from here on out.
 
@@ -54,7 +54,7 @@ The level of your character is a measure of how skilled they are at their craft.
 
 Character level starts at 1 and goes up to 16. In order to level up, characters need to both gain experience out adventuring and spend time and money in [[* Towns][town]]. It is up to you to choose when to spend the time and money to learn the next level during [[* Town Actions][your town actions]].
 
-At the 6th level, a study under a magi is required. Magi are not uncommon, but are not found in every town. At the 11th level, a study under a grandmagi is required. Although most grandmagi are well known in story and legend, not all of them can be easy to find. In order to attain the 16th level, one has to advance their field beyond it's current limits. Work with your DM to discuss your plan for this, as such things do not come with a one size fits all price tag.
+At the 6th level, a study under a magi is required. Magi are not uncommon, but are not found in every town. At the 11th level, a study under a grandmagi is required. Although most grandmagi are well known in story and legend, not all of them can be easy to find. In order to attain the 16th level, one has to advance their field beyond it's current limits. Work with your GM to discuss your plan for this, as such things do not come with a one size fits all price tag.
 
 Use the following requirements chart to see what it takes to make it to level up. While spending the time to level up, [[* Living Expenses][living expenses]] do not need to be paid, but if others in the party are not leveling up at the same time, they will need to pay them.
 
@@ -428,13 +428,13 @@ Smithing requires 1,000 shells to learn.
 
 Ability checks are a way to use dice in combination with player stats to resolve an outcome.
 
-The DM will ask for an ability check of a player for a particular [[* The Main Stats][main stat]]. It's the player's job to roll a d12 and add their stat to the roll. It will then be up to the DM to resolve outcome.
+The GM will ask for an ability check of a player for a particular [[* The Main Stats][main stat]]. It's the player's job to roll a d12 and add their stat to the roll. It will then be up to the GM to resolve outcome.
 
 ** Dialog
 
 Speaking with Non-Player Characters (NPCs) is a common part of adventuring. Players may wish to elicit information from a knowledgeable town resident, haggle on the price of a rare artifact, or convince an animal that they are friendly.
 
-When players are expecting a result out of their conversation, it's the job of the DM to recognize this and ask for an [[* Ability Check][ability check]]. Players have many ways to be convincing, and the strength of their argument can have a great affect on the difficulty of the ability check.
+When players are expecting a result out of their conversation, it's the job of the GM to recognize this and ask for an [[* Ability Check][ability check]]. Players have many ways to be convincing, and the strength of their argument can have a great affect on the difficulty of the ability check.
 
 Dialog is also one of the best ways to show off your character's personality!
 
@@ -528,7 +528,7 @@ As your character gains levels, the ability to become a mentor assisting an unpl
 
 Being a mentee takes time equal to the player character's . In exchange for your time and expertise, your character is rewarded with the price of [[* Character Level][level ups]] for the level the mentee gains.
 
-Mentees are not able to gain levels back to back. Just like players, they need time to develop their new knowledge. This amount of time is at the DM's discretion.
+Mentees are not able to gain levels back to back. Just like players, they need time to develop their new knowledge. This amount of time is at the GM's discretion.
 
 Mentees may wish to join your adventuring party at such unfortunate times that room becomes available...
 
@@ -550,7 +550,7 @@ By practicing you magic craft, a spell from your spell list can be swapped out.
 
 *** Working
 
-Taking up temporary work allows you to live with frugal [[* Living Expenses][expenses]] without costing any gold. Performing skilled labor may pay for higher expenses and the DM's discretion.
+Taking up temporary work allows you to live with frugal [[* Living Expenses][expenses]] without costing any gold. Performing skilled labor may pay for higher expenses at the GM's discretion.
 
 * Player Classes
 
@@ -644,9 +644,9 @@ At the sixteenth level, scholars gain the *spell chain* class feature. This allo
 
 ** Bereft
 
-The Bereft are those without any advantage in life. Unlikely adventurers, but it is not for fate to say who are the greats.
+The Bereft are those without any advantage in life. Unlikely adventurers, but it is for fate to say who are the greats.
 
-No magic systems. No class features. Mad respect.
+No magic systems. No class features. Respect.
 
 * Systems of Magic
 
@@ -681,33 +681,31 @@ The number of known incantations are shown in the following table.
 |    16 |                   10 |
 #+end_xtable
 
-** Elementalist
+** Naturalist
 
-Elementalists draw from the latent magic left behind from the construction of the world.
+Naturalists draw from the latent magic left behind from the construction of the world.
 
-Elemental spells, called sourceries, can be devastatingly powerful, but rely on the setup and maintenance of elemental catalysts. Elementalists learn major and minor sourceries that can be used as major and minor actions.
-
-Elementalists work with the catalysts of heat, cold, earth, lightning, and dark.  Sourceries that create these catalysts are marked with a type and amount, e.g. creates heat 2. Spells that consume the catalysts are marked with type and cost, e.g. consumes heat 1. At the end of the elementalist's turn, the value of each catalyst type is reduced by 1 to a minimum of 0.
+Natural spells, called sourceries, can be devastatingly powerful, but can only by relied on in certain environments.
 
 #+begin_xtable
-| Level | # Major Sourceries Known | # Minor Sourceries Known |
-|-------+--------------------------+--------------------------|
-|     1 |                        1 |                        1 |
-|     2 |                        2 |                        2 |
-|     3 |                        2 |                        2 |
-|     4 |                        3 |                        2 |
-|     5 |                        3 |                        2 |
-|     6 |                        4 |                        3 |
-|     7 |                        4 |                        3 |
-|     8 |                        5 |                        3 |
-|     9 |                        5 |                        3 |
-|    10 |                        6 |                        3 |
-|    11 |                        6 |                        4 |
-|    12 |                        7 |                        4 |
-|    13 |                        7 |                        4 |
-|    14 |                        8 |                        4 |
-|    15 |                        8 |                        4 |
-|    16 |                       10 |                        5 |
+| Level | # Sourceries Known |
+|-------+--------------------|
+|     1 |                  1 |
+|     2 |                  2 |
+|     3 |                  2 |
+|     4 |                  3 |
+|     5 |                  3 |
+|     6 |                  4 |
+|     7 |                  4 |
+|     8 |                  5 |
+|     9 |                  5 |
+|    10 |                  6 |
+|    11 |                  6 |
+|    12 |                  7 |
+|    13 |                  7 |
+|    14 |                  8 |
+|    15 |                  8 |
+|    16 |                 10 |
 #+end_xtable
 
 ** Harvester

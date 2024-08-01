@@ -1,49 +1,7 @@
 ---
-- name: Channel Heat
-  description: The room around you become distorted with heat.
-  cost: 3 MP
-  action: minor
-  effect: Creates 3 heat catalyst.
-  requirements: Apprentice
-
-- name: Channel Cold
-  description: The room around you drains warmth.
-  cost: 3 MP
-  action: minor
-  effect: Creates 3 cold catalyst.
-  requirements: Apprenticeone
-
-- name: Channel Lightning
-  description: Metal around the room begins to spark.
-  cost: 3 MP
-  action: minor
-  effect: Creates 3 light catalyst.
-  requirements: Apprenticeone
-
-- name: Channel Dark
-  description: The room around you becomes dim.
-  cost: 3 MP
-  action: minor
-  effect: Creates 3 dark catalyst.
-  requirements: Apprenticeone
-
-- name: Channel Earth
-  description: The earth beneath you rumbles and loosens.
-  cost: 3 MP
-  action: minor
-  effect: Creates 3 earth catalyst.
-  requirements: Apprenticeone
-
-- name: Channel Suspension
-  description: Focus inward to extend the duration of all channeled catalysts.
-  cost: 4 MP
-  action: minor
-  effect: Add 2 to every currently channeled catalyst.
-  requirements: Apprenticeone
-
 - name: Earthen Armor
   description: Pieces of stone mold around a target protecting it from physical harm.
-  cost: 2 MP per turn, 1 earth catalyst per turn
+  cost: 2 MP per turn
   action: minor
   effect: A target of your choosing gains presence/2 defense.
   requirements: Apprentice

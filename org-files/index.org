@@ -14,7 +14,7 @@ The game is still under construction and is subject to heavy changes.
   - [[./titan-mage-point-tracker.pdf][Point Tracker]]
 - Spell References
   - [[./ancient-whisperer-spells.html][Ancient Whisperer Reference]]
-  - [[./elementalist-spells.html][Elementalist Reference]]
+  - [[./naturalist-spells.html][Naturalist Reference]]
   - [[./harvester-spells.html][Harvester Reference]]
   - [[./runecast-spells.html][Runecast Reference]]
   - [[./spirit-caller-spells.html][Spirit Caller Reference]]

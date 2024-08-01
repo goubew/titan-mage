@@ -13,7 +13,7 @@ const referenceDescriptions = {
   "shields": "A searchable list of shields in TitanMage TTRPG.",
   "weapons": "A searchable list of weapons in TitanMage TTRPG.",
   "ancient-whisperer-spells": "A searchable list of spells for the Ancient Whisperer magic system in TitanMage TTRPG.",
-  "elementalist-spells": "A searchable list of spells for the Elementalist magic system in TitanMage TTRPG.",
+  "naturalist-spells": "A searchable list of spells for the Naturalist magic system in TitanMage TTRPG.",
   "harvester-spells": "A searchable list of spells for the Harvester magic system in TitanMage TTRPG.",
   "runecast-spells": "A searchable list of spells for the Runecast magic system in TitanMage TTRPG.",
   "spirit-caller-spells": "A searchable list of spells for the Spirit Caller magic system in TitanMage TTRPG."

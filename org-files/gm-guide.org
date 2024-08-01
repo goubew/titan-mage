@@ -1,17 +1,17 @@
 #+Title: Titan Mage GM Guide
 #+HTML_LINK_HOME: dummy value
-#+DESCRIPTION: Learn to become a game master (GM) for the game of TitanMage TTRPG.
+#+DESCRIPTION: Learn to become a game maestro (GM) for the game of TitanMage TTRPG.
 #+OPTIONS: toc:t toc:2
 
-* Being A Game Master
+* Being A Game Maestro
 
-Every game needs a game master (GM). The game master is the arbiter of rules, the source of the game's content, and is someone that every player should be grateful for. More so than the players, the GM gets gets to flex their creativity and have the greatest involvement in the flow and feel of the game. If your game is missing a GM, then don't be afraid to try it out!
+Every game needs a game maestro (GM). The game maestro is the arbiter of rules, the source of the game's content, and is someone that every player should be grateful for. More so than the players, the GM gets gets to flex their creativity and have the greatest involvement in the flow and feel of the game. If your game is missing a GM, then don't be afraid to try it out!
 
 * About This Document
 
 If you are unfamiliar with the game as a whole, reading through the Player's handbook is important for being a GM. It is recommended to start there, then come back.
 
-Unlike the Player's Handbook, which is filled with hard rules, this document is meant to be more a process flow. If the Player's Handbook was a fish dinner, then this is the guide to fishing.
+Unlike the Player's Handbook, which is filled with hard rules, this document is more a launching point for your own work. It is your game after all.
 
 * Preparing a Session
 
@@ -37,13 +37,13 @@ Before you begin planning out your encounters, you should have a theme in mind f
 
 Titan Mage is an RPG about fighting monsters. Combat is a core and expected part of the game, so making sure that adventures are filled with foul fiends is a must.
 
-Use the Foe Reference page to select some enemies for your players. Foes are categorized by the relative level your players are at: apprentice, journeyman, master, and grandmaster. It is not recommended to put higher level foes against lower level players.
+Use the Foe Reference page to select some enemies for your players. Foes are categorized by the relative level your players are at: apprentice, journeyman, magi, and grandmagi. It is not recommended to put higher level foes against lower level players without fair warning. Players should know that they are outclassed *before* combat begins.
 
 Beyond the difficulty level of individual monsters, there are two other ways to balance enemies. You can add multiple monsters to the encounter. This has a multiplicative effect on the difficulty of the encounter. Be careful not to make an encounter with too many characters that bring down a player character in little time by focusing attacks. The second way to balance is in the number of encounters. Characters have a specific amount of healing that can be done before they are forced to retreat back to the safety of town. If they get worn down too much, even easy encounters can be dangerous.
 
-As a GM, it is your job to keep a pulse on the overall health of the party. Tweaking encounter enemy numbers and the number of combat encounters should be done in order to maintain difficulty without killing the entire party.
+As a GM, it is your job to keep a pulse on the overall health of the party. Tweaking encounter enemy numbers and the number of combat encounters should be done in order to maintain difficulty without killing the entire party without cause.
 
-Difficult encounters can result in player deaths. Games where players are dying constantly are not fun for the players, so it's important to manage this occurrence. Do the best job you can saving the most difficult encounters for dramatic parts in the story, so that deaths can be meaningful for the players and the other members of the party. It's possible for the death of the entire party to be their fault, but there is almost always a way that GMs can massage the difficulty of an adventure without breaking the rules of the game.
+Difficult encounters can result in player deaths. Games where players are dying constantly may not be fun for the players, so it's important to manage this occurrence. Do the best job you can saving the most difficult encounters for dramatic parts in the story, so that deaths can be meaningful for the players and the other members of the party. It's possible for the death of the entire party to be their fault, but there is almost always a way that GMs can massage the difficulty of an adventure without breaking the rules of the game.
 
 *** Confounding Puzzles
 
@@ -92,7 +92,7 @@ Artifacts are the last kind of treasure. Artifacts are a way separate from chara
 
 When deciding how many shells or valuables to put into an adventure, use the character level table from the Player's Handbook to decide. It's up to you to set a pace for how often the player's can level up, but in giving out enough treasure for one level per adventure is a good pace.
 
-It's recommended to give out artifacts roughly based on the player character ranks from the character level table. Apprentice players should acquire a couple minor epic artifacts. Consumables or equipment are good candidates. Journeyman should begin to get a couple of the rarer combat focused artifacts or ones with strong effects. Still only epic level though. A master should receive a legendary artifact and continue to receive epic artifacts. Once a player reaches grandmaster level, artifacts are the only way to continue increasing their power, so if you wish to keep the campaign going you are allowed to be more liberal.
+It's recommended to give out artifacts roughly based on the player character ranks from the character level table. Apprentice players should acquire a couple minor epic artifacts. Consumables or equipment are good candidates. Journeyman should begin to get a couple of the rarer combat focused artifacts or ones with strong effects. Still only epic level though. A magi should receive a legendary artifact and continue to receive epic artifacts. Once a player reaches grandmagi level, artifacts are the only way to continue increasing their power, so if you wish to keep the campaign going you are allowed to be more liberal.
 
 *** Mapping a Dungeon
 
@@ -291,8 +291,8 @@ For damage dealing spells, a spell should cost MP equal to the average amount of
 |-------------------+----------------------|
 | Apprentice (1-5)  |                 0-10 |
 | Journeyman (6-10) |                10-20 |
-| Master (11-15)    |                20-30 |
-| Grandmaster (16)  |                30-40 |
+| Magi (11-15)      |                20-30 |
+| Grandmagi (16)    |                30-40 |
 
 For utility spells costs, use the following table.
 
