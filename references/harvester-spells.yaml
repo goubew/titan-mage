@@ -81,12 +81,12 @@
   cost: 40 MP, 6 soul pieces
   action: major
   effect: dummy
-  requirements: Master
+  requirements: Magi
 
 - name: Borrowed life
   description: A character is pinned to the world of the living.
   cost: 40 MP, 6 soul pieces
   action: major
   effect: Choose a character that has sufferred death within 5 tiles. That character is returned to a temporary life. Their health points are set to full, and they are once again able to take their turn normally. They are unable to regain hit points through any means and cannot be revived again.
-  requirements: Grandmaster
+  requirements: Grandmagi
 ...

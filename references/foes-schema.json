@@ -6,7 +6,7 @@
       "name": { "type": "string" },
       "size": { "type": "string", "enum": ["small", "medium", "large"] },
       "classifier": { "type": "string" },
-      "difficulty": { "type": "string", "enum": ["apprentice", "journeyman", "master", "grandmaster"] },
+      "difficulty": { "type": "string", "enum": ["apprentice", "journeyman", "magi", "grandmagi"] },
       "mainStats": { "type": "object",
                     "properties": {
                       "power": { "type": "number", "minimum": 0 },

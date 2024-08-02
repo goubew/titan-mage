@@ -25,11 +25,11 @@ The game is still under construction and is subject to heavy changes.
   - [[./shields.html][Shields Reference]]
   - [[./weapons.html][Weapons Reference]]
 
-* For Game Masters
+* For Game Maestros
 
 - Documents
   - [[./lore.org][Lore]]
-  - [[./gm-guide.org][Game Master's Guide]]
+  - [[./gm-guide.org][Game Maestro's Guide]]
   - [[./titan-mage-hex-map.pdf][GM Map]]
 - References
   - [[./foes.html][Foes Reference]]

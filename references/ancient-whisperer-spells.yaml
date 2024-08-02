@@ -74,12 +74,12 @@
   cost: 20
   action: major
   effect: A character of your choice within 6 tiles becomes invisible to the eye untl the end of your next turn. The spell can be recast as a minor action for half the cost. Enemies will not be able to attack unless your position is known or you reveal yourself through other actions.
-  requirements: Master
+  requirements: Magi
 
 - name: Half Magic
   description: It works 50% of the time every time.
   cost: 80
   action: minor
   effect: Choose a character within 6 tiles. Roll a d4. On an even roll, set that character's health points to half of their maximum value.
-  requirements: Grandmaster
+  requirements: Grandmagi
 ...
