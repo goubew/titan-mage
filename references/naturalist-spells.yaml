@@ -27,12 +27,12 @@
   effect: A one tile pillar within 5 tiles of you rises up providing protection. Anybody on the pillar is raised into the air.
   requirements: Apprentice, underground
 
-- name: Lightning Strike
-  description: Lightning streaks down from the sky
-  cost: 20 MP
-  action: major
-  effect: Choose a target within 5 tiles of you that is open to the sky. The target takes d12 damage and is paralyzed until the beginning of your next turn.
-  requirements: Mage, target is out in the rain
+- name: Turn Beast
+  description: Send a beast creature packing back into the woods.
+  cost: 5 MP
+  action: minor
+  effect: Roll a presence ability check. If the check matches the difficulty of the beast according to the GM, the beast it put until the feared state until it is attacked again or it flees out of sight.
+  requirements: Journeyman, in the presence of a beast
 
 - name: Lightning Strike
   description: Lightning streaks down from the sky

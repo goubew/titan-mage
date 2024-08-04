@@ -312,6 +312,10 @@ Characters who are exhausted cannot take major actions and their [[* Movement Sp
 
 In the fallen condition, you are unable to make ranged [[* Weapon Attack][weapon attacks]] and the [[* Movement][movement]] minor action only lets you roll one tile. Standing back up takes a minor action.
 
+*** Feared
+
+When feared, a creature must take the [[* Movement][movement]] action as a major action and flee directly away from the source of the fear. They make still take any other [[* Default Minor Actions][minor actions]].
+
 *** Incapacitated
 
 When a player drops below 0 [[* Health Points (HP)][HP]], they become incapacitated. They are unable to take major or minor actions or regain HP normally.
