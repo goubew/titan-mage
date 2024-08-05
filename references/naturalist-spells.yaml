@@ -1,9 +1,16 @@
 ---
+- name: Purify Water
+  description: Remove contaminants from water to make it crystal clear and completely safe to drink.
+  cost: 5 MP
+  action: major
+  effect: Touch a handful of water. Any contaminants in it slide away leaving behind clear and safe water. At 4 presence a gallon of water may be purified. At 8 presence four gallons of water may be purified. At 12 presence a pond of water may be purified. At 16 presence, a lake may be purified.
+  requirements: Apprentice, near enough to touch a body of water
+
 - name: Earthen Armor
   description: Pieces of stone mold around a target protecting it from physical harm.
   cost: 5 MP per turn
   action: minor
-  effect: A target of your choosing gains presence/2 defense. They are not able to take any actions while under the effects of this spell. A target may escape this state at will.
+  effect: A target of your choosing within your vision gains presence/2 defense. They are not able to take any actions while under the effects of this spell. A target may escape this state at will.
   requirements: Apprentice, target is near exposed stone
 
 - name: Magnetism
