@@ -42,10 +42,17 @@
 
 - name: Turn Beast
   description: Send a beast creature packing back into the woods.
-  cost: 5 MP
+  cost: 10 MP
   action: minor
   effect: Roll a presence ability check. If the check matches the difficulty of the beast according to the GM, the beast it put until the feared state until it is attacked again or it flees out of sight.
   requirements: Journeyman, in the presence of a beast
+
+- name: Mirage of Leaves
+  description: The swaying of leaves reveals an image hiding in plain sight.
+  cost: 10 MP
+  action: minor
+  effect: While hiding among foliage, change your appearance to something else. It need not be human. While you remain still, anyone that perceives you sees the new image instead.
+  requirements: Journeyman, among foliage
 
 - name: Lightning Strike
   description: Lightning streaks down from the sky
