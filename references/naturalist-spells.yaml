@@ -27,11 +27,19 @@
   effect: A creature within one tile and you are blinded until the beginning of your next turn.
   requirements: Apprentice, underground or at night
 
+- name: "False bloom"
+  description: A flower bud unfurls releasing a mock scent into the wind.
+  cost: 5 MP
+  action: minor
+  effect: Choose a flower bud within vision. It quickly forms into a full flower and releases a scent of your choosing into the wind. It's scent is strong enough for humans to smell in a 100 foot radius circle. At 8 presence, the smell reaches a mile.
+  requirements: Apprentice, plant within sight
+
 - name: Nourish Growth
   description: A plant grows up before your eyes as if the seasons were nothing at all.
   cost: 5 MP
   action: minor
   effect: Choose a plant that you can see. It immediately begins to grow until it reaches a natural size for the type of plant it is. At 8 presence, for 5 extra MP, the plant can be shrunken down to a seed isntead. At 16 presence, for 15 extra MP, the plant can be grown to twice its normal size.
+  requirements: Apprentice, plant within sight
 
 - name: Instapillar
   description: A column of earth rises up creating a barrier.
