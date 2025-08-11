@@ -26,7 +26,7 @@ Each player requires one full set of RPG dice: a four sided die (d4), a six side
 Use the following checklist to create a new character.
 
 - Download a new [[./titan-mage-character-sheet.pdf][character sheet]] and optionally a [[./titan-mage-point-tracker.pdf][point tracking sheet]]
-- Decide on a [[* Player Classes][player class]].
+- Decide on a [[* Player Backgrounds][player backgrounds]].
 - Add one point to any two of the main stats [[* The Main Stats][main stats]].
 - Decide on a [[* Systems of Magic][magic system]] compatible with your player class.
   - Fill in your starting spell choices.
@@ -166,7 +166,7 @@ Character start with 20 HP and gain five extra HP at every level.
 
 *** Magic Power (MP)
 
-Magic power tracks the amount of magic that a character can perform. Characters gain extra magic power at every level based on their [[* Player Classes][class]].
+Magic power tracks the amount of magic that a character can perform. Characters gain extra magic power at every level based on their 
 
 Character start with 20 MP and gain five extra MP at every level.
 
@@ -274,7 +274,7 @@ Turn order is decided by the [[* Reflex][reflex]] stat. A higher stat means you 
 
 There are three types of damage in Titan Mage: pure damage, physical damage, and magic damage.
 
-Pure damage can not be reduced by any kind of defense. Pure damage is dealt by the dice portion of an attack role.
+Pure damage can not be reduced by any kind of defense. Pure damage is dealt by the dice portion of a normal [[* Weapon Attack][weapon attack]].
 
 Any extra damage dealt by weapons is counted as physical damage and can be reduced by the [[* Defense][defense]] stat. When making a physical damage attack, make sure to roll a d20 to check for [[* Presence][crits]]. Critical hits double physical damage.
 
@@ -376,17 +376,15 @@ The character experiences [[* Death][death]].
 
 ** Recovering
 
-Recovering is the process of regaining HP and MP. Certain classes regain additional resources while recovering.
+Recovering is the process of regaining HP and MP by abstaining from strenuous work.
 
 *** Respite
 
-A respite is the only recovery that can occur while out adventuring. A respite requires an uninterrupted rest of at least 4 hours. Spending 8 or more hours resting does not increase the resources gained, and a respite can only occur once a day.
+A respite is the only recovery that can occur while out adventuring. A respite requires an uninterrupted rest of at least 4 hours. Spending 8 or more hours resting does not increase the resources gained, and a respite can only occur once a day or night.
 
 After a respite, each player rolls a d6 up to their character level number of times. The players choose whether to add the value on the die rolled to their [[* Health Points (HP)][HP]] or [[* Magic Power (MP)][MP]].
 
 Once character level number of respite dice have been rolled, no more can be rolled until a full recovery has occurred.
-
-Respite can be modified by certain [[* Player Classes][classes]] and [[* Systems of Magic][magic systems]].
 
 *** Full Recovery
 
@@ -556,9 +554,15 @@ By practicing you magic craft, a spell from your spell list can be swapped out.
 
 Taking up temporary work allows you to live with frugal [[* Living Expenses][expenses]] without costing any gold. Performing skilled labor may pay for higher expenses at the GM's discretion.
 
-* Player Classes
+* Player Backgrounds
 
-** Tactician
+** Exemplar
+
+Exemplars embody the spirit of adventuring and have an innate craving to immortalize their name in history. To that end, they wish to carouse in bars, amaze passersby, inspire their party, delve to the very bottom of dungeons, and take pleasure in helping those in need.
+
+The greatest exemplars are well known as heroes and leaders of powerful adventuring groups, giving them privileges among powerful people of the cities.
+
+TODO: Turn these into feats
 
 Tacticians are able to survey a battlefield with ease. They are able to command allies, increasing their battle effectiveness, and have insight into enemies traits.
 
@@ -582,7 +586,11 @@ At the sixteenth level, tacticians gain the *battle commander* class feature. Th
 
 ** Mercenary
 
-Mercenaries are masters of combat and weaponry, able to wield the rarest weapons and strongest armors. Cleaving and rending is the way of the Mercenary.
+Mercenaries are the sellswords of the world, familiar with all kinds of weapons and battle tactics. They are often a party's front line facing down the ire of large beats and cunning foes.
+
+The greatest mercenaries are fighters of renown, wielders of powerful magic weapons and known to have slain famed monsters.
+
+TODO: Turn into feats
 
 At the first level, mercenaries gain the *engage* minor action. This can be used when an enemy is within 1 tile. Until the beginning of your next turn, if the enemy you target moves from their tile, you may take a free attack action during their turn as soon as they move. This effect lasts until you or the enemy moves at least one tile.
 
@@ -598,13 +606,17 @@ At the eleventh level, mercenaries gain the *power strike* minor action. When th
 
 At the thirteenth level, mercenaries gain the *charge* class feature. When taking the [[* Movement][movement]] minor action, as long as your movement is a straight line. You can use *shove* as a free action if an enemy stands at the end of your charge.
 
-At the fifteenth level, assassins gain the *rapid strike* class feature. If you kill an opponent with a weapon strike, you may take an extra major action. This feature can only be used once per turn.
+At the fifteenth level, mercenaries gain the *rapid strike* class feature. If you kill an opponent with a weapon strike, you may take an extra major action. This feature can only be used once per turn.
 
 At the sixteenth level, mercenaries gain the *battle master* class feature. This lets you make two attacks when using the [[* Weapon Attack][weapon attack]] major action.
 
-** Assassin
+** Scoundrel
 
-Assassins are skilled dealing damage through the use of well placed attacks and devious weapon modifications. Few can stand before an Assassin and live to tell the tale.
+Scoundrels are those with rough and tumble upbringings. They are no strangers to gambling houses, back alleys, or criminal organizations. The wariness that they have come to have can be put to good use saving themselves and their allies.
+
+A high level scoundrel may become skilled assassins, grand thieves, or bosses of underground organizations.
+
+TODO: turn into feats
 
 At the first level, assassins gain the *feint strike* minor action. When targeting an enemy with a [[* Weapon Attack][weapon attack]] this turn, if an ally is within 1 tile of the enemy you are targeting, you may reroll one of your weapon damage die when attacking that enemy.
 
@@ -626,7 +638,9 @@ At the sixteenth level, assassins gain the *weak point specialist* class feature
 
 ** Scholar
 
-Scholars are those who seek to understand the titan's influence on the world. The knowledge is only a mimicry, but even a fraction of that power is enough to demand respect.
+Scholars are those who seek to understand the history and cultures of the world. Their thirst for knowledge stretches back to the origins of the titan's influence on the world.
+
+Famed scholars have shaped humanity's advancement of magic, revived artifacts of the past, and have constructed centers of learning.
 
 At the first level, scholars gain the *rest enjoyer* class feature. This allows the scholar use gain both [[* Health Points (HP)][HP]] and [[* Magic Power (MP)][MP]] while spending [[* Respite][respite]] dice.
 
@@ -648,9 +662,11 @@ At the sixteenth level, scholars gain the *spell chain* class feature. This allo
 
 ** Bereft
 
-The Bereft are those without any advantage in life. Unlikely adventurers, but it is for fate to say who are the greats.
+The Bereft are those without any advantage in life. Unlikely adventurers, change has yet given them an opportunity for growth and redemption.
 
-No magic systems. No class features. Respect.
+They are a blank slate, still discovering who they are, and to overcome that is a respectable goal in itself.
+
+No magic systems.
 
 * Systems of Magic
 
@@ -714,7 +730,7 @@ Natural spells, called sourceries, can be devastatingly powerful, but can only b
 
 ** Harvester
 
-Harvesters utilize the remains of the fallen, twisting them to their own purposes. They collect soul pieces from those that die during combat, which are manipulated to their end through the use of spells called extractions.
+Harvesters utilize the latent magic left behind in the body after death. They automatically collect soul pieces from each creatures that dies during combat, which are manipulated to their end through the use of spells called extractions.
 
 The number of known extractions and maximum number of should pieces that can be held at the same time are shown in the following table.
 
@@ -741,9 +757,9 @@ The number of known extractions and maximum number of should pieces that can be 
 
 ** Runecast
 
-The Runecast are warriors that pursue the study of an ancient written language. By etching these runic symbols into their weapons and armor, they are able to bind the power of magic to physical objects, and augment their combat ability.
+The Runecast are warriors that pursue the study of binding sigils. By etching these runic symbols into their weapons and armor, they are able to bind the power of magic to physical objects, and augment their combat ability.
 
-Runes carved into your weapons and armor can be activated with a minor action for 0 [[* Magic Power (MP)][MP]]. Whenever the rune is used after it is activated [[* Magic Power (MP)][MP]] is lost. As the Runecast levels up, more runes can be active at once. The passive effects of these runes last until the end of combat when used during combat and at the end of the day when used out of combat. Runecast are only able to modify their own equipment and can not add runes to [[* Artifacts][artifacts]].
+Runes carved into your weapons, armor, or items can be activated with a minor action for 0 [[* Magic Power (MP)][MP]]. Whenever the the rune is used after it is activated [[* Magic Power (MP)][MP]] is lost. As the Runecast levels up, more runes can be active at once. Runes stay active until they are changed out or until the user goes to sleep. Runecast are only able to modify their own equipment and can not add runes to [[* Artifacts][artifacts]].
 
 The number of runes that can be equipped at a time is shown in the following table.
 
