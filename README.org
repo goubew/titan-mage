@@ -6,6 +6,13 @@ TitanMage is a free hobbyist fantasy table top role playing game.
 
 Building TitanMage requires a recent version of emacs, NPM, and the unix cp utility. Commits to the repo are automatically built and deployed to https://titanmage.com.
 
+* TODO
+
+- Change MP to Focus Points (used for special maneuvers, increased)
+- Change ~() syntax to :
+- Finish changing skills to feats
+- Change character sheet for skills -> feats and MP to FP
+
 * License
 
 This project makes use a few open source components. They include, but are not limited to:

@@ -1,17 +1,17 @@
 #+Title: Titan Mage GM Guide
 #+HTML_LINK_HOME: dummy value
-#+DESCRIPTION: Learn to become a game maestro (GM) for the game of TitanMage TTRPG.
+#+DESCRIPTION: Learn to become a game maven (GM) for the game of TitanMage TTRPG.
 #+OPTIONS: toc:t toc:2
 
-* Being A Game Maestro
+* Being A Game Maven
 
-Every game needs a game maestro (GM). The game maestro is the arbiter of rules, the source of the game's content, and is someone that every player should be grateful for. More so than the players, the GM gets gets to flex their creativity and have the greatest involvement in the flow and feel of the game. If your game is missing a GM, then don't be afraid to try it out!
+Every game needs a game maven (GM). The game maven is the arbiter of rules, the source of the game's content, and is someone that every player should be grateful for. More so than the players, the GM gets gets to flex their creativity and have the greatest involvement in the flow and feel of the game. If your game is missing a GM, then don't be afraid to try it out!
 
 * About This Document
 
-If you are unfamiliar with the game as a whole, reading through the Player's handbook is important for being a GM. It is recommended to start there, then come back.
+If you are unfamiliar with the game as a whole, reading through the Player's guide is important for being a GM. It is recommended to start there, then come back.
 
-Unlike the Player's Handbook, which is filled with hard rules, this document is more a launching point for your own work. It is your game after all.
+Unlike the Player's Guide, which is filled with hard rules, this document is more a launching point for your own work. It is your game after all.
 
 * Preparing a Session
 
@@ -90,7 +90,7 @@ Valuables are essentially another way to give out shells, but they have a few ad
 
 Artifacts are the last kind of treasure. Artifacts are a way separate from character level to increase the ability of the party. Within the Player's resource tables are items marked as epic or legendary. These are the artifacts. Artifacts can not be typically bought or sold, so instead they should be given out as adventure rewards or as hidden treasure.
 
-When deciding how many shells or valuables to put into an adventure, use the character level table from the Player's Handbook to decide. It's up to you to set a pace for how often the player's can level up, but in giving out enough treasure for one level per adventure is a good pace.
+When deciding how many shells or valuables to put into an adventure, use the character level table from the Player's Guide to decide. It's up to you to set a pace for how often the player's can level up, but in giving out enough treasure for one level per adventure is a good pace.
 
 It's recommended to give out artifacts roughly based on the player character ranks from the character level table. Apprentice players should acquire a couple minor epic artifacts. Consumables or equipment are good candidates. Journeyman should begin to get a couple of the rarer combat focused artifacts or ones with strong effects. Still only epic level though. A magi should receive a legendary artifact and continue to receive epic artifacts. Once a player reaches grandmagi level, artifacts are the only way to continue increasing their power, so if you wish to keep the campaign going you are allowed to be more liberal.
 
@@ -206,7 +206,7 @@ Towns are a bit like [[* Non Player Characters (NPCs)][NPCs]] in that you first 
 - Purpose: Why was the town created? Is is close to natural resources, a place to ship goods, a defensive outpost?
 - Population: How big is the town? A few buildings, a few streets, a few neighborhoods? This will tell you what kind of buildings the town has and how many amenities.
 - Authority: Who writes the laws in the town and who would come talk to players if they broke those laws?
-- Amenities: What can the players do in the town? They will need a place to sleep at least, but take a look at the *Town Features* section in the Player's Handbook for some more ideas.
+- Amenities: What can the players do in the town? They will need a place to sleep at least, but take a look at the *Town Features* section in the Player's Guide for some more ideas.
 - NPCs: Important folks, store owners, or other people that you expect the players to run into should be prepared with [[* Non Player Characters (NPCs)][NPC prep]].
 - Specific Details: These are bits of odd information that NPCs can feed the players. Things like, "I heard the alehouse is serving rat.", "There's a lot more man eating spiders than usual this summer.", or "The soup at the alehouse is great lately!". Stashing away about five of these tidbits is good. Any that the players take a real interest in can even be fleshed out some more. Maybe turned into side adventures a little later.
 

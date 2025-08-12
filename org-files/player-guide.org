@@ -1,4 +1,4 @@
-#+Title: Titan Mage Player's Handbook
+#+Title: Titan Mage Player's Guide
 #+HTML_LINK_HOME: dummy value
 #+DESCRIPTION: Learn how to create a character and play TitanMage TTRPG.
 #+OPTIONS: toc:t toc:2
@@ -17,7 +17,7 @@ But the tenacity of human invention is bearing fruit. Humans are uncovering the 
 
 All that is needed to play Titan Mage is 3 or more players, a way to print, and a way to view this website. It is recommended to get two sets of RPG dice if you don't want to use the online [[./dice-engine.html][dice roller]].
 
-Titan Mage is meant to be played with three or more players. The sweet spot is 4 to 6 players with one player taking on the role of the Game Maestro, abbreviated GM from here on out.
+Titan Mage is meant to be played with three or more players. The sweet spot is 4 to 6 players with one player taking on the role of the Game Maven, abbreviated GM from here on out.
 
 Each player requires one full set of RPG dice: a four sided die (d4), a six sided die (d6), a ten sided die (d10), a twelve sided die (d12), a twenty sided die (d20), and a ten sided die with multiples of 10 (used with the d10 to make a d100). It is recommended to have two sets of dice per player so that multi-dice rolls can occur at once. If you don't have any dice yet, you can use the online [[./dice-engine.html][dice roller]].
 
@@ -142,7 +142,7 @@ Effects:
 
 /A high presence signifies awareness of the world around you. Anticipate the actions of others and make them pay for their predictability./
 
-Direct Effects:
+Effects:
 
 - Crit chance: [[* Damage Types][Physical damage]] critical strike chance: D20 roll <= Presence
 - Enhanced Spells: Extra spell damage
@@ -392,9 +392,11 @@ A full recovery restores all of a character's [[* Health Points (HP)][HP]] and [
 
 * Roleplaying
 
-** Skills
+** Feats
 
-Skills are trades that can be learned while in [[* Towns][town]] in order to augment a character's abilities. Skills take three months of time to learn and have an upfront cost. A player character can learn up to level/2 skills at a time.
+Players gain feats when they level up. Feats represent the learned skills and abilities of your character. Beyond that, they inform who your character is, in addition to their motivation and background.
+
+Feats have different requirements to learn. Some feats can only be learned by higher level characters, specific backgrounds, or by having learned other feats already.
 
 *** Alchemy
 
@@ -436,7 +438,7 @@ The GM will ask for an ability check of a player for a particular [[* The Main S
 
 Speaking with Non-Player Characters (NPCs) is a common part of adventuring. Players may wish to elicit information from a knowledgeable town resident, haggle on the price of a rare artifact, or convince an animal that they are friendly.
 
-When players are expecting a result out of their conversation, it's the job of the GM to recognize this and ask for an [[* Ability Check][ability check]]. Players have many ways to be convincing, and the strength of their argument can have a great affect on the difficulty of the ability check.
+When players are expecting a result out of their conversation, the GM may ask for an [[* Ability Check][ability check]]. Players have many ways to be convincing, and the strength of their argument can have a great affect on the difficulty of the ability check.
 
 Dialog is also one of the best ways to show off your character's personality!
 
@@ -515,10 +517,6 @@ Tailors sell garments of various quality.
 ** Town Actions
 
 You may be returning to town just for the sake of a [[* Full Recovery][full recovery]], but why not take advantage of what the town has to offer? Time spent in town is devoted to town actions. Town actions occur on the order of months, and each member of the party need not take the same town actions at the same time.
-
-*** Learning Skills
-
-Time in town can be spent learning a new [[* Skills][skill]]. See the list of skills for time and cost requirements.
 
 *** Training
 
