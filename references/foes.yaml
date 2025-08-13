@@ -168,7 +168,7 @@
   - name: Quarterstaff
     action: Deal ~(2d4) damage range 1
   - name: Sticky Web (spell 2 casts)
-    action: Choose a target within 5 tiles. They are shot with a stream of sticky web and become afflicted with the grappled condition. They can use a major action to cut themselves free of the web.
+    action: Choose a target within 25ft. They are shot with a stream of sticky web and become afflicted with the grappled condition. They can use a major action to cut themselves free of the web.
   minorActions: []
 
 - name: Rotting Zombie
@@ -194,6 +194,6 @@
   - name: Bite
     action: Deal ~(2d4) damage range 1
   - name: Infect
-    action: Choose a target within 1 tile. They must make a ability check of 5 or become exhausted until the end of their next turn. 
+    action: Choose a target within 5ft. They must make a ability check of 5 or become exhausted until the end of their next turn. 
   minorActions: []
 ...

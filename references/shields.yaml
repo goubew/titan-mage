@@ -29,7 +29,7 @@
 
 - name: Shield of the Woods
   description: A shield carved from the dwellers of the deep wood. It works mysteriously for some and not at all for others.
-  effect: Gain two extra defense on attacks until the start of your next turn. You may move one extra tile when taking the movement minor action this round.
+  effect: Gain two extra defense on attacks until the start of your next turn. You may move 5ft extra when taking the movement minor action this round.
   cost: 10000
   rarity: epic
   requirements: None

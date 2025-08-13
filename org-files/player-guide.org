@@ -184,11 +184,13 @@ Magic resistance provides flat magic damage reduction. Magic resistance is rare,
 
 *** Movement Speed
 
-Movement speed is a measure how fast your character is. In [[* Combat][combat]], your character is allowed to move up to their movement speed in tiles every round.
+Movement speed is a measure how fast your character is. In [[* Combat][combat]], your character is allowed to move up to their movement speed when using the [[* Movement][movement]] minor action.
 
-A character's movement speed is set to 5 by default. It can be reduced by certain armors and items.
+A character's movement speed is set to 25ft by default. It can be reduced by certain armors and items.
 
-When moving diagonal, treat the first diagonal move as one tile of movement, the second diagonal move as two tiles of movement, then one, then two, etc.
+When representing positions on a grid, each tile should be estimated at 5ft.
+
+Treat the first diagonal move on a square grid as 5ft of movement, the second diagonal move as 10ft, 5ft, 10ft, etc.
 
 * Combat
 
@@ -310,7 +312,7 @@ Characters who are exhausted cannot take major actions and their [[* Movement Sp
 
 *** Fallen
 
-In the fallen condition, you are unable to make ranged [[* Weapon Attack][weapon attacks]] and the [[* Movement][movement]] minor action only lets you roll one tile. Standing back up takes a minor action.
+In the fallen condition, you are unable to make ranged [[* Weapon Attack][weapon attacks]] and the [[* Movement][movement]] minor action only lets you roll 5ft. Standing back up takes a minor action.
 
 *** Feared
 
@@ -562,14 +564,6 @@ The greatest exemplars are well known as heroes and leaders of powerful adventur
 
 TODO: Turn these into feats
 
-Tacticians are able to survey a battlefield with ease. They are able to command allies, increasing their battle effectiveness, and have insight into enemies traits.
-
-At the first level, tacticians gain the *delayed action* class feature. This allows the player to take a prepare both their minor action and a major action until later in the turn order without having to use [[* Hold][hold]].
-
-At the third level, tacticians gain the *battle insight* minor action. This lets the tactician determine either the remaining [[* Health Points (HP)][HP]] of a single enemy, the current [[* Defense][defense]] of a single enemy, or a damage weaknesses of a single enemy.
-
-At the fifth level, tacticians gain the *dual guard* major action. If an ally is within one tile of the tactician, both benefit from the effect of the [[* Block][block]] action.
-
 At the seventh level, tacticians gain the *quick insight* minor action. This allows battle insight to be used as a free action instead of a minor action.
 
 At the ninth level, tacticians gain the *minor shot calling* minor action. This lets another player character take a minor action during your turn instead of you. You decide who, and they decide which action to take. They cannot take the same minor action the next time they take their turn.
@@ -590,7 +584,7 @@ The greatest mercenaries are fighters of renown, wielders of powerful magic weap
 
 TODO: Turn into feats
 
-At the first level, mercenaries gain the *engage* minor action. This can be used when an enemy is within 1 tile. Until the beginning of your next turn, if the enemy you target moves from their tile, you may take a free attack action during their turn as soon as they move. This effect lasts until you or the enemy moves at least one tile.
+At the first level, mercenaries gain the *engage* minor action. This can be used when an enemy is within 5ft. Until the beginning of your next turn, if the enemy you target moves from their current position, you may take a free attack action during their turn as soon as they move. This effect lasts until you or the enemy moves at least 5ft.
 
 At the third level, mercenaries gain the *distracted strike* class feature. This lets allies add 10 to crit rolls when targeting enemies that you have engaged. If the enemy moves away from you, this bonus no longer applies.
 
@@ -616,15 +610,15 @@ A high level scoundrel may become skilled assassins, grand thieves, or bosses of
 
 TODO: turn into feats
 
-At the first level, assassins gain the *feint strike* minor action. When targeting an enemy with a [[* Weapon Attack][weapon attack]] this turn, if an ally is within 1 tile of the enemy you are targeting, you may reroll one of your weapon damage die when attacking that enemy.
+At the first level, assassins gain the *feint strike* minor action. When targeting an enemy with a [[* Weapon Attack][weapon attack]] this turn, if an ally is within 5ft of the enemy you are targeting, you may reroll one of your weapon damage die when attacking that enemy.
 
-At the third level, assassins gain the *disarm* major action. An opponent within one tile has a held weapon knocked out of their hands and falling to their feet. Picking it back up requires a [[* Swap Held Equipment][weapon swap]] minor action. When you take this action, roll a d12. If the roll is 6 or lower, the disarm fails and the opponent retains their grip on the weapon.
+At the third level, assassins gain the *disarm* major action. An opponent within 5ft has a held weapon knocked out of their hands and falling to their feet. Picking it back up requires a [[* Swap Held Equipment][weapon swap]] minor action. When you take this action, roll a d12. If the roll is 6 or lower, the disarm fails and the opponent retains their grip on the weapon.
 
-At the fifth level, assassins gain the *sole bad guy* minor action. When an ally is withing 1 tile of the enemy you are targeting with a melee attack and that enemy has no allies within 1 tile, you may reroll both of your weapon damage dice during the [[* Weapon Attack][weapon attack]] action.
+At the fifth level, assassins gain the *sole bad guy* minor action. When an ally is withing 5ft of the enemy you are targeting with a melee attack and that enemy has no allies within 5ft, you may reroll both of your weapon damage dice during the [[* Weapon Attack][weapon attack]] action.
 
 At the seventh level, assassins gain the *flourish strike* class feature. This lets you take an extra minor action whenever you perform a critical weapon attack. This feature can only be used once per turn. The minor action must be different than your other minor action.
 
-At the ninth level, assassins gain the *traveling combatant* class feature. Whenever you are the target of an attack or spell, you may move 1 tile after the attack or spell resolves.
+At the ninth level, assassins gain the *traveling combatant* class feature. Whenever you are the target of an attack or spell, you may move 5ft after the attack or spell resolves.
 
 At the eleventh level, mercenaries gain the *quick draw* class feature. This lets a mercenary [[* Swap Held Equipment][switch weapons]] as a free action instead of a minor action.
 

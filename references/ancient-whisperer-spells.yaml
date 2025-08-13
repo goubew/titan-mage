@@ -3,7 +3,7 @@
   description: Create an area where sound can't escape
   cost: 5
   action: minor
-  effect: Designate a 2x2 tile within 6 tiles of you. No sound generated inside can escape, but other sounds are allowed in.
+  effect: Designate a 10ft diameter zone within 25ft of you. No sound generated inside can escape, but other sounds are allowed in.
   requirements: Apprentice
 
 - name: Instant Arrows
@@ -17,14 +17,14 @@
   description: A character raises upward slightly and feels a floor made of nothing.
   cost: 5
   action: major
-  effect: A character of your choice within 6 tiles is lifted one tile vertically. They maintain this hight until the end of your next turn. They are able to use their movement while in the air. The spell can be recast as a minor action.
+  effect: A character of your choice within 25ft is lifted 5ft vertically. They maintain this hight until the end of your next turn. They are able to use their movement while in the air. The spell can be recast as a minor action.
   requirements: Apprentice
 
 - name: Orb of Light
   description: Bright light emits from a point in all directions
   cost: 5
   action: major
-  effect: Bright light is emitted from the tile you are standing on 8 tiles in all directions. When you cast the spell, choose whether the light follows you, or remains in the tile. The light remains until the end of your next turn. The spell can be recast as a minor action for no cost.
+  effect: Bright light is emitted from an orb 25ft in all directions. When you cast the spell, choose whether the light follows you, or remains where the spell was cast. The light remains until the end of your next turn. The spell can be recast as a minor action for no cost.
   requirements: Apprentice
 
 - name: Speed Read
@@ -35,17 +35,17 @@
   requirements: Apprentice
 
 - name: Light Spears
-  description: Form slivers of light that fly out attacking multiple enemies.
+  description: Form slivers of speared light that fly out attacking multiple enemies.
   cost: 8
   action: major
-  effect: Makes two against any enemy within 6 tiles. Each attack does d8 magic damage
+  effect: Makes two attacks against any enemy within 25ft. Each attack does d8 magic damage
   requirements: Apprentice
 
 - name: Tongues
   description: Understand any language.
   cost: 10
   action: major
-  effect: Choose a character within 6 tiles of you who is speaking a language that you do not understand. Until they and you become more than six tiles apart, you can understand the language that they speak.
+  effect: Choose a character within 25ft of you who is speaking a language that you do not understand. Until they and you become more than 25ft apart, you can understand the language that they speak.
   requirements: Apprentice
 
 - name: Crystal Weapon
@@ -73,13 +73,13 @@
   description: A character vanishes from sight.
   cost: 20
   action: major
-  effect: A character of your choice within 6 tiles becomes invisible to the eye untl the end of your next turn. The spell can be recast as a minor action for half the cost. Enemies will not be able to attack unless your position is known or you reveal yourself through other actions.
+  effect: A character of your choice within 25ft becomes invisible to the eye untl the end of your next turn. The spell can be recast as a minor action for half the cost. Enemies will not be able to attack unless your position is known or you reveal yourself through other actions.
   requirements: Magi
 
 - name: Half Magic
   description: It works 50% of the time every time.
   cost: 80
   action: minor
-  effect: Choose a character within 6 tiles. Roll a d4. On an even roll, set that character's health points to half of their maximum value.
+  effect: Choose a character within 25ft. Roll a d4. On an even roll, set that character's health points to half of their maximum value.
   requirements: Grandmagi
 ...

@@ -17,14 +17,14 @@
   description: A localized magnetic field is created pulling enemies together.
   cost: 5 MP
   action: major
-  effect: Two targets within 5 tiles of you that are made of metal or wearing metal armor are pulled together. The lighter object is pulled toward the heavier one. They cannot move from this spot until the beginning of your next turn.
+  effect: Two targets within 25ft of you that are made of metal or wearing metal armor are pulled together. The lighter object is pulled toward the heavier one. They cannot move from this spot until the beginning of your next turn.
   requirements: Apprentice, targets must be wearing metal
 
 - name: Darker Dungeon
   description: It's the dungeon, but darker.
   cost: 5 MP
   action: minor
-  effect: A creature within one tile and you are blinded until the beginning of your next turn.
+  effect: You and a creature within 5ft and you are blinded until the beginning of your next turn.
   requirements: Apprentice, underground or at night
 
 - name: "False bloom"
@@ -45,7 +45,7 @@
   description: A column of earth rises up creating a barrier.
   cost: 5 MP
   action: minor
-  effect: A one tile pillar within 5 tiles of you rises up providing protection. Anybody on the pillar is raised into the air.
+  effect: A 5ft pillar within 25ft of you rises up providing protection. Anybody on the pillar is raised into the air.
   requirements: Apprentice, underground
 
 - name: Turn Beast
@@ -66,14 +66,14 @@
   description: Lightning streaks down from the sky
   cost: 20 MP
   action: major
-  effect: Choose a target within 5 tiles of you that is open to the sky. The target takes d12 damage and is paralyzed until the beginning of your next turn.
+  effect: Choose a target within 25ft of you that is open to the sky. The target takes d12 damage and is paralyzed until the beginning of your next turn.
   requirements: Mage, target is out in the rain
 
 - name: Solar Flare
   description: A ray of radiant energy blasts down from the sky.
   cost: 30 MP
   action: major
-  effect: Choose a target within 5 tiles of you that has sunlight shining on it. The target takes 6d6 + presence/2 magic damage.
+  effect: Choose a target within 25ft of you that has sunlight shining on it. The target takes 6d6 + presence/2 magic damage.
   requirements: Mage, unobstructed view of the whole sun
 
 - name: Deep Memory of the Forest

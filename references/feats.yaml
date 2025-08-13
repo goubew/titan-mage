@@ -1,0 +1,9 @@
+---
+- name: Delayed Action
+  backgrounds: Exemplar
+  requirements: None
+  description: Prepare your minor action and a major action until later in the turn order without having to use the hold minor action
+- name: Dual Guard
+  backgrounds: Exemplar
+  requirements: None
+  description: One ally within 5 feet also gains the effects of your block action
