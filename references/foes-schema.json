@@ -8,11 +8,11 @@
       "classifier": { "type": "string" },
       "difficulty": { "type": "string", "enum": ["apprentice", "journeyman", "magi", "grandmagi"] },
       "mainStats": { "type": "object",
-                    "properties": {
-                      "power": { "type": "number", "minimum": 0 },
-                      "reflex": { "type": "number", "minimum": 0 },
-                      "presence": { "type": "number", "minimum": 0 },
-                      "focus": { "type": "number", "minimum": 0 }
+                     "properties": {
+                       "power": { "type": "number", "minimum": 0 },
+                       "reflex": { "type": "number", "minimum": 0 },
+                       "presence": { "type": "number", "minimum": 0 },
+                       "focus": { "type": "number", "minimum": 0 }
                     },
                     "minProperties": 4,
                     "additionalProperties": false

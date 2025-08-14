@@ -5,10 +5,17 @@
     "properties": {
       "name": { "type": "string" },
       "backgrounds": { "type": "string" },
+      "backgrounds": { "type": "array",
+                       "items": {
+                         "type": "string",
+                         "enum": ["Exemplar", "Mercenary", "Cleric", "Scoundrel", "Scholar", "Bereft"]
+                       }
+                      },
       "requirements": { "type": "string" },
-      "description": { "type": "string" }
+      "description": { "type": "string" },
+      "effect": { "type": "string" }
     },
-    "minProperties": 4,
+    "minProperties": 5,
     "additionalProperties": false
   }
 }

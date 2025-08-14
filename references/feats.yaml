@@ -1,9 +1,54 @@
 ---
 - name: Delayed Action
-  backgrounds: Exemplar
+  backgrounds:
+  - Exemplar
   requirements: None
-  description: Prepare your minor action and a major action until later in the turn order without having to use the hold minor action
+  description: >-
+    Experience in patience while in the thick of battle has taught
+    you to automatically act when it is most beneficial.
+  effect: >-
+    Prepare your minor action and a major action until later in the turn order
+    without having to use the hold minor action.
+
 - name: Dual Guard
-  backgrounds: Exemplar
+  backgrounds:
+  - Exemplar
   requirements: None
-  description: One ally within 5 feet also gains the effects of your block action
+  description: >-
+    Through shared rhythm learned by journeying together, you are able defend your allies as well as yourself when weaving in and out of combat.
+  effect: >-
+    When you take the block action, one ally within 5 feet also gains the effect
+
+- name: Instinctive battle plans
+  backgrounds:
+  - Exemplar
+  requirements: Major battle plans feature, Magi level
+  description: >-
+    Experience with all kinds of foes and hard earned teamwork allows you to
+    guide your party on autopilot, all while continuing a battle yourself.
+  effect: >-
+    The "Major battle plans" action can be used as a free action.
+
+- name: Minor battle plans
+  backgrounds:
+  - Exemplar
+  requirements: None
+  description: >-
+    Preparations and battle signals allow an ally to continue their actions with efficiency.
+  effect: >-
+    Gain the "Minor battle plans" minor action. This action lets you select
+    another player to take a minor action during your turn instead of you.
+    You decide who, and they decide which action to take. They cannot take
+    the same minor action twice in a row.
+
+- name: Major battle plans
+  backgrounds:
+  - Exemplar
+  requirements: Minor battle plans feature
+  description: >-
+    Continued experience and teamwork allows your allies to more efficiently
+    act while in the heat of battle.
+  effect: >-
+    Gain the "Major battle plans" major action. This action lets you select
+    another player to take a major action during your turn instead of you.
+    You decide who, and they decide which action to take.

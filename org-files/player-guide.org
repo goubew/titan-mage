@@ -562,20 +562,6 @@ Exemplars embody the spirit of adventuring and have an innate craving to immorta
 
 The greatest exemplars are well known as heroes and leaders of powerful adventuring groups, giving them privileges among powerful people of the cities.
 
-TODO: Turn these into feats
-
-At the seventh level, tacticians gain the *quick insight* minor action. This allows battle insight to be used as a free action instead of a minor action.
-
-At the ninth level, tacticians gain the *minor shot calling* minor action. This lets another player character take a minor action during your turn instead of you. You decide who, and they decide which action to take. They cannot take the same minor action the next time they take their turn.
-
-At the eleventh level, tacticians gain the *major shot calling* major action. This lets another player character take a major action during your turn instead of you. You decide who and they decide which major action. They cannot take the same action the next time they take their turn.
-
-At the thirteenth level, tacticians gain the *tactical insight* class feature. Whenever battle insight is used, also learn what major and minor actions an enemy is going to use on their turn.
-
-At the fifteenth level, tacticians gain the *battle instincts* class feature. This makes *battle insight* into a free action that can be used once per turn.
-
-At the sixteenth level, tacticians gain the *battle commander* class feature. This combines the effects of minor shot calling and major shot calling, and turns them into a free action.
-
 ** Mercenary
 
 Mercenaries are the sellswords of the world, familiar with all kinds of weapons and battle tactics. They are often a party's front line facing down the ire of large beats and cunning foes.
