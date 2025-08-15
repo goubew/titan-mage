@@ -274,11 +274,11 @@ Turn order is decided by the [[* Reflex][reflex]] stat. A higher stat means you 
 
 ** Damage Types
 
-There are three types of damage in Titan Mage: pure damage, physical damage, and magic damage.
+There are three types of damage in Titan Mage: direct damage, physical damage, and magic damage. Physical attacks, such as from the [[* Weapon Attack][weapon attack]] major action, deal part direct damage and part physical damage.
 
-Pure damage can not be reduced by any kind of defense. Pure damage is dealt by the dice portion of a normal [[* Weapon Attack][weapon attack]].
+Direct damage is not reduced by any passive defense stat. It is dealt by the dice portion of a normal [[* Weapon Attack][weapon attack]]. Direct damage can be reduced by shields.
 
-Any extra damage dealt by weapons is counted as physical damage and can be reduced by the [[* Defense][defense]] stat. When making a physical damage attack, make sure to roll a d20 to check for [[* Presence][crits]]. Critical hits double physical damage.
+Any extra damage dealt by weapons, usually from ability scores, is counted as physical damage and can be reduced by the [[* Defense][defense]] stat. When making a physical damage attack, make sure to roll a d20 to check for [[* Presence][crits]]. Critical hits double physical damage.
 
 Damage dealt by spells is counted as magical damage and can be reduced by the [[* Magic Resistance][magic resistance]] stat. Attacks made with magical damage can not crit.
 
@@ -436,6 +436,12 @@ Ability checks are a way to use dice in combination with player stats to resolve
 
 The GM will ask for an ability check of a player for a particular [[* The Main Stats][main stat]]. It's the player's job to roll a d12 and add their stat to the roll. It will then be up to the GM to resolve outcome.
 
+** Ability Challenge
+
+Ability challenges are similar to ability checks in that a [[* The Main Stats][main stat]] is added to a d12 roll, but in an ability challenge, the value is compared against another creatures stat roll. Whoever's roll is higher wins the challenge.
+
+If the values come out the same, then the aggressor is considered to have lost.
+
 ** Dialog
 
 Speaking with Non-Player Characters (NPCs) is a common part of adventuring. Players may wish to elicit information from a knowledgeable town resident, haggle on the price of a rare artifact, or convince an animal that they are friendly.
@@ -567,26 +573,6 @@ The greatest exemplars are well known as heroes and leaders of powerful adventur
 Mercenaries are the sellswords of the world, familiar with all kinds of weapons and battle tactics. They are often a party's front line facing down the ire of large beats and cunning foes.
 
 The greatest mercenaries are fighters of renown, wielders of powerful magic weapons and known to have slain famed monsters.
-
-TODO: Turn into feats
-
-At the first level, mercenaries gain the *engage* minor action. This can be used when an enemy is within 5ft. Until the beginning of your next turn, if the enemy you target moves from their current position, you may take a free attack action during their turn as soon as they move. This effect lasts until you or the enemy moves at least 5ft.
-
-At the third level, mercenaries gain the *distracted strike* class feature. This lets allies add 10 to crit rolls when targeting enemies that you have engaged. If the enemy moves away from you, this bonus no longer applies.
-
-At the fifth level, mercenaries gain the *shove* major action. This puts a normal or smaller size enemy into the [[* Fallen][fallen]] state. When you take this action, roll a d12. If the roll is 6 or lower, the shove fails and the opponent keeps their footing.
-
-At the seventh level, mercenaries gain the *en guarde* class feature. Once per [[* Respite][respite]], when your [[* Health Points (HP)][HP]] is reduced to 0, it remains at 1 instead.
-
-At the ninth level, mercenaries gain the *quick engage* class feature. This turns *engage* into a free action that can be used once per turn.
-
-At the eleventh level, mercenaries gain the *power strike* minor action. When the [[* Weapon Attack][weapon attack]] major action is used, you may choose to reroll the crit die.
-
-At the thirteenth level, mercenaries gain the *charge* class feature. When taking the [[* Movement][movement]] minor action, as long as your movement is a straight line. You can use *shove* as a free action if an enemy stands at the end of your charge.
-
-At the fifteenth level, mercenaries gain the *rapid strike* class feature. If you kill an opponent with a weapon strike, you may take an extra major action. This feature can only be used once per turn.
-
-At the sixteenth level, mercenaries gain the *battle master* class feature. This lets you make two attacks when using the [[* Weapon Attack][weapon attack]] major action.
 
 ** Scoundrel
 

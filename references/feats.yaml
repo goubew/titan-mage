@@ -1,4 +1,28 @@
 ---
+- name: Cleave
+  backgrounds:
+  - Mercenary
+  requirements: Magi
+  description: >-
+    Combat experience instructs you to aim your blows such that powerful swings
+    cleave through multiple enemies.
+  effect: >-
+    If your melee weapon attack action brings an opponent to 0 HP, you may
+    perform a second attack against another enemy within 5ft of you.
+
+- name: Combat Action - Shove
+  backgrounds:
+  - Mercenary
+  requirements: None
+  description: >-
+    A mad dash ends in a running tackle aiming to bring an opponent to their
+    knees.
+  effect: >-
+    When taking the movement minor action, if the movement ends in a 15ft
+    straight line dash in front of an opponent, then the opponent makes a Power
+    ability challenge against yourself. On a loss, the opponent is put into the
+    fallen state.
+
 - name: Delayed Action
   backgrounds:
   - Exemplar
@@ -15,9 +39,24 @@
   - Exemplar
   requirements: None
   description: >-
-    Through shared rhythm learned by journeying together, you are able defend your allies as well as yourself when weaving in and out of combat.
+    Through shared rhythm learned by journeying together, you are able defend
+    your allies as well as yourself when weaving in and out of combat.
   effect: >-
-    When you take the block action, one ally within 5 feet also gains the effect
+    When you take the block action, one ally within 5 feet also
+    gains the effect
+
+- name: Engagement
+  backgrounds:
+  - Mercenary
+  requirements: None
+  description: >-
+    A concentration of feints and threatening stances demand attention from an
+    opponent.
+  effect: >-
+    Whenever there is only a single armed enemy within 5ft of you, that enemy
+    is unable to move further away from you without incurring a weapon attack
+    action from you. This effect can only occur once until the beginning of
+    your next turn.
 
 - name: Instinctive battle plans
   backgrounds:
@@ -29,12 +68,24 @@
   effect: >-
     The "Major battle plans" action can be used as a free action.
 
+- name: Melee Mastery
+  backgrounds:
+  - Mercenary
+  requirements: Grandmagi
+  description: >-
+    The height of melee combat experience is expressed in fluid expression and
+    unrelenting speed.
+  effect: >-
+    When making melee weapon attacks, make two separate back to back
+    attacks. These attacks can be against the same target or different targets.
+
 - name: Minor battle plans
   backgrounds:
   - Exemplar
   requirements: None
   description: >-
-    Preparations and battle signals allow an ally to continue their actions with efficiency.
+    Preparations and battle signals allow an ally to continue their actions
+    with efficiency.
   effect: >-
     Gain the "Minor battle plans" minor action. This action lets you select
     another player to take a minor action during your turn instead of you.
@@ -52,3 +103,24 @@
     Gain the "Major battle plans" major action. This action lets you select
     another player to take a major action during your turn instead of you.
     You decide who, and they decide which action to take.
+
+- name: Power Strike
+  backgrounds:
+  - Mercenary
+  requirements: Journeyman
+  description: >-
+    Physical training and the weight of a solid weapon is all put into a single
+    deadly blow.
+  effect: >-
+    Gain the "power strike" minor action. When using this minor action in a
+    turn, weapon attack crits also double the direct damage of the attack.
+
+- name: Second Wind
+  backgrounds:
+  - Mercenary
+  requirements: Journeyman
+  description: >-
+    A hardened resolve and downright grit allow you to face down a mortal blow.
+  effect: >-
+    Once per respite, when you HP is reduced to 0, it remains at 1 instead
+
