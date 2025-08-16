@@ -7,7 +7,10 @@
     Take advantage a foe's split attention to deliver an exceptionally deadly
     strike against the kinks in their defenses.
   effect: >-
-    Gain the "backstab" minor action. When taking this action, if an enemy is 5ft from one of your allies, and more than 5ft from any of its allies, you may reroll one of your attack dice when making a weapon attack major action.
+    Gain the "backstab" minor action. When taking this action, if an enemy is
+    5ft from one of your allies, and more than 5ft from any of its allies, you
+    may reroll one of your attack dice when making a weapon attack major
+    action.
 
 - name: Cleave
   backgrounds:
@@ -80,6 +83,16 @@
     When you take the block action, one ally within 5 feet also
     gains the effect
 
+- name: Enchanted Blow
+  backgrounds:
+  - Scholar
+  requirements: None
+  description: >-
+    Imbue your weapon with quick surge of magic.
+  effect: >-
+    Gain the "enchant" minor action. This action makes the next weapon attack
+    you do deal magic damage instead of physical damage.
+
 - name: Engagement
   backgrounds:
   - Mercenary
@@ -93,6 +106,21 @@
     action from you. This effect can only occur once until the beginning of
     your next turn.
 
+- name: Identify Magic
+  backgrounds:
+  - Scholar
+  requirements: None
+  description: >-
+    Your study of the creation of magical items and careful examination allows
+    you to identify the latent magic in enchanted objects and places.
+  effect: >-
+    During periods of rest, such as a respite, you are able to check if an item
+    or room is imbued with magic. During longer periods of rest, you can
+    attempt the understand the conditions of the magic. These identifications
+    may require an ability check depending on the item or location. An
+    identification attempt may be made quickly, but is difficult and risks an
+    incorrect assessment.
+
 - name: Instinctive battle plans
   backgrounds:
   - Exemplar
@@ -102,6 +130,17 @@
     guide your party on autopilot, all while continuing a battle yourself.
   effect: >-
     The "major battle plans" action can be used as a free action.
+
+- name: Intuition Casting
+  backgrounds:
+  - Scholar
+  requirements: Grandmagi
+  description: >-
+    Year after year of magical study and influence allows you to cast with
+    heightened ability without expending any great effort or focus.
+  effect: >-
+    When casting a spell that makes use of FP, automatically include one extra
+    FP without actually expending it.
 
 - name: Melee Mastery
   backgrounds:
@@ -176,6 +215,29 @@
   - Scoundrel
   requirements: None
   description: >-
-    Customized attachments points and quick releases built into your armor allow for an array of weapons to be easily accessible.
+    Customized attachment points and quick releases built into your armor allow
+    for an array of weapons to be easily accessible.
   effect: >-
     The switch weapons minor action can be taken as a free action.
+
+- name: Spell Imprint
+  backgrounds:
+  - Scholar
+  requirements: None
+  description: >-
+    A deep familiarity with the spells that you have learned allow a rapid fire
+    cast of a single prepared spell.
+  effect: >-
+    Once per encounter, a major spell action can be cast as a minor power. No
+    FP may be used for this spell.
+
+- name: Voracious Reader
+  backgrounds:
+  - Scholar
+  requirements: None
+  description: >-
+    Habitually reading during downtime keeps your mind sharp and helps ready
+    your plans.
+  effect: >-
+    Gain d4:d4 extra FP whenever you gain FP during a respite.
+

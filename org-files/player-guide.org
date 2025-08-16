@@ -586,24 +586,6 @@ Scholars are those who seek to understand the history and cultures of the world.
 
 Famed scholars have shaped humanity's advancement of magic, revived artifacts of the past, and have constructed centers of learning.
 
-At the first level, scholars gain the *rest enjoyer* class feature. This allows the scholar use gain both [[* Health Points (HP)][HP]] and [[* Magic Power (MP)][MP]] while spending [[* Respite][respite]] dice.
-
-At the third level, scholars gain the *enchant* major action. This makes the next [[* Weapon Attack][weapon attack]] you do deal magic damage instead of physical damage.
-
-At the fifth level, scholars gain the *spell imprint* minor action. If you cast a major action spell last turn, it can be cast again as a minor action. If you cast a minor action spell last turn, it can be cast again for half the MP cost. The spell imprint minor action can not be used two turns in a row.
-
-At the seventh level, scholars gain the *spirited defense* class feature. Whenever magic damage it taken, gain [[* Magic Resistance][magic resistance]] equal to half the damage taken. This resistance goes away after the next time you take damage (physical or magical).
-
-At the ninth level, scholars gain the *arcane wisdom* class feature. This lets you discover the effects of an artifact during a [[* Respite][respite]].
-
-At the eleventh level, scholars gain the *MP recycle* class feature. Gain 2d4 [[* Magic Power (MP)][MP]] every time that you cast a spell.
-
-At the thirteenth level, scholars gain the *greater enchant* minor action. This lets you perform the enchant action as a free action.
-
-At the fifteenth level, scholars gain the *magic osmosis* class feature. This lets another character of your choosing gain the [[* Magic Power (MP)][MP]] gathered from the recycle class feature in addition to you.
-
-At the sixteenth level, scholars gain the *spell chain* class feature. This allow you to cast a any major action spell as minor action or any two minor action spells as a major action.
-
 ** Bereft
 
 The Bereft are those without any advantage in life. Unlikely adventurers, change has yet given them an opportunity for growth and redemption.
