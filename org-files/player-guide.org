@@ -580,26 +580,6 @@ Scoundrels are those with rough and tumble upbringings. They are no strangers to
 
 A high level scoundrel may become skilled assassins, grand thieves, or bosses of underground organizations.
 
-TODO: turn into feats
-
-At the first level, assassins gain the *feint strike* minor action. When targeting an enemy with a [[* Weapon Attack][weapon attack]] this turn, if an ally is within 5ft of the enemy you are targeting, you may reroll one of your weapon damage die when attacking that enemy.
-
-At the third level, assassins gain the *disarm* major action. An opponent within 5ft has a held weapon knocked out of their hands and falling to their feet. Picking it back up requires a [[* Swap Held Equipment][weapon swap]] minor action. When you take this action, roll a d12. If the roll is 6 or lower, the disarm fails and the opponent retains their grip on the weapon.
-
-At the fifth level, assassins gain the *sole bad guy* minor action. When an ally is withing 5ft of the enemy you are targeting with a melee attack and that enemy has no allies within 5ft, you may reroll both of your weapon damage dice during the [[* Weapon Attack][weapon attack]] action.
-
-At the seventh level, assassins gain the *flourish strike* class feature. This lets you take an extra minor action whenever you perform a critical weapon attack. This feature can only be used once per turn. The minor action must be different than your other minor action.
-
-At the ninth level, assassins gain the *traveling combatant* class feature. Whenever you are the target of an attack or spell, you may move 5ft after the attack or spell resolves.
-
-At the eleventh level, mercenaries gain the *quick draw* class feature. This lets a mercenary [[* Swap Held Equipment][switch weapons]] as a free action instead of a minor action.
-
-At the thirteenth level, assassins gain the *weapon catch* class feature. This lets you equip the weapon thrown with the disarm major action instead of simply knocking it to the ground.
-
-At the fifteenth level, assassins gain the *deep cut* class feature. When making a weapon attack, roll two crit dice. If both dice manage to crit, the multipliers are combined.
-
-At the sixteenth level, assassins gain the *weak point specialist* class feature. Critical strikes do 3x the damage instead of 2x.
-
 ** Scholar
 
 Scholars are those who seek to understand the history and cultures of the world. Their thirst for knowledge stretches back to the origins of the titan's influence on the world.

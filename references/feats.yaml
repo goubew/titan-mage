@@ -1,4 +1,14 @@
 ---
+- name: Backstab
+  backgrounds:
+  - Scoundrel
+  requirements: None
+  description: >-
+    Take advantage a foe's split attention to deliver an exceptionally deadly
+    strike against the kinks in their defenses.
+  effect: >-
+    Gain the "backstab" minor action. When taking this action, if an enemy is 5ft from one of your allies, and more than 5ft from any of its allies, you may reroll one of your attack dice when making a weapon attack major action.
+
 - name: Cleave
   backgrounds:
   - Mercenary
@@ -9,6 +19,20 @@
   effect: >-
     If your melee weapon attack action brings an opponent to 0 HP, you may
     perform a second attack against another enemy within 5ft of you.
+
+- name: Combat Action - Disarm
+  backgrounds:
+  - Scoundrel
+  requirements: None
+  description: >-
+    Training in weapon holds and combat styles allows you to break grips on
+    your opponents weapon.
+  effect: >-
+    When making a weapon attack, declare it as a disarm attack. Instead of
+    dealing ability damage in the attack, instead perform a reflex ability
+    challenge against yourself. On a loss, the opponent drops their weapon to
+    the ground. Intelligent enemies gain one level of advantage in the ability
+    challenge each time this ability is used again in the encounter.
 
 - name: Combat Action - Shove
   backgrounds:
@@ -21,7 +45,8 @@
     When taking the movement minor action, if the movement ends in a 15ft
     straight line dash in front of an opponent, then the opponent makes a Power
     ability challenge against yourself. On a loss, the opponent is put into the
-    fallen state.
+    fallen state. Intelligent enemies gain one level of advantage in the
+    ability challenge each time this ability is used again in the encounter.
 
 - name: Delayed Action
   backgrounds:
@@ -33,6 +58,16 @@
   effect: >-
     Prepare your minor action and a major action until later in the turn order
     without having to use the hold minor action.
+
+- name: Deep Cuts
+  backgrounds:
+  - Scoundrel
+  requirements: Grandmagi
+  description: >-
+    Assassination arts culminate in attacks that strike at the very heart of
+    the vital points of foes.
+  effect: >-
+    Critical weapon strikes triple damage instead of doubling it.
 
 - name: Dual Guard
   backgrounds:
@@ -66,7 +101,7 @@
     Experience with all kinds of foes and hard earned teamwork allows you to
     guide your party on autopilot, all while continuing a battle yourself.
   effect: >-
-    The "Major battle plans" action can be used as a free action.
+    The "major battle plans" action can be used as a free action.
 
 - name: Melee Mastery
   backgrounds:
@@ -124,3 +159,23 @@
   effect: >-
     Once per respite, when you HP is reduced to 0, it remains at 1 instead
 
+- name: Swift Execution
+  backgrounds:
+  - Scoundrel
+  requirements: None
+  description: >-
+    A knowledge about weak points with an eye for openings allow you to
+    capitalize on weak opponents while keeping combat momentum.
+  effect: >-
+    When your weapon attack action brings an opponent to 0 HP, you may take a
+    second minor action this turn. It can not be the same minor action as your
+    normal action this turn.
+
+- name: Quick Draw
+  backgrounds:
+  - Scoundrel
+  requirements: None
+  description: >-
+    Customized attachments points and quick releases built into your armor allow for an array of weapons to be easily accessible.
+  effect: >-
+    The switch weapons minor action can be taken as a free action.
