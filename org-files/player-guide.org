@@ -566,9 +566,17 @@ Taking up temporary work allows you to live with frugal [[* Living Expenses][exp
 
 Reverence for what is holy and good has led you to path of higher calling. The spirits of high saints from the past have given you the strength to end foul evil that denies souls of the righteous a deserved rest.
 
-The highest clerics are called upon as undead specialists, uniquely equipped to handle vicious life stealing monsters and to sanctify the areas of the world that have tainted by dark magics.
+The highest clerics are called upon as undead specialists, uniquely equipped to handle vicious life stealing monsters and to sanctify the areas of the world that have been tainted by dark magics.
 
 TODO: Make feats
+Knowledge - Theology: Ability to identify religious and cultic symbols
+Knowledge - Medicine: Ability to identify diseases and apply first aid
+Holy Aura: Immunity to sickness and disease, even magical
+Diplomacy: Advantage on ability checks when attempting to parlay
+Divine Blessing: Advantage on ability checks to save from an effect
+Lay on Hands: Heal someone as if they had used a respite dice without actually expending it
+Prophecy: Once a week, can commune to glean information about what is happening in the world
+Quiet Magic: Ability to cast spells quietly
 
 ** Exemplar
 
