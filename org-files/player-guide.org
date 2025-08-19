@@ -562,11 +562,19 @@ Taking up temporary work allows you to live with frugal [[* Living Expenses][exp
 
 * Player Backgrounds
 
+** Clergy
+
+Reverence for what is holy and good has led you to path of higher calling. The spirits of high saints from the past have given you the strength to end foul evil that denies souls of the righteous a deserved rest.
+
+The highest clerics are called upon as undead specialists, uniquely equipped to handle vicious life stealing monsters and to sanctify the areas of the world that have tainted by dark magics.
+
+TODO: Make feats
+
 ** Exemplar
 
-Exemplars embody the spirit of adventuring and have an innate craving to immortalize their name in history. To that end, they wish to carouse in bars, amaze passersby, inspire their party, delve to the very bottom of dungeons, and take pleasure in helping those in need.
+Exemplars embody the spirit of adventuring and have an innate craving to immortalize their name in history. To that end, they wish to carouse in bars, amaze passersby, inspire their party, discover every secret of dungeons, and take pleasure in helping those in need.
 
-The greatest exemplars are well known as heroes and leaders of powerful adventuring groups, giving them privileges among powerful people of the cities.
+The greatest exemplars are well known as heroes and leaders of powerful adventuring groups, their fame giving them privileges among powerful people of the cities.
 
 ** Mercenary
 
@@ -574,11 +582,13 @@ Mercenaries are the sellswords of the world, familiar with all kinds of weapons 
 
 The greatest mercenaries are fighters of renown, wielders of powerful magic weapons and known to have slain famed monsters.
 
-** Scoundrel
+** Ranger
 
-Scoundrels are those with rough and tumble upbringings. They are no strangers to gambling houses, back alleys, or criminal organizations. The wariness that they have come to have can be put to good use saving themselves and their allies.
+Rangers are those who do not fear to venture beyond city walls. They have an affinity for nature and for travel. Excellent guides and navigators, they are often seen leading trading carts between cities.
 
-A high level scoundrel may become skilled assassins, grand thieves, or bosses of underground organizations.
+Renowned rangers have expanded the reaches of the known world. The very best have even learned to live harmoniously in nature, eschewing the safety of civilization overcoming the dangers of the wilds.
+
+TODO: Make feats
 
 ** Scholar
 
@@ -586,13 +596,11 @@ Scholars are those who seek to understand the history and cultures of the world.
 
 Famed scholars have shaped humanity's advancement of magic, revived artifacts of the past, and have constructed centers of learning.
 
-** Bereft
+** Scoundrel
 
-The Bereft are those without any advantage in life. Unlikely adventurers, change has yet given them an opportunity for growth and redemption.
+Scoundrels are those with rough and tumble upbringings. They are no strangers to gambling houses, back alleys, or criminal organizations. The wariness that they have come to have can be put to good use saving themselves and their allies.
 
-They are a blank slate, still discovering who they are, and to overcome that is a respectable goal in itself.
-
-No magic systems.
+A high level scoundrel may become skilled assassins, grand thieves, or bosses of underground organizations.
 
 * Systems of Magic
 
