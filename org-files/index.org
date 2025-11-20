@@ -43,5 +43,5 @@ The game is still under construction and is subject to heavy changes.
 -----
 
 #+begin_cw
-#+HTML: <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0;margin-bottom:0em" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> Game on</p>
+#+HTML: <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Game on</a></p>
 #+end_cw
