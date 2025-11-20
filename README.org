@@ -12,6 +12,8 @@ Building TitanMage requires a recent version of emacs, NPM, and the unix cp util
 - Change ~() syntax to :
 - Finish changing skills to feats
 - Change character sheet for skills -> feats and MP to FP
+- In weapon attack section, make unable to range attack with adjacent ally
+- Turn initiative into an ability check
 
 * License
 

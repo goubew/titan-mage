@@ -597,6 +597,20 @@ Rangers are those who do not fear to venture beyond city walls. They have an aff
 Renowned rangers have expanded the reaches of the known world. The very best have even learned to live harmoniously in nature, eschewing the safety of civilization overcoming the dangers of the wilds.
 
 TODO: Make feats
+Animal reflexes: Advantage on initiative checks
+Navigation: Advantage on check for not getting lost
+Wilderness sense: Advantage on checks to avoid notice in wilderness
+Multishot: Reload two bolts at once and make two ranged attacks with the attack action
+Ambushing: Gain advantage on attacks against surprised opponents,
+Natural Camouflage: Spent an hour to hide someone in a wilderness environment become visually indistinguishable while you are still
+Alertness: Advantage on checks to hear noises and avoid surprise,
+Climbing: You are proficient at climbing vertical surfaces without equipment or aid,
+Mapping: You are proficient at recreating complicated maps from memory and are able to interpret detailed maps that others create,
+Naturalism: Recognize common plants and animals. Identify animal calls, and poisonous foods, and strange behaviors,
+Precise Shooting: Gain the ability to target foes that are adjacent to an ally with a ranged weapon attack,
+Riding: Knowledge about the care and training of draft animals allows you to better evaluate the condition of animals and to make attacks from a mounted position without disadvantage,
+Seafaring: Gain the ability to navigate and sail simple seafaring vessels,
+Trapping: Knowledge of pits, deadfalls, and snares allows construction of traps for creatures up to the large size
 
 ** Scholar
 
